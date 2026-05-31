@@ -71,11 +71,14 @@ export default function Experience() {
               </span>
 
               {/* Card Container */}
-              <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-premium hover:shadow-premium-hover transition-all duration-300">
+              <motion.div 
+                whileHover={{ y: -4, scale: 1.01 }}
+                className="bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-premium hover:shadow-premium-hover hover:border-blue-200/80 hover:shadow-blue-500/5 transition-all duration-300"
+              >
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-6">
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 flex items-center gap-2">
-                      <Briefcase className="w-4 h-4 text-slate-400" />
+                      <Briefcase className="w-4.5 h-4.5 text-slate-400" />
                       {exp.role}
                     </h3>
                     <p className="text-sm font-semibold text-blue-600 mt-1">
@@ -104,7 +107,7 @@ export default function Experience() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </motion.div>
             </motion.div>
           ))}
         </div>

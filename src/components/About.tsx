@@ -35,24 +35,66 @@ export default function About() {
           
           {/* Left Column - Core Text */}
           <div className="lg:col-span-5 flex flex-col justify-center">
-            <span className="text-xs font-bold uppercase tracking-wider text-blue-600 mb-3 block">
+            <motion.span 
+              initial={{ opacity: 0, x: -10 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.5 }}
+              className="text-xs font-bold uppercase tracking-wider text-blue-600 mb-3 block"
+            >
               ENGINEERING PHILOSOPHY
-            </span>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight mb-6">
+            </motion.span>
+            <motion.h2 
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight mb-6"
+            >
               Building systems designed for performance, resilience, and growth.
-            </h2>
+            </motion.h2>
             
-            <div className="space-y-4 text-slate-600 text-base leading-relaxed">
-              <p>
+            <motion.div 
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-100px" }}
+              variants={{
+                hidden: { opacity: 0 },
+                visible: {
+                  opacity: 1,
+                  transition: { staggerChildren: 0.15, delayChildren: 0.2 }
+                }
+              }}
+              className="space-y-4 text-slate-600 text-base leading-relaxed"
+            >
+              <motion.p 
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: { opacity: 1, y: 0 }
+                }}
+                transition={{ duration: 0.5 }}
+              >
                 I am a product-minded systems engineer specializing in backend infrastructures and AI integrations. I build robust APIs, architect clean database structures, and engineer data processing pipelines that convert raw complex payloads into structured database records.
-              </p>
-              <p>
+              </motion.p>
+              <motion.p 
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: { opacity: 1, y: 0 }
+                }}
+                transition={{ duration: 0.5 }}
+              >
                 Whether it is building custom multi-tenant CRM systems or orchestrating NLP pipelines that achieve 96% accuracy under strict production workloads, my focus is always on writing testable code, optimizing response times, and ensuring system maintainability.
-              </p>
-              <p>
+              </motion.p>
+              <motion.p 
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: { opacity: 1, y: 0 }
+                }}
+                transition={{ duration: 0.5 }}
+              >
                 I collaborate closely with product teams to build clean technical foundations, leveraging modern tools like Docker, Git Actions, and AWS to maintain complete visibility and deploy continuously with confidence.
-              </p>
-            </div>
+              </motion.p>
+            </motion.div>
           </div>
 
           {/* Right Column - Skill Pillar Grid */}
@@ -60,16 +102,22 @@ export default function About() {
             {cards.map((card, idx) => (
               <motion.div
                 key={idx}
-                initial={{ opacity: 0, y: 15 }}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="bg-white p-6 rounded-2xl border border-slate-100 shadow-premium hover:shadow-premium-hover transition-all duration-300 hover:-translate-y-0.5"
+                whileHover={{ y: -5, scale: 1.015 }}
+                className={`bg-white p-6 rounded-2xl border border-slate-100 shadow-premium hover:shadow-premium-hover transition-all duration-300 group cursor-default ${
+                  idx === 0 ? 'hover:border-blue-200/80 hover:shadow-blue-500/5' :
+                  idx === 1 ? 'hover:border-cyan-200/80 hover:shadow-cyan-500/5' :
+                  idx === 2 ? 'hover:border-indigo-200/80 hover:shadow-indigo-500/5' :
+                  'hover:border-emerald-200/80 hover:shadow-emerald-500/5'
+                }`}
               >
-                <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center mb-5">
+                <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-350">
                   {card.icon}
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">
+                <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
                   {card.title}
                 </h3>
                 <p className="text-sm text-slate-500 leading-relaxed">

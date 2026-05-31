@@ -50,3 +50,81 @@
 .text-gradient {
   @apply bg-gradient-premium bg-clip-text text-transparent;
 }
+
+/* Lenis smooth scroll layout integration */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Premium micro-interactions & utility styles */
+.link-underline {
+  position: relative;
+}
+.link-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: currentColor;
+  transform-origin: bottom right;
+  transition: transform 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.link-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Custom premium hover gradients */
+.hover-glow-blue:hover {
+  box-shadow: 0 0 25px rgba(79, 140, 255, 0.35);
+  border-color: rgba(79, 140, 255, 0.4);
+}
+
+.hover-glow-cyan:hover {
+  box-shadow: 0 0 25px rgba(0, 198, 255, 0.35);
+  border-color: rgba(0, 198, 255, 0.4);
+}
+
+.hover-glow-indigo:hover {
+  box-shadow: 0 0 25px rgba(99, 102, 241, 0.35);
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+/* Keyframe animations for dots and flowing elements */
+@keyframes flow {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-80px) scale(0.6);
+    opacity: 0;
+  }
+}
+
+.animate-flow-dot {
+  animation: flow 3s infinite linear;
+}
+

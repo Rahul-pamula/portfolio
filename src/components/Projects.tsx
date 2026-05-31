@@ -72,21 +72,43 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5 }}
-              className={`bg-white rounded-2xl border border-slate-100 shadow-premium flex flex-col justify-between overflow-hidden transition-all duration-300 hover:shadow-premium-hover hover:-translate-y-1 ${project.border}`}
+              whileHover={{ y: -8, scale: 1.03 }}
+              className={`bg-white rounded-2xl border border-slate-100 shadow-premium flex flex-col justify-between overflow-hidden transition-all duration-300 relative group ${
+                project.id === 'chatnalyxer' ? 'hover:border-blue-200 hover:shadow-[0_15px_45px_rgba(79,140,255,0.12)]' :
+                project.id === 'tailoring' ? 'hover:border-cyan-200 hover:shadow-[0_15px_45px_rgba(0,198,255,0.12)]' :
+                'hover:border-indigo-200 hover:shadow-[0_15px_45px_rgba(99,102,241,0.12)]'
+              }`}
             >
               {/* Card Header Background Graphic */}
               <div className={`h-3 bg-gradient-to-r ${project.color}`} />
               
-              <div className="p-8 flex-grow flex flex-col justify-between">
+              {/* Custom floating particle flow representing active messages for Chatnalyxer */}
+              {project.id === "chatnalyxer" && (
+                <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-45">
+                  <div className="absolute bottom-20 right-8 w-1.5 h-1.5 rounded-full bg-blue-400 animate-flow-dot" style={{ animationDelay: '0s', animationDuration: '3.2s' }} />
+                  <div className="absolute bottom-24 right-16 w-2 h-2 rounded-full bg-cyan-400/80 animate-flow-dot" style={{ animationDelay: '0.8s', animationDuration: '2.6s' }} />
+                  <div className="absolute bottom-16 right-24 w-1 h-1 rounded-full bg-blue-500 animate-flow-dot" style={{ animationDelay: '1.6s', animationDuration: '3.8s' }} />
+                  <div className="absolute bottom-28 right-12 w-2 h-2 rounded-full bg-indigo-400/80 animate-flow-dot" style={{ animationDelay: '2.4s', animationDuration: '2.9s' }} />
+                </div>
+              )}
+
+              <div className="p-8 flex-grow flex flex-col justify-between relative z-10">
                 <div>
                   <div className="flex justify-between items-start mb-6">
-                    <div className="w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center border border-slate-100">
+                    <div className={`w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center border border-slate-100 transition-all duration-300 group-hover:scale-110 ${
+                      project.id === "chatnalyxer" ? "animate-pulse border-blue-100 bg-blue-50/50" : ""
+                    }`}>
                       {project.icon}
                     </div>
                     
                     {/* Metric Badge */}
                     <div className="text-right">
-                      <span className="inline-block text-xs font-bold px-2.5 py-1 rounded-full bg-slate-50 border border-slate-100 text-slate-800">
+                      <span className={`inline-block text-xs font-bold px-2.5 py-1 rounded-full bg-slate-50 border border-slate-100 text-slate-800 transition-all duration-300 ${
+                        project.id === "chatnalyxer" ? "relative shadow-[0_0_15px_rgba(79,140,255,0.25)] border-blue-200 bg-blue-50/50 text-blue-600" : ""
+                      }`}>
+                        {project.id === "chatnalyxer" && (
+                          <span className="absolute inset-0 rounded-full border border-blue-400 animate-ping opacity-35" />
+                        )}
                         {project.metric}
                       </span>
                       <span className="block text-[10px] text-slate-400 font-medium mt-1">
@@ -95,7 +117,7 @@ export default function Projects() {
                     </div>
                   </div>
 
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">{project.title}</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-1 group-hover:text-blue-600 transition-colors duration-300">{project.title}</h3>
                   <p className="text-xs text-blue-600 font-semibold mb-4">{project.tagline}</p>
                   <p className="text-slate-500 text-sm leading-relaxed mb-6">{project.desc}</p>
                 </div>
@@ -106,7 +128,7 @@ export default function Projects() {
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="text-[11px] font-medium px-2 py-0.5 rounded bg-slate-50 text-slate-500 border border-slate-100"
+                        className="text-[11px] font-medium px-2 py-0.5 rounded bg-slate-50 text-slate-500 border border-slate-100 group-hover:bg-slate-100/50 group-hover:text-slate-600 transition-colors duration-350"
                       >
                         {tag}
                       </span>
@@ -120,7 +142,7 @@ export default function Projects() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 hover:text-slate-900 transition-colors"
+                        className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 hover:text-slate-900 transition-colors link-underline"
                       >
                         <Github className="w-4 h-4" />
                         Code Repository
@@ -131,7 +153,7 @@ export default function Projects() {
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1.5 text-xs font-semibold text-blue-600 hover:text-blue-700 ml-auto transition-colors"
+                        className="flex items-center gap-1.5 text-xs font-semibold text-blue-600 hover:text-blue-700 ml-auto transition-colors link-underline"
                       >
                         Live Demo
                         <ExternalLink className="w-3.5 h-3.5" />
