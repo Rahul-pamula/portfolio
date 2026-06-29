@@ -2,7 +2,7 @@ import { Suspense, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Mail, Terminal } from 'lucide-react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Float, Sphere, MeshDistortMaterial, Stars, Text3D, Center, useMatcapTexture } from '@react-three/drei';
+import { Float, Sphere, MeshDistortMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
 function AbstractShape() {
@@ -75,7 +75,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-slate-950">
+    <section id="home" className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-white">
       {/* 3D Background */}
       <div className="absolute inset-0 z-0">
         <Canvas camera={{ position: [0, 0, 5], fov: 45 }}>
@@ -85,7 +85,7 @@ export default function Hero() {
           <Suspense fallback={null}>
             <AbstractShape />
             <FloatingTechShapes />
-            <Stars radius={100} depth={50} count={3000} factor={4} saturation={0} fade speed={1} />
+            {/* Remove Stars for a cleaner, light theme */}
           </Suspense>
         </Canvas>
       </div>
@@ -112,10 +112,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="text-5xl md:text-7xl font-extrabold tracking-tight text-white leading-[1.1] mb-6 pointer-events-auto drop-shadow-2xl"
+          className="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900 leading-[1.1] mb-6 pointer-events-auto"
         >
           Rahul Pamula
-          <span className="block mt-2 bg-gradient-to-r from-blue-400 via-cyan-400 to-indigo-400 bg-clip-text text-transparent">
+          <span className="block mt-2 bg-gradient-to-r from-blue-600 via-cyan-500 to-indigo-600 bg-clip-text text-transparent">
             AI & Backend Engineer
           </span>
         </motion.h1>
@@ -125,7 +125,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          className="text-lg md:text-xl text-slate-300 max-w-2xl font-normal leading-relaxed mb-10 pointer-events-auto"
+          className="text-lg md:text-xl text-slate-600 max-w-2xl font-normal leading-relaxed mb-10 pointer-events-auto"
         >
           Architecting intelligent systems and high-performance backends that deliver measurable, real-world impact.
         </motion.p>
@@ -139,7 +139,7 @@ export default function Hero() {
         >
           <button
             onClick={() => handleScrollTo('projects')}
-            className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-[0_0_20px_rgba(79,140,255,0.4)] hover:shadow-[0_0_30px_rgba(79,140,255,0.6)] active:scale-[0.97] hover:scale-[1.02] transition-all duration-300 border border-blue-500/50"
+            className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-md hover:shadow-[0_0_20px_rgba(79,140,255,0.4)] active:scale-[0.97] hover:scale-[1.02] transition-all duration-300"
           >
             Explore My Work
             <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
@@ -148,7 +148,7 @@ export default function Hero() {
           <a
             href="/RAHUL_RESUME.pdf"
             download="RAHUL_RESUME.pdf"
-            className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-full bg-white/5 border border-white/10 text-white font-semibold hover:bg-white/10 hover:border-white/20 hover:scale-[1.02] active:scale-[0.97] transition-all duration-300 backdrop-blur-sm"
+            className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-full bg-white border border-slate-200 text-slate-700 font-semibold hover:bg-slate-50 hover:shadow-sm hover:scale-[1.02] active:scale-[0.97] transition-all duration-300"
           >
             <Download className="w-4 h-4" />
             Resume
@@ -156,7 +156,7 @@ export default function Hero() {
 
           <a
             href="mailto:pamularahul123@gmail.com?subject=Let's%20Work%20Together"
-            className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-full bg-white text-slate-900 font-bold hover:bg-slate-100 hover:scale-[1.02] active:scale-[0.97] transition-all duration-300"
+            className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-full bg-slate-900 text-white font-bold hover:bg-slate-800 hover:scale-[1.02] active:scale-[0.97] transition-all duration-300"
           >
             <Mail className="w-4 h-4" />
             Hire Me

@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { Github, ExternalLink, Mail, Leaf, Cpu } from 'lucide-react';
+import { Github, ExternalLink, Mail, Leaf, Cpu, Shield, Layers } from 'lucide-react';
 
 // A 3D tilt card component
 function ProjectCard({ project }: { project: any }) {
@@ -52,6 +52,8 @@ function ProjectCard({ project }: { project: any }) {
       className={`bg-white rounded-2xl border border-slate-100 shadow-premium flex flex-col justify-between relative group ${
         project.id === 'telebot' ? 'hover:border-indigo-300' :
         project.id === 'agriflow' ? 'hover:border-emerald-300' :
+        project.id === 'shrflow' ? 'hover:border-cyan-300' :
+        project.id === 'tailoring' ? 'hover:border-teal-300' :
         'hover:border-blue-300'
       }`}
     >
@@ -65,6 +67,8 @@ function ProjectCard({ project }: { project: any }) {
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center border transition-all duration-300 shadow-sm ${
               project.id === "telebot" ? "bg-indigo-50 border-indigo-100 text-indigo-500 group-hover:scale-110" : 
               project.id === "agriflow" ? "bg-emerald-50 border-emerald-100 text-emerald-500 group-hover:scale-110" :
+              project.id === "shrflow" ? "bg-cyan-50 border-cyan-100 text-cyan-500 group-hover:scale-110" :
+              project.id === "tailoring" ? "bg-teal-50 border-teal-100 text-teal-500 group-hover:scale-110" :
               "bg-blue-50 border-blue-100 text-blue-500 group-hover:scale-110"
             }`}>
               {project.icon}
@@ -125,6 +129,8 @@ function ProjectCard({ project }: { project: any }) {
         className={`absolute inset-0 rounded-2xl blur-xl opacity-0 group-hover:opacity-40 transition-opacity duration-500 pointer-events-none -z-10 ${
           project.id === "telebot" ? "bg-indigo-400" :
           project.id === "agriflow" ? "bg-emerald-400" :
+          project.id === "shrflow" ? "bg-cyan-400" :
+          project.id === "tailoring" ? "bg-teal-400" :
           "bg-blue-400"
         }`} 
       />
@@ -166,6 +172,28 @@ export default function Projects() {
       github: "https://github.com/Rahul-pamula/chatnalyxer",
       demo: "https://rahul-pamula.github.io/chatnalyxer/",
       icon: <Cpu className="w-6 h-6" />,
+    },
+    {
+      id: "shrflow",
+      title: "ShrFlow (Confidential)",
+      tagline: "Scalable Production Platform",
+      desc: "Designed and implemented high-performance backend APIs using FastAPI and Python async, prioritizing maintainability and response latency. Optimized backend data processing workflows.",
+      metric: "FastAPI Backend",
+      tags: ["Python Async", "FastAPI", "REST APIs", "Pytest"],
+      github: "",
+      demo: "",
+      icon: <Shield className="w-6 h-6" />,
+    },
+    {
+      id: "tailoring",
+      title: "Tailoring Platform",
+      tagline: "Mobile-first Web System",
+      desc: "Launched a mobile-first web system for a tailoring business, generating a 30% increase in order volume within the first month. Built a secure administrative console for managing apparel pricing matrices.",
+      metric: "30% Volume Increase",
+      tags: ["React", "Tailwind CSS", "Node.js", "Express"],
+      github: "",
+      demo: "",
+      icon: <Layers className="w-6 h-6" />,
     }
   ];
 

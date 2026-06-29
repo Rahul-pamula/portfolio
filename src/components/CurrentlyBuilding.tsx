@@ -1,28 +1,21 @@
 import { motion } from 'framer-motion';
-import { Hammer, Sparkles, Send } from 'lucide-react';
+import { Hammer, Sparkles } from 'lucide-react';
 
 export default function CurrentlyBuilding() {
   const currentBuilds = [
+    {
+      title: "Civic App",
+      desc: "Building a platform to drive local community engagement with interactive mapping and issue reporting features.",
+      status: "Active Development",
+      icon: <Hammer className="w-4 h-4 text-emerald-500" />,
+      color: "border-emerald-100 hover:border-emerald-200/80 hover:shadow-emerald-500/5",
+    },
     {
       title: "Chatnalyxer v2",
       desc: "Upgrading real-time message processor to support multi-channel integrations and offline parsing caching schemas.",
       status: "Active Development",
       icon: <Sparkles className="w-4 h-4 text-blue-500" />,
       color: "border-blue-100 hover:border-blue-200/80 hover:shadow-blue-500/5",
-    },
-    {
-      title: "ParulBazaar MVP",
-      desc: "Creating a mobile-optimized micro-merchant digital catalog and pricing engine for direct customer commerce.",
-      status: "Core Design",
-      icon: <Hammer className="w-4 h-4 text-cyan-500" />,
-      color: "border-cyan-100 hover:border-cyan-200/80 hover:shadow-cyan-500/5",
-    },
-    {
-      title: "WhatsApp Automation System",
-      desc: "Building a scalable webhook dispatcher and retry system using async task workers for high reliability deliveries.",
-      status: "System Modeling",
-      icon: <Send className="w-4 h-4 text-indigo-500" />,
-      color: "border-indigo-100 hover:border-indigo-200/80 hover:shadow-indigo-500/5",
     }
   ];
 
