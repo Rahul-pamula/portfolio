@@ -9,12 +9,13 @@ import CurrentlyBuilding from './components/CurrentlyBuilding';
 import Experience from './components/Experience';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Certificates from './components/Certificates';
 import Lenis from 'lenis';
 
 function App() {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.2,
+      duration: 0.8,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       gestureOrientation: 'vertical',
     });
@@ -48,6 +49,7 @@ function App() {
         <Skills />
         <CurrentlyBuilding />
         <Experience />
+        <Certificates />
         <Resume />
         <Contact />
       </main>

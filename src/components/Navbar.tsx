@@ -12,7 +12,7 @@ export default function Navbar() {
       setIsScrolled(window.scrollY > 20);
 
       // Section tracking
-      const sections = ['home', 'about', 'projects', 'skills', 'experience', 'resume', 'contact'];
+      const sections = ['home', 'about', 'projects', 'skills', 'experience', 'certificates', 'resume', 'contact'];
       const scrollPosition = window.scrollY + 120; // offset adjustment
 
       for (const section of sections) {
@@ -37,6 +37,7 @@ export default function Navbar() {
     { id: 'projects', label: 'Projects' },
     { id: 'skills', label: 'Skills' },
     { id: 'experience', label: 'Experience' },
+    { id: 'certificates', label: 'Certificates' },
     { id: 'resume', label: 'Resume' },
   ];
 
@@ -47,7 +48,7 @@ export default function Navbar() {
       const offset = 80;
       const lenis = (window as any).lenis;
       if (lenis) {
-        lenis.scrollTo(element, { offset: -offset, duration: 1.2 });
+        lenis.scrollTo(element, { offset: -offset, duration: 0.8 });
       } else {
         const bodyRect = document.body.getBoundingClientRect().top;
         const elementRect = element.getBoundingClientRect().top;
@@ -74,7 +75,7 @@ export default function Navbar() {
           onClick={(e) => { 
             e.preventDefault(); 
             const lenis = (window as any).lenis;
-            if (lenis) lenis.scrollTo(0, { duration: 1.2 });
+            if (lenis) lenis.scrollTo(0, { duration: 0.8 });
             else window.scrollTo({ top: 0, behavior: 'smooth' }); 
           }}
           className="flex items-center gap-2.5 font-bold text-xl tracking-tight text-slate-900 group"

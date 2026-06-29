@@ -4,40 +4,43 @@ import { Calendar, Briefcase, ChevronRight } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      role: "Software Developer",
-      company: "ShrFlow (Confidential Project)",
-      duration: "Jan 2026 – Present",
-      type: "Contract / Remote",
+      role: "Full Stack Engineer",
+      company: "Freelance",
+      duration: "May 2026",
+      type: "Remote",
       highlights: [
-        "Collaborated with external teams to build a scalable, production-grade digital platform under strict NDA guidelines.",
-        "Designed and implemented high-performance backend APIs using FastAPI and Python async, prioritizing maintainability and response latency.",
-        "Optimized backend data processing workflows, significantly enhancing data integrity and overall system responsiveness.",
-        "Created modular, reusable system modules allowing rapid scalability and integration of future service nodes.",
-        "Set up robust test coverage and debugging workflows to improve core infrastructure stability."
+        "Consulted with a small tailoring business client to bring their services online, targeting customers who prefer simple digital solutions.",
+        "Designed and implemented a mobile-friendly custom apparel platform, optimizing the core order and review workflows."
       ]
     },
     {
-      role: "Freelance Full Stack Developer",
-      company: "Tailoring Business Platform",
-      duration: "Apr 2026 – May 2026",
+      role: "Software Engineer",
+      company: "Runway Digital Media",
+      duration: "Jan 2026 – May 2026",
+      type: "Internship / Remote",
+      highlights: [
+        "Built and optimized scalable backend systems and full-stack applications in a fast-paced startup environment.",
+        "Enhanced system performance and engineered maintainable code architectures for core products."
+      ]
+    },
+    {
+      role: "AI & Backend Developer",
+      company: "byteXL",
+      duration: "Aug 2025 – Oct 2025",
+      type: "Apprenticeship / Remote",
+      highlights: [
+        "Developed an AI-driven system during the AI/ML Sprint focused on extracting meaningful insights from real-world communication data.",
+        "Integrated NLP pipelines to parse real-time unstructured conversational payloads efficiently."
+      ]
+    },
+    {
+      role: "Full Stack Engineer",
+      company: "Freelance",
+      duration: "Mar 2024 – Jun 2024",
       type: "Freelance / Remote",
       highlights: [
-        "Launched a mobile-first web system for a tailoring business, generating a 30% increase in order volume within the first month.",
-        "Crafted a responsive user interface optimized for mobile and non-technical clients, improving core usability scores by 25%.",
-        "Built a secure administrative console to manage custom apparel pricing matrices, product catalogues, and review workflows.",
-        "Integrated dynamic cloud media storage handlers, compressing page load speeds by 50% through cached responsive image distribution."
-      ]
-    },
-    {
-      role: "AI/ML Project Developer",
-      company: "ByteXL (Chatnalyxer Integration)",
-      duration: "Aug 2025 – Oct 2025",
-      type: "Industry Project / Remote",
-      highlights: [
-        "Constructed a production-ready FastAPI backend designed to parse real-time WhatsApp incoming payloads and send push notifications.",
-        "Engineered an NLP system leveraging Azure AI Services for task and deadline entity extraction, achieving 96% accuracy on evaluation datasets.",
-        "Designed a multi-tenant PostgreSQL schema via SQLAlchemy ORM to manage multimodal user inputs and session structures.",
-        "Established CI/CD deployment pipelines using GitHub Actions for automated testing and deployment on Render, achieving 99.9% uptime."
+        "Developed a complete backend system using Django, implementing admin authentication, product management, and customer reviews.",
+        "Integrated Cloudinary for secure and fast image storage, and designed a robust relational database schema."
       ]
     }
   ];
