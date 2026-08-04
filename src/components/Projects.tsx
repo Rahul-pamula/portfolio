@@ -2,8 +2,20 @@ import { useRef } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { Github, ExternalLink, Mail, Leaf, Cpu, Shield, Layers } from 'lucide-react';
 
+export interface Project {
+  id: string;
+  title: string;
+  tagline: string;
+  desc: string;
+  metric: string;
+  tags: string[];
+  github: string;
+  demo: string;
+  icon: React.ReactNode;
+}
+
 // A 3D tilt card component
-function ProjectCard({ project }: { project: any }) {
+function ProjectCard({ project }: { project: Project }) {
   const ref = useRef<HTMLDivElement>(null);
   
   const x = useMotionValue(0);
@@ -49,12 +61,12 @@ function ProjectCard({ project }: { project: any }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.5 }}
-      className={`bg-white rounded-2xl border border-slate-100 shadow-premium flex flex-col justify-between relative group ${
-        project.id === 'telebot' ? 'hover:border-indigo-300' :
-        project.id === 'agriflow' ? 'hover:border-emerald-300' :
-        project.id === 'shrflow' ? 'hover:border-cyan-300' :
-        project.id === 'tailoring' ? 'hover:border-teal-300' :
-        'hover:border-blue-300'
+      className={`card-premium flex flex-col justify-between group ${
+        project.id === 'telebot' ? 'hover-glow-plum' :
+        project.id === 'agriflow' ? 'hover-glow-red' :
+        project.id === 'shrflow' ? 'hover:shadow-[0_0_30px_rgba(225,29,72,0.15)] hover:border-[rgba(225,29,72,0.3)]' :
+        project.id === 'tailoring' ? 'hover:shadow-[0_0_30px_rgba(76,29,149,0.15)] hover:border-[rgba(76,29,149,0.3)]' :
+        'hover-glow-red'
       }`}
     >
       {/* 3D Inner Content Wrapper */}
@@ -65,23 +77,23 @@ function ProjectCard({ project }: { project: any }) {
         <div>
           <div className="flex justify-between items-start mb-6">
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center border transition-all duration-300 shadow-sm ${
-              project.id === "telebot" ? "bg-indigo-50 border-indigo-100 text-indigo-500 group-hover:scale-110" : 
-              project.id === "agriflow" ? "bg-emerald-50 border-emerald-100 text-emerald-500 group-hover:scale-110" :
-              project.id === "shrflow" ? "bg-cyan-50 border-cyan-100 text-cyan-500 group-hover:scale-110" :
-              project.id === "tailoring" ? "bg-teal-50 border-teal-100 text-teal-500 group-hover:scale-110" :
-              "bg-blue-50 border-blue-100 text-blue-500 group-hover:scale-110"
+              project.id === "telebot" ? "bg-[#1f0d14] border-brand-end/50 text-brand-end group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(76,29,149,0.5)]" : 
+              project.id === "agriflow" ? "bg-[#1f0d14] border-brand-start/50 text-brand-start group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(225,29,72,0.5)]" :
+              project.id === "shrflow" ? "bg-[#1f0d14] border-brand-start/50 text-brand-start group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(225,29,72,0.5)]" :
+              project.id === "tailoring" ? "bg-[#1f0d14] border-brand-end/50 text-brand-end group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(76,29,149,0.5)]" :
+              "bg-[#1f0d14] border-brand-start/50 text-brand-start group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(225,29,72,0.5)]"
             }`}>
               {project.icon}
             </div>
             
-            <span className="inline-block text-xs font-bold px-3 py-1.5 rounded-full bg-slate-50 border border-slate-100 text-slate-800">
+            <span className="inline-block text-xs font-bold px-3 py-1.5 rounded-full bg-black/40 border border-white/10 text-gray-300 backdrop-blur-sm">
               {project.metric}
             </span>
           </div>
 
-          <h3 className="text-2xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">{project.title}</h3>
-          <p className="text-sm text-blue-600 font-semibold mb-4">{project.tagline}</p>
-          <p className="text-slate-600 text-sm leading-relaxed mb-6">{project.desc}</p>
+          <h3 className="text-2xl font-bold text-white font-display mb-2 group-hover:text-brand-start transition-colors duration-300">{project.title}</h3>
+          <p className="text-sm text-brand-start font-semibold mb-4">{project.tagline}</p>
+          <p className="text-gray-400 text-sm leading-relaxed mb-6">{project.desc}</p>
         </div>
 
         <div>
@@ -89,20 +101,20 @@ function ProjectCard({ project }: { project: any }) {
             {project.tags.map((tag: string) => (
               <span
                 key={tag}
-                className="text-[11px] font-bold tracking-wide px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 border border-slate-200"
+                className="text-[11px] font-bold tracking-wide px-2.5 py-1 rounded-md bg-white/5 text-gray-300 border border-white/10 backdrop-blur-sm transition-colors group-hover:border-white/20"
               >
                 {tag}
               </span>
             ))}
           </div>
 
-          <div className="flex items-center gap-4 pt-5 border-t border-slate-100">
+          <div className="flex items-center gap-4 pt-5 border-t border-white/5">
             {project.github && (
               <a
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 hover:text-slate-900 transition-colors link-underline"
+                className="flex items-center gap-1.5 text-xs font-semibold text-gray-400 hover:text-white transition-colors link-underline"
               >
                 <Github className="w-4 h-4" />
                 Code
@@ -113,7 +125,7 @@ function ProjectCard({ project }: { project: any }) {
                 href={project.demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-xs font-semibold text-blue-600 hover:text-blue-700 ml-auto transition-colors link-underline"
+                className="flex items-center gap-1.5 text-xs font-semibold text-brand-start hover:text-brand-accent ml-auto transition-colors link-underline"
               >
                 Live Demo
                 <ExternalLink className="w-4 h-4" />
@@ -126,12 +138,12 @@ function ProjectCard({ project }: { project: any }) {
       {/* Decorative Glow underneath the card */}
       <div 
         style={{ transform: "translateZ(-10px)" }}
-        className={`absolute inset-0 rounded-2xl blur-xl opacity-0 group-hover:opacity-40 transition-opacity duration-500 pointer-events-none -z-10 ${
-          project.id === "telebot" ? "bg-indigo-400" :
-          project.id === "agriflow" ? "bg-emerald-400" :
-          project.id === "shrflow" ? "bg-cyan-400" :
-          project.id === "tailoring" ? "bg-teal-400" :
-          "bg-blue-400"
+        className={`absolute inset-0 rounded-2xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-500 pointer-events-none -z-10 ${
+          project.id === "telebot" ? "bg-brand-end" :
+          project.id === "agriflow" ? "bg-brand-start" :
+          project.id === "shrflow" ? "bg-brand-start" :
+          project.id === "tailoring" ? "bg-brand-end" :
+          "bg-brand-start"
         }`} 
       />
     </motion.div>
@@ -198,18 +210,19 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-32 bg-slate-50 relative perspective-1000">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+    <section id="projects" className="py-32 relative perspective-1000 z-10">
+      <div className="absolute inset-0 bg-[#030102] skew-y-[-3deg] transform origin-top-left -z-10" />
+      <div className="max-w-7xl mx-auto px-6 md:px-12 pt-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20">
           <div className="max-w-xl">
-            <span className="text-xs font-bold uppercase tracking-wider text-blue-600 mb-3 block">
+            <span className="text-xs font-bold uppercase tracking-wider text-brand-start mb-3 block">
               PORTFOLIO PROJECTS
             </span>
-            <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-extrabold font-display text-white leading-tight">
               Production-grade systems built for impact.
             </h2>
           </div>
-          <p className="mt-4 md:mt-0 text-slate-500 text-lg max-w-sm">
+          <p className="mt-4 md:mt-0 text-gray-400 text-lg max-w-sm">
             Showcasing scalable backends, real-time AI agents, and polished 3D interfaces.
           </p>
         </div>

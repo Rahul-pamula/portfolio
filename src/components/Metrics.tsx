@@ -34,25 +34,25 @@ function Counter({ value, suffix = '', duration = 2 }: { value: number; suffix?:
 export default function Metrics() {
   const stats = [
     {
-      icon: <MessageSquare className="w-5 h-5 text-blue-500" />,
+      icon: <MessageSquare className="w-5 h-5 text-brand-start" />,
       label: "Messages Processed",
       value: 1200000,
       suffix: "+",
     },
     {
-      icon: <Target className="w-5 h-5 text-cyan-500" />,
+      icon: <Target className="w-5 h-5 text-brand-end" />,
       label: "NLP Accuracy",
       value: 96,
       suffix: "%",
     },
     {
-      icon: <Cpu className="w-5 h-5 text-indigo-500" />,
+      icon: <Cpu className="w-5 h-5 text-brand-start" />,
       label: "APIs Built",
       value: 15,
       suffix: "+",
     },
     {
-      icon: <HardDrive className="w-5 h-5 text-emerald-500" />,
+      icon: <HardDrive className="w-5 h-5 text-brand-end" />,
       label: "Systems Deployed",
       value: 8,
       suffix: "+",
@@ -66,19 +66,19 @@ export default function Metrics() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className="bg-white/85 backdrop-blur-md rounded-3xl border border-slate-100/90 shadow-[0_15px_50px_rgba(0,0,0,0.04)] p-6 md:p-8 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-4 pointer-events-auto hover:shadow-[0_20px_60px_rgba(0,0,0,0.06)] transition-shadow duration-500"
+        className="glass-panel rounded-3xl p-6 md:p-8 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-4 pointer-events-auto hover:shadow-glow-red transition-shadow duration-500"
       >
         {stats.map((stat, idx) => (
           <div key={idx} className="flex flex-col items-center text-center p-2 group">
-            <div className="w-11 h-11 rounded-2xl bg-slate-50 flex items-center justify-center mb-3.5 border border-slate-100/80 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
+            <div className="w-11 h-11 rounded-2xl bg-black/50 flex items-center justify-center mb-3.5 border border-white/5 shadow-sm group-hover:scale-110 group-hover:bg-white/10 group-hover:border-white/20 transition-all duration-300">
               <div className="group-hover:animate-pulse">
                 {stat.icon}
               </div>
             </div>
-            <span className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">
+            <span className="text-2xl md:text-3xl font-extrabold font-display text-white tracking-tight">
               <Counter value={stat.value} suffix={stat.suffix} />
             </span>
-            <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mt-1.5 transition-colors duration-300 group-hover:text-slate-500">
+            <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mt-1.5 transition-colors duration-300 group-hover:text-gray-300">
               {stat.label}
             </span>
           </div>

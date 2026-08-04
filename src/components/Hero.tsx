@@ -1,62 +1,33 @@
-import { Suspense, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Mail, Terminal } from 'lucide-react';
-import { Canvas, useFrame } from '@react-three/fiber';
-import { Float, Sphere, MeshDistortMaterial } from '@react-three/drei';
-import * as THREE from 'three';
-
-function AbstractShape() {
-  const meshRef = useRef<THREE.Mesh>(null);
-  
-  useFrame((state) => {
-    if (meshRef.current) {
-      meshRef.current.rotation.x = state.clock.elapsedTime * 0.2;
-      meshRef.current.rotation.y = state.clock.elapsedTime * 0.3;
-    }
-  });
-
-  return (
-    <Float speed={2} rotationIntensity={1} floatIntensity={2}>
-      <Sphere ref={meshRef} args={[1, 64, 64]} scale={1.8}>
-        <MeshDistortMaterial 
-          color="#0066ff" 
-          attach="material" 
-          distort={0.5} 
-          speed={2} 
-          roughness={0.2} 
-          metalness={0.8}
-          transparent={true}
-          opacity={0.85}
-        />
-      </Sphere>
-    </Float>
-  );
-}
-
-function FloatingTechShapes() {
-  return (
-    <>
-      <Float speed={3} rotationIntensity={2} floatIntensity={3} position={[-4, 2, -2]}>
-        <mesh>
-          <icosahedronGeometry args={[0.5, 0]} />
-          <meshStandardMaterial color="#00ffff" wireframe />
-        </mesh>
-      </Float>
-      <Float speed={2} rotationIntensity={1.5} floatIntensity={2} position={[4, -2, -1]}>
-        <mesh>
-          <octahedronGeometry args={[0.6, 0]} />
-          <meshStandardMaterial color="#4f46e5" wireframe />
-        </mesh>
-      </Float>
-    </>
-  );
-}
+import { ArrowRight, Download, Mail } from 'lucide-react';
 
 export default function Hero() {
+  const [typedText, setTypedText] = useState("");
+  const [showOutput, setShowOutput] = useState(false);
+  const command = "$ woami";
+
+  useEffect(() => {
+    let timeoutId: ReturnType<typeof setTimeout>;
+    let i = 0;
+    const typeCommand = () => {
+      if (i < command.length) {
+        setTypedText(command.slice(0, i + 1));
+        i++;
+        timeoutId = setTimeout(typeCommand, 150);
+      } else {
+        timeoutId = setTimeout(() => setShowOutput(true), 500);
+      }
+    };
+    timeoutId = setTimeout(typeCommand, 800);
+    return () => clearTimeout(timeoutId);
+  }, []);
+
   const handleScrollTo = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       const offset = 80;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const lenis = (window as any).lenis;
       if (lenis) {
         lenis.scrollTo(element, { offset: -offset, duration: 1.2 });
@@ -75,104 +46,110 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-white">
-      {/* 3D Background */}
+    <section id="home" className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-transparent">
+      {/* Sleek Background Gradients */}
       <div className="absolute inset-0 z-0">
-        <Canvas camera={{ position: [0, 0, 5], fov: 45 }}>
-          <ambientLight intensity={0.5} />
-          <directionalLight position={[10, 10, 5]} intensity={1.5} color="#00c6ff" />
-          <pointLight position={[-10, -10, -5]} intensity={1} color="#0072ff" />
-          <Suspense fallback={null}>
-            <AbstractShape />
-            <FloatingTechShapes />
-            {/* Remove Stars for a cleaner, light theme */}
-          </Suspense>
-        </Canvas>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-brand-start/10 via-[#050305]/0 to-[#050305]/0 pointer-events-none" />
       </div>
 
       {/* Grid Pattern Overlay */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-20 pointer-events-none z-0" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none z-0" />
 
-      <motion.div 
-        className="max-w-5xl mx-auto px-6 md:px-12 text-center relative z-10 flex flex-col items-center pointer-events-none"
-      >
-        {/* Soft Badge */}
+      {/* Ambient Glows */}
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-start/5 rounded-full blur-[100px] pointer-events-none z-0" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-brand-end/10 rounded-full blur-[100px] pointer-events-none z-0" />
+
+      <div className="max-w-4xl mx-auto px-6 md:px-12 w-full relative z-10 flex flex-col items-center">
+        {/* Terminal Window */}
         <motion.div 
-          initial={{ opacity: 0, y: 15 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-400/30 text-blue-400 text-xs font-semibold mb-8 shadow-sm pointer-events-auto backdrop-blur-md"
+          initial={{ opacity: 0, scale: 0.95, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="w-full bg-[#0a0508] rounded-xl border border-brand-start/20 shadow-[0_0_40px_rgba(225,29,72,0.15)] overflow-hidden flex flex-col pointer-events-auto relative"
         >
-          <Terminal className="w-3.5 h-3.5 animate-pulse" />
-          <span>Scale · AI · Backend Systems</span>
-        </motion.div>
+          {/* Subtle red glow around the terminal */}
+          <div className="absolute inset-0 rounded-xl shadow-[inset_0_0_20px_rgba(225,29,72,0.05)] pointer-events-none"></div>
 
-        {/* Headline */}
-        <motion.h1 
-          initial={{ opacity: 0, y: 25 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900 leading-[1.1] mb-6 pointer-events-auto"
-        >
-          Rahul Pamula
-          <span className="block mt-2 bg-gradient-to-r from-blue-600 via-cyan-500 to-indigo-600 bg-clip-text text-transparent">
-            AI & Backend Engineer
-          </span>
-        </motion.h1>
-
-        {/* Subtitle */}
-        <motion.p 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          className="text-lg md:text-xl text-slate-600 max-w-2xl font-normal leading-relaxed mb-10 pointer-events-auto"
-        >
-          Architecting intelligent systems and high-performance backends that deliver measurable, real-world impact.
-        </motion.p>
-
-        {/* Call to Actions */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full sm:w-auto pointer-events-auto"
-        >
-          <button
-            onClick={() => handleScrollTo('projects')}
-            className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-md hover:shadow-[0_0_20px_rgba(79,140,255,0.4)] active:scale-[0.97] hover:scale-[1.02] transition-all duration-300"
-          >
-            Explore My Work
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-          </button>
+          {/* Terminal Header */}
+          <div className="h-10 border-b border-brand-start/10 flex items-center px-4 bg-[#0d070b]">
+            <div className="flex gap-2">
+              <div className="w-3 h-3 rounded-full bg-red-500/80"></div>
+              <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+              <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
+            </div>
+            <div className="flex-1 text-center text-[11px] font-mono text-gray-500 pr-12">
+              memory_console - zsh
+            </div>
+          </div>
           
-          <a
-            href="/RAHUL_RESUME.pdf"
-            download="RAHUL_RESUME.pdf"
-            className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-full bg-white border border-slate-200 text-slate-700 font-semibold hover:bg-slate-50 hover:shadow-sm hover:scale-[1.02] active:scale-[0.97] transition-all duration-300"
-          >
-            <Download className="w-4 h-4" />
-            Resume
-          </a>
+          {/* Terminal Body */}
+          <div className="p-6 md:p-8 font-mono text-sm md:text-base min-h-[360px] flex flex-col">
+            <div className="text-gray-300">
+              <span className="text-brand-start font-bold">{typedText}</span>
+              {!showOutput && <span className="animate-pulse w-2.5 h-5 bg-brand-start inline-block ml-2 align-middle"></span>}
+            </div>
+            
+            {showOutput && (
+              <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className="mt-6 space-y-6"
+              >
+                <div>
+                  <h1 className="text-3xl md:text-5xl font-extrabold font-display tracking-tight text-white mb-2">
+                    Rahul Pamula
+                  </h1>
+                  <span className="inline-block bg-gradient-premium bg-clip-text text-transparent font-bold text-xl">
+                    AI & Backend Engineer
+                  </span>
+                </div>
+                
+                <p className="text-gray-400 max-w-2xl font-sans leading-relaxed">
+                  Architecting intelligent systems and high-performance backends that deliver measurable, real-world impact. Currently focused on scalable AI pipelines and zero-trust architectures.
+                </p>
 
-          <a
-            href="mailto:pamularahul123@gmail.com?subject=Let's%20Work%20Together"
-            className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-full bg-slate-900 text-white font-bold hover:bg-slate-800 hover:scale-[1.02] active:scale-[0.97] transition-all duration-300"
-          >
-            <Mail className="w-4 h-4" />
-            Hire Me
-          </a>
+                <div className="flex flex-wrap gap-4 pt-4 font-sans mt-auto">
+                  <button
+                    onClick={() => handleScrollTo('projects')}
+                    className="group flex items-center justify-center gap-2 px-6 py-2.5 rounded-lg bg-brand-start/10 border border-brand-start/30 text-brand-start font-semibold hover:bg-brand-start/20 hover:shadow-glow-red active:scale-[0.98] transition-all duration-300"
+                  >
+                    Explore My Work
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                  </button>
+                  
+                  <a
+                    href="/RAHUL_RESUME.pdf"
+                    download="RAHUL_RESUME.pdf"
+                    className="flex items-center justify-center gap-2 px-6 py-2.5 rounded-lg bg-white/5 border border-white/10 text-white font-semibold hover:bg-white/10 active:scale-[0.98] transition-all duration-300"
+                  >
+                    <Download className="w-4 h-4" />
+                    Resume
+                  </a>
+                  
+                  <a
+                    href="mailto:pamularahul123@gmail.com?subject=Let's%20Work%20Together"
+                    className="flex items-center justify-center gap-2 px-6 py-2.5 rounded-lg bg-brand-start text-white font-bold hover:bg-brand-start/90 hover:shadow-glow-red active:scale-[0.98] transition-all duration-300"
+                  >
+                    <Mail className="w-4 h-4" />
+                    Hire Me
+                  </a>
+                </div>
+              </motion.div>
+            )}
+          </div>
         </motion.div>
-      </motion.div>
+      </div>
       
       {/* Scroll indicator */}
       <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
+        transition={{ delay: 2, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none"
       >
-        <span className="text-xs text-slate-400 font-semibold tracking-widest uppercase">Scroll</span>
-        <div className="w-px h-12 bg-gradient-to-b from-blue-500/50 to-transparent" />
+        <span className="text-xs text-brand-start/50 font-semibold tracking-widest uppercase">Scroll</span>
+        <div className="w-px h-12 bg-gradient-to-b from-brand-start/50 to-transparent" />
       </motion.div>
     </section>
   );

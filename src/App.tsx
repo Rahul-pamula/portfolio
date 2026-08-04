@@ -28,6 +28,7 @@ function App() {
     requestAnimationFrame(raf);
 
     // Make Lenis instance globally accessible for scrolling integrations if needed
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (window as any).lenis = lenis;
 
     return () => {

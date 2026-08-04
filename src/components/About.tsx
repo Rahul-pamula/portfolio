@@ -4,31 +4,32 @@ import { Cpu, Server, ShieldCheck, Database } from 'lucide-react';
 export default function About() {
   const cards = [
     {
-      icon: <Server className="w-6 h-6 text-blue-500" />,
+      icon: <Server className="w-6 h-6 text-brand-start" />,
       title: "Scalable Architecture",
       desc: "Designing decoupled, asynchronous backend services using FastAPI and message queue systems to handle concurrent workloads smoothly."
     },
     {
-      icon: <Cpu className="w-6 h-6 text-cyan-500" />,
+      icon: <Cpu className="w-6 h-6 text-brand-end" />,
       title: "Natural Language Processing",
       desc: "Integrating Azure AI Services and Custom NLP algorithms for parsing, extracting, and processing structured information from multimodal inputs."
     },
     {
-      icon: <Database className="w-6 h-6 text-indigo-500" />,
+      icon: <Database className="w-6 h-6 text-brand-start" />,
       title: "Multi-tenant Databases",
       desc: "Modeling secure and performant PostgreSQL database structures using SQLAlchemy ORM with multi-tenancy support and optimized indexing."
     },
     {
-      icon: <ShieldCheck className="w-6 h-6 text-emerald-500" />,
+      icon: <ShieldCheck className="w-6 h-6 text-brand-end" />,
       title: "Production Uptime",
       desc: "Deploying automated pipelines via CI/CD, configuring Docker containers, and maintaining high availability across Render/AWS deployments."
     }
   ];
 
   return (
-    <section id="about" className="py-24 bg-slate-50 relative overflow-hidden">
+    <section id="about" className="py-24 bg-[#030102] relative overflow-hidden z-10">
       {/* Subtle details */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-slate-100 to-transparent" />
+      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-brand-end/10 via-[#070707]/0 to-[#070707]/0 pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -40,7 +41,7 @@ export default function About() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5 }}
-              className="text-xs font-bold uppercase tracking-wider text-blue-600 mb-3 block"
+              className="text-xs font-bold uppercase tracking-wider text-brand-start mb-3 block"
             >
               ENGINEERING PHILOSOPHY
             </motion.span>
@@ -49,7 +50,7 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight mb-6"
+              className="text-3xl md:text-4xl font-extrabold font-display text-white leading-tight mb-6"
             >
               Building systems designed for performance, resilience, and growth.
             </motion.h2>
@@ -65,7 +66,7 @@ export default function About() {
                   transition: { staggerChildren: 0.15, delayChildren: 0.2 }
                 }
               }}
-              className="space-y-4 text-slate-600 text-base leading-relaxed"
+              className="space-y-4 text-gray-400 text-base leading-relaxed"
             >
               <motion.p 
                 variants={{
@@ -107,20 +108,20 @@ export default function About() {
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
                 whileHover={{ y: -5, scale: 1.015 }}
-                className={`bg-white p-6 rounded-2xl border border-slate-100 shadow-premium hover:shadow-premium-hover transition-all duration-300 group cursor-default ${
-                  idx === 0 ? 'hover:border-blue-200/80 hover:shadow-blue-500/5' :
-                  idx === 1 ? 'hover:border-cyan-200/80 hover:shadow-cyan-500/5' :
-                  idx === 2 ? 'hover:border-indigo-200/80 hover:shadow-indigo-500/5' :
-                  'hover:border-emerald-200/80 hover:shadow-emerald-500/5'
+                className={`card-premium glass-panel p-6 cursor-default group ${
+                  idx === 0 ? 'hover-glow-red' :
+                  idx === 1 ? 'hover:shadow-[0_0_30px_rgba(76,29,149,0.15)] hover:border-[rgba(76,29,149,0.3)]' :
+                  idx === 2 ? 'hover-glow-red' :
+                  'hover:shadow-[0_0_30px_rgba(76,29,149,0.15)] hover:border-[rgba(76,29,149,0.3)]'
                 }`}
               >
-                <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-350">
+                <div className="w-12 h-12 rounded-xl bg-black/50 border border-white/5 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:rotate-3 group-hover:border-white/20 transition-all duration-350 shadow-sm">
                   {card.icon}
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                <h3 className="text-lg font-bold text-white mb-2 group-hover:text-brand-start transition-colors duration-300">
                   {card.title}
                 </h3>
-                <p className="text-sm text-slate-500 leading-relaxed">
+                <p className="text-sm text-gray-400 leading-relaxed">
                   {card.desc}
                 </p>
               </motion.div>
