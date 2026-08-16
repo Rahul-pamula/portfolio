@@ -3,11 +3,11 @@ import githubData from '../../data/generated/github-data.json';
 
 const getIntensityColor = (level: number) => {
   switch (level) {
-    case 1: return 'bg-accent/20';
-    case 2: return 'bg-accent/40';
-    case 3: return 'bg-accent/60';
-    case 4: return 'bg-accent/80';
-    case 5: return 'bg-accent';
+    case 1: return 'bg-[#0e4429]';                                         // dim dark green
+    case 2: return 'bg-[#006d32]';                                         // medium green
+    case 3: return 'bg-[#26a641]';                                         // bright green
+    case 4: return 'bg-[#39d353] shadow-[0_0_6px_#39d353]/60';            // vivid glow
+    case 5: return 'bg-[#57f576] shadow-[0_0_10px_#57f576]/80 ring-1 ring-[#57f576]/40'; // max glow
     default: return 'bg-[#161b22] border border-[#2d333b]/50'; // always dark — matches bg image
   }
 };
@@ -81,10 +81,11 @@ export const ContributionHeatmap = () => {
             <span>Less</span>
             <div className="flex gap-1">
               <span className="w-3 h-3 rounded-sm bg-[#161b22] border border-[#2d333b]/50"></span>
-              <span className="w-3 h-3 rounded-sm bg-accent/20"></span>
-              <span className="w-3 h-3 rounded-sm bg-accent/40"></span>
-              <span className="w-3 h-3 rounded-sm bg-accent/60"></span>
-              <span className="w-3 h-3 rounded-sm bg-accent"></span>
+              <span className="w-3 h-3 rounded-sm bg-[#0e4429]"></span>
+              <span className="w-3 h-3 rounded-sm bg-[#006d32]"></span>
+              <span className="w-3 h-3 rounded-sm bg-[#26a641]"></span>
+              <span className="w-3 h-3 rounded-sm bg-[#39d353]"></span>
+              <span className="w-3 h-3 rounded-sm bg-[#57f576]"></span>
             </div>
             <span>More</span>
           </div>
