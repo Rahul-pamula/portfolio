@@ -8,7 +8,7 @@ const getIntensityColor = (level: number) => {
     case 3: return 'bg-accent/60';
     case 4: return 'bg-accent/80';
     case 5: return 'bg-accent';
-    default: return 'bg-surface-hover';
+    default: return 'bg-[#161b22] border border-[#2d333b]/50'; // always dark — matches bg image
   }
 };
 
@@ -80,7 +80,7 @@ export const ContributionHeatmap = () => {
           <div className="flex items-center gap-2">
             <span>Less</span>
             <div className="flex gap-1">
-              <span className="w-3 h-3 rounded-sm bg-surface-hover"></span>
+              <span className="w-3 h-3 rounded-sm bg-[#161b22] border border-[#2d333b]/50"></span>
               <span className="w-3 h-3 rounded-sm bg-accent/20"></span>
               <span className="w-3 h-3 rounded-sm bg-accent/40"></span>
               <span className="w-3 h-3 rounded-sm bg-accent/60"></span>

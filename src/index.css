@@ -74,6 +74,11 @@
   color: rgb(201 209 217);
 }
 
+/* When card dissolves on hover, also transition child text */
+.card-premium * {
+  transition: color 0.35s ease, text-shadow 0.35s ease;
+}
+
 /* Light mode card — translucent glass, not blinding white */
 html.light .card-premium,
 html[data-theme="light"] .card-premium {
@@ -223,6 +228,43 @@ html[data-theme="light"] main > div > section > p {
   box-shadow: 0 0 24px rgb(46 160 67 / 0.2), 0 8px 32px rgb(0 0 0 / 0.35);
   backdrop-filter: blur(2px) !important;
 }
+
+/* When card dissolves, text must turn white to be readable over the dark bg image */
+.card-premium:hover *,
+.card-premium:hover h1,
+.card-premium:hover h2,
+.card-premium:hover h3,
+.card-premium:hover p,
+.card-premium:hover span,
+.card-premium:hover a {
+  color: rgb(230 235 245) !important;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 0.5);
+}
+
+/* Light mode titles use a high-specificity rule — override it explicitly on hover */
+html.light .card-premium:hover h1,
+html.light .card-premium:hover h2,
+html.light .card-premium:hover h3,
+html.light .card-premium:hover h1.text-text-primary,
+html.light .card-premium:hover h2.text-text-primary,
+html.light .card-premium:hover h3.text-text-primary,
+html[data-theme="light"] .card-premium:hover h1,
+html[data-theme="light"] .card-premium:hover h2,
+html[data-theme="light"] .card-premium:hover h3,
+html[data-theme="light"] .card-premium:hover h1.text-text-primary,
+html[data-theme="light"] .card-premium:hover h2.text-text-primary,
+html[data-theme="light"] .card-premium:hover h3.text-text-primary {
+  color: rgb(230 235 245) !important;
+  text-shadow: 0 1px 4px rgb(0 0 0 / 0.6);
+}
+
+
+/* Keep accent green dot visible on hover */
+.card-premium:hover .bg-accent,
+.card-premium:hover [class*="bg-accent"] {
+  opacity: 1;
+}
+
 
 html.dark .card-premium:hover,
 :root .card-premium:hover {
