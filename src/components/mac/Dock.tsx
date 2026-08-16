@@ -52,9 +52,9 @@ export const Dock = () => {
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
 
   return (
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-50">
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-fit px-2">
       <div
-        className="flex items-end gap-2 px-3 pb-2 pt-3 rounded-2xl bg-surface/30 backdrop-blur-xl border border-border/50 shadow-2xl transition-colors duration-300"
+        className="flex items-end gap-2 px-3 pb-2 pt-3 rounded-2xl bg-surface/30 backdrop-blur-xl border border-border/50 shadow-2xl transition-colors duration-300 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
         onMouseLeave={() => setHoveredIdx(null)}
       >
         {DOCK_ITEMS.map((item, idx) => {

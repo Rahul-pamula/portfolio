@@ -87,24 +87,26 @@ export const MenuBar = () => {
         />
         
         {/* File Menu (Projects) */}
-        <MenuDropdown 
-          label={<span className="px-2">File</span>}
-          isOpen={activeMenu === 'file'}
-          onToggle={() => handleToggle('file')}
-          onClose={closeMenu}
-          items={[
-            { label: 'Financial Literacy Simulator', href: 'https://github.com/LifeSimLabs/financial-literacy-simulator', external: true },
-            { label: 'ShrFlow', href: 'https://github.com/Runway-Digital-2026/ShrFlow', external: true },
-            { label: 'Chatnalyxer', href: 'https://github.com/Rahul-pamula/Chatnalyxer', external: true },
-            { label: 'CPA Templates', href: 'https://github.com/Create-Python-App/cpa-templates', external: true },
-            { isDivider: true, label: '' },
-            { label: 'All Repositories', href: 'https://github.com/Rahul-pamula?tab=repositories', external: true, shortcut: '↗' }
-          ]}
-        />
+        <div className="hidden sm:block">
+          <MenuDropdown 
+            label={<span className="px-2 whitespace-nowrap">File</span>}
+            isOpen={activeMenu === 'file'}
+            onToggle={() => handleToggle('file')}
+            onClose={closeMenu}
+            items={[
+              { label: 'Financial Literacy Simulator', href: 'https://github.com/LifeSimLabs/financial-literacy-simulator', external: true },
+              { label: 'ShrFlow', href: 'https://github.com/Runway-Digital-2026/ShrFlow', external: true },
+              { label: 'Chatnalyxer', href: 'https://github.com/Rahul-pamula/Chatnalyxer', external: true },
+              { label: 'CPA Templates', href: 'https://github.com/Create-Python-App/cpa-templates', external: true },
+              { isDivider: true, label: '' },
+              { label: 'All Repositories', href: 'https://github.com/Rahul-pamula?tab=repositories', external: true, shortcut: '↗' }
+            ]}
+          />
+        </div>
 
         {/* Edit Menu (Theme & Prefs) */}
         <MenuDropdown 
-          label={<span className="px-2">Edit</span>}
+          label={<span className="px-2 whitespace-nowrap">Edit</span>}
           isOpen={activeMenu === 'edit'}
           onToggle={() => handleToggle('edit')}
           onClose={closeMenu}
@@ -115,57 +117,67 @@ export const MenuBar = () => {
         />
 
         {/* View Menu */}
-        <MenuDropdown 
-          label={<span className="px-2 hidden sm:inline">View</span>}
-          isOpen={activeMenu === 'view'}
-          onToggle={() => handleToggle('view')}
-          onClose={closeMenu}
-          items={[
-            { label: 'Overview', href: '#overview', shortcut: '⌘1' },
-            { label: 'Contributions', href: '#contributions', shortcut: '⌘2' },
-            { label: 'Featured Work', href: '#projects', shortcut: '⌘3' },
-            { label: 'Open Source', href: '#opensource', shortcut: '⌘4' },
-            { isDivider: true, label: '' },
-            { label: 'LinkedIn', href: profileData.linkedin, external: true, shortcut: '↗' },
-            { label: 'GitHub', href: profileData.github, external: true, shortcut: '↗' },
-            { label: 'LeetCode', href: profileData.leetcode, external: true, shortcut: '↗' },
-          ]}
-        />
+        <div className="hidden md:block">
+          <MenuDropdown 
+            label={<span className="px-2 whitespace-nowrap">View</span>}
+            isOpen={activeMenu === 'view'}
+            onToggle={() => handleToggle('view')}
+            onClose={closeMenu}
+            items={[
+              { label: 'Overview', href: '#overview', shortcut: '⌘1' },
+              { label: 'Contributions', href: '#contributions', shortcut: '⌘2' },
+              { label: 'Featured Work', href: '#projects', shortcut: '⌘3' },
+              { label: 'Open Source', href: '#opensource', shortcut: '⌘4' },
+              { isDivider: true, label: '' },
+              { label: 'LinkedIn', href: profileData.linkedin, external: true, shortcut: '↗' },
+              { label: 'GitHub', href: profileData.github, external: true, shortcut: '↗' },
+              { label: 'LeetCode', href: profileData.leetcode, external: true, shortcut: '↗' },
+            ]}
+          />
+        </div>
 
         {/* History Menu (Activity) */}
-        <MenuDropdown 
-          label={<span className="px-2 hidden sm:inline">History</span>}
-          isOpen={activeMenu === 'history'}
-          onToggle={() => handleToggle('history')}
-          onClose={closeMenu}
-          items={[
-            ...recentHistory,
-            { isDivider: true, label: '' },
-            { label: 'View Full Activity', href: '#activity', shortcut: '↗' }
-          ]}
-        />
+        <div className="hidden lg:block">
+          <MenuDropdown 
+            label={<span className="px-2 whitespace-nowrap">History</span>}
+            isOpen={activeMenu === 'history'}
+            onToggle={() => handleToggle('history')}
+            onClose={closeMenu}
+            items={[
+              ...recentHistory,
+              { isDivider: true, label: '' },
+              { label: 'View Full Activity', href: '#activity', shortcut: '↗' }
+            ]}
+          />
+        </div>
 
         {/* Help Menu */}
-        <MenuDropdown 
-          label={<span className="px-2 hidden sm:inline">Help</span>}
-          isOpen={activeMenu === 'help'}
-          onToggle={() => handleToggle('help')}
-          onClose={closeMenu}
-          items={[
-            { label: 'Financial Literacy Issues', href: 'https://github.com/LifeSimLabs/financial-literacy-simulator/issues', external: true },
-            { label: 'ShrFlow Issues', href: 'https://github.com/Runway-Digital-2026/ShrFlow/issues', external: true },
-            { isDivider: true, label: '' },
-            { label: 'GitHub Profile', href: profileData.github, external: true }
-          ]}
-        />
+        <div className="hidden lg:block">
+          <MenuDropdown 
+            label={<span className="px-2 whitespace-nowrap">Help</span>}
+            isOpen={activeMenu === 'help'}
+            onToggle={() => handleToggle('help')}
+            onClose={closeMenu}
+            items={[
+              { label: 'Financial Literacy Issues', href: 'https://github.com/LifeSimLabs/financial-literacy-simulator/issues', external: true },
+              { label: 'ShrFlow Issues', href: 'https://github.com/Runway-Digital-2026/ShrFlow/issues', external: true },
+              { isDivider: true, label: '' },
+              { label: 'GitHub Profile', href: profileData.github, external: true }
+            ]}
+          />
+        </div>
       </div>
       
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-3 sm:gap-4 whitespace-nowrap">
         <Search className="w-3.5 h-3.5 cursor-pointer hover:text-accent transition-colors hidden sm:block" />
-        <Wifi className="w-3.5 h-3.5 cursor-pointer hover:text-accent transition-colors" />
-        <Battery className="w-3.5 h-3.5 cursor-pointer hover:text-accent transition-colors" />
-        <span className="cursor-default">{formatDate(time)} {formatTime(time)}</span>
+        <Wifi className="w-3.5 h-3.5 cursor-pointer hover:text-accent transition-colors hidden sm:block" />
+        <Battery className="w-3.5 h-3.5 cursor-pointer hover:text-accent transition-colors hidden sm:block" />
+        <span className="cursor-default">
+          <span className="hidden sm:inline">{formatDate(time)} </span>
+          <span>{formatTime(time)}</span>
+        </span>
       </div>
     </div>
   );
 };
+

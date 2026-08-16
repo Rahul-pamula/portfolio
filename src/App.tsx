@@ -24,7 +24,7 @@ function App() {
             </div>
             
             {/* Main Floating Panel - transparent shell over background image */}
-            <main className="flex flex-col gap-12 bg-black/15 rounded-3xl border border-white/10 shadow-2xl p-6 lg:p-10">
+            <main className="flex flex-col gap-10 sm:gap-12 bg-black/15 rounded-3xl border border-white/10 shadow-2xl p-4 sm:p-6 lg:p-10">
               <div className="w-full flex flex-col gap-12">
                 <section id="overview">
                   <EngineeringIdentity />
