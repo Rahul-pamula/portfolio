@@ -23,8 +23,8 @@ function App() {
               <Sidebar />
             </div>
             
-            {/* Main Floating Panel - thin transparent shell, cards inside are solid */}
-            <main className="flex flex-col gap-12 bg-background/20 rounded-3xl border border-white/10 shadow-2xl p-6 lg:p-10">
+            {/* Main Floating Panel - transparent shell over background image */}
+            <main className="flex flex-col gap-12 bg-black/15 rounded-3xl border border-white/10 shadow-2xl p-6 lg:p-10">
               <div className="w-full flex flex-col gap-12">
                 <section id="overview">
                   <EngineeringIdentity />
@@ -55,7 +55,7 @@ function App() {
 
             {/* Right Floating Panel */}
             <div className="hidden xl:block xl:sticky xl:top-8">
-              <div id="activity-desktop" className="bg-background/20 rounded-3xl border border-white/10 shadow-2xl p-6">
+              <div id="activity-desktop" className="bg-black/15 rounded-3xl border border-white/10 shadow-2xl p-6">
                 <LiveActivityFeed />
               </div>
             </div>

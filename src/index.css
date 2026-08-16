@@ -231,7 +231,7 @@ html.dark .card-premium:hover,
 
 html.light .card-premium:hover,
 html[data-theme="light"] .card-premium:hover {
-  background: rgb(255 255 255 / 0.35) !important; /* increased opacity so it remains readable */
+  background: rgb(0 0 0 / 0.08) !important; /* transparent — reveals bg image */
 }
 
 .text-gradient {
