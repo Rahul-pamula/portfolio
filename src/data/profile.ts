@@ -3,8 +3,11 @@ export const profileData = {
   avatarUrl: 'https://github.com/Rahul-pamula.png',
   bio: 'Building and contributing to software projects across AI/ML, backend systems, and open source.',
   github: 'https://github.com/Rahul-pamula',
-  linkedin: 'https://linkedin.com/in/rahulpamula', 
+  linkedin: 'https://www.linkedin.com/in/rahul-pamula', 
   website: 'https://www.rahulpamula.me',
+  resume: 'https://www.rahulpamula.me/RAHUL_RESUME.pdf',
+  email: 'mailto:pamularahul123@gmail.com',
+  leetcode: 'https://leetcode.com/u/rahulpamula/',
   identities: [
     'AI / ML',
     'Backend Systems',

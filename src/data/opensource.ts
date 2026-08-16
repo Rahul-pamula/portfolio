@@ -19,6 +19,15 @@ export const openSourceProjects: OpenSourceProject[] = [
     isMainFocus: true,
   },
   {
+    title: 'CPA Templates',
+    description: 'A collection of standardized templates for building Python applications, offering ready-to-use boilerplate and tooling configurations.',
+    repositoryUrl: 'https://github.com/Create-Python-App/cpa-templates',
+    issuesUrl: 'https://github.com/Create-Python-App/cpa-templates/issues',
+    discussionsUrl: 'https://github.com/Create-Python-App/cpa-templates/discussions',
+    technologies: ['Python', 'Templates', 'Boilerplate'],
+    isMainFocus: false,
+  },
+  {
     title: 'Open Documentation Academy',
     description: 'Learn open-source software documentation skills with practical, hands-on tutorials.',
     repositoryUrl: 'https://github.com/Rahul-pamula/open-documentation-academy',

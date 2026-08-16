@@ -1,3 +1,15 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Environment & local config
+*.local
+.env
+.env.*
+
 # Logs
 logs
 *.log
@@ -7,21 +19,28 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-# Reference
-reference/nusnus-portfolio/
+# Reference repos (used during development only)
+reference/
+
+# Scratch / one-off scripts (do not commit)
+*.cjs
+test_*.js
+test-*.js
+
+# Generated GitHub data (auto-refreshed at build time)
+src/data/generated/github-data.json

@@ -10,6 +10,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'ShrFlow',
+    description: 'An engineering backend system featuring campaign management, analytics, multi-tenant architecture, and robust RBAC capabilities.',
+    repositoryUrl: 'https://github.com/Runway-Digital-2026/ShrFlow',
+    technologies: ['TypeScript', 'Backend', 'Multi-tenant', 'Analytics'],
+    language: 'TypeScript',
+    featured: true,
+  },
+  {
     title: 'Chatnalyxer',
     description: 'AI-powered mobile and web app that helps students analyze WhatsApp academic group chats. It securely connects with WhatsApp, monitors real-time messages, filters non-academic content, highlights key discussions, and provides smart summaries.',
     repositoryUrl: 'https://github.com/Rahul-pamula/chatnalyxer',

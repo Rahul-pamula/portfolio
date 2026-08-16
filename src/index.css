@@ -3,15 +3,43 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    /* DEFAULT = DARK THEME */
+    --bg: 13 17 23;
+    --surface: 22 27 34;
+    --surface-hover: 31 36 44;
+    --surface-elevated: 33 38 45;
+    --border: 48 54 61;
+    --text-primary: 201 209 217;
+    --text-secondary: 139 148 158;
+    --text-muted: 72 79 88;
+    --accent: 46 160 67;
+    --accent-hover: 63 185 80;
+  }
+
+  /* Light theme — ThemeProvider adds .light class AND data-theme="light" to <html> */
+  html.light,
+  html[data-theme="light"] {
+    --bg: 248 249 250;
+    --surface: 248 249 251;
+    --surface-hover: 241 242 246;
+    --surface-elevated: 235 237 242;
+    --border: 210 215 222;
+    --text-primary: 24 28 36;
+    --text-secondary: 80 90 105;
+    --text-muted: 110 119 130;
+    --accent: 26 127 55;
+    --accent-hover: 46 160 67;
+  }
+
   html {
     scroll-behavior: smooth;
     @apply bg-background text-text-primary antialiased;
   }
   
   body {
-    @apply bg-background text-text-primary;
+    @apply antialiased text-text-primary overflow-hidden;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    overflow-x: hidden;
   }
 }
 
@@ -30,13 +58,107 @@
   @apply bg-text-muted;
 }
 
-/* Interactive Elements */
+/* ============================================
+   CARD SYSTEM
+   Dark mode: dark graphite surface
+   Light mode: soft translucent white glass
+   Hover: dissolves to reveal background image
+   ============================================ */
+
+/* Dark mode (default) card */
 .card-premium {
-  @apply bg-surface rounded-xl border border-border transition-colors duration-200;
+  background: rgb(22 27 34 / 0.95);
+  border-radius: 0.75rem;
+  border: 1px solid rgb(48 54 61);
+  transition: all 0.4s ease;
+  color: rgb(201 209 217);
 }
 
+/* Light mode card — translucent glass, not blinding white */
+html.light .card-premium,
+html[data-theme="light"] .card-premium {
+  background: rgb(255 255 255 / 0.72);   /* 72% opacity — soft, not over-white */
+  border: 1px solid rgb(210 215 222 / 0.8);
+  color: rgb(24 28 36);                   /* deep dark text */
+  backdrop-filter: blur(8px);
+}
+
+/* Light mode — all text inside cards must be dark */
+html.light .card-premium h1,
+html.light .card-premium h2,
+html.light .card-premium h3,
+html.light .card-premium h4,
+html.light .card-premium p,
+html.light .card-premium span,
+html.light .card-premium a,
+html[data-theme="light"] .card-premium h1,
+html[data-theme="light"] .card-premium h2,
+html[data-theme="light"] .card-premium h3,
+html[data-theme="light"] .card-premium h4,
+html[data-theme="light"] .card-premium p,
+html[data-theme="light"] .card-premium span:not(.keep-color),
+html[data-theme="light"] .card-premium a {
+  color: rgb(24 28 36);
+}
+
+/* Light mode — tag/pill elements inside cards */
+html.light .card-premium .font-mono,
+html[data-theme="light"] .card-premium .font-mono {
+  color: rgb(50 60 75) !important;
+}
+
+/* Light mode — force surface-elevated (tag pill backgrounds) to be light */
+html.light .bg-surface-elevated,
+html[data-theme="light"] .bg-surface-elevated {
+  background-color: rgb(228 231 238) !important;
+}
+
+/* Light mode — force bg-surface (used in OpenSource tags) to be light */
+html.light .card-premium .bg-surface,
+html[data-theme="light"] .card-premium .bg-surface {
+  background-color: rgb(235 238 245) !important;
+}
+
+/* Light mode — force buttons to be light with dark text */
+html.light .card-premium .btn-primary,
+html[data-theme="light"] .card-premium .btn-primary,
+html.light .btn-primary,
+html[data-theme="light"] .btn-primary {
+  background-color: rgb(235 238 245) !important;
+  border-color: rgb(210 215 222) !important;
+  color: rgb(24 28 36) !important;
+}
+html.light .card-premium .btn-primary:hover,
+html[data-theme="light"] .card-premium .btn-primary:hover,
+html.light .btn-primary:hover,
+html[data-theme="light"] .btn-primary:hover {
+  background-color: rgb(218 221 228) !important;
+}
+
+/* Light mode — border inside cards */
+html.light .border-border,
+html[data-theme="light"] .border-border,
+html.light [class*="border-border"],
+html[data-theme="light"] [class*="border-border"] {
+  border-color: rgb(210 215 222 / 0.7) !important;
+}
+
+
+/* Hover: card dissolves to see the background image */
 .card-premium:hover {
-  @apply bg-surface-hover border-text-muted;
+  border-color: rgb(46 160 67 / 0.5) !important;
+  box-shadow: 0 0 24px rgb(46 160 67 / 0.2), 0 8px 32px rgb(0 0 0 / 0.35);
+  backdrop-filter: blur(2px) !important;
+}
+
+html.dark .card-premium:hover,
+:root .card-premium:hover {
+  background: rgb(22 27 34 / 0.10) !important;
+}
+
+html.light .card-premium:hover,
+html[data-theme="light"] .card-premium:hover {
+  background: rgb(255 255 255 / 0.35) !important; /* increased opacity so it remains readable */
 }
 
 .text-gradient {
