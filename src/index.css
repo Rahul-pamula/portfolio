@@ -144,7 +144,23 @@ html[data-theme="light"] [class*="border-border"] {
 }
 
 
-/* Hover: card dissolves to see the background image */
+/* Section headings sit on the transparent panel over the dark bg image
+   — must always be white and legible regardless of theme */
+h2.text-text-primary,
+h3.text-text-primary {
+  color: rgb(255 255 255) !important;
+  text-shadow: 0 1px 4px rgb(0 0 0 / 0.5);
+}
+
+/* Only inside .card-premium should headings be dark in light mode */
+html.light .card-premium h2.text-text-primary,
+html.light .card-premium h3.text-text-primary,
+html[data-theme="light"] .card-premium h2.text-text-primary,
+html[data-theme="light"] .card-premium h3.text-text-primary {
+  color: rgb(24 28 36) !important;
+  text-shadow: none;
+}
+
 .card-premium:hover {
   border-color: rgb(46 160 67 / 0.5) !important;
   box-shadow: 0 0 24px rgb(46 160 67 / 0.2), 0 8px 32px rgb(0 0 0 / 0.35);
