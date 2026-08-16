@@ -146,6 +146,7 @@ html[data-theme="light"] [class*="border-border"] {
 
 /* Section headings sit on the transparent panel over the dark bg image
    — must always be white and legible regardless of theme */
+h1.text-text-primary,
 h2.text-text-primary,
 h3.text-text-primary {
   color: rgb(255 255 255) !important;
@@ -153,12 +154,68 @@ h3.text-text-primary {
 }
 
 /* Only inside .card-premium should headings be dark in light mode */
+html.light .card-premium h1.text-text-primary,
 html.light .card-premium h2.text-text-primary,
 html.light .card-premium h3.text-text-primary,
+html[data-theme="light"] .card-premium h1.text-text-primary,
 html[data-theme="light"] .card-premium h2.text-text-primary,
 html[data-theme="light"] .card-premium h3.text-text-primary {
   color: rgb(24 28 36) !important;
   text-shadow: none;
+}
+
+/* ============================================================
+   LIGHT MODE — SIDEBAR & ACTIVITY PANEL TEXT VISIBILITY
+   These panels are transparent glass over the DARK background
+   image, so ALL text must be white/light for readability.
+   ============================================================ */
+html.light aside .text-text-primary,
+html.light aside h1, html.light aside h2, html.light aside h3,
+html.light aside p, html.light aside span, html.light aside a,
+html[data-theme="light"] aside .text-text-primary,
+html[data-theme="light"] aside h1, html[data-theme="light"] aside h2,
+html[data-theme="light"] aside p, html[data-theme="light"] aside span,
+html[data-theme="light"] aside a {
+  color: rgb(235 240 248) !important;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 0.4);
+}
+
+html.light aside .text-text-secondary,
+html[data-theme="light"] aside .text-text-secondary {
+  color: rgb(190 205 220) !important;
+}
+
+html.light aside .text-text-muted,
+html[data-theme="light"] aside .text-text-muted {
+  color: rgb(155 170 190) !important;
+}
+
+/* Activity feed panel — same treatment */
+html.light #activity-desktop .text-text-primary,
+html.light #activity-desktop p,
+html.light #activity-desktop span,
+html[data-theme="light"] #activity-desktop .text-text-primary,
+html[data-theme="light"] #activity-desktop p,
+html[data-theme="light"] #activity-desktop span {
+  color: rgb(235 240 248) !important;
+}
+
+html.light #activity-desktop .text-text-secondary,
+html[data-theme="light"] #activity-desktop .text-text-secondary {
+  color: rgb(190 205 220) !important;
+}
+
+html.light #activity-desktop .text-text-muted,
+html[data-theme="light"] #activity-desktop .text-text-muted {
+  color: rgb(155 170 190) !important;
+}
+
+/* Main transparent panel — section headings and non-card text stay white */
+html.light main > div > section > .text-text-primary,
+html.light main > div > section > p,
+html[data-theme="light"] main > div > section > .text-text-primary,
+html[data-theme="light"] main > div > section > p {
+  color: rgb(235 240 248) !important;
 }
 
 .card-premium:hover {
