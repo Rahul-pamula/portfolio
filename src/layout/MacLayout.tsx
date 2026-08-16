@@ -6,7 +6,7 @@ export const MacLayout = ({ children }: { children: React.ReactNode }) => {
   const { theme } = useTheme();
   return (
     <div 
-      className="h-screen w-screen overflow-hidden bg-background text-text-primary selection:bg-accent/30 flex flex-col relative transition-colors duration-300"
+      className="h-[100dvh] w-screen overflow-hidden bg-background text-text-primary selection:bg-accent/30 flex flex-col relative transition-colors duration-300"
       style={{
         backgroundImage: 'url(/background.png)',
         backgroundSize: 'cover',
