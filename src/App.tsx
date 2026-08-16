@@ -10,8 +10,17 @@ import { SupportCard } from './components/support/SupportCard';
 import { ContributionHeatmap } from './components/activity/ContributionHeatmap';
 import { ContributionStats } from './components/activity/ContributionStats';
 import { LiveActivityFeed } from './components/activity/LiveActivityFeed';
+import { useTheme } from './context/ThemeProvider';
 
 function App() {
+  const { theme } = useTheme();
+  const isLight = theme === 'light';
+
+  // Panels are transparent shells — dark mode: subtle dark glass; light mode: more opaque white glass
+  const panelBg = isLight
+    ? 'bg-white/55 border-white/40'
+    : 'bg-[#0d1117]/35 border-white/5';
+
   return (
     <MacLayout>
       <div className="flex-1 overflow-y-auto scrollbar-thin relative pb-32 w-full">
@@ -23,8 +32,8 @@ function App() {
               <Sidebar />
             </div>
             
-            {/* Main Floating Panel - transparent shell, CSS vars control theme */}
-            <main className="flex flex-col gap-12 bg-background/30 rounded-3xl border border-border/30 shadow-2xl p-6 lg:p-10">
+            {/* Main Floating Panel */}
+            <main className={`flex flex-col gap-12 ${panelBg} backdrop-blur-sm rounded-3xl border shadow-2xl p-6 lg:p-10 transition-colors duration-300`}>
               <div className="w-full flex flex-col gap-12">
                 <section id="overview">
                   <EngineeringIdentity />
@@ -55,7 +64,7 @@ function App() {
 
             {/* Right Floating Panel */}
             <div className="hidden xl:block xl:sticky xl:top-8">
-              <div id="activity-desktop" className="bg-background/30 rounded-3xl border border-border/30 shadow-2xl p-6">
+              <div id="activity-desktop" className={`${panelBg} backdrop-blur-sm rounded-3xl border shadow-2xl p-6 transition-colors duration-300`}>
                 <LiveActivityFeed />
               </div>
             </div>

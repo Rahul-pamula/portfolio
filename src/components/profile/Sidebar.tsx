@@ -1,12 +1,19 @@
 import { profileData } from '../../data/profile';
 import { Github, Linkedin, ExternalLink } from 'lucide-react';
 import githubData from '../../data/generated/github-data.json';
+import { useTheme } from '../../context/ThemeProvider';
 
 export const Sidebar = () => {
   const user = githubData.user;
+  const { theme } = useTheme();
+  const isLight = theme === 'light';
+  const panelBg = isLight
+    ? 'bg-white/55 border-white/40'
+    : 'bg-[#0d1117]/35 border-white/5';
   
   return (
-    <aside className="w-full flex flex-col gap-8 bg-background/30 rounded-3xl border border-border/30 shadow-2xl p-6">
+    <aside className={`w-full flex flex-col gap-8 ${panelBg} backdrop-blur-sm rounded-3xl border shadow-2xl p-6 transition-colors duration-300`}>
+
       {/* Profile Info */}
       <div className="flex flex-col gap-5">
         <div className="relative w-24 h-24 rounded-full p-1 border border-border bg-surface-elevated">
