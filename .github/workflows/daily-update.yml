@@ -1,0 +1,39 @@
+name: Daily GitHub Stats Update
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows you to manually click a "Run workflow" button in GitHub
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed so the bot can push the updated JSON file
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch latest GitHub data
+        run: npm run fetch:github
+        env:
+          # Use the built-in token so we don't hit public API rate limits
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/generated/github-data.json
+          # Only commit and push if the JSON file actually changed
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: daily github stats update" && git push)
