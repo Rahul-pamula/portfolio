@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-23T01:07:57.222Z",
+  "updatedAt": "2026-08-24T01:06:03.691Z",
   "contributions": {
-    "totalLastYear": 1461,
+    "totalLastYear": 1640,
     "days": [
       {
         "date": "2025-08-24",
@@ -96,7 +96,7 @@
       {
         "date": "2025-09-11",
         "count": 10,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2025-09-12",
@@ -551,12 +551,12 @@
       {
         "date": "2025-12-11",
         "count": 21,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2025-12-12",
         "count": 9,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2025-12-13",
@@ -631,7 +631,7 @@
       {
         "date": "2025-12-27",
         "count": 18,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2025-12-28",
@@ -1026,7 +1026,7 @@
       {
         "date": "2026-03-16",
         "count": 10,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-03-17",
@@ -1066,7 +1066,7 @@
       {
         "date": "2026-03-24",
         "count": 9,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-03-25",
@@ -1091,7 +1091,7 @@
       {
         "date": "2026-03-29",
         "count": 28,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-03-30",
@@ -1101,7 +1101,7 @@
       {
         "date": "2026-03-31",
         "count": 9,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-04-01",
@@ -1131,7 +1131,7 @@
       {
         "date": "2026-04-06",
         "count": 33,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-04-07",
@@ -1216,12 +1216,12 @@
       {
         "date": "2026-04-23",
         "count": 30,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-04-24",
         "count": 11,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-04-25",
@@ -1556,7 +1556,7 @@
       {
         "date": "2026-06-30",
         "count": 18,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-07-01",
@@ -1631,7 +1631,7 @@
       {
         "date": "2026-07-15",
         "count": 9,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-07-16",
@@ -1726,7 +1726,7 @@
       {
         "date": "2026-08-03",
         "count": 18,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-04",
@@ -1741,7 +1741,7 @@
       {
         "date": "2026-08-06",
         "count": 10,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-07",
@@ -1751,7 +1751,7 @@
       {
         "date": "2026-08-08",
         "count": 26,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-08-09",
@@ -1766,22 +1766,22 @@
       {
         "date": "2026-08-11",
         "count": 34,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-08-12",
         "count": 21,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-13",
         "count": 18,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-14",
         "count": 19,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-15",
@@ -1796,7 +1796,7 @@
       {
         "date": "2026-08-17",
         "count": 11,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-18",
@@ -1811,12 +1811,12 @@
       {
         "date": "2026-08-20",
         "count": 10,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-21",
         "count": 32,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-08-22",
@@ -1825,8 +1825,13 @@
       },
       {
         "date": "2026-08-23",
-        "count": 17,
-        "level": 2
+        "count": 213,
+        "level": 4
+      },
+      {
+        "date": "2026-08-24",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -1867,480 +1872,139 @@
   },
   "activityFeed": [
     {
-      "id": "18546365215",
+      "id": "18617853711",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:53:40Z",
+      "created_at": "2026-08-23T13:44:31Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 40871314412,
+        "push_id": 40943689604,
         "ref": "refs/heads/main",
-        "head": "32c29e7fc6f149b36cb40e4c6bc0d5a4df0d15c4",
-        "before": "fefa9c8c5b81b2079136d920275e5c3338f247bf"
+        "head": "10d2676c4748e5c91cbe974be91386f89a8d5355",
+        "before": "c12a1fda6c8134844b0667ea83b0b7bd5097fe82"
       }
     },
     {
-      "id": "18545869364",
-      "type": "CreateEvent",
+      "id": "18617769655",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:42:34Z",
+      "created_at": "2026-08-23T13:43:22Z",
       "payload": {
-        "ref": "feature/issue-1-init",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feature/issue-1-init",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
+        "repository_id": 1339909532,
+        "push_id": 40943604533,
+        "ref": "refs/heads/main",
+        "head": "c12a1fda6c8134844b0667ea83b0b7bd5097fe82",
+        "before": "e5f662407481e58fc8ce3957b1b2acd43fee3957"
       }
     },
     {
-      "id": "13698915635",
-      "type": "IssuesEvent",
+      "id": "18617443340",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:54:42Z",
+      "created_at": "2026-08-23T13:38:57Z",
       "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/1",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/1/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/1/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/1/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/1",
-          "id": 5223829942,
-          "node_id": "I_kwDOT91lnM8AAAABN11Rtg",
-          "number": 1,
-          "title": "Initialize React/Vite PWA and basic routing",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11922713298,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYq0g",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:feature",
-              "name": "type:feature",
-              "color": "1d76db",
-              "default": false,
-              "description": ""
-            },
-            {
-              "id": 11922713754,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYsmg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/phase:foundation",
-              "name": "phase:foundation",
-              "color": "5319e7",
-              "default": false,
-              "description": ""
-            },
-            {
-              "id": 11922713848,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-              "name": "priority:high",
-              "color": "b60205",
-              "default": false,
-              "description": ""
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-22T20:37:13Z",
-          "updated_at": "2026-08-22T20:54:41Z",
-          "closed_at": "2026-08-22T20:54:41Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "### Context\nThe repository is currently bare. We need to establish the foundational React application so we can begin building the Scout product.\n\n### Scope\n- Initialize a React/Vite application using TypeScript.\n- Setup basic PWA configuration.\n- Implement React Router.\n- Create placeholder components for the 5 core pages (Radar, Dossier, Operations, Identity, Uplink).\n- Ensure development and build commands function correctly.\n\n### Non-Goals\n- Do NOT implement any custom CSS or design system tokens (handled in Issue 2).\n- Do NOT implement actual page logic.\n\n### Technical Notes\nThe application must be initialized in an `apps/web` directory if following a monorepo structure, or root if not. Since the repo currently has `docs/` and `.env` in root, initializing in `apps/web` is recommended for cleanliness.\n\n### Dependencies\nNone.\n\n### Acceptance Criteria\n- [ ] Vite/React/TS app is scaffolded.\n- [ ] `npm run dev` starts the application without errors.\n- [ ] React Router is configured with 5 distinct routes.\n- [ ] Navigation between the 5 placeholder routes works.\n\n### Testing\n- Manual verification of routing.\n\n### Definition of Done\nThe PR merges successfully and a developer can clone, install, and run the shell application locally.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/1/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/1/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 40943273983,
+        "ref": "refs/heads/main",
+        "head": "e5f662407481e58fc8ce3957b1b2acd43fee3957",
+        "before": "6ee21e1fbeda6dd7902d998b57bcc193e71c0aa5"
       }
     },
     {
-      "id": "13698896745",
-      "type": "PullRequestEvent",
+      "id": "18617314762",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:53:39Z",
+      "created_at": "2026-08-23T13:37:12Z",
       "payload": {
-        "action": "merged",
-        "number": 11,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/11",
-          "id": 4339759545,
-          "number": 11,
-          "head": {
-            "ref": "feature/issue-2-tailwind",
-            "sha": "daa660277f0f66371a2bbc0f5b8515cded3670b5",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "fefa9c8c5b81b2079136d920275e5c3338f247bf",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
+        "repository_id": 1339909532,
+        "push_id": 40943144026,
+        "ref": "refs/heads/main",
+        "head": "6ee21e1fbeda6dd7902d998b57bcc193e71c0aa5",
+        "before": "b24ac5cade34504100467e5dfe3aef25fe6aebee"
       }
     },
     {
-      "id": "13698896495",
-      "type": "IssuesEvent",
+      "id": "18616808539",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:53:40Z",
+      "created_at": "2026-08-23T13:30:28Z",
       "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/2",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/2/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/2/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/2/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/2",
-          "id": 5223830051,
-          "node_id": "I_kwDOT91lnM8AAAABN11SIw",
-          "number": 2,
-          "title": "Configure Tailwind CSS and Scout Light Technical Design Tokens",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11922713336,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYq-A",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:ui",
-              "name": "type:ui",
-              "color": "d4c5f9",
-              "default": false,
-              "description": ""
-            },
-            {
-              "id": 11922713754,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYsmg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/phase:foundation",
-              "name": "phase:foundation",
-              "color": "5319e7",
-              "default": false,
-              "description": ""
-            },
-            {
-              "id": 11922713848,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-              "name": "priority:high",
-              "color": "b60205",
-              "default": false,
-              "description": ""
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-22T20:37:15Z",
-          "updated_at": "2026-08-22T20:53:40Z",
-          "closed_at": "2026-08-22T20:53:40Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "### Context\nScout uses a bespoke \"Tactical Glass\" Light Theme design system. We need to implement these foundational rules in Tailwind before building UI components.\n\n### Scope\n- Install Tailwind CSS, PostCSS, and Autoprefixer.\n- Configure `tailwind.config.js` with the exact design tokens (colors, typography, spacing, shadows).\n- Create global CSS styles in `index.css` for the Aurora background.\n- Ensure the Emerald Green primary accent is defined.\n- Implement the strict accessibility requirements (contrast, focus states).\n\n### Non-Goals\n- Do NOT build the actual Issue Card component yet.\n- Do NOT implement Neumorphism or Claymorphism utilities unless immediately needed for a base element.\n\n### Technical Notes\nReference `docs/UI_UX.md` for the exact visual requirements. Remember: \"Spacing must create hierarchy before borders, shadows, or color do.\"\n\n### Dependencies\nDepends on Issue #1 (React/Vite scaffolding).\n\n### Acceptance Criteria\n- [ ] Tailwind is successfully integrated into the Vite build pipeline.\n- [ ] `tailwind.config.js` contains custom colors, fonts (Inter/Geist and Mono), and specific hard shadows.\n- [ ] Global styles include the warm off-white background and subtle Aurora gradient.\n- [ ] All interactive base elements (like `<a>` or generic `<button>`) have visible keyboard focus states.\n\n### Testing\n- Create a temporary Kitchen Sink page to verify Tailwind classes apply correctly.\n\n### Definition of Done\nThe Tailwind configuration perfectly matches the `UI_UX.md` spec and is merged into `main`.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/2/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/2/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 40942631651,
+        "ref": "refs/heads/main",
+        "head": "b24ac5cade34504100467e5dfe3aef25fe6aebee",
+        "before": "07b37ddbdd2417d6119096b1e0004ac9e9042c73"
       }
     },
     {
-      "id": "13698838477",
-      "type": "PullRequestEvent",
+      "id": "18610856874",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:50:32Z",
+      "created_at": "2026-08-23T12:11:16Z",
       "payload": {
-        "action": "opened",
-        "number": 11,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/11",
-          "id": 4339759545,
-          "number": 11,
-          "head": {
-            "ref": "feature/issue-2-tailwind",
-            "sha": "daa660277f0f66371a2bbc0f5b8515cded3670b5",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "fefa9c8c5b81b2079136d920275e5c3338f247bf",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
+        "repository_id": 1339909532,
+        "push_id": 40936620818,
+        "ref": "refs/heads/main",
+        "head": "07b37ddbdd2417d6119096b1e0004ac9e9042c73",
+        "before": "572aad516e9a97f60cf13c3799060bce4623d9bb"
       }
     },
     {
-      "id": "18545563013",
-      "type": "CreateEvent",
+      "id": "18610671245",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:50:30Z",
+      "created_at": "2026-08-23T12:08:44Z",
       "payload": {
-        "ref": "feature/issue-2-tailwind",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feature/issue-2-tailwind",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
+        "repository_id": 1339909532,
+        "push_id": 40936433203,
+        "ref": "refs/heads/main",
+        "head": "572aad516e9a97f60cf13c3799060bce4623d9bb",
+        "before": "2df51109326be4903b8045ae7f85286973da0c2b"
       }
     },
     {
-      "id": "18545385084",
+      "id": "18603263255",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:47:42Z",
+      "created_at": "2026-08-23T10:23:04Z",
       "payload": {
-        "ref": "feature/1-init-react",
+        "ref": "feature/phase7e-onboarding",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feature/1-init-react",
+        "full_ref": "refs/heads/feature/phase7e-onboarding",
         "pusher_type": "user"
       }
     },
     {
-      "id": "13698759253",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:46:14Z",
-      "payload": {
-        "action": "merged",
-        "number": 10,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/10",
-          "id": 4339736768,
-          "number": 10,
-          "head": {
-            "ref": "feature/issue-1-init",
-            "sha": "2ab6901f12a9fcc00ebbfdf27393693545d99a61",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "b9ddc08fbabb87708bd5f69b5ff6db37900f4bd9",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "18545292941",
+      "id": "18603260995",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:46:15Z",
+      "created_at": "2026-08-23T10:23:02Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 40870863129,
+        "push_id": 40928967736,
         "ref": "refs/heads/main",
-        "head": "fefa9c8c5b81b2079136d920275e5c3338f247bf",
-        "before": "b9ddc08fbabb87708bd5f69b5ff6db37900f4bd9"
+        "head": "2df51109326be4903b8045ae7f85286973da0c2b",
+        "before": "f87d79dbc9f523b2416d32c83bd8db9b8628e1b7"
       }
     },
     {
-      "id": "18545148585",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:44:01Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 40870722854,
-        "ref": "refs/heads/feature/issue-1-init",
-        "head": "2ab6901f12a9fcc00ebbfdf27393693545d99a61",
-        "before": "ecce4e64ee45df1eaa987dd4ae56f812df1bbdaa"
-      }
-    },
-    {
-      "id": "13698687130",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:42:35Z",
-      "payload": {
-        "action": "opened",
-        "number": 10,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/10",
-          "id": 4339736768,
-          "number": 10,
-          "head": {
-            "ref": "feature/issue-1-init",
-            "sha": "2ab6901f12a9fcc00ebbfdf27393693545d99a61",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "b9ddc08fbabb87708bd5f69b5ff6db37900f4bd9",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "18545014052",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:41:51Z",
-      "payload": {
-        "ref": "main",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/main",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "18544985647",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:41:23Z",
-      "payload": {
-        "ref": "feature/1-init-react",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feature/1-init-react",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "13698588820",
+      "id": "13712515640",
       "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-22T20:37:29Z",
+      "created_at": "2026-08-23T10:23:02Z",
       "payload": {
-        "action": "labeled",
+        "action": "closed",
         "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/9",
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/109",
           "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/9/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/9/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/9/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/9",
-          "id": 5223830893,
-          "node_id": "I_kwDOT91lnM8AAAABN11VbQ",
-          "number": 9,
-          "title": "Add pre-commit validation (Husky/lint-staged)",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/109/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/109/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/109/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/109",
+          "id": 5226245401,
+          "node_id": "I_kwDOT91lnM8AAAABN4ItGQ",
+          "number": 109,
+          "title": "Phase 7C: Edge Function integration tests",
           "user": {
             "login": "Rahul-pamula",
             "id": 153642358,
@@ -2363,6 +2027,15 @@
             "site_admin": false
           },
           "labels": [
+            {
+              "id": 11890136441,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
+              "name": "help wanted",
+              "color": "008672",
+              "default": true,
+              "description": "Extra attention is needed"
+            },
             {
               "id": 11890136446,
               "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
@@ -2373,23 +2046,23 @@
               "description": "Good for newcomers"
             },
             {
-              "id": 11922713720,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYseA",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:devex",
-              "name": "type:devex",
-              "color": "c2e0c6",
+              "id": 11922713430,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYrVg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:backend",
+              "name": "type:backend",
+              "color": "006b75",
               "default": false,
               "description": ""
             }
           ],
-          "state": "open",
+          "state": "closed",
           "locked": false,
           "assignees": [],
           "milestone": null,
           "comments": 0,
-          "created_at": "2026-08-22T20:37:28Z",
-          "updated_at": "2026-08-22T20:37:28Z",
-          "closed_at": null,
+          "created_at": "2026-08-23T09:28:47Z",
+          "updated_at": "2026-08-23T10:23:02Z",
+          "closed_at": "2026-08-23T10:23:02Z",
           "assignee": null,
           "active_lock_reason": null,
           "sub_issues_summary": {
@@ -2403,9 +2076,9 @@
             "blocking": 0,
             "total_blocking": 0
           },
-          "body": "## Problem\nIt's easy to accidentally commit unformatted or broken code. We want to catch linting errors before a commit is finalized.\n\n## Goal\nAdd pre-commit validation using Husky and lint-staged.\n\n## Where to Look\n- `package.json`\n\n## Suggested Approach\n1. Install `husky` and `lint-staged`.\n2. Initialize Husky.\n3. Configure lint-staged in `package.json` to run `eslint` and `prettier` on staged files.\n\n## Acceptance Criteria\n- [ ] Husky is initialized.\n- [ ] `lint-staged` is configured for `.ts` and `.tsx` files.\n- [ ] Attempting to commit a poorly formatted file automatically formats it or blocks the commit.\n\n## Testing\nStage a file with a linting error, run `git commit`, and verify that Husky stops the commit.\n\n## Difficulty\n`Beginner`",
+          "body": "## Phase 7C — Edge Function Integration Tests\n\n### Context\nAfter migration we need a test suite that verifies all Edge Functions behave correctly as a system.\n\n### Scope\nWrite integration tests for each Edge Function covering both success and failure paths:\n\n- `search`: returns issues, handles empty results\n- `evaluate`: scores correctly, filters below threshold\n- `engage`: posts when safety checks pass, blocks when they fail\n- `sync`: updates sync_health, handles no tracked issues\n- Authentication: 401 returned on all functions when token missing\n\n### Acceptance criteria\n- [ ] Tests exist for all 6 Edge Functions\n- [ ] Success and failure paths both covered\n- [ ] Authentication failure returns 401\n- [ ] Safety gate failure returns `{ posted: false }` not an error\n- [ ] Tests runnable locally with `supabase functions serve`",
           "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/9/reactions",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/109/reactions",
             "total_count": 0,
             "+1": 0,
             "-1": 0,
@@ -2416,46 +2089,122 @@
             "rocket": 0,
             "eyes": 0
           },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/9/timeline",
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/109/timeline",
           "performed_via_github_app": null,
-          "state_reason": null,
+          "state_reason": "completed",
           "pinned_comment": null
-        },
-        "label": {
-          "id": 11922713720,
-          "node_id": "LA_kwDOT91lnM8AAAACxqYseA",
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:devex",
-          "name": "type:devex",
-          "color": "c2e0c6",
-          "default": false,
-          "description": ""
-        },
-        "labels": [
-          {
-            "id": 11890136446,
-            "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
-            "name": "good first issue",
-            "color": "7057ff",
-            "default": true,
-            "description": "Good for newcomers"
+        }
+      }
+    },
+    {
+      "id": "13712515505",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-23T10:23:01Z",
+      "payload": {
+        "action": "merged",
+        "number": 122,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/122",
+          "id": 4341712942,
+          "number": 122,
+          "head": {
+            "ref": "feature/phase7e-onboarding",
+            "sha": "0a89676c8cb1362c2a8daf36a4ec70fc608d5406",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
           },
-          {
-            "id": 11922713720,
-            "node_id": "LA_kwDOT91lnM8AAAACxqYseA",
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:devex",
-            "name": "type:devex",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
+          "base": {
+            "ref": "main",
+            "sha": "f87d79dbc9f523b2416d32c83bd8db9b8628e1b7",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
           }
-        ]
+        }
+      }
+    },
+    {
+      "id": "13712514601",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-23T10:22:58Z",
+      "payload": {
+        "action": "opened",
+        "number": 122,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/122",
+          "id": 4341712942,
+          "number": 122,
+          "head": {
+            "ref": "feature/phase7e-onboarding",
+            "sha": "0a89676c8cb1362c2a8daf36a4ec70fc608d5406",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "f87d79dbc9f523b2416d32c83bd8db9b8628e1b7",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "18603254092",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-23T10:22:56Z",
+      "payload": {
+        "ref": "feature/phase7e-onboarding",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feature/phase7e-onboarding",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "18603094337",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-23T10:20:48Z",
+      "payload": {
+        "ref": "feature/phase7d-cli",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feature/phase7d-cli",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "18603092216",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-23T10:20:46Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 40928801020,
+        "ref": "refs/heads/main",
+        "head": "f87d79dbc9f523b2416d32c83bd8db9b8628e1b7",
+        "before": "72cf1ac18e96d6febc1e5617cc7e0583b75a67bf"
       }
     }
   ],
   "recentStats": {
-    "commits": 1435,
-    "prs": 37,
-    "issues": 147
+    "commits": 1520,
+    "prs": 73,
+    "issues": 219
   }
 }
