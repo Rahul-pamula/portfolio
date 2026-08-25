@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-24T01:06:03.691Z",
+  "updatedAt": "2026-08-25T01:04:59.440Z",
   "contributions": {
-    "totalLastYear": 1640,
+    "totalLastYear": 1642,
     "days": [
       {
         "date": "2025-08-24",
@@ -1830,6 +1830,11 @@
       },
       {
         "date": "2026-08-24",
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-08-25",
         "count": 0,
         "level": 0
       }
@@ -1871,6 +1876,460 @@
     "updated_at": "2026-08-21T12:08:10Z"
   },
   "activityFeed": [
+    {
+      "id": "18751430613",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/agent-toolkit",
+      "created_at": "2026-08-24T17:11:30Z",
+      "payload": {
+        "repository_id": 1325692171,
+        "push_id": 41072857212,
+        "ref": "refs/heads/main",
+        "head": "834e6f82a89a049d2c23ee1429130de35feb4f10",
+        "before": "a7a24dda72cb8dcf385df53de54dd2596daa5e0b"
+      }
+    },
+    {
+      "id": "13740150194",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-24T06:07:34Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/115",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/115/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/115/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/115/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/115",
+          "id": 5226245963,
+          "node_id": "I_kwDOT91lnM8AAAABN4IvSw",
+          "number": 115,
+          "title": "Phase 7E: Skills and interests onboarding UI",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136441,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
+              "name": "help wanted",
+              "color": "008672",
+              "default": true,
+              "description": "Extra attention is needed"
+            },
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers"
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-08-23T09:28:56Z",
+          "updated_at": "2026-08-24T06:07:33Z",
+          "closed_at": "2026-08-24T06:07:33Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## Phase 7E — Skills Onboarding UI\n\n### Context\nStep 1 of the one-time onboarding wizard. New users define their skills so Radar can find the best matching issues.\n\n### Design philosophy\n**Light. Precise. Technical. Quiet.** No marketing copy. No animations. Clean, minimal form.\n\n### Scope\nCreate `apps/web/src/pages/onboarding/Skills.tsx`\n\n**Fields:**\n- Primary languages (multi-select chips: TypeScript, Python, Go, Rust, Java, C++, Ruby, PHP...)\n- Frameworks (multi-select chips: React, Next.js, FastAPI, Django, Rails, Express...)\n- Domain interests (multi-select chips: AI/ML, DevTools, Web3, CLI, Infrastructure, Mobile...)\n- Experience level (radio: Beginner / Intermediate / Senior)\n\n**Validation:**\n- At least one language required\n- Experience level required\n- Clear error messages if empty\n\n**On submit:** Save to `profiles` table, navigate to Preferences step.\n\n### Acceptance criteria\n- [ ] Component exists at `apps/web/src/pages/onboarding/Skills.tsx`\n- [ ] All four fields implemented\n- [ ] Validation prevents empty submission\n- [ ] Saves to `profiles` table\n- [ ] Follows Light/Precise/Technical/Quiet design philosophy\n- [ ] No placeholder text or lorem ipsum in the final output",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/115/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/115/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
+      }
+    },
+    {
+      "id": "18680367851",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-24T06:07:33Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 41006583890,
+        "ref": "refs/heads/main",
+        "head": "1da2f8cf2945e8b554c2dc6443a27f8d26e663da",
+        "before": "10d2676c4748e5c91cbe974be91386f89a8d5355"
+      }
+    },
+    {
+      "id": "13740150009",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-24T06:07:33Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/91",
+          "id": 5226108447,
+          "node_id": "I_kwDOT91lnM8AAAABN4AWHw",
+          "number": 91,
+          "title": "Build Notification Preferences UI",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136441,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
+              "name": "help wanted",
+              "color": "008672",
+              "default": true,
+              "description": "Extra attention is needed"
+            },
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers"
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "saiteja00743",
+              "id": 136784743,
+              "node_id": "U_kgDOCCcrZw",
+              "avatar_url": "https://avatars.githubusercontent.com/u/136784743?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/saiteja00743",
+              "html_url": "https://github.com/saiteja00743",
+              "followers_url": "https://api.github.com/users/saiteja00743/followers",
+              "following_url": "https://api.github.com/users/saiteja00743/following{/other_user}",
+              "gists_url": "https://api.github.com/users/saiteja00743/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/saiteja00743/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/saiteja00743/subscriptions",
+              "organizations_url": "https://api.github.com/users/saiteja00743/orgs",
+              "repos_url": "https://api.github.com/users/saiteja00743/repos",
+              "events_url": "https://api.github.com/users/saiteja00743/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/saiteja00743/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 2,
+          "created_at": "2026-08-23T08:48:39Z",
+          "updated_at": "2026-08-24T06:07:33Z",
+          "closed_at": "2026-08-24T06:07:33Z",
+          "assignee": {
+            "login": "saiteja00743",
+            "id": 136784743,
+            "node_id": "U_kgDOCCcrZw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/136784743?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/saiteja00743",
+            "html_url": "https://github.com/saiteja00743",
+            "followers_url": "https://api.github.com/users/saiteja00743/followers",
+            "following_url": "https://api.github.com/users/saiteja00743/following{/other_user}",
+            "gists_url": "https://api.github.com/users/saiteja00743/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/saiteja00743/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/saiteja00743/subscriptions",
+            "organizations_url": "https://api.github.com/users/saiteja00743/orgs",
+            "repos_url": "https://api.github.com/users/saiteja00743/repos",
+            "events_url": "https://api.github.com/users/saiteja00743/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/saiteja00743/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### Goal\nAllow user to toggle notification preferences (responses, assignments, reviews).\n\n### Scope\n- UI/configuration only. Do not implement delivery.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
+      }
+    },
+    {
+      "id": "13740140159",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-24T06:07:17Z",
+      "payload": {
+        "action": "assigned",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/91",
+          "id": 5226108447,
+          "node_id": "I_kwDOT91lnM8AAAABN4AWHw",
+          "number": 91,
+          "title": "Build Notification Preferences UI",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136441,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
+              "name": "help wanted",
+              "color": "008672",
+              "default": true,
+              "description": "Extra attention is needed"
+            },
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers"
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "saiteja00743",
+              "id": 136784743,
+              "node_id": "U_kgDOCCcrZw",
+              "avatar_url": "https://avatars.githubusercontent.com/u/136784743?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/saiteja00743",
+              "html_url": "https://github.com/saiteja00743",
+              "followers_url": "https://api.github.com/users/saiteja00743/followers",
+              "following_url": "https://api.github.com/users/saiteja00743/following{/other_user}",
+              "gists_url": "https://api.github.com/users/saiteja00743/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/saiteja00743/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/saiteja00743/subscriptions",
+              "organizations_url": "https://api.github.com/users/saiteja00743/orgs",
+              "repos_url": "https://api.github.com/users/saiteja00743/repos",
+              "events_url": "https://api.github.com/users/saiteja00743/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/saiteja00743/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 2,
+          "created_at": "2026-08-23T08:48:39Z",
+          "updated_at": "2026-08-24T06:07:33Z",
+          "closed_at": "2026-08-24T06:07:33Z",
+          "assignee": {
+            "login": "saiteja00743",
+            "id": 136784743,
+            "node_id": "U_kgDOCCcrZw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/136784743?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/saiteja00743",
+            "html_url": "https://github.com/saiteja00743",
+            "followers_url": "https://api.github.com/users/saiteja00743/followers",
+            "following_url": "https://api.github.com/users/saiteja00743/following{/other_user}",
+            "gists_url": "https://api.github.com/users/saiteja00743/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/saiteja00743/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/saiteja00743/subscriptions",
+            "organizations_url": "https://api.github.com/users/saiteja00743/orgs",
+            "repos_url": "https://api.github.com/users/saiteja00743/repos",
+            "events_url": "https://api.github.com/users/saiteja00743/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/saiteja00743/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### Goal\nAllow user to toggle notification preferences (responses, assignments, reviews).\n\n### Scope\n- UI/configuration only. Do not implement delivery.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/91/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        },
+        "assignee": {
+          "login": "saiteja00743",
+          "id": 136784743,
+          "node_id": "U_kgDOCCcrZw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/136784743?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/saiteja00743",
+          "html_url": "https://github.com/saiteja00743",
+          "followers_url": "https://api.github.com/users/saiteja00743/followers",
+          "following_url": "https://api.github.com/users/saiteja00743/following{/other_user}",
+          "gists_url": "https://api.github.com/users/saiteja00743/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/saiteja00743/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/saiteja00743/subscriptions",
+          "organizations_url": "https://api.github.com/users/saiteja00743/orgs",
+          "repos_url": "https://api.github.com/users/saiteja00743/repos",
+          "events_url": "https://api.github.com/users/saiteja00743/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/saiteja00743/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "assignees": [
+          {
+            "login": "saiteja00743",
+            "id": 136784743,
+            "node_id": "U_kgDOCCcrZw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/136784743?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/saiteja00743",
+            "html_url": "https://github.com/saiteja00743",
+            "followers_url": "https://api.github.com/users/saiteja00743/followers",
+            "following_url": "https://api.github.com/users/saiteja00743/following{/other_user}",
+            "gists_url": "https://api.github.com/users/saiteja00743/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/saiteja00743/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/saiteja00743/subscriptions",
+            "organizations_url": "https://api.github.com/users/saiteja00743/orgs",
+            "repos_url": "https://api.github.com/users/saiteja00743/repos",
+            "events_url": "https://api.github.com/users/saiteja00743/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/saiteja00743/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ]
+      }
+    },
     {
       "id": "18617853711",
       "type": "PushEvent",
@@ -2095,115 +2554,10 @@
           "pinned_comment": null
         }
       }
-    },
-    {
-      "id": "13712515505",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-23T10:23:01Z",
-      "payload": {
-        "action": "merged",
-        "number": 122,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/122",
-          "id": 4341712942,
-          "number": 122,
-          "head": {
-            "ref": "feature/phase7e-onboarding",
-            "sha": "0a89676c8cb1362c2a8daf36a4ec70fc608d5406",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "f87d79dbc9f523b2416d32c83bd8db9b8628e1b7",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "13712514601",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-23T10:22:58Z",
-      "payload": {
-        "action": "opened",
-        "number": 122,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/122",
-          "id": 4341712942,
-          "number": 122,
-          "head": {
-            "ref": "feature/phase7e-onboarding",
-            "sha": "0a89676c8cb1362c2a8daf36a4ec70fc608d5406",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "f87d79dbc9f523b2416d32c83bd8db9b8628e1b7",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "18603254092",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-23T10:22:56Z",
-      "payload": {
-        "ref": "feature/phase7e-onboarding",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feature/phase7e-onboarding",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "18603094337",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-23T10:20:48Z",
-      "payload": {
-        "ref": "feature/phase7d-cli",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feature/phase7d-cli",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "18603092216",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-23T10:20:46Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 40928801020,
-        "ref": "refs/heads/main",
-        "head": "f87d79dbc9f523b2416d32c83bd8db9b8628e1b7",
-        "before": "72cf1ac18e96d6febc1e5617cc7e0583b75a67bf"
-      }
     }
   ],
   "recentStats": {
-    "commits": 1520,
+    "commits": 1522,
     "prs": 73,
     "issues": 219
   }
