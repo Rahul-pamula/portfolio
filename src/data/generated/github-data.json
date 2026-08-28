@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-27T07:11:41.874Z",
+  "updatedAt": "2026-08-28T08:58:01.533Z",
   "contributions": {
-    "totalLastYear": 1726,
+    "totalLastYear": 1731,
     "days": [
       {
         "date": "2025-08-24",
@@ -1845,8 +1845,13 @@
       },
       {
         "date": "2026-08-27",
-        "count": 30,
+        "count": 33,
         "level": 3
+      },
+      {
+        "date": "2026-08-28",
+        "count": 2,
+        "level": 1
       }
     ]
   },
@@ -1878,7 +1883,7 @@
     "hireable": null,
     "bio": "AI/ML Engineer | Full Stack Developer | Android Developer | Azure Certified",
     "twitter_username": null,
-    "public_repos": 55,
+    "public_repos": 56,
     "public_gists": 0,
     "followers": 56,
     "following": 30,
@@ -1887,1146 +1892,244 @@
   },
   "activityFeed": [
     {
-      "id": "19037631353",
+      "id": "19161714779",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T07:02:23Z",
+      "created_at": "2026-08-27T06:33:55Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 41410307830,
+        "push_id": 41407264339,
         "ref": "refs/heads/main",
-        "head": "bf45344a0c2fa22629d5175611ade4ad848dc929",
-        "before": "22be14f5288405928f0a5cb0801007ad545f4237"
+        "head": "b3dcb2095a83971e5c80472031633641ef54bed0",
+        "before": "9ab4ca621abad5d9886be7856943a1c96014f65c"
       }
     },
     {
-      "id": "19036599290",
+      "id": "19160035972",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:50:33Z",
+      "created_at": "2026-08-27T07:08:54Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 41409073979,
+        "push_id": 41410995775,
         "ref": "refs/heads/main",
-        "head": "22be14f5288405928f0a5cb0801007ad545f4237",
-        "before": "36a57726c5e215a8732b1c819384cccdc65c80c8"
+        "head": "e9df315b71900aee7683d3d00126b1c4c0ed3819",
+        "before": "7e1737edee8a408a5bd97a26bec7da1f588af59e"
       }
     },
     {
-      "id": "13941311276",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:50:33Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/5",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/5/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/5/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/5/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/5",
-          "id": 5223830386,
-          "node_id": "I_kwDOT91lnM8AAAABN11Tcg",
-          "number": 5,
-          "title": "Add consistent ESLint configuration",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136446,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
-            },
-            {
-              "id": 11922713720,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYseA",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:devex",
-              "name": "type:devex",
-              "color": "c2e0c6",
-              "default": false,
-              "description": ""
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-08-22T20:37:20Z",
-          "updated_at": "2026-08-27T06:50:33Z",
-          "closed_at": "2026-08-27T06:50:33Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Problem\nWe need to ensure code quality and consistency across the repository, but currently, we do not have ESLint configured for our React/TypeScript codebase.\n\n## Goal\nAdd and configure ESLint to enforce standard TypeScript and React rules.\n\n## Where to Look\n- Look in the root directory (or `apps/web` if scaffolding is complete) for package configurations.\n\n## Suggested Approach\n1. Install `eslint`, `eslint-plugin-react`, `@typescript-eslint/parser`, and `@typescript-eslint/eslint-plugin` as dev dependencies.\n2. Create an `.eslintrc.cjs` or `eslint.config.js` file.\n3. Add a `lint` script to `package.json`.\n\n## Acceptance Criteria\n- [ ] ESLint is installed and configured.\n- [ ] `npm run lint` executes successfully and reports any errors.\n- [ ] The configuration supports both TypeScript and React hooks.\n\n## Testing\nRun `npm run lint` locally and ensure it parses the `.tsx` files correctly.\n\n## Difficulty\n`Beginner`",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/5/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/5/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "13941310885",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:50:32Z",
-      "payload": {
-        "action": "merged",
-        "number": 154,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/154",
-          "id": 4373437857,
-          "number": 154,
-          "head": {
-            "ref": "chore/code-quality",
-            "sha": "f0c896a2f02a52022a0335c02bfe9e700e2705de",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "36a57726c5e215a8732b1c819384cccdc65c80c8",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "13941306312",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:50:26Z",
-      "payload": {
-        "action": "opened",
-        "number": 154,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/154",
-          "id": 4373437857,
-          "number": 154,
-          "head": {
-            "ref": "chore/code-quality",
-            "sha": "f0c896a2f02a52022a0335c02bfe9e700e2705de",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "36a57726c5e215a8732b1c819384cccdc65c80c8",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19036426994",
+      "id": "19158174905",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:48:07Z",
+      "created_at": "2026-08-27T06:50:37Z",
       "payload": {
-        "ref": "fix/issue-88",
+        "ref": "chore/code-quality",
         "ref_type": "branch",
-        "full_ref": "refs/heads/fix/issue-88",
+        "full_ref": "refs/heads/chore/code-quality",
         "pusher_type": "user"
       }
     },
     {
-      "id": "19036408201",
+      "id": "19158157205",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:47:54Z",
+      "created_at": "2026-08-27T06:50:23Z",
       "payload": {
-        "ref": "fix/issue-88",
+        "ref": "chore/code-quality",
         "ref_type": "branch",
-        "full_ref": "refs/heads/fix/issue-88",
+        "full_ref": "refs/heads/chore/code-quality",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "13941208786",
-      "type": "IssuesEvent",
+      "id": "19157315046",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:48:07Z",
+      "created_at": "2026-08-27T06:34:14Z",
       "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/47",
-          "id": 5225622930,
-          "node_id": "I_kwDOT91lnM8AAAABN3itkg",
-          "number": 47,
-          "title": "feat(dossier): Add 'Copy to Clipboard' button for raw markdown in Dossier",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136446,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "Rudra-1509",
-              "id": 191955248,
-              "node_id": "U_kgDOC3EBMA",
-              "avatar_url": "https://avatars.githubusercontent.com/u/191955248?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rudra-1509",
-              "html_url": "https://github.com/Rudra-1509",
-              "followers_url": "https://api.github.com/users/Rudra-1509/followers",
-              "following_url": "https://api.github.com/users/Rudra-1509/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rudra-1509/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rudra-1509/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rudra-1509/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rudra-1509/orgs",
-              "repos_url": "https://api.github.com/users/Rudra-1509/repos",
-              "events_url": "https://api.github.com/users/Rudra-1509/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rudra-1509/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 4,
-          "created_at": "2026-08-23T06:17:26Z",
-          "updated_at": "2026-08-27T06:48:06Z",
-          "closed_at": "2026-08-27T06:48:06Z",
-          "assignee": {
-            "login": "Rudra-1509",
-            "id": 191955248,
-            "node_id": "U_kgDOC3EBMA",
-            "avatar_url": "https://avatars.githubusercontent.com/u/191955248?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rudra-1509",
-            "html_url": "https://github.com/Rudra-1509",
-            "followers_url": "https://api.github.com/users/Rudra-1509/followers",
-            "following_url": "https://api.github.com/users/Rudra-1509/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rudra-1509/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rudra-1509/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rudra-1509/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rudra-1509/orgs",
-            "repos_url": "https://api.github.com/users/Rudra-1509/repos",
-            "events_url": "https://api.github.com/users/Rudra-1509/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rudra-1509/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nIn the Dossier page, it would be highly useful to have a small 'Copy' icon/button next to issue descriptions and comment blocks to easily copy the raw markdown text.\n\n## Requirements\n- Add a tiny, accessible 'Copy' button using a `lucide-react` icon (e.g. `Copy`).\n- When clicked, copy the raw markdown to the user's clipboard using the standard `navigator.clipboard.writeText`.\n- Show a brief visual confirmation (e.g., swapping the icon to a `Check` icon for 2 seconds).\n\nThis is a great first issue for anyone wanting to get familiar with our React frontend and Tailwind CSS!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "not_planned",
-          "pinned_comment": null
-        }
+        "ref": "feat/stage-7",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/stage-7",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "13941208741",
-      "type": "IssueCommentEvent",
+      "id": "19157310904",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:48:06Z",
+      "created_at": "2026-08-27T06:34:11Z",
       "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/47",
-          "id": 5225622930,
-          "node_id": "I_kwDOT91lnM8AAAABN3itkg",
-          "number": 47,
-          "title": "feat(dossier): Add 'Copy to Clipboard' button for raw markdown in Dossier",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136446,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "Rudra-1509",
-              "id": 191955248,
-              "node_id": "U_kgDOC3EBMA",
-              "avatar_url": "https://avatars.githubusercontent.com/u/191955248?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rudra-1509",
-              "html_url": "https://github.com/Rudra-1509",
-              "followers_url": "https://api.github.com/users/Rudra-1509/followers",
-              "following_url": "https://api.github.com/users/Rudra-1509/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rudra-1509/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rudra-1509/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rudra-1509/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rudra-1509/orgs",
-              "repos_url": "https://api.github.com/users/Rudra-1509/repos",
-              "events_url": "https://api.github.com/users/Rudra-1509/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rudra-1509/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 4,
-          "created_at": "2026-08-23T06:17:26Z",
-          "updated_at": "2026-08-27T06:48:06Z",
-          "closed_at": "2026-08-27T06:48:06Z",
-          "assignee": {
-            "login": "Rudra-1509",
-            "id": 191955248,
-            "node_id": "U_kgDOC3EBMA",
-            "avatar_url": "https://avatars.githubusercontent.com/u/191955248?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rudra-1509",
-            "html_url": "https://github.com/Rudra-1509",
-            "followers_url": "https://api.github.com/users/Rudra-1509/followers",
-            "following_url": "https://api.github.com/users/Rudra-1509/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rudra-1509/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rudra-1509/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rudra-1509/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rudra-1509/orgs",
-            "repos_url": "https://api.github.com/users/Rudra-1509/repos",
-            "events_url": "https://api.github.com/users/Rudra-1509/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rudra-1509/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nIn the Dossier page, it would be highly useful to have a small 'Copy' icon/button next to issue descriptions and comment blocks to easily copy the raw markdown text.\n\n## Requirements\n- Add a tiny, accessible 'Copy' button using a `lucide-react` icon (e.g. `Copy`).\n- When clicked, copy the raw markdown to the user's clipboard using the standard `navigator.clipboard.writeText`.\n- Show a brief visual confirmation (e.g., swapping the icon to a `Check` icon for 2 seconds).\n\nThis is a great first issue for anyone wanting to get familiar with our React frontend and Tailwind CSS!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "not_planned",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/5435392024",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/47#issuecomment-5435392024",
-          "issue_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/47",
-          "id": 5435392024,
-          "node_id": "IC_kwDOT91lnM8AAAABQ_mAGA",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-08-27T06:48:06Z",
-          "updated_at": "2026-08-27T06:48:06Z",
-          "body": "Closed as obsolete after the Agentic UI Redesign pivot.",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/5435392024/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 41407293058,
+        "ref": "refs/heads/main",
+        "head": "b61ddffa5c95c9df549d2e87c9da86ddedb7f167",
+        "before": "b3dcb2095a83971e5c80472031633641ef54bed0"
       }
     },
     {
-      "id": "13941207048",
-      "type": "IssuesEvent",
+      "id": "19157253079",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:48:04Z",
+      "created_at": "2026-08-27T06:33:28Z",
       "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/88",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/88/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/88/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/88/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/88",
-          "id": 5226108145,
-          "node_id": "I_kwDOT91lnM8AAAABN4AU8Q",
-          "number": 88,
-          "title": "Document Scout's Monitoring & Contribution Lifecycle",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136441,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed"
-            },
-            {
-              "id": 11890136446,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-08-23T08:48:34Z",
-          "updated_at": "2026-08-27T06:48:04Z",
-          "closed_at": "2026-08-27T06:48:04Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "### Goal\nExplain the Discover -> Evaluate -> Engage -> Monitor lifecycle.\n\n### Scope\n- Documentation explaining the flow and milestone tracking (auto vs manual).",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/88/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/88/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 41407213170,
+        "ref": "refs/heads/main",
+        "head": "644379f5e9963c4ef3301067cfbbc3d8fb73341c",
+        "before": "73cc375ecdd90187f306e99e81d433c32111db4f"
       }
     },
     {
-      "id": "13941206960",
-      "type": "IssueCommentEvent",
+      "id": "19157240076",
+      "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:48:03Z",
+      "created_at": "2026-08-27T06:33:17Z",
       "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/48",
-          "id": 5225622997,
-          "node_id": "I_kwDOT91lnM8AAAABN3it1Q",
-          "number": 48,
-          "title": "feat(radar): Add empty state illustrations when no eligible issues are found",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136446,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-08-23T06:17:28Z",
-          "updated_at": "2026-08-27T06:48:03Z",
-          "closed_at": "2026-08-27T06:48:03Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nCurrently, when the Radar page finds zero eligible issues, it just shows a plain text message: `No eligible issues found matching your criteria.`\nWe want to improve this experience by adding a subtle, technical empty state graphic or layout.\n\n## Requirements\n- Do NOT use generic 'cute' illustrations. Keep it aligned with our 'Light. Precise. Technical.' design philosophy.\n- Consider a clean ASCII-style graphic, a wireframe diagram, or a minimal Lucide icon layout.\n- Suggest adjusting search criteria within the empty state text.\n\nThis is a perfect issue for a frontend developer with an eye for minimal, technical design!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "not_planned",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/5435391597",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/48#issuecomment-5435391597",
-          "issue_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48",
-          "id": 5435391597,
-          "node_id": "IC_kwDOT91lnM8AAAABQ_l-bQ",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-08-27T06:48:03Z",
-          "updated_at": "2026-08-27T06:48:03Z",
-          "body": "Closed as obsolete after the Agentic UI Redesign pivot.",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/5435391597/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
+        "ref": "feat/stage-4",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/stage-4",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "13941206838",
+      "id": "19156923618",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-27T06:34:27Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 41407323593,
+        "ref": "refs/heads/main",
+        "head": "365af8f4f3e41deda54a538e11d8f8dbc1213817",
+        "before": "b61ddffa5c95c9df549d2e87c9da86ddedb7f167"
+      }
+    },
+    {
+      "id": "19156825432",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-27T06:33:13Z",
+      "payload": {
+        "ref": "feat/stage-3",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/stage-3",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "19117964168",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/kuadrant-console-plugin",
+      "created_at": "2026-08-27T21:30:05Z",
+      "payload": {
+        "ref": "fix/assert-policy-limit-removal",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/assert-policy-limit-removal",
+        "master_branch": "main",
+        "description": "OKD & OpenShift Console Plugin for Kuadrant",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "19111563274",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-26T17:27:33Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 41341738154,
+        "ref": "refs/heads/main",
+        "head": "081021ed82d403edce18a435ecdac74eb4a838b0",
+        "before": "197ef6ee9d59c0dfb4c08dde113ec183c0753d64"
+      }
+    },
+    {
+      "id": "13987881744",
       "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:48:03Z",
+      "repo": "pascazzioIsAbyayalan/kuadrant-console-plugin",
+      "created_at": "2026-08-27T21:34:25Z",
       "payload": {
-        "action": "merged",
-        "number": 153,
+        "action": "opened",
+        "number": 1,
         "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/153",
-          "id": 4373424078,
-          "number": 153,
+          "url": "https://api.github.com/repos/pascazzioIsAbyayalan/kuadrant-console-plugin/pulls/1",
+          "id": 4379812482,
+          "number": 1,
           "head": {
-            "ref": "fix/issue-88",
-            "sha": "0ad3ba07605165f6050ee9a7f5d9c0457ade3a1c",
+            "ref": "fix/assert-policy-limit-removal",
+            "sha": "3130e95ede707df74933558b884b2be8e69962f5",
             "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
+              "id": 1348685481,
+              "url": "https://api.github.com/repos/Rahul-pamula/kuadrant-console-plugin",
+              "name": "kuadrant-console-plugin"
             }
           },
           "base": {
-            "ref": "main",
-            "sha": "4c1412cd897e8a7e999d5ed5717352905c6bb400",
+            "ref": "gateway-UI-bugs",
+            "sha": "68e0ee3d0d9e5b19c9b5ed86f6559a13eb848080",
             "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
+              "id": 1266277619,
+              "url": "https://api.github.com/repos/pascazzioIsAbyayalan/kuadrant-console-plugin",
+              "name": "kuadrant-console-plugin"
             }
           }
         }
       }
     },
     {
-      "id": "13941206723",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:48:04Z",
+      "id": "13987734840",
+      "type": "PullRequestEvent",
+      "repo": "Kuadrant/kuadrant-console-plugin",
+      "created_at": "2026-08-27T21:31:01Z",
       "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/48",
-          "id": 5225622997,
-          "node_id": "I_kwDOT91lnM8AAAABN3it1Q",
-          "number": 48,
-          "title": "feat(radar): Add empty state illustrations when no eligible issues are found",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136446,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
+        "action": "opened",
+        "number": 803,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Kuadrant/kuadrant-console-plugin/pulls/803",
+          "id": 4379793451,
+          "number": 803,
+          "head": {
+            "ref": "fix/assert-policy-limit-removal",
+            "sha": "3130e95ede707df74933558b884b2be8e69962f5",
+            "repo": {
+              "id": 1348685481,
+              "url": "https://api.github.com/repos/Rahul-pamula/kuadrant-console-plugin",
+              "name": "kuadrant-console-plugin"
             }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-08-23T06:17:28Z",
-          "updated_at": "2026-08-27T06:48:03Z",
-          "closed_at": "2026-08-27T06:48:03Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
           },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nCurrently, when the Radar page finds zero eligible issues, it just shows a plain text message: `No eligible issues found matching your criteria.`\nWe want to improve this experience by adding a subtle, technical empty state graphic or layout.\n\n## Requirements\n- Do NOT use generic 'cute' illustrations. Keep it aligned with our 'Light. Precise. Technical.' design philosophy.\n- Consider a clean ASCII-style graphic, a wireframe diagram, or a minimal Lucide icon layout.\n- Suggest adjusting search criteria within the empty state text.\n\nThis is a perfect issue for a frontend developer with an eye for minimal, technical design!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/48/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "not_planned",
-          "pinned_comment": null
+          "base": {
+            "ref": "main",
+            "sha": "08d234c366cc223c497f345fe77692efebeb96b1",
+            "repo": {
+              "id": 820812497,
+              "url": "https://api.github.com/repos/Kuadrant/kuadrant-console-plugin",
+              "name": "kuadrant-console-plugin"
+            }
+          }
         }
       }
     },
     {
-      "id": "13941205049",
-      "type": "IssueCommentEvent",
+      "id": "19110007412",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:47:59Z",
+      "created_at": "2026-08-26T17:20:12Z",
       "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/83",
-          "id": 5226107598,
-          "node_id": "I_kwDOT91lnM8AAAABN4ASzg",
-          "number": 83,
-          "title": "Build Activity & Notifications UI for Maintainer Responses and Assignments",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136441,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed"
-            },
-            {
-              "id": 11890136446,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-08-23T08:48:24Z",
-          "updated_at": "2026-08-27T06:48:00Z",
-          "closed_at": "2026-08-27T06:48:00Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "### Goal\nDisplay monitoring events clearly in the Operations UI.\n\n### Scope\n- Show maintainer responses, assignments, PR merges.\n- Unread/attention state indicators.\n- Follow Light. Precise. Technical. design system.\n- Do NOT modify reconciliation engine.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "not_planned",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/5435391176",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/83#issuecomment-5435391176",
-          "issue_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83",
-          "id": 5435391176,
-          "node_id": "IC_kwDOT91lnM8AAAABQ_l8yA",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-08-27T06:47:59Z",
-          "updated_at": "2026-08-27T06:47:59Z",
-          "body": "Closed as obsolete after the Agentic UI Redesign pivot.",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/5435391176/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "13941204479",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:48:00Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/83",
-          "id": 5226107598,
-          "node_id": "I_kwDOT91lnM8AAAABN4ASzg",
-          "number": 83,
-          "title": "Build Activity & Notifications UI for Maintainer Responses and Assignments",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136441,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed"
-            },
-            {
-              "id": 11890136446,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-08-23T08:48:24Z",
-          "updated_at": "2026-08-27T06:48:00Z",
-          "closed_at": "2026-08-27T06:48:00Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "### Goal\nDisplay monitoring events clearly in the Operations UI.\n\n### Scope\n- Show maintainer responses, assignments, PR merges.\n- Unread/attention state indicators.\n- Follow Light. Precise. Technical. design system.\n- Do NOT modify reconciliation engine.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/83/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "not_planned",
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 41341046911,
+        "ref": "refs/heads/main",
+        "head": "24e4dd7a4c229e077e72974987735f074a9d066e",
+        "before": "dafdbbde582a733690d396c916e1204d48c84aec"
       }
     }
   ],
   "recentStats": {
-    "commits": 1588,
-    "prs": 96,
+    "commits": 1590,
+    "prs": 98,
     "issues": 226
   }
 }
