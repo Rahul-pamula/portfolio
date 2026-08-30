@@ -1,43 +1,8 @@
 {
-  "updatedAt": "2026-08-29T05:32:46.196Z",
+  "updatedAt": "2026-08-30T03:31:22.039Z",
   "contributions": {
-    "totalLastYear": 1732,
+    "totalLastYear": 1763,
     "days": [
-      {
-        "date": "2025-08-24",
-        "count": 4,
-        "level": 1
-      },
-      {
-        "date": "2025-08-25",
-        "count": 8,
-        "level": 1
-      },
-      {
-        "date": "2025-08-26",
-        "count": 7,
-        "level": 1
-      },
-      {
-        "date": "2025-08-27",
-        "count": 3,
-        "level": 1
-      },
-      {
-        "date": "2025-08-28",
-        "count": 4,
-        "level": 1
-      },
-      {
-        "date": "2025-08-29",
-        "count": 4,
-        "level": 1
-      },
-      {
-        "date": "2025-08-30",
-        "count": 8,
-        "level": 1
-      },
       {
         "date": "2025-08-31",
         "count": 1,
@@ -1855,8 +1820,13 @@
       },
       {
         "date": "2026-08-29",
-        "count": 0,
-        "level": 0
+        "count": 30,
+        "level": 3
+      },
+      {
+        "date": "2026-08-30",
+        "count": 1,
+        "level": 1
       }
     ]
   },
@@ -1888,7 +1858,7 @@
     "hireable": null,
     "bio": "AI/ML Engineer | Full Stack Developer | Android Developer | Azure Certified",
     "twitter_username": null,
-    "public_repos": 56,
+    "public_repos": 62,
     "public_gists": 0,
     "followers": 56,
     "following": 30,
@@ -1897,244 +1867,863 @@
   },
   "activityFeed": [
     {
-      "id": "19161714779",
+      "id": "19359335883",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:33:55Z",
+      "created_at": "2026-08-29T15:08:47Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 41407264339,
+        "push_id": 41725724886,
         "ref": "refs/heads/main",
-        "head": "b3dcb2095a83971e5c80472031633641ef54bed0",
-        "before": "9ab4ca621abad5d9886be7856943a1c96014f65c"
+        "head": "cd829fb02ba70c20fe6231fbc67105bf99dd3b3c",
+        "before": "14f67380394b551c3a43aaef82f12357943e4b7d"
       }
     },
     {
-      "id": "19160035972",
+      "id": "19344004205",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T07:08:54Z",
+      "created_at": "2026-08-29T15:26:43Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 41410995775,
+        "push_id": 41727265850,
         "ref": "refs/heads/main",
-        "head": "e9df315b71900aee7683d3d00126b1c4c0ed3819",
-        "before": "7e1737edee8a408a5bd97a26bec7da1f588af59e"
+        "head": "af1eec0039ccaf7d46673447183f7414461cabcd",
+        "before": "09de092b1a6c618dd39b7bb690232e9651542bc4"
       }
     },
     {
-      "id": "19158174905",
+      "id": "19341459351",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:50:37Z",
+      "created_at": "2026-08-29T15:04:50Z",
       "payload": {
-        "ref": "chore/code-quality",
+        "ref": "feature/interactive-skills",
         "ref_type": "branch",
-        "full_ref": "refs/heads/chore/code-quality",
+        "full_ref": "refs/heads/feature/interactive-skills",
         "pusher_type": "user"
       }
     },
     {
-      "id": "19158157205",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:50:23Z",
-      "payload": {
-        "ref": "chore/code-quality",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/chore/code-quality",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "19157315046",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:34:14Z",
-      "payload": {
-        "ref": "feat/stage-7",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/stage-7",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "19157310904",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:34:11Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 41407293058,
-        "ref": "refs/heads/main",
-        "head": "b61ddffa5c95c9df549d2e87c9da86ddedb7f167",
-        "before": "b3dcb2095a83971e5c80472031633641ef54bed0"
-      }
-    },
-    {
-      "id": "19157253079",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:33:28Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 41407213170,
-        "ref": "refs/heads/main",
-        "head": "644379f5e9963c4ef3301067cfbbc3d8fb73341c",
-        "before": "73cc375ecdd90187f306e99e81d433c32111db4f"
-      }
-    },
-    {
-      "id": "19157240076",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:33:17Z",
-      "payload": {
-        "ref": "feat/stage-4",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/stage-4",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "19156923618",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:34:27Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 41407323593,
-        "ref": "refs/heads/main",
-        "head": "365af8f4f3e41deda54a538e11d8f8dbc1213817",
-        "before": "b61ddffa5c95c9df549d2e87c9da86ddedb7f167"
-      }
-    },
-    {
-      "id": "19156825432",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-27T06:33:13Z",
-      "payload": {
-        "ref": "feat/stage-3",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/stage-3",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "19117964168",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/kuadrant-console-plugin",
-      "created_at": "2026-08-27T21:30:05Z",
-      "payload": {
-        "ref": "fix/assert-policy-limit-removal",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix/assert-policy-limit-removal",
-        "master_branch": "main",
-        "description": "OKD & OpenShift Console Plugin for Kuadrant",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "19111563274",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-26T17:27:33Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 41341738154,
-        "ref": "refs/heads/main",
-        "head": "081021ed82d403edce18a435ecdac74eb4a838b0",
-        "before": "197ef6ee9d59c0dfb4c08dde113ec183c0753d64"
-      }
-    },
-    {
-      "id": "13987881744",
+      "id": "14076411856",
       "type": "PullRequestEvent",
-      "repo": "pascazzioIsAbyayalan/kuadrant-console-plugin",
-      "created_at": "2026-08-27T21:34:25Z",
+      "repo": "leanprover-community/physlib",
+      "created_at": "2026-08-29T18:43:11Z",
       "payload": {
         "action": "opened",
-        "number": 1,
+        "number": 1589,
         "pull_request": {
-          "url": "https://api.github.com/repos/pascazzioIsAbyayalan/kuadrant-console-plugin/pulls/1",
-          "id": 4379812482,
-          "number": 1,
+          "url": "https://api.github.com/repos/leanprover-community/physlib/pulls/1589",
+          "id": 4392858119,
+          "number": 1589,
           "head": {
-            "ref": "fix/assert-policy-limit-removal",
-            "sha": "3130e95ede707df74933558b884b2be8e69962f5",
+            "ref": "add-lattice-qft-stub",
+            "sha": "2b61d5ee22922cf7ae41147c9bd6c4656abfcd47",
             "repo": {
-              "id": 1348685481,
-              "url": "https://api.github.com/repos/Rahul-pamula/kuadrant-console-plugin",
-              "name": "kuadrant-console-plugin"
+              "id": 1350821838,
+              "url": "https://api.github.com/repos/Rahul-pamula/physlib",
+              "name": "physlib"
             }
           },
           "base": {
-            "ref": "gateway-UI-bugs",
-            "sha": "68e0ee3d0d9e5b19c9b5ed86f6559a13eb848080",
+            "ref": "master",
+            "sha": "bc424ff1677051a4f89e5dd7e88e3aa4f7a7a81e",
             "repo": {
-              "id": 1266277619,
-              "url": "https://api.github.com/repos/pascazzioIsAbyayalan/kuadrant-console-plugin",
-              "name": "kuadrant-console-plugin"
+              "id": 787574978,
+              "url": "https://api.github.com/repos/leanprover-community/physlib",
+              "name": "physlib"
             }
           }
         }
       }
     },
     {
-      "id": "13987734840",
+      "id": "14076082251",
+      "type": "ForkEvent",
+      "repo": "leanprover-community/physlib",
+      "created_at": "2026-08-29T18:28:19Z",
+      "payload": {
+        "action": "forked",
+        "forkee": {
+          "id": 1350821838,
+          "node_id": "R_kgDOUIPnzg",
+          "name": "physlib",
+          "full_name": "Rahul-pamula/physlib",
+          "private": false,
+          "owner": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/Rahul-pamula/physlib",
+          "description": "A project to digitalise results from physics into Lean.",
+          "fork": true,
+          "url": "https://api.github.com/repos/Rahul-pamula/physlib",
+          "forks_url": "https://api.github.com/repos/Rahul-pamula/physlib/forks",
+          "keys_url": "https://api.github.com/repos/Rahul-pamula/physlib/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/physlib/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/Rahul-pamula/physlib/teams",
+          "hooks_url": "https://api.github.com/repos/Rahul-pamula/physlib/hooks",
+          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/physlib/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/physlib/events",
+          "assignees_url": "https://api.github.com/repos/Rahul-pamula/physlib/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/Rahul-pamula/physlib/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/Rahul-pamula/physlib/tags",
+          "blobs_url": "https://api.github.com/repos/Rahul-pamula/physlib/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/physlib/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/physlib/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/Rahul-pamula/physlib/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/Rahul-pamula/physlib/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/Rahul-pamula/physlib/languages",
+          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/physlib/stargazers",
+          "contributors_url": "https://api.github.com/repos/Rahul-pamula/physlib/contributors",
+          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/physlib/subscribers",
+          "subscription_url": "https://api.github.com/repos/Rahul-pamula/physlib/subscription",
+          "commits_url": "https://api.github.com/repos/Rahul-pamula/physlib/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/physlib/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/physlib/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/physlib/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/Rahul-pamula/physlib/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/Rahul-pamula/physlib/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/Rahul-pamula/physlib/merges",
+          "archive_url": "https://api.github.com/repos/Rahul-pamula/physlib/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/Rahul-pamula/physlib/downloads",
+          "issues_url": "https://api.github.com/repos/Rahul-pamula/physlib/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/Rahul-pamula/physlib/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/Rahul-pamula/physlib/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/Rahul-pamula/physlib/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/physlib/labels{/name}",
+          "releases_url": "https://api.github.com/repos/Rahul-pamula/physlib/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/Rahul-pamula/physlib/deployments",
+          "created_at": "2026-08-29T18:28:19Z",
+          "updated_at": "2026-08-29T18:28:19Z",
+          "pushed_at": "2026-08-29T18:42:11Z",
+          "git_url": "git://github.com/Rahul-pamula/physlib.git",
+          "ssh_url": "git@github.com:Rahul-pamula/physlib.git",
+          "clone_url": "https://github.com/Rahul-pamula/physlib.git",
+          "svn_url": "https://github.com/Rahul-pamula/physlib",
+          "homepage": "https://physlib.io",
+          "size": 14922,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "language": null,
+          "has_issues": false,
+          "has_projects": true,
+          "has_downloads": false,
+          "has_wiki": true,
+          "has_pages": false,
+          "has_discussions": false,
+          "forks_count": 0,
+          "mirror_url": null,
+          "archived": false,
+          "disabled": false,
+          "open_issues_count": 0,
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          },
+          "allow_forking": true,
+          "is_template": false,
+          "web_commit_signoff_required": false,
+          "has_pull_requests": true,
+          "pull_request_creation_policy": "all",
+          "topics": [],
+          "visibility": "public",
+          "forks": 0,
+          "open_issues": 0,
+          "watchers": 0,
+          "default_branch": "master"
+        }
+      }
+    },
+    {
+      "id": "14076044886",
       "type": "PullRequestEvent",
-      "repo": "Kuadrant/kuadrant-console-plugin",
-      "created_at": "2026-08-27T21:31:01Z",
+      "repo": "maziyarpanahi/openmed",
+      "created_at": "2026-08-29T18:26:36Z",
       "payload": {
         "action": "opened",
-        "number": 803,
+        "number": 2985,
         "pull_request": {
-          "url": "https://api.github.com/repos/Kuadrant/kuadrant-console-plugin/pulls/803",
-          "id": 4379793451,
-          "number": 803,
+          "url": "https://api.github.com/repos/maziyarpanahi/openmed/pulls/2985",
+          "id": 4392804183,
+          "number": 2985,
           "head": {
-            "ref": "fix/assert-policy-limit-removal",
-            "sha": "3130e95ede707df74933558b884b2be8e69962f5",
+            "ref": "feature/om-016e-multimodal-manifest-profiles",
+            "sha": "bc3c9cd12571c7139966172c9a14a9bfbd3a9529",
             "repo": {
-              "id": 1348685481,
-              "url": "https://api.github.com/repos/Rahul-pamula/kuadrant-console-plugin",
-              "name": "kuadrant-console-plugin"
+              "id": 1350788458,
+              "url": "https://api.github.com/repos/Rahul-pamula/openmed",
+              "name": "openmed"
+            }
+          },
+          "base": {
+            "ref": "master",
+            "sha": "dd6d157967f6f482198b27ad3c2e4fd832948137",
+            "repo": {
+              "id": 1069760430,
+              "url": "https://api.github.com/repos/maziyarpanahi/openmed",
+              "name": "openmed"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "14074973694",
+      "type": "ForkEvent",
+      "repo": "maziyarpanahi/openmed",
+      "created_at": "2026-08-29T17:38:10Z",
+      "payload": {
+        "action": "forked",
+        "forkee": {
+          "id": 1350788458,
+          "node_id": "R_kgDOUINlag",
+          "name": "openmed",
+          "full_name": "Rahul-pamula/openmed",
+          "private": false,
+          "owner": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/Rahul-pamula/openmed",
+          "description": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. 2,200+ medical models, 21 languages, Apple MLX + Python, no cloud, no patient data leaving your network. Apache-2.0",
+          "fork": true,
+          "url": "https://api.github.com/repos/Rahul-pamula/openmed",
+          "forks_url": "https://api.github.com/repos/Rahul-pamula/openmed/forks",
+          "keys_url": "https://api.github.com/repos/Rahul-pamula/openmed/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/openmed/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/Rahul-pamula/openmed/teams",
+          "hooks_url": "https://api.github.com/repos/Rahul-pamula/openmed/hooks",
+          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/openmed/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/openmed/events",
+          "assignees_url": "https://api.github.com/repos/Rahul-pamula/openmed/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/Rahul-pamula/openmed/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/Rahul-pamula/openmed/tags",
+          "blobs_url": "https://api.github.com/repos/Rahul-pamula/openmed/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/openmed/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/openmed/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/Rahul-pamula/openmed/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/Rahul-pamula/openmed/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/Rahul-pamula/openmed/languages",
+          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/openmed/stargazers",
+          "contributors_url": "https://api.github.com/repos/Rahul-pamula/openmed/contributors",
+          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/openmed/subscribers",
+          "subscription_url": "https://api.github.com/repos/Rahul-pamula/openmed/subscription",
+          "commits_url": "https://api.github.com/repos/Rahul-pamula/openmed/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/openmed/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/openmed/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/openmed/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/Rahul-pamula/openmed/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/Rahul-pamula/openmed/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/Rahul-pamula/openmed/merges",
+          "archive_url": "https://api.github.com/repos/Rahul-pamula/openmed/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/Rahul-pamula/openmed/downloads",
+          "issues_url": "https://api.github.com/repos/Rahul-pamula/openmed/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/Rahul-pamula/openmed/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/Rahul-pamula/openmed/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/Rahul-pamula/openmed/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/openmed/labels{/name}",
+          "releases_url": "https://api.github.com/repos/Rahul-pamula/openmed/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/Rahul-pamula/openmed/deployments",
+          "created_at": "2026-08-29T17:38:10Z",
+          "updated_at": "2026-08-29T17:38:10Z",
+          "pushed_at": "2026-08-29T18:23:59Z",
+          "git_url": "git://github.com/Rahul-pamula/openmed.git",
+          "ssh_url": "git@github.com:Rahul-pamula/openmed.git",
+          "clone_url": "https://github.com/Rahul-pamula/openmed.git",
+          "svn_url": "https://github.com/Rahul-pamula/openmed",
+          "homepage": "https://openmed.life/",
+          "size": 72192,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "language": null,
+          "has_issues": false,
+          "has_projects": true,
+          "has_downloads": false,
+          "has_wiki": true,
+          "has_pages": false,
+          "has_discussions": false,
+          "forks_count": 0,
+          "mirror_url": null,
+          "archived": false,
+          "disabled": false,
+          "open_issues_count": 0,
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          },
+          "allow_forking": true,
+          "is_template": false,
+          "web_commit_signoff_required": false,
+          "has_pull_requests": true,
+          "pull_request_creation_policy": "all",
+          "topics": [],
+          "visibility": "public",
+          "forks": 0,
+          "open_issues": 0,
+          "watchers": 0,
+          "default_branch": "master"
+        }
+      }
+    },
+    {
+      "id": "14074882280",
+      "type": "IssueCommentEvent",
+      "repo": "conorbronsdon/agent-context-os",
+      "created_at": "2026-08-29T17:34:12Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/conorbronsdon/agent-context-os/issues/121",
+          "repository_url": "https://api.github.com/repos/conorbronsdon/agent-context-os",
+          "labels_url": "https://api.github.com/repos/conorbronsdon/agent-context-os/issues/121/labels{/name}",
+          "comments_url": "https://api.github.com/repos/conorbronsdon/agent-context-os/issues/121/comments",
+          "events_url": "https://api.github.com/repos/conorbronsdon/agent-context-os/issues/121/events",
+          "html_url": "https://github.com/conorbronsdon/agent-context-os/pull/121",
+          "id": 5285849358,
+          "node_id": "PR_kwDORgZ7Bs8AAAABBblf-Q",
+          "number": 121,
+          "title": "docs: align integration proposal and PR guidance with catalog schema v2",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-08-29T09:55:29Z",
+          "updated_at": "2026-08-29T17:34:12Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "draft": false,
+          "pull_request": {
+            "url": "https://api.github.com/repos/conorbronsdon/agent-context-os/pulls/121",
+            "html_url": "https://github.com/conorbronsdon/agent-context-os/pull/121",
+            "diff_url": "https://github.com/conorbronsdon/agent-context-os/pull/121.diff",
+            "patch_url": "https://github.com/conorbronsdon/agent-context-os/pull/121.patch",
+            "merged_at": null
+          },
+          "body": "## What's in this PR\r\n\r\nThis PR updates the integration-related templates and guidelines to match catalog schema v2 and clearly establish that the catalog is metadata-only.\r\n\r\n## Changes made\r\n- **Issue Template**: Rewrote `.github/ISSUE_TEMPLATE/integration-proposal.md` to directly map 1:1 with all schema v2 requirements (Installation, Data Boundary, Capabilities, Confirmation, Risk Tags, Evidence, Health Check, and Uninstall). Fixed visible mojibake.\r\n- **Contributor Guidelines**: Clarified in `CONTRIBUTING.md` that `verified` maturity relies strictly on checking first-party evidence, and does not require contributors to perform a live installation, create an account, or authenticate.\r\n- **PR Template**: Added an `Integrations` section to `.github/PULL_REQUEST_TEMPLATE.md` to ensure the contributor checklist covers full-surface disclosure and validations prior to merging.\r\n- **General Guidance**: Clarified that the catalog simply documents the tool's completely reachable surface area and does not configure tools, disable functionality, or enforce default profiles (recommended restrictions are guided to `capabilities.details` and `confirmation.notes`).\r\n\r\n## Checklist\r\n\r\n### Integrations (if adding to catalog)\r\n- [x] Full-surface capabilities are declared, including `read`\r\n- [x] Data boundary is fully disclosed\r\n- [x] Every field is supported by first-party evidence (no live installation or testing used)\r\n- [x] `last_verified` is the personally checked date\r\n- [x] Confirmation gates and risk tags are derived from capabilities\r\n- [x] `references/integrations.md` was regenerated via script\r\n- [x] `CHANGELOG.md` updated\r\n- [x] Full validation (`bash scripts/validate-all.sh`) passes locally\r\n\r\n### Repo hygiene\r\n- [x] No sensitive data committed (passwords, API keys, tokens)\r\n- [x] `CHANGELOG.md` updated\r\n- [x] CI passes\r\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/conorbronsdon/agent-context-os/issues/121/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/conorbronsdon/agent-context-os/issues/121/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/conorbronsdon/agent-context-os/issues/comments/5463861648",
+          "html_url": "https://github.com/conorbronsdon/agent-context-os/pull/121#issuecomment-5463861648",
+          "issue_url": "https://api.github.com/repos/conorbronsdon/agent-context-os/issues/121",
+          "id": 5463861648,
+          "node_id": "IC_kwDORgZ7Bs8AAAABRavpkA",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-08-29T17:34:12Z",
+          "updated_at": "2026-08-29T17:34:12Z",
+          "body": "Thanks for the review! I've updated the PR to address all your feedback. \r\n\r\n**Updates made:**\r\n- Added `automatic: false` to the Installation section of the issue template.\r\n- Clarified the evidence checklist in both the issue and PR templates to respect the `listed` maturity. It now distinguishes that *verified* entries require first-party evidence, while *listed* or *experimental* entries must explicitly disclose what they could not verify.\r\n- Included `experimental` as a valid maturity option in the issue template to match `scripts/integrations.py`.\r\n- Merged the latest changes from `main` to resolve the `CHANGELOG.md` conflict.\r\n\r\nThe catalog validation (`python3 scripts/integrations.py validate`) and all 21 integration tests pass locally. Let me know if everything looks good to merge!",
+          "reactions": {
+            "url": "https://api.github.com/repos/conorbronsdon/agent-context-os/issues/comments/5463861648/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "14074593612",
+      "type": "PullRequestEvent",
+      "repo": "weavefoundry/weaveffi",
+      "created_at": "2026-08-29T17:21:30Z",
+      "payload": {
+        "action": "opened",
+        "number": 41,
+        "pull_request": {
+          "url": "https://api.github.com/repos/weavefoundry/weaveffi/pulls/41",
+          "id": 4392591965,
+          "number": 41,
+          "head": {
+            "ref": "feat/cli-man-pages",
+            "sha": "ced0a1eb9ffcb30b291a798b2ef727f9277d3a2a",
+            "repo": {
+              "id": 1350760601,
+              "url": "https://api.github.com/repos/Rahul-pamula/weaveffi",
+              "name": "weaveffi"
             }
           },
           "base": {
             "ref": "main",
-            "sha": "08d234c366cc223c497f345fe77692efebeb96b1",
+            "sha": "4d2234f92c1ef5a47f52080f1a8503f065014f37",
             "repo": {
-              "id": 820812497,
-              "url": "https://api.github.com/repos/Kuadrant/kuadrant-console-plugin",
-              "name": "kuadrant-console-plugin"
+              "id": 1080180027,
+              "url": "https://api.github.com/repos/weavefoundry/weaveffi",
+              "name": "weaveffi"
             }
           }
         }
       }
     },
     {
-      "id": "19110007412",
+      "id": "19327664209",
       "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-08-26T17:20:12Z",
+      "repo": "Rahul-pamula/agent-context-os",
+      "created_at": "2026-08-29T17:02:47Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 41341046911,
+        "repository_id": 1350461125,
+        "push_id": 41735343768,
         "ref": "refs/heads/main",
-        "head": "24e4dd7a4c229e077e72974987735f074a9d066e",
-        "before": "dafdbbde582a733690d396c916e1204d48c84aec"
+        "head": "d09a69aae8a373a60a75af6cb7501d97be62df22",
+        "before": "13357ef239beb852963ccd5d322fd537dc4c8757"
+      }
+    },
+    {
+      "id": "14074061931",
+      "type": "ForkEvent",
+      "repo": "weavefoundry/weaveffi",
+      "created_at": "2026-08-29T16:58:18Z",
+      "payload": {
+        "action": "forked",
+        "forkee": {
+          "id": 1350760601,
+          "node_id": "R_kgDOUIL4mQ",
+          "name": "weaveffi",
+          "full_name": "Rahul-pamula/weaveffi",
+          "private": false,
+          "owner": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/Rahul-pamula/weaveffi",
+          "description": "Write your native library once. Ship it to 11 language ecosystems.",
+          "fork": true,
+          "url": "https://api.github.com/repos/Rahul-pamula/weaveffi",
+          "forks_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/forks",
+          "keys_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/teams",
+          "hooks_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/hooks",
+          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/events",
+          "assignees_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/tags",
+          "blobs_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/languages",
+          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/stargazers",
+          "contributors_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/contributors",
+          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/subscribers",
+          "subscription_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/subscription",
+          "commits_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/merges",
+          "archive_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/downloads",
+          "issues_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/labels{/name}",
+          "releases_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/Rahul-pamula/weaveffi/deployments",
+          "created_at": "2026-08-29T16:58:18Z",
+          "updated_at": "2026-08-29T16:58:18Z",
+          "pushed_at": "2026-08-29T17:18:42Z",
+          "git_url": "git://github.com/Rahul-pamula/weaveffi.git",
+          "ssh_url": "git@github.com:Rahul-pamula/weaveffi.git",
+          "clone_url": "https://github.com/Rahul-pamula/weaveffi.git",
+          "svn_url": "https://github.com/Rahul-pamula/weaveffi",
+          "homepage": "https://weaveffi.com",
+          "size": 5323,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "language": null,
+          "has_issues": false,
+          "has_projects": true,
+          "has_downloads": false,
+          "has_wiki": true,
+          "has_pages": false,
+          "has_discussions": false,
+          "forks_count": 0,
+          "mirror_url": null,
+          "archived": false,
+          "disabled": false,
+          "open_issues_count": 0,
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          },
+          "allow_forking": true,
+          "is_template": false,
+          "web_commit_signoff_required": false,
+          "has_pull_requests": true,
+          "pull_request_creation_policy": "all",
+          "topics": [],
+          "visibility": "public",
+          "forks": 0,
+          "open_issues": 0,
+          "watchers": 0,
+          "default_branch": "main"
+        }
+      }
+    },
+    {
+      "id": "14071891825",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-29T15:23:57Z",
+      "payload": {
+        "action": "merged",
+        "number": 158,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/158",
+          "id": 4392188031,
+          "number": 158,
+          "head": {
+            "ref": "feature/simplify-settings",
+            "sha": "d9166603b48fe2718a2a441a2146e41634a5b601",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "d56e802ba06141bed9ffc879046e2c2890a6c103",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "14071891729",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-29T15:23:58Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/157",
+          "id": 5287355177,
+          "node_id": "I_kwDOT91lnM8AAAABOyajKQ",
+          "number": 157,
+          "title": "UX: Simplify Settings by merging Identity and Uplink",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-08-29T15:22:32Z",
+          "updated_at": "2026-08-29T15:23:58Z",
+          "closed_at": "2026-08-29T15:23:58Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## Description\nThe application currently has two separate pages for configuration: Identity (Profile) and Uplink (System Connections). To keep the application lean and simple, we should merge these into a single Settings page.\n\n## Requirements\n- Move the Decentralized BYOB Connection panel from `Uplink.tsx` to the bottom of `Identity.tsx`.\n- Remove the Uplink link from the sidebar in `Layout.tsx`.\n- Rename the Identity sidebar link to 'Settings'.\n- Delete the `Uplink.tsx` file and its route in `App.tsx`.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
+      }
+    },
+    {
+      "id": "14071889767",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-29T15:23:53Z",
+      "payload": {
+        "action": "opened",
+        "number": 158,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/158",
+          "id": 4392188031,
+          "number": 158,
+          "head": {
+            "ref": "feature/simplify-settings",
+            "sha": "d9166603b48fe2718a2a441a2146e41634a5b601",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "d56e802ba06141bed9ffc879046e2c2890a6c103",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "14071856588",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-08-29T15:22:33Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/157",
+          "id": 5287355177,
+          "node_id": "I_kwDOT91lnM8AAAABOyajKQ",
+          "number": 157,
+          "title": "UX: Simplify Settings by merging Identity and Uplink",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-08-29T15:22:32Z",
+          "updated_at": "2026-08-29T15:23:58Z",
+          "closed_at": "2026-08-29T15:23:58Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## Description\nThe application currently has two separate pages for configuration: Identity (Profile) and Uplink (System Connections). To keep the application lean and simple, we should merge these into a single Settings page.\n\n## Requirements\n- Move the Decentralized BYOB Connection panel from `Uplink.tsx` to the bottom of `Identity.tsx`.\n- Remove the Uplink link from the sidebar in `Layout.tsx`.\n- Rename the Identity sidebar link to 'Settings'.\n- Delete the `Uplink.tsx` file and its route in `App.tsx`.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/157/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     }
   ],
   "recentStats": {
-    "commits": 1591,
-    "prs": 98,
-    "issues": 226
+    "commits": 1606,
+    "prs": 106,
+    "issues": 228
   }
 }
