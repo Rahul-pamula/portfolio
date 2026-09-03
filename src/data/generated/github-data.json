@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-02T02:46:47.892Z",
+  "updatedAt": "2026-09-03T02:51:07.318Z",
   "contributions": {
-    "totalLastYear": 1758,
+    "totalLastYear": 1760,
     "days": [
       {
         "date": "2025-08-31",
@@ -1840,8 +1840,13 @@
       },
       {
         "date": "2026-09-02",
-        "count": 1,
+        "count": 3,
         "level": 1
+      },
+      {
+        "date": "2026-09-03",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -1878,9 +1883,81 @@
     "followers": 56,
     "following": 30,
     "created_at": "2023-12-12T15:29:11Z",
-    "updated_at": "2026-08-21T12:08:10Z"
+    "updated_at": "2026-09-02T17:27:14Z"
   },
   "activityFeed": [
+    {
+      "id": "19798834571",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/weaveffi",
+      "created_at": "2026-09-01T18:27:16Z",
+      "payload": {
+        "repository_id": 1350760601,
+        "push_id": 42150721017,
+        "ref": "refs/heads/feat/cli-man-pages",
+        "head": "1b58dbba8c2d01a136e0e12e693098a0e9719aef",
+        "before": "d350e701810ce990c411322e1052eb101fc13bc4"
+      }
+    },
+    {
+      "id": "19797478887",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/agent-context-os",
+      "created_at": "2026-09-01T18:18:07Z",
+      "payload": {
+        "repository_id": 1350461125,
+        "push_id": 42149551464,
+        "ref": "refs/heads/align-integration-schema-v2",
+        "head": "5434fcc0e4bc89a317af72e7a1bce28d6ec975f6",
+        "before": "5a2e04bc5b22c2eec4ca253124319a1c51068683"
+      }
+    },
+    {
+      "id": "19751994599",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/agent-context-os",
+      "created_at": "2026-09-01T18:09:29Z",
+      "payload": {
+        "repository_id": 1350461125,
+        "push_id": 42148447160,
+        "ref": "refs/heads/main",
+        "head": "336824b76ae35bbfd59c87e5dbe6abfd2a556b42",
+        "before": "d09a69aae8a373a60a75af6cb7501d97be62df22"
+      }
+    },
+    {
+      "id": "14259659491",
+      "type": "PullRequestEvent",
+      "repo": "weavefoundry/weaveffi",
+      "created_at": "2026-09-02T06:15:34Z",
+      "payload": {
+        "action": "merged",
+        "number": 41,
+        "pull_request": {
+          "url": "https://api.github.com/repos/weavefoundry/weaveffi/pulls/41",
+          "id": 4392591965,
+          "number": 41,
+          "head": {
+            "ref": "feat/cli-man-pages",
+            "sha": "1b58dbba8c2d01a136e0e12e693098a0e9719aef",
+            "repo": {
+              "id": 1350760601,
+              "url": "https://api.github.com/repos/Rahul-pamula/weaveffi",
+              "name": "weaveffi"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "4d2234f92c1ef5a47f52080f1a8503f065014f37",
+            "repo": {
+              "id": 1080180027,
+              "url": "https://api.github.com/repos/weavefoundry/weaveffi",
+              "name": "weaveffi"
+            }
+          }
+        }
+      }
+    },
     {
       "id": "14243556959",
       "type": "PullRequestEvent",
@@ -2061,84 +2138,10 @@
         "description": null,
         "pusher_type": "user"
       }
-    },
-    {
-      "id": "19430682786",
-      "type": "CreateEvent",
-      "repo": "dukanzo-in/dukanzo.in",
-      "created_at": "2026-08-30T07:48:20Z",
-      "payload": {
-        "ref": "main",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/main",
-        "master_branch": "issue-1-foundation",
-        "description": null,
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "14095248554",
-      "type": "PullRequestEvent",
-      "repo": "leanprover-community/physlib",
-      "created_at": "2026-08-30T11:27:37Z",
-      "payload": {
-        "action": "merged",
-        "number": 1589,
-        "pull_request": {
-          "url": "https://api.github.com/repos/leanprover-community/physlib/pulls/1589",
-          "id": 4392858119,
-          "number": 1589,
-          "head": {
-            "ref": "add-lattice-qft-stub",
-            "sha": "3b49349b2fd8a0f0882b19dd192a7e8ca7f6ef22",
-            "repo": {
-              "id": 1350821838,
-              "url": "https://api.github.com/repos/Rahul-pamula/physlib",
-              "name": "physlib"
-            }
-          },
-          "base": {
-            "ref": "master",
-            "sha": "bc424ff1677051a4f89e5dd7e88e3aa4f7a7a81e",
-            "repo": {
-              "id": 787574978,
-              "url": "https://api.github.com/repos/leanprover-community/physlib",
-              "name": "physlib"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19416239435",
-      "type": "CreateEvent",
-      "repo": "dukanzo-in/dukanzo.in",
-      "created_at": "2026-08-30T08:43:19Z",
-      "payload": {
-        "ref": "issue-10-release",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-10-release",
-        "master_branch": "issue-1-foundation",
-        "description": null,
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "19414991440",
-      "type": "PushEvent",
-      "repo": "dukanzo-in/dukanzo.in",
-      "created_at": "2026-08-30T08:43:30Z",
-      "payload": {
-        "repository_id": 1351128254,
-        "push_id": 41800531761,
-        "ref": "refs/heads/main",
-        "head": "f1e84e7b0785f8bec599588d73a6e4051fa4bb8f",
-        "before": "e258a08d08300245ec53eb16e0e8ddc26a323a44"
-      }
     }
   ],
   "recentStats": {
-    "commits": 1613,
+    "commits": 1615,
     "prs": 116,
     "issues": 238
   }
