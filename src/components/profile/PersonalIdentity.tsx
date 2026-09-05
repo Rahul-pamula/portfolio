@@ -2,7 +2,7 @@ import { GraduationCap, Camera, BookOpen, Music, Map, Coffee, Code2, GitBranch, 
 
 export const PersonalIdentity = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 h-full justify-between">
       {/* Quote Section */}
       <div className="flex flex-col items-start justify-center px-2 pt-2">
         <div className="w-full flex items-center justify-between mb-4">
