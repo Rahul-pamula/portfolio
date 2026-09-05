@@ -6,7 +6,7 @@ export const Sidebar = () => {
   const user = githubData.user;
   
   return (
-    <aside className="w-full flex flex-col gap-8 bg-black/15 rounded-3xl border border-white/10 shadow-2xl p-4 sm:p-6">
+    <aside className="w-full flex flex-col gap-8 card-premium p-4 sm:p-6">
 
       {/* Profile Info */}
       <div className="flex flex-col gap-5">

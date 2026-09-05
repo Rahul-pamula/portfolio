@@ -1,5 +1,5 @@
 import { MenuBar } from '../components/mac/MenuBar';
-import { Dock } from '../components/mac/Dock';
+
 import { useTheme } from '../context/ThemeProvider';
 
 export const MacLayout = ({ children }: { children: React.ReactNode }) => {
@@ -8,7 +8,7 @@ export const MacLayout = ({ children }: { children: React.ReactNode }) => {
     <div 
       className="h-[100dvh] w-screen overflow-hidden bg-background text-text-primary selection:bg-accent/30 flex flex-col relative transition-colors duration-300"
       style={{
-        backgroundImage: 'url(/background.png)',
+        backgroundImage: 'url(/rahul_background.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
@@ -24,8 +24,6 @@ export const MacLayout = ({ children }: { children: React.ReactNode }) => {
         {children}
       </main>
 
-      {/* Mac Dock */}
-      <Dock />
     </div>
   );
 };
