@@ -65,89 +65,59 @@
    Hover: dissolves to reveal background image
    ============================================ */
 
-/* Dark mode (default) card */
+/* Dark translucent glass card */
 .card-premium {
-  background: rgb(22 27 34 / 0.95);
+  /* Force dark-mode variables inside the card so text is readable over dark glass */
+  --text-primary: 235 240 245;
+  --text-secondary: 175 185 195;
+  --text-muted: 130 140 150;
+  --border: 75 95 110;
+  --surface: 20 30 45;
+  --surface-hover: 30 40 55;
+
+  background: rgba(10, 18, 28, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-radius: 0.75rem;
-  border: 1px solid rgb(48 54 61);
-  transition: all 0.4s ease;
-  color: rgb(201 209 217);
+  border: 1px solid rgba(120, 180, 200, 0.18);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.04);
+  transition: all 0.4s ease-in-out;
+  color: rgb(235, 240, 245);
 }
 
-/* When card dissolves on hover, also transition child text */
-.card-premium * {
-  transition: color 0.35s ease, text-shadow 0.35s ease;
+
+.card-premium:hover,
+.card-premium.center-transparent {
+  background: transparent;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-color: rgba(120, 180, 200, 0.4);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.08);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9), 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
-/* Light mode card — translucent glass, not blinding white */
-html.light .card-premium,
-html[data-theme="light"] .card-premium {
-  background: rgb(255 255 255 / 0.72);   /* 72% opacity — soft, not over-white */
-  border: 1px solid rgb(210 215 222 / 0.8);
-  color: rgb(24 28 36);                   /* deep dark text */
-  backdrop-filter: blur(8px);
+.text-gradient {
+  background: linear-gradient(to right, theme('colors.text-primary'), theme('colors.text-secondary'));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* Light mode — all text inside cards must be dark */
-html.light .card-premium h1,
-html.light .card-premium h2,
-html.light .card-premium h3,
-html.light .card-premium h4,
-html.light .card-premium p,
-html.light .card-premium span,
-html.light .card-premium a,
-html[data-theme="light"] .card-premium h1,
-html[data-theme="light"] .card-premium h2,
-html[data-theme="light"] .card-premium h3,
-html[data-theme="light"] .card-premium h4,
-html[data-theme="light"] .card-premium p,
-html[data-theme="light"] .card-premium span:not(.keep-color),
-html[data-theme="light"] .card-premium a {
-  color: rgb(24 28 36);
+/* Base link styles */
+a {
+  @apply transition-colors duration-200;
+}
+a:hover {
+  @apply text-accent;
 }
 
-/* Light mode — tag/pill elements inside cards */
-html.light .card-premium .font-mono,
-html[data-theme="light"] .card-premium .font-mono {
-  color: rgb(50 60 75) !important;
+/* Button variants */
+.btn-primary {
+  @apply px-4 py-2 bg-surface border border-border rounded-md font-medium text-sm text-text-primary transition-colors hover:bg-surface-hover hover:border-text-muted flex items-center justify-center gap-2;
 }
 
-/* Light mode — force surface-elevated (tag pill backgrounds) to be light */
-html.light .bg-surface-elevated,
-html[data-theme="light"] .bg-surface-elevated {
-  background-color: rgb(228 231 238) !important;
+.btn-accent {
+  @apply px-4 py-2 bg-accent/10 border border-accent/20 rounded-md font-medium text-sm text-accent transition-colors hover:bg-accent/20 hover:border-accent flex items-center justify-center gap-2;
 }
-
-/* Light mode — force bg-surface (used in OpenSource tags) to be light */
-html.light .card-premium .bg-surface,
-html[data-theme="light"] .card-premium .bg-surface {
-  background-color: rgb(235 238 245) !important;
-}
-
-/* Light mode — force buttons to be light with dark text */
-html.light .card-premium .btn-primary,
-html[data-theme="light"] .card-premium .btn-primary,
-html.light .btn-primary,
-html[data-theme="light"] .btn-primary {
-  background-color: rgb(235 238 245) !important;
-  border-color: rgb(210 215 222) !important;
-  color: rgb(24 28 36) !important;
-}
-html.light .card-premium .btn-primary:hover,
-html[data-theme="light"] .card-premium .btn-primary:hover,
-html.light .btn-primary:hover,
-html[data-theme="light"] .btn-primary:hover {
-  background-color: rgb(218 221 228) !important;
-}
-
-/* Light mode — border inside cards */
-html.light .border-border,
-html[data-theme="light"] .border-border,
-html.light [class*="border-border"],
-html[data-theme="light"] [class*="border-border"] {
-  border-color: rgb(210 215 222 / 0.7) !important;
-}
-
 
 /* Section headings sit on the transparent panel over the dark bg image
    — must always be white and legible regardless of theme */
@@ -156,17 +126,6 @@ h2.text-text-primary,
 h3.text-text-primary {
   color: rgb(255 255 255) !important;
   text-shadow: 0 1px 4px rgb(0 0 0 / 0.5);
-}
-
-/* Only inside .card-premium should headings be dark in light mode */
-html.light .card-premium h1.text-text-primary,
-html.light .card-premium h2.text-text-primary,
-html.light .card-premium h3.text-text-primary,
-html[data-theme="light"] .card-premium h1.text-text-primary,
-html[data-theme="light"] .card-premium h2.text-text-primary,
-html[data-theme="light"] .card-premium h3.text-text-primary {
-  color: rgb(24 28 36) !important;
-  text-shadow: none;
 }
 
 /* ============================================================
@@ -223,78 +182,19 @@ html[data-theme="light"] main > div > section > p {
   color: rgb(235 240 248) !important;
 }
 
-.card-premium:hover {
-  border-color: rgb(46 160 67 / 0.5) !important;
-  box-shadow: 0 0 24px rgb(46 160 67 / 0.2), 0 8px 32px rgb(0 0 0 / 0.35);
-  backdrop-filter: blur(2px) !important;
-}
-
-/* When card dissolves, text must turn white to be readable over the dark bg image */
-.card-premium:hover *,
-.card-premium:hover h1,
-.card-premium:hover h2,
-.card-premium:hover h3,
-.card-premium:hover p,
-.card-premium:hover span,
-.card-premium:hover a {
-  color: rgb(230 235 245) !important;
-  text-shadow: 0 1px 3px rgb(0 0 0 / 0.5);
-}
-
-/* Light mode titles use a high-specificity rule — override it explicitly on hover */
-html.light .card-premium:hover h1,
-html.light .card-premium:hover h2,
-html.light .card-premium:hover h3,
-html.light .card-premium:hover h1.text-text-primary,
-html.light .card-premium:hover h2.text-text-primary,
-html.light .card-premium:hover h3.text-text-primary,
-html[data-theme="light"] .card-premium:hover h1,
-html[data-theme="light"] .card-premium:hover h2,
-html[data-theme="light"] .card-premium:hover h3,
-html[data-theme="light"] .card-premium:hover h1.text-text-primary,
-html[data-theme="light"] .card-premium:hover h2.text-text-primary,
-html[data-theme="light"] .card-premium:hover h3.text-text-primary {
-  color: rgb(230 235 245) !important;
-  text-shadow: 0 1px 4px rgb(0 0 0 / 0.6);
-}
-
-
-/* Keep accent green dot visible on hover */
-.card-premium:hover .bg-accent,
-.card-premium:hover [class*="bg-accent"] {
-  opacity: 1;
-}
-
-
-html.dark .card-premium:hover,
-:root .card-premium:hover {
-  background: rgb(22 27 34 / 0.10) !important;
-}
-
-html.light .card-premium:hover,
-html[data-theme="light"] .card-premium:hover {
-  background: rgb(0 0 0 / 0.08) !important; /* transparent — reveals bg image */
-}
-
-.text-gradient {
-  background: linear-gradient(to right, theme('colors.text-primary'), theme('colors.text-secondary'));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* Base link styles */
-a {
-  @apply transition-colors duration-200;
-}
-a:hover {
-  @apply text-accent;
-}
-
-/* Button variants */
-.btn-primary {
-  @apply px-4 py-2 bg-surface border border-border rounded-md font-medium text-sm text-text-primary transition-colors hover:bg-surface-hover hover:border-text-muted flex items-center justify-center gap-2;
-}
-
-.btn-accent {
-  @apply px-4 py-2 bg-accent/10 border border-accent/20 rounded-md font-medium text-sm text-accent transition-colors hover:bg-accent/20 hover:border-accent flex items-center justify-center gap-2;
+/* ============================================================
+   FORCE DARK VARIABLES ON TRANSPARENT PANELS
+   Since main, aside, and cards sit on a permanently dark
+   cinematic background, we force them to use light text 
+   variables regardless of the global light/dark theme toggle.
+   ============================================================ */
+main, aside, #activity-desktop {
+  --text-primary: 235 240 245;
+  --text-secondary: 175 185 195;
+  --text-muted: 130 140 150;
+  --border: 75 95 110;
+  --surface: 20 30 45;
+  --surface-hover: 30 40 55;
+  --surface-elevated: 35 45 60;
+  color: rgb(235, 240, 245);
 }
