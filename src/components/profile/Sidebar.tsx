@@ -39,6 +39,27 @@ export const Sidebar = () => {
 
       <div className="h-px w-full bg-border/50"></div>
 
+      {/* Live Preview Box */}
+      <div className="w-full">
+        <a 
+          href="https://rahul-pamula.github.io/portfolio/" 
+          target="_blank" 
+          rel="noreferrer"
+          className="flex items-center justify-between p-3 rounded-xl bg-surface-elevated border border-border/50 hover:border-accent/50 hover:bg-surface-elevated/80 transition-all duration-300 group"
+        >
+          <div className="flex items-center gap-3">
+            <div className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </div>
+            <span className="text-sm font-medium text-text-primary">Live Preview</span>
+          </div>
+          <ExternalLink className="w-4 h-4 text-text-muted group-hover:text-accent transition-colors" />
+        </a>
+      </div>
+
+      <div className="h-px w-full bg-border/50"></div>
+
       {/* Navigation */}
       <nav className="hidden xl:flex flex-col gap-3 flex-grow font-medium">
         <a href="#overview" className="text-sm text-text-secondary hover:text-text-primary transition-colors flex items-center gap-3">
