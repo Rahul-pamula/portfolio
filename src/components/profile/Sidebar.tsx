@@ -69,7 +69,7 @@ export const Sidebar = () => {
 
         <div className="w-full mt-2">
           <a 
-            href="https://github.com/Rahul-pamula" 
+            href="#" 
             target="_blank" 
             rel="noreferrer"
             className="flex items-center justify-between p-3 rounded-xl bg-surface-elevated border border-border/50 hover:border-accent/50 hover:bg-surface-elevated/80 transition-all duration-300 group"
