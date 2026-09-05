@@ -133,7 +133,7 @@ function App() {
 
             {/* Right Floating Panel */}
             <div className="hidden xl:block xl:sticky xl:top-8">
-              <div id="activity-desktop" className="card-premium p-6">
+              <div id="activity-desktop" className="card-premium p-6 h-[calc(100vh-6rem)] min-h-[650px] overflow-hidden flex flex-col">
                 <PersonalIdentity />
               </div>
             </div>
