@@ -1,5 +1,5 @@
 import { profileData } from '../../data/profile';
-import { Github, Linkedin, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, ExternalLink, GitCommit } from 'lucide-react';
 import githubData from '../../data/generated/github-data.json';
 
 export const Sidebar = () => {
@@ -39,23 +39,51 @@ export const Sidebar = () => {
 
       <div className="h-px w-full bg-border/50"></div>
 
-      {/* Live Preview Box */}
-      <div className="w-full">
-        <a 
-          href="https://rahul-pamula.github.io/portfolio/" 
-          target="_blank" 
-          rel="noreferrer"
-          className="flex items-center justify-between p-3 rounded-xl bg-surface-elevated border border-border/50 hover:border-accent/50 hover:bg-surface-elevated/80 transition-all duration-300 group"
-        >
-          <div className="flex items-center gap-3">
-            <div className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+      {/* Recent Activity Section */}
+      <div className="flex flex-col gap-4 pb-2 w-full">
+        <h3 className="text-[10px] font-bold text-text-muted uppercase tracking-[0.2em] px-2">
+          Recent Activity
+        </h3>
+        
+        <div className="flex flex-col gap-3 px-2">
+          <div className="flex items-start gap-3 group cursor-pointer">
+            <div className="mt-1 text-emerald-400/60 group-hover:text-emerald-400 transition-colors">
+              <GitCommit size={14} />
             </div>
-            <span className="text-sm font-medium text-text-primary">Live Preview</span>
+            <div className="flex flex-col">
+              <span className="text-xs font-medium text-text-secondary group-hover:text-text-primary transition-colors">Pushed — portfolio</span>
+              <span className="text-[10px] text-text-muted">2 hours ago</span>
+            </div>
           </div>
-          <ExternalLink className="w-4 h-4 text-text-muted group-hover:text-accent transition-colors" />
-        </a>
+          
+          <div className="flex items-start gap-3 group cursor-pointer">
+            <div className="mt-1 text-emerald-400/60 group-hover:text-emerald-400 transition-colors">
+              <GitCommit size={14} />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs font-medium text-text-secondary group-hover:text-text-primary transition-colors">Pushed — agent-context-os</span>
+              <span className="text-[10px] text-text-muted">5 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full mt-2">
+          <a 
+            href="https://github.com/Rahul-pamula" 
+            target="_blank" 
+            rel="noreferrer"
+            className="flex items-center justify-between p-3 rounded-xl bg-surface-elevated border border-border/50 hover:border-accent/50 hover:bg-surface-elevated/80 transition-all duration-300 group"
+          >
+            <div className="flex items-center gap-3">
+              <div className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              </div>
+              <span className="text-sm font-medium text-text-primary">GitHub Contributions</span>
+            </div>
+            <ExternalLink className="w-4 h-4 text-text-muted group-hover:text-accent transition-colors" />
+          </a>
+        </div>
       </div>
 
       <div className="h-px w-full bg-border/50"></div>

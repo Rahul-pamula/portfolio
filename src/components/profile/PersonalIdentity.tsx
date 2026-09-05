@@ -1,4 +1,3 @@
-import React from 'react';
 import { GraduationCap, Camera, BookOpen, Music, Map, Coffee, Code2, GitBranch, Moon } from 'lucide-react';
 
 export const PersonalIdentity = () => {

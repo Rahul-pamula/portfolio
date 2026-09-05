@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import githubData from '../../data/generated/github-data.json';
 
 const getIntensityColor = (level: number) => {
@@ -92,13 +93,14 @@ export const ContributionHeatmap = () => {
         </div>
       </div>
 
-      {tooltip && (
+      {tooltip && createPortal(
         <div 
-          className="fixed z-50 pointer-events-none px-3 py-1.5 bg-surface-elevated border border-border text-xs text-text-primary rounded shadow-premium transform -translate-x-1/2 -translate-y-full whitespace-nowrap font-mono"
+          className="fixed z-[9999] pointer-events-none px-3 py-1.5 bg-surface-elevated border border-border text-xs text-text-primary rounded shadow-premium transform -translate-x-1/2 -translate-y-full whitespace-nowrap font-mono"
           style={{ left: tooltip.x, top: tooltip.y }}
         >
           {tooltip.text}
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
