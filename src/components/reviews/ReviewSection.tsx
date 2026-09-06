@@ -21,10 +21,30 @@ export const ReviewSection: React.FC = () => {
     fetchReviews();
   }, []);
 
-  const handleCopyLink = () => {
-    navigator.clipboard.writeText('https://rahulpamula.me/review');
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+  const handleCopyLink = async () => {
+    const url = 'https://rahulpamula.me/review';
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(url);
+      } else {
+        // Fallback for older Safari or non-secure contexts
+        const textArea = document.createElement('textarea');
+        textArea.value = url;
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        try {
+          document.execCommand('copy');
+        } catch (err) {
+          console.error('Unable to copy', err);
+        }
+        document.body.removeChild(textArea);
+      }
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy!', err);
+    }
   };
 
   const visibleReviews = showAll ? reviews : reviews.slice(0, 6);
