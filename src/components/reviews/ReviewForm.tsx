@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Star, X, CheckCircle, AlertCircle, Loader2, ArrowRight } from 'lucide-react';
 import { reviewService } from '../../services/reviewService';
 
@@ -74,7 +75,7 @@ export const ReviewForm: React.FC<ReviewFormProps> = ({ onClose, isStandalone = 
     }
   };
 
-  return (
+  const content = (
     <div className={isStandalone ? "w-full max-w-md mx-auto" : "fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200"}>
       <div className={`card-premium w-full p-6 relative shadow-2xl ${!isStandalone ? 'animate-in zoom-in-95 duration-200 max-w-md' : ''}`}>
         
@@ -271,4 +272,6 @@ export const ReviewForm: React.FC<ReviewFormProps> = ({ onClose, isStandalone = 
       </div>
     </div>
   );
+
+  return isStandalone ? content : createPortal(content, document.body);
 };
