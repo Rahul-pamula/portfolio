@@ -3,13 +3,14 @@ import { ReviewCard } from './ReviewCard';
 import { ReviewForm } from './ReviewForm';
 import { reviewService } from '../../services/reviewService';
 import type { ContributorReview } from '../../types/review';
-import { MessageSquare, ArrowRight, ArrowUp } from 'lucide-react';
+import { MessageSquare, ArrowRight, ArrowUp, Link as LinkIcon, Check } from 'lucide-react';
 
 export const ReviewSection: React.FC = () => {
   const [reviews, setReviews] = useState<ContributorReview[]>([]);
   const [loading, setLoading] = useState(true);
   const [showAll, setShowAll] = useState(false);
   const [isFormOpen, setIsFormOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     const fetchReviews = async () => {
@@ -19,6 +20,12 @@ export const ReviewSection: React.FC = () => {
     };
     fetchReviews();
   }, []);
+
+  const handleCopyLink = () => {
+    navigator.clipboard.writeText('https://rahulpamula.me/review');
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   const visibleReviews = showAll ? reviews : reviews.slice(0, 6);
   const hasMore = reviews.length > 6;
@@ -43,13 +50,23 @@ export const ReviewSection: React.FC = () => {
           <h2 className="text-xl font-semibold text-text-primary">Contributor Voices</h2>
           <p className="text-sm text-white mt-1">Feedback from developers and maintainers I've collaborated with.</p>
         </div>
-        <button 
-          onClick={() => setIsFormOpen(true)}
-          className="btn-primary shrink-0"
-        >
-          <MessageSquare size={16} />
-          Leave a review
-        </button>
+        <div className="flex items-center gap-3 shrink-0">
+          <button 
+            onClick={handleCopyLink}
+            className="btn-accent shrink-0 px-3"
+            title="Copy direct link to review page"
+          >
+            {copied ? <Check size={16} /> : <LinkIcon size={16} />}
+            <span className="hidden sm:inline">{copied ? 'Copied!' : 'Share Link'}</span>
+          </button>
+          <button 
+            onClick={() => setIsFormOpen(true)}
+            className="btn-primary shrink-0"
+          >
+            <MessageSquare size={16} />
+            Leave a review
+          </button>
+        </div>
       </div>
 
       {reviews.length === 0 ? (
