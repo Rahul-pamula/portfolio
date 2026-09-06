@@ -1,43 +1,8 @@
 {
-  "updatedAt": "2026-09-05T02:52:04.356Z",
+  "updatedAt": "2026-09-06T02:50:18.556Z",
   "contributions": {
-    "totalLastYear": 1789,
+    "totalLastYear": 1835,
     "days": [
-      {
-        "date": "2025-08-31",
-        "count": 1,
-        "level": 1
-      },
-      {
-        "date": "2025-09-01",
-        "count": 1,
-        "level": 1
-      },
-      {
-        "date": "2025-09-02",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-09-03",
-        "count": 3,
-        "level": 1
-      },
-      {
-        "date": "2025-09-04",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-09-05",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-09-06",
-        "count": 0,
-        "level": 0
-      },
       {
         "date": "2025-09-07",
         "count": 0,
@@ -596,7 +561,7 @@
       {
         "date": "2025-12-27",
         "count": 18,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2025-12-28",
@@ -1056,7 +1021,7 @@
       {
         "date": "2026-03-29",
         "count": 28,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-03-30",
@@ -1076,7 +1041,7 @@
       {
         "date": "2026-04-02",
         "count": 46,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-04-03",
@@ -1096,7 +1061,7 @@
       {
         "date": "2026-04-06",
         "count": 33,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-04-07",
@@ -1181,7 +1146,7 @@
       {
         "date": "2026-04-23",
         "count": 30,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-04-24",
@@ -1266,7 +1231,7 @@
       {
         "date": "2026-05-10",
         "count": 14,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-05-11",
@@ -1521,7 +1486,7 @@
       {
         "date": "2026-06-30",
         "count": 18,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-07-01",
@@ -1531,7 +1496,7 @@
       {
         "date": "2026-07-02",
         "count": 14,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-07-03",
@@ -1691,12 +1656,12 @@
       {
         "date": "2026-08-03",
         "count": 18,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-04",
         "count": 15,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-05",
@@ -1711,7 +1676,7 @@
       {
         "date": "2026-08-07",
         "count": 16,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-08",
@@ -1726,12 +1691,12 @@
       {
         "date": "2026-08-10",
         "count": 14,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-11",
         "count": 34,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-12",
@@ -1741,7 +1706,7 @@
       {
         "date": "2026-08-13",
         "count": 18,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-14",
@@ -1781,7 +1746,7 @@
       {
         "date": "2026-08-21",
         "count": 32,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-22",
@@ -1806,12 +1771,12 @@
       {
         "date": "2026-08-26",
         "count": 53,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-08-27",
         "count": 33,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-28",
@@ -1821,12 +1786,12 @@
       {
         "date": "2026-08-29",
         "count": 33,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-30",
         "count": 27,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-31",
@@ -1855,8 +1820,13 @@
       },
       {
         "date": "2026-09-05",
-        "count": 26,
-        "level": 2
+        "count": 72,
+        "level": 4
+      },
+      {
+        "date": "2026-09-06",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -1891,844 +1861,208 @@
     "public_repos": 62,
     "public_gists": 0,
     "followers": 56,
-    "following": 31,
+    "following": 32,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-09-02T17:27:14Z"
   },
   "activityFeed": [
     {
-      "id": "14468526820",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T02:08:30Z",
+      "id": "20188748118",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T18:07:20Z",
       "payload": {
-        "action": "merged",
-        "number": 20,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/20",
-          "id": 4448182118,
-          "number": 20,
-          "head": {
-            "ref": "fix/sidebar-heights",
-            "sha": "f83d14e360ee03b753926414a3371d60a7eba2b0",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "d9462667a13d0faa8afc413660fc5790c2ce4150",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
+        "repository_id": 1339909532,
+        "push_id": 42689180545,
+        "ref": "refs/heads/main",
+        "head": "4efeedef717191b13dadf82b02406f9afd8ee236",
+        "before": "1a7b7161a78bdf96fbf9e18c398c2ce37f64b159"
       }
     },
     {
-      "id": "14468524879",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T02:08:27Z",
+      "id": "20188525450",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T18:00:11Z",
       "payload": {
-        "action": "opened",
-        "number": 20,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/20",
-          "id": 4448182118,
-          "number": 20,
-          "head": {
-            "ref": "fix/sidebar-heights",
-            "sha": "f83d14e360ee03b753926414a3371d60a7eba2b0",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "d9462667a13d0faa8afc413660fc5790c2ce4150",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
+        "repository_id": 1339909532,
+        "push_id": 42688828532,
+        "ref": "refs/heads/main",
+        "head": "d296cfc0ccc92d584302fc308ef227b17bd3b459",
+        "before": "6ad2a31c2aea015d81b54d44d54433c596410ed9"
       }
     },
     {
-      "id": "14468306642",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:59:55Z",
+      "id": "20183519486",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T11:33:27Z",
       "payload": {
-        "action": "merged",
-        "number": 19,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/19",
-          "id": 4448143672,
-          "number": 19,
-          "head": {
-            "ref": "fix/add-review-html",
-            "sha": "9f008161db1402ecc97dc07a452c8e452cb2532d",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
+        "repository_id": 1339909532,
+        "push_id": 42669819277,
+        "ref": "refs/heads/main",
+        "head": "2cb325998bd4c06b3af166a85646799c735f5070",
+        "before": "07d4f375800f7a907a594ca3ed235c8f931d8408"
       }
     },
     {
-      "id": "14468304443",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:59:52Z",
+      "id": "20181593497",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T10:30:12Z",
       "payload": {
-        "action": "opened",
-        "number": 19,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/19",
-          "id": 4448143672,
-          "number": 19,
-          "head": {
-            "ref": "fix/add-review-html",
-            "sha": "9f008161db1402ecc97dc07a452c8e452cb2532d",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
+        "repository_id": 1339909532,
+        "push_id": 42666953091,
+        "ref": "refs/heads/main",
+        "head": "1ce662f30b9fe7e5269a77b742613102e864e025",
+        "before": "37038ae381e6720642deba92fdaccf31ff86783e"
       }
     },
     {
-      "id": "14468268245",
-      "type": "IssueCommentEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:58:20Z",
+      "id": "20180970332",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T10:08:09Z",
       "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/events",
-          "html_url": "https://github.com/Rahul-pamula/portfolio/issues/3",
-          "id": 5354744360,
-          "node_id": "I_kwDOSr_Vq88AAAABPyrqKA",
-          "number": 3,
-          "title": "CI/CD: GitHub Pages Deployment Pipeline",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-09-05T01:36:56Z",
-          "updated_at": "2026-09-05T01:58:20Z",
-          "closed_at": "2026-09-05T01:58:20Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nSetup an automated GitHub Actions workflow to build the Vite React application and deploy it to GitHub Pages.\n\n## Tasks\n- Create .github/workflows/deploy.yml\n- Configure Node and dependencies installation\n- Deploy to github-pages environment",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/comments/5548582116",
-          "html_url": "https://github.com/Rahul-pamula/portfolio/issues/3#issuecomment-5548582116",
-          "issue_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3",
-          "id": 5548582116,
-          "node_id": "IC_kwDOSr_Vq88AAAABSrik5A",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-05T01:58:20Z",
-          "updated_at": "2026-09-05T01:58:20Z",
-          "body": "Closing this issue because we have decided to use Vercel for deployment instead of GitHub Pages.",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/comments/5548582116/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 42666051625,
+        "ref": "refs/heads/main",
+        "head": "a0d4e7d6aa4425ba83265d7a1699ed7a673c24b5",
+        "before": "2b855f6cfa6c1b152ea8a74603f9abd0fd88ca53"
       }
     },
     {
-      "id": "14468268017",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:58:21Z",
+      "id": "20179095244",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T09:57:18Z",
       "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/events",
-          "html_url": "https://github.com/Rahul-pamula/portfolio/issues/3",
-          "id": 5354744360,
-          "node_id": "I_kwDOSr_Vq88AAAABPyrqKA",
-          "number": 3,
-          "title": "CI/CD: GitHub Pages Deployment Pipeline",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-09-05T01:36:56Z",
-          "updated_at": "2026-09-05T01:58:20Z",
-          "closed_at": "2026-09-05T01:58:20Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nSetup an automated GitHub Actions workflow to build the Vite React application and deploy it to GitHub Pages.\n\n## Tasks\n- Create .github/workflows/deploy.yml\n- Configure Node and dependencies installation\n- Deploy to github-pages environment",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/3/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 42665589068,
+        "ref": "refs/heads/main",
+        "head": "1a66ad773c70c7794a76891c5bc375de8dc70ed7",
+        "before": "b463eddfb509feeba49f45de2f4440f647ac0136"
       }
     },
     {
-      "id": "14468216123",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:56:09Z",
+      "id": "20177821994",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T12:21:34Z",
       "payload": {
-        "action": "merged",
-        "number": 9,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/9",
-          "id": 4448127572,
-          "number": 9,
-          "head": {
-            "ref": "chore/dependabot-and-fixes",
-            "sha": "578a63a915bed7e95e4ce363c3b1c76d82fa0d80",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "4bbcf69736d848a496d744f1bb20dd2c463c4bf0",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
+        "repository_id": 1339909532,
+        "push_id": 42672107983,
+        "ref": "refs/heads/main",
+        "head": "6ad2a31c2aea015d81b54d44d54433c596410ed9",
+        "before": "40e573d239fc1b811f543071377c3dd80b6c0589"
       }
     },
     {
-      "id": "14468215563",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:56:10Z",
+      "id": "20175906715",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T08:05:37Z",
       "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/events",
-          "html_url": "https://github.com/Rahul-pamula/portfolio/issues/8",
-          "id": 5354844380,
-          "node_id": "I_kwDOSr_Vq88AAAABPyxw3A",
-          "number": 8,
-          "title": "chore: Dependabot Security Setup",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-09-05T01:56:04Z",
-          "updated_at": "2026-09-05T01:56:10Z",
-          "closed_at": "2026-09-05T01:56:10Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nAdd `.github/dependabot.yml` to automatically keep npm dependencies updated and secure.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 42660670784,
+        "ref": "refs/heads/main",
+        "head": "52768acb8473472dcebda42a8685e752b03ddbff",
+        "before": "784be2954fd09d12aabcc69099f4e04e3fd03ab3"
       }
     },
     {
-      "id": "14468214135",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:56:06Z",
+      "id": "20175187272",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T10:56:43Z",
       "payload": {
-        "action": "opened",
-        "number": 9,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/9",
-          "id": 4448127572,
-          "number": 9,
-          "head": {
-            "ref": "chore/dependabot-and-fixes",
-            "sha": "578a63a915bed7e95e4ce363c3b1c76d82fa0d80",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "4bbcf69736d848a496d744f1bb20dd2c463c4bf0",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
+        "repository_id": 1339909532,
+        "push_id": 42668038248,
+        "ref": "refs/heads/main",
+        "head": "bd3a72cf2217d6167856617d4fec155b4a967d19",
+        "before": "9749b539fa62bdd172a375d936d35ca0e2b58144"
       }
     },
     {
-      "id": "14468213487",
-      "type": "IssuesEvent",
+      "id": "20167481705",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:56:05Z",
+      "created_at": "2026-09-05T01:56:12Z",
       "payload": {
-        "action": "opened",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/events",
-          "html_url": "https://github.com/Rahul-pamula/portfolio/issues/8",
-          "id": 5354844380,
-          "node_id": "I_kwDOSr_Vq88AAAABPyxw3A",
-          "number": 8,
-          "title": "chore: Dependabot Security Setup",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-09-05T01:56:04Z",
-          "updated_at": "2026-09-05T01:56:10Z",
-          "closed_at": "2026-09-05T01:56:10Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nAdd `.github/dependabot.yml` to automatically keep npm dependencies updated and secure.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/8/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
+        "ref": "chore/dependabot-and-fixes",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/chore/dependabot-and-fixes",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "14468195202",
-      "type": "PullRequestEvent",
+      "id": "20167350233",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:55:17Z",
+      "created_at": "2026-09-05T01:51:00Z",
       "payload": {
-        "action": "merged",
-        "number": 7,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/7",
-          "id": 4448123950,
-          "number": 7,
-          "head": {
-            "ref": "docs/readme",
-            "sha": "e1ef74a470fa3c77537e4489724ec95798d35729",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "697cf82150683c29b550a4dc30820122666d92bc",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
+        "repository_id": 1254086059,
+        "push_id": 42646485366,
+        "ref": "refs/heads/main",
+        "head": "697cf82150683c29b550a4dc30820122666d92bc",
+        "before": "a569ab6309a0272a9ee0f9a37144306c2e473c8b"
       }
     },
     {
-      "id": "14468194752",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:55:18Z",
+      "id": "20166597466",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T05:45:04Z",
       "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/events",
-          "html_url": "https://github.com/Rahul-pamula/portfolio/issues/6",
-          "id": 5354839917,
-          "node_id": "I_kwDOSr_Vq88AAAABPyxfbQ",
-          "number": 6,
-          "title": "docs: Portfolio README Documentation",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-09-05T01:55:12Z",
-          "updated_at": "2026-09-05T01:55:18Z",
-          "closed_at": "2026-09-05T01:55:18Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nAdd a detailed README.md for the portfolio repository outlining the features, tech stack, local development steps, and deployment info.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 42654991065,
+        "ref": "refs/heads/main",
+        "head": "d3c900c9b26f57ab9a95c3921f62573567728b96",
+        "before": "af1eec0039ccaf7d46673447183f7414461cabcd"
       }
     },
     {
-      "id": "14468193032",
-      "type": "PullRequestEvent",
+      "id": "20166281991",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:55:14Z",
+      "created_at": "2026-09-05T01:38:15Z",
       "payload": {
-        "action": "opened",
-        "number": 7,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/7",
-          "id": 4448123950,
-          "number": 7,
-          "head": {
-            "ref": "docs/readme",
-            "sha": "e1ef74a470fa3c77537e4489724ec95798d35729",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "697cf82150683c29b550a4dc30820122666d92bc",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
+        "repository_id": 1254086059,
+        "push_id": 42646042956,
+        "ref": "refs/heads/main",
+        "head": "a569ab6309a0272a9ee0f9a37144306c2e473c8b",
+        "before": "6aac508f024096e0722c31174ffa80d1bc9f68df"
       }
     },
     {
-      "id": "14468192448",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:55:12Z",
+      "id": "20161989839",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-05T18:02:44Z",
       "payload": {
-        "action": "opened",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/events",
-          "html_url": "https://github.com/Rahul-pamula/portfolio/issues/6",
-          "id": 5354839917,
-          "node_id": "I_kwDOSr_Vq88AAAABPyxfbQ",
-          "number": 6,
-          "title": "docs: Portfolio README Documentation",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-09-05T01:55:12Z",
-          "updated_at": "2026-09-05T01:55:18Z",
-          "closed_at": "2026-09-05T01:55:18Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nAdd a detailed README.md for the portfolio repository outlining the features, tech stack, local development steps, and deployment info.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/portfolio/issues/6/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 42688961748,
+        "ref": "refs/heads/main",
+        "head": "1a7b7161a78bdf96fbf9e18c398c2ce37f64b159",
+        "before": "d296cfc0ccc92d584302fc308ef227b17bd3b459"
       }
     },
     {
-      "id": "14467764448",
-      "type": "PullRequestEvent",
+      "id": "20161358293",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:38:14Z",
+      "created_at": "2026-09-05T02:08:32Z",
       "payload": {
-        "action": "merged",
-        "number": 5,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/5",
-          "id": 4448050062,
-          "number": 5,
-          "head": {
-            "ref": "feat/live-preview",
-            "sha": "93358eba95eafdd6dcffaf0810d97af511d6e114",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "6aac508f024096e0722c31174ffa80d1bc9f68df",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
+        "ref": "fix/sidebar-heights",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/sidebar-heights",
+        "pusher_type": "user"
       }
     }
   ],
   "recentStats": {
-    "commits": 1633,
+    "commits": 1671,
     "prs": 122,
-    "issues": 243
+    "issues": 251
   }
 }
