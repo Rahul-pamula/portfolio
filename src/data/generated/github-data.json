@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-09T02:58:50.729Z",
+  "updatedAt": "2026-09-10T02:59:15.832Z",
   "contributions": {
-    "totalLastYear": 1925,
+    "totalLastYear": 1948,
     "days": [
       {
         "date": "2025-09-07",
@@ -1840,8 +1840,13 @@
       },
       {
         "date": "2026-09-09",
-        "count": 30,
-        "level": 2
+        "count": 49,
+        "level": 3
+      },
+      {
+        "date": "2026-09-10",
+        "count": 4,
+        "level": 1
       }
     ]
   },
@@ -1881,6 +1886,426 @@
     "updated_at": "2026-09-02T17:27:14Z"
   },
   "activityFeed": [
+    {
+      "id": "14722588144",
+      "type": "IssueCommentEvent",
+      "repo": "reticlehq/reticle",
+      "created_at": "2026-09-09T15:50:08Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/reticlehq/reticle/issues/606",
+          "repository_url": "https://api.github.com/repos/reticlehq/reticle",
+          "labels_url": "https://api.github.com/repos/reticlehq/reticle/issues/606/labels{/name}",
+          "comments_url": "https://api.github.com/repos/reticlehq/reticle/issues/606/comments",
+          "events_url": "https://api.github.com/repos/reticlehq/reticle/issues/606/events",
+          "html_url": "https://github.com/reticlehq/reticle/issues/606",
+          "id": 5270945306,
+          "node_id": "I_kwDOS3TU6c8AAAABOiw-Gg",
+          "number": 606,
+          "title": "[agent] the throttle recommendation does not mention that leasing empties the human's HUD",
+          "user": {
+            "login": "divshekhar",
+            "id": 61140213,
+            "node_id": "MDQ6VXNlcjYxMTQwMjEz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/61140213?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/divshekhar",
+            "html_url": "https://github.com/divshekhar",
+            "followers_url": "https://api.github.com/users/divshekhar/followers",
+            "following_url": "https://api.github.com/users/divshekhar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/divshekhar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/divshekhar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/divshekhar/subscriptions",
+            "organizations_url": "https://api.github.com/users/divshekhar/orgs",
+            "repos_url": "https://api.github.com/users/divshekhar/repos",
+            "events_url": "https://api.github.com/users/divshekhar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/divshekhar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11202538248,
+              "node_id": "LA_kwDOS3TU6c8AAAACm7krCA",
+              "url": "https://api.github.com/repos/reticlehq/reticle/labels/documentation",
+              "name": "documentation",
+              "color": "0075ca",
+              "default": true,
+              "description": "Improvements or additions to documentation"
+            },
+            {
+              "id": 11202538296,
+              "node_id": "LA_kwDOS3TU6c8AAAACm7krOA",
+              "url": "https://api.github.com/repos/reticlehq/reticle/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers"
+            },
+            {
+              "id": 11202538311,
+              "node_id": "LA_kwDOS3TU6c8AAAACm7krRw",
+              "url": "https://api.github.com/repos/reticlehq/reticle/labels/help%20wanted",
+              "name": "help wanted",
+              "color": "008672",
+              "default": true,
+              "description": "Extra attention is needed"
+            },
+            {
+              "id": 11824172455,
+              "node_id": "LA_kwDOS3TU6c8AAAACwMaNpw",
+              "url": "https://api.github.com/repos/reticlehq/reticle/labels/agent-reported",
+              "name": "agent-reported",
+              "color": "5319E7",
+              "default": false,
+              "description": "Filed from an AI agent's reticle_feedback report. Title is prefixed [agent]."
+            },
+            {
+              "id": 12117972175,
+              "node_id": "LA_kwDOS3TU6c8AAAAC0kmUzw",
+              "url": "https://api.github.com/repos/reticlehq/reticle/labels/area/browser",
+              "name": "area/browser",
+              "color": "1D76DB",
+              "default": false,
+              "description": "Affects packages/browser"
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 5,
+          "created_at": "2026-08-27T18:37:52Z",
+          "updated_at": "2026-09-09T15:50:08Z",
+          "closed_at": null,
+          "assignee": null,
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "When a connected session reports `throttled: true, focused: false`, the recommendation reads:\n\n> tab hidden/throttled and may be un-focusable from here; refocus it, or acquire a guaranteed\n> scriptable context yourself with `reticle_lease`\n\nFollowing the second half moves every subsequent verdict into a pooled context **the human cannot\nsee**. Their HUD stays empty for the whole run and the product looks broken while working correctly.\n\nThe same reporter later drove the same \"throttled\" tab successfully, so the flag is not a reliable\nsignal that the tab is undriveable — it is being read as one because the recommendation offers\nleasing as the remedy.\n\n## Fix (wording, no behaviour change)\n\n1. Say what leasing costs, in the recommendation itself: \"this opens a context the human cannot watch\n   — prefer refocusing their tab if they are sitting in front of it.\"\n2. Say that `throttled: true` does not necessarily mean the tab cannot be driven, so trying the drive\n   first is reasonable.\n\nRelated to #400 and #521, which cover other angles on the same recovery path; this one is purely\nabout what the recommendation does not disclose.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/reticlehq/reticle/issues/606/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/reticlehq/reticle/issues/606/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/reticlehq/reticle/issues/comments/5604713584",
+          "html_url": "https://github.com/reticlehq/reticle/issues/606#issuecomment-5604713584",
+          "issue_url": "https://api.github.com/repos/reticlehq/reticle/issues/606",
+          "id": 5604713584,
+          "node_id": "IC_kwDOS3TU6c8AAAABThEkcA",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-09T15:50:08Z",
+          "updated_at": "2026-09-09T15:50:08Z",
+          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I'm interested in contributing here. Could I be assigned this one? I'll get started right away! 🚀",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/reticlehq/reticle/issues/comments/5604713584/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "14722466971",
+      "type": "IssueCommentEvent",
+      "repo": "OpenRecruiterTools/linkedin-toolkit",
+      "created_at": "2026-09-09T15:48:21Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4",
+          "repository_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit",
+          "labels_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/labels{/name}",
+          "comments_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/comments",
+          "events_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/events",
+          "html_url": "https://github.com/OpenRecruiterTools/linkedin-toolkit/issues/4",
+          "id": 5392681698,
+          "node_id": "I_kwDOSXQlss8AAAABQW3K4g",
+          "number": 4,
+          "title": "Five more sequence templates",
+          "user": {
+            "login": "FormatixAI",
+            "id": 169889855,
+            "node_id": "U_kgDOCiBQPw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/169889855?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/FormatixAI",
+            "html_url": "https://github.com/FormatixAI",
+            "followers_url": "https://api.github.com/users/FormatixAI/followers",
+            "following_url": "https://api.github.com/users/FormatixAI/following{/other_user}",
+            "gists_url": "https://api.github.com/users/FormatixAI/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/FormatixAI/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/FormatixAI/subscriptions",
+            "organizations_url": "https://api.github.com/users/FormatixAI/orgs",
+            "repos_url": "https://api.github.com/users/FormatixAI/repos",
+            "events_url": "https://api.github.com/users/FormatixAI/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/FormatixAI/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 10892291053,
+              "node_id": "LA_kwDOSXQlss8AAAACiTsr7Q",
+              "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/labels/documentation",
+              "name": "documentation",
+              "color": "0075ca",
+              "default": true,
+              "description": "Improvements or additions to documentation"
+            },
+            {
+              "id": 10892291079,
+              "node_id": "LA_kwDOSXQlss8AAAACiTssBw",
+              "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers"
+            },
+            {
+              "id": 12111997657,
+              "node_id": "LA_kwDOSXQlss8AAAAC0e5q2Q",
+              "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/labels/sequences",
+              "name": "sequences",
+              "color": "EDEDED",
+              "default": false,
+              "description": ""
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "Rahul-pamula",
+              "id": 153642358,
+              "node_id": "U_kgDOCShldg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Rahul-pamula",
+              "html_url": "https://github.com/Rahul-pamula",
+              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            },
+            {
+              "login": "ranita872",
+              "id": 181709849,
+              "node_id": "U_kgDOCtSsGQ",
+              "avatar_url": "https://avatars.githubusercontent.com/u/181709849?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ranita872",
+              "html_url": "https://github.com/ranita872",
+              "followers_url": "https://api.github.com/users/ranita872/followers",
+              "following_url": "https://api.github.com/users/ranita872/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ranita872/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ranita872/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ranita872/subscriptions",
+              "organizations_url": "https://api.github.com/users/ranita872/orgs",
+              "repos_url": "https://api.github.com/users/ranita872/repos",
+              "events_url": "https://api.github.com/users/ranita872/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ranita872/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 5,
+          "created_at": "2026-09-08T22:43:35Z",
+          "updated_at": "2026-09-09T17:59:59Z",
+          "closed_at": null,
+          "assignee": {
+            "login": "ranita872",
+            "id": 181709849,
+            "node_id": "U_kgDOCtSsGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/181709849?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ranita872",
+            "html_url": "https://github.com/ranita872",
+            "followers_url": "https://api.github.com/users/ranita872/followers",
+            "following_url": "https://api.github.com/users/ranita872/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ranita872/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ranita872/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ranita872/subscriptions",
+            "organizations_url": "https://api.github.com/users/ranita872/orgs",
+            "repos_url": "https://api.github.com/users/ranita872/repos",
+            "events_url": "https://api.github.com/users/ranita872/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ranita872/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "We ship 20. There is room for many more, and this needs no JavaScript at all — just judgement\nabout outreach.\n\nWanted, roughly in order of demand:\n- **Open-source maintainer to contributor** — someone starred or forked your repo\n- **Alumni outreach** — same school or same former employer\n- **Customer to case study** — asking a happy customer to go on the record\n- **Conference speaker follow-up** — you watched their talk\n- **Dormant customer win-back** — churned six months ago\n\nCopy `sequences/warm-connect.json`, change the copy, then:\n\n```bash\nnode sequences/validate.mjs\n```\n\n**Rules the validator enforces:** exactly two variants per invite and message step, 300-character\nceiling, a `|fallback` on every variable, at least 24h between outreach steps, a branch,\n`stopOnReply: true`, `autopilot: false`.\n\n**Rules review enforces:** copy a real person would actually send. Nothing from the ban list in\n`sequences/README.md`.\n\n**Done when:** the files validate and the table in `sequences/README.md` is updated.",
+          "reactions": {
+            "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/comments/5604689049",
+          "html_url": "https://github.com/OpenRecruiterTools/linkedin-toolkit/issues/4#issuecomment-5604689049",
+          "issue_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4",
+          "id": 5604689049,
+          "node_id": "IC_kwDOSXQlss8AAAABThDEmQ",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-09T15:48:21Z",
+          "updated_at": "2026-09-09T15:48:21Z",
+          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I have experience with the relevant tech stack. Could I be assigned this one? I'll have a fix ready soon! 🙌",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/comments/5604689049/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "20544021216",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/agent-context-os",
+      "created_at": "2026-09-09T08:00:41Z",
+      "payload": {
+        "ref": "align-integration-schema-v2",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/align-integration-schema-v2",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "20525913829",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-07T19:09:13Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 42847271652,
+        "ref": "refs/heads/main",
+        "head": "d2d0722a0cb5acf1913e63958dca4e3cdb34fe0a",
+        "before": "42571659e5d707f59c9f2c413f3d13c88af221ee"
+      }
+    },
     {
       "id": "20501665750",
       "type": "CreateEvent",
@@ -2026,61 +2451,10 @@
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
-    },
-    {
-      "id": "20467215663",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T10:49:49Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 42810642342,
-        "ref": "refs/heads/main",
-        "head": "513f474f395357cb60b131e08439d9b0626068ea",
-        "before": "d7c09c696b80259c7fe8861d6b5e1e2c4afaf6ac"
-      }
-    },
-    {
-      "id": "20467062598",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T07:08:26Z",
-      "payload": {
-        "ref": "fix/171-claim-race-condition",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix/171-claim-race-condition",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "20467046479",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T07:08:12Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 42794351178,
-        "ref": "refs/heads/main",
-        "head": "8fe98b2b330b8696d0ce9ba4dba327960f543ede",
-        "before": "c583880b9bd5625790ae0ef80ec24732d7781f56"
-      }
-    },
-    {
-      "id": "20464486105",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T06:34:24Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 42792191452,
-        "ref": "refs/heads/fix/170-prompt-injection",
-        "head": "8b3a45d15f8c47cfc53118a3bad96fae80172be9",
-        "before": "5929d5a91af8a9ef04e20dfb1a2f670970e6c6e8"
-      }
     }
   ],
   "recentStats": {
-    "commits": 1703,
+    "commits": 1704,
     "prs": 143,
     "issues": 258
   }
