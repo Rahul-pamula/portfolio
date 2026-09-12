@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-11T02:55:22.520Z",
+  "updatedAt": "2026-09-12T03:02:05.675Z",
   "contributions": {
-    "totalLastYear": 1951,
+    "totalLastYear": 1950,
     "days": [
       {
         "date": "2025-09-07",
@@ -1755,7 +1755,7 @@
       },
       {
         "date": "2026-08-23",
-        "count": 213,
+        "count": 211,
         "level": 4
       },
       {
@@ -1850,6 +1850,11 @@
       },
       {
         "date": "2026-09-11",
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-09-12",
         "count": 0,
         "level": 0
       }
@@ -1885,12 +1890,160 @@
     "twitter_username": null,
     "public_repos": 65,
     "public_gists": 0,
-    "followers": 57,
+    "followers": 58,
     "following": 29,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-09-11T01:52:48Z"
   },
   "activityFeed": [
+    {
+      "id": "14872343332",
+      "type": "IssueCommentEvent",
+      "repo": "NextSpark-js/nextspark",
+      "created_at": "2026-09-11T16:10:16Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/NextSpark-js/nextspark/issues/181",
+          "repository_url": "https://api.github.com/repos/NextSpark-js/nextspark",
+          "labels_url": "https://api.github.com/repos/NextSpark-js/nextspark/issues/181/labels{/name}",
+          "comments_url": "https://api.github.com/repos/NextSpark-js/nextspark/issues/181/comments",
+          "events_url": "https://api.github.com/repos/NextSpark-js/nextspark/issues/181/events",
+          "html_url": "https://github.com/NextSpark-js/nextspark/issues/181",
+          "id": 5426416176,
+          "node_id": "I_kwDOQzJTS88AAAABQ3CKMA",
+          "number": 181,
+          "title": "`getTemplateOrDefault` logs to the console on every call in production — the one unguarded `console.log` in `template-resolver`",
+          "user": {
+            "login": "fedevgonzalez",
+            "id": 60235004,
+            "node_id": "MDQ6VXNlcjYwMjM1MDA0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/60235004?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fedevgonzalez",
+            "html_url": "https://github.com/fedevgonzalez",
+            "followers_url": "https://api.github.com/users/fedevgonzalez/followers",
+            "following_url": "https://api.github.com/users/fedevgonzalez/following{/other_user}",
+            "gists_url": "https://api.github.com/users/fedevgonzalez/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/fedevgonzalez/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/fedevgonzalez/subscriptions",
+            "organizations_url": "https://api.github.com/users/fedevgonzalez/orgs",
+            "repos_url": "https://api.github.com/users/fedevgonzalez/repos",
+            "events_url": "https://api.github.com/users/fedevgonzalez/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/fedevgonzalez/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 9929303769,
+              "node_id": "LA_kwDOQzJTS88AAAACT9Um2Q",
+              "url": "https://api.github.com/repos/NextSpark-js/nextspark/labels/bug",
+              "name": "bug",
+              "color": "d73a4a",
+              "default": true,
+              "description": "Something isn't working"
+            },
+            {
+              "id": 9929303792,
+              "node_id": "LA_kwDOQzJTS88AAAACT9Um8A",
+              "url": "https://api.github.com/repos/NextSpark-js/nextspark/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers"
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 2,
+          "created_at": "2026-09-11T16:03:26Z",
+          "updated_at": "2026-09-11T17:37:38Z",
+          "closed_at": "2026-09-11T17:37:38Z",
+          "assignee": null,
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "`packages/core`'s template resolver guards **every** debug log behind\r\n`process.env.NODE_ENV === \"development\"` — except the very first one, which runs\r\nunconditionally on every single call.\r\n\r\nIn the published bundle, `dist/lib/template-resolver.js`:\r\n\r\n```js\r\n 9:  console.log(`[getTemplateOrDefault] Called for: ${appPath}`);   // ← no guard\r\n11:    if (process.env.NODE_ENV === \"development\") { ... }\r\n20:      if (process.env.NODE_ENV === \"development\") { ... }\r\n31:    if (process.env.NODE_ENV === \"development\") { ... }\r\n40:      if (process.env.NODE_ENV === \"development\") { ... }\r\n46:  if (process.env.NODE_ENV === \"development\") { ... }\r\n69:  if (process.env.NODE_ENV === \"development\") { ... }\r\n88:      if (process.env.NODE_ENV === \"development\") { ... }\r\n97:        if (process.env.NODE_ENV === \"development\") { ... }\r\n```\r\n\r\nEight guarded logs and one unguarded, as the first statement of the function. The\r\nsurrounding code makes the intent unambiguous: this line was meant to be guarded like its\r\nneighbours.\r\n\r\n### Impact\r\n\r\n`getTemplateOrDefault` is called during page resolution, so this fires for every template\r\nlookup on every request in production. Two costs:\r\n\r\n- **Log noise.** On a hosted platform every line is ingested, stored and billed.\r\n- **Main-thread time.** `console.log` with a template literal is not free, and it runs on\r\n  the serving path.\r\n\r\nNeither is catastrophic; both are pure waste, and the fix is a one-line change that matches\r\nwhat the rest of the file already does.\r\n\r\n### Suggested fix\r\n\r\nWrap line 9 in the same `process.env.NODE_ENV === \"development\"` check used by the other\r\neight, or drop it — the \"Called for\" line is the least informative of the set, since the\r\nguarded logs that follow already report the outcome.\r\n\r\n---",
+          "reactions": {
+            "url": "https://api.github.com/repos/NextSpark-js/nextspark/issues/181/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/NextSpark-js/nextspark/issues/181/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/NextSpark-js/nextspark/issues/comments/5637285243",
+          "html_url": "https://github.com/NextSpark-js/nextspark/issues/181#issuecomment-5637285243",
+          "issue_url": "https://api.github.com/repos/NextSpark-js/nextspark/issues/181",
+          "id": 5637285243,
+          "node_id": "IC_kwDOQzJTS88AAAABUAIlew",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-11T16:10:16Z",
+          "updated_at": "2026-09-11T16:10:16Z",
+          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I have experience with the relevant tech stack. Could I be assigned this one? I'll have a fix ready soon! 🙌",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/NextSpark-js/nextspark/issues/comments/5637285243/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
     {
       "id": "14759058134",
       "type": "IssueCommentEvent",
@@ -2606,24 +2759,10 @@
         "head": "1fc5a9d48364702a12d13e9caa640d7f443d5c5b",
         "before": "8fe98b2b330b8696d0ce9ba4dba327960f543ede"
       }
-    },
-    {
-      "id": "20468987982",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/CONTINUUM",
-      "created_at": "2026-09-07T05:16:35Z",
-      "payload": {
-        "ref": "chore/ignore-benchmarks-output",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/chore/ignore-benchmarks-output",
-        "master_branch": "main",
-        "description": "CONTINUUM: Verifiable semantic recovery for long-running AI agents. Semantic checkpoints (not conversation dumps), an idempotent action ledger that refuses duplicate side effects, and a hash-chained tamper-evident event log, all exposed as a deny-by-default MCP server. Framework-agnostic, Python 3.11+.",
-        "pusher_type": "user"
-      }
     }
   ],
   "recentStats": {
-    "commits": 1705,
+    "commits": 1706,
     "prs": 143,
     "issues": 258
   }
