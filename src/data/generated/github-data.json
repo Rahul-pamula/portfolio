@@ -1,43 +1,8 @@
 {
-  "updatedAt": "2026-09-12T03:02:05.675Z",
+  "updatedAt": "2026-09-13T03:02:52.707Z",
   "contributions": {
-    "totalLastYear": 1950,
+    "totalLastYear": 1956,
     "days": [
-      {
-        "date": "2025-09-07",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-09-08",
-        "count": 4,
-        "level": 1
-      },
-      {
-        "date": "2025-09-09",
-        "count": 3,
-        "level": 1
-      },
-      {
-        "date": "2025-09-10",
-        "count": 2,
-        "level": 1
-      },
-      {
-        "date": "2025-09-11",
-        "count": 10,
-        "level": 1
-      },
-      {
-        "date": "2025-09-12",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-09-13",
-        "count": 0,
-        "level": 0
-      },
       {
         "date": "2025-09-14",
         "count": 0,
@@ -1855,6 +1820,11 @@
       },
       {
         "date": "2026-09-12",
+        "count": 6,
+        "level": 1
+      },
+      {
+        "date": "2026-09-13",
         "count": 0,
         "level": 0
       }
@@ -1888,14 +1858,819 @@
     "hireable": null,
     "bio": "AI/ML Engineer | Full Stack Developer | Android Developer | Azure Certified",
     "twitter_username": null,
-    "public_repos": 65,
+    "public_repos": 66,
     "public_gists": 0,
     "followers": 58,
-    "following": 29,
+    "following": 30,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-09-11T01:52:48Z"
   },
   "activityFeed": [
+    {
+      "id": "20951211714",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-12T16:41:43Z",
+      "payload": {
+        "ref": "fix-permission-mode-227",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix-permission-mode-227",
+        "master_branch": "main",
+        "description": "From ticket to reviewed pull request. Free and open-source, on your machine.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "20942106444",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-12T20:26:56Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43403650292,
+        "ref": "refs/heads/fix-permission-mode-227",
+        "head": "6326c02ca905694b9cc21b59e4851e101a253108",
+        "before": "8be4fcc125ee8f7253b551ade55967805d97f64c"
+      }
+    },
+    {
+      "id": "20941082312",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-12T20:11:57Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43403043751,
+        "ref": "refs/heads/fix-permission-mode-227",
+        "head": "5f701c34cafca509b741baec9982a809187ef455",
+        "before": "66e94ef619e705e92935a700b56c51a0fb555b8c"
+      }
+    },
+    {
+      "id": "20936906260",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-12T11:37:24Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 43379785758,
+        "ref": "refs/heads/main",
+        "head": "4d7c5a6393acef80f5405c7b827aaa2ff6daf3c6",
+        "before": "1ce355614e16fd3d605f21b3e573b883d1d30bb4"
+      }
+    },
+    {
+      "id": "20934570402",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-12T18:37:22Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43399031063,
+        "ref": "refs/heads/fix-permission-mode-227",
+        "head": "66e94ef619e705e92935a700b56c51a0fb555b8c",
+        "before": "adc12ed3381a3d4f4686fcd130eb47b0354f3770"
+      }
+    },
+    {
+      "id": "14917025018",
+      "type": "IssueCommentEvent",
+      "repo": "no-human-ai/no_human",
+      "created_at": "2026-09-12T16:46:47Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/227",
+          "repository_url": "https://api.github.com/repos/no-human-ai/no_human",
+          "labels_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/labels{/name}",
+          "comments_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/comments",
+          "events_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/events",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/227",
+          "id": 5409869487,
+          "node_id": "I_kwDOTu0-rM8AAAABQnQOrw",
+          "number": 227,
+          "title": "llm.permission_mode reaches only the coder and reviewer; ~12 other sessions stay on the disabled mode",
+          "user": {
+            "login": "eyalgolan",
+            "id": 5146175,
+            "node_id": "MDQ6VXNlcjUxNDYxNzU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5146175?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eyalgolan",
+            "html_url": "https://github.com/eyalgolan",
+            "followers_url": "https://api.github.com/users/eyalgolan/followers",
+            "following_url": "https://api.github.com/users/eyalgolan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/eyalgolan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/eyalgolan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/eyalgolan/subscriptions",
+            "organizations_url": "https://api.github.com/users/eyalgolan/orgs",
+            "repos_url": "https://api.github.com/users/eyalgolan/repos",
+            "events_url": "https://api.github.com/users/eyalgolan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/eyalgolan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11739271008,
+              "node_id": "LA_kwDOTu0-rM8AAAACu7cPYA",
+              "url": "https://api.github.com/repos/no-human-ai/no_human/labels/bug",
+              "name": "bug",
+              "color": "d73a4a",
+              "default": true,
+              "description": "Something isn't working",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "Rahul-pamula",
+              "id": 153642358,
+              "node_id": "U_kgDOCShldg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Rahul-pamula",
+              "html_url": "https://github.com/Rahul-pamula",
+              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 4,
+          "created_at": "2026-09-10T08:35:45Z",
+          "updated_at": "2026-09-12T16:46:47Z",
+          "closed_at": null,
+          "assignee": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "Follow-up to #220. The `llm.permission_mode` key is resolved inside\n`agent/backend.py::make_backend`, so it reaches exactly the two sessions built\nthrough that factory — the coder (`core/runtime.py`) and the reviewer\n(`review/reviewer.py`). Every other session constructs `ClaudeBackend`\ndirectly and keeps the class default `bypassPermissions`, which is the mode a\npolicy-bound organisation disables.\n\nOn such an install the task loop is restored and these are not.\n\n## The sites\n\n`grep -rn \"ClaudeBackend(\" --include='*.py' src/` — the ones that matter are the\nsessions that WRITE, because a read-only session degrades quietly while a\nwriting one fails outright:\n\n* `cli/commands.py:3309` — `nh wiki`. No `readonly=`, so it writes files:\n  ```python\n  backend = ClaudeBackend(\n      model=config.primary_model,\n      forbidden_paths=config[\"safety\"][\"forbidden_paths\"],\n  )\n  gen = WikiGenerator(backend, max_turns=12)\n  ```\n* `api/app.py:5990` — the wiki job behind the API, same shape.\n* `cli/commands.py:7319 / 7652 / 8596` — the eval, northstar and shadow\n  harnesses, all writing.\n* `eval/funnel_eval.py:146` — builds `ClaudeBackend` directly and documents\n  `permission_mode` as \"deliberately NOT passed\". That comment is still true;\n  it simply predates the key.\n\nRead-only sessions on the same footing: the planner and aggregator\n(`core/orchestrator.py`), the intake evaluator, the grill sessions, the\nadvisory seam, and `nh doctor`'s probe (`agent/backend_check.py:251`).\n\n## The sharper one: the researcher subagent\n\nEvery coder attempt is handed a subagent that hardcodes the mode and holds Bash\n(`core/orchestrator.py:2448`, wired at `:5771`, pinned by\n`tests/test_e2e_orchestrator.py:6074`):\n\n```python\ntools=[\"Read\", \"Grep\", \"Glob\", \"Bash\"],\ndisallowedTools=[\"Write\", \"Edit\", \"MultiEdit\", \"NotebookEdit\"],\npermissionMode=\"bypassPermissions\",\n```\n\nSo after setting the key, the coder runs `acceptEdits` and its own subagent\nstill asks for the disabled mode. Because the researcher is advisory, watching\none attempt reach a commit does **not** surface this — the attempt succeeds and\nthe subagent silently returns nothing useful.\n\n## Two related gaps\n\n* **No validation at load.** `load_config` rejects an API key in config, invalid\n  role backends and enabled decomposition, but does not check\n  `permission_mode`. The value is validated at first backend construction, so a\n  misspelling is discovered by a burned attempt rather than at `nh doctor`\n  time — for a key whose whole justification is that a silent fallback\n  reproduces the symptom, the check belongs at load.\n* **`nh doctor` is blind to it.** Its probe constructs `ClaudeBackend` directly\n  (`agent/backend_check.py:247-251`), so it cannot report that the configured\n  mode is the one the organisation refuses.\n\n## Suggested direction\n\nRoute the remaining sessions through `make_backend` (or give `ClaudeBackend` a\nconfig-aware constructor) rather than widening the key's reach site by site.\nUntil then, `docs/configuration.md` states the coder+reviewer limitation\nexplicitly, which is the honest interim.",
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5647279968",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/227#issuecomment-5647279968",
+          "issue_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227",
+          "id": 5647279968,
+          "node_id": "IC_kwDOTu0-rM8AAAABUJqnYA",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-12T16:46:47Z",
+          "updated_at": "2026-09-12T16:46:47Z",
+          "body": "I've just opened PR #308  implementing this! \n\nThe scope is strictly limited to the writing sessions as discussed, and I made sure to preserve the read-only instances for a follow-up. I've also updated the researcher subagent's `permission_mode` to pull from the loaded config, while leaving the `disallowedTools` and the R10 justification completely intact.\n\nLet me know if there's anything else you'd like me to tweak before it merges!\n",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5647279968/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "14916982730",
+      "type": "PullRequestEvent",
+      "repo": "no-human-ai/no_human",
+      "created_at": "2026-09-12T16:45:13Z",
+      "payload": {
+        "action": "opened",
+        "number": 308,
+        "pull_request": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/pulls/308",
+          "id": 4514349297,
+          "number": 308,
+          "head": {
+            "ref": "fix-permission-mode-227",
+            "sha": "6326c02ca905694b9cc21b59e4851e101a253108",
+            "repo": {
+              "id": 1367188943,
+              "url": "https://api.github.com/repos/Rahul-pamula/no_human",
+              "name": "no_human"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "e52414a91c228e043e99ca2f2bc1073ce1768557",
+            "repo": {
+              "id": 1324170924,
+              "url": "https://api.github.com/repos/no-human-ai/no_human",
+              "name": "no_human"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "20923804311",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-12T16:03:50Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43392029903,
+        "ref": "refs/heads/main",
+        "head": "cfad1a28a01c6579b633a2b0422ae7c73bea3f80",
+        "before": "14ddfc0a80badcc67394f59f46367dc298a8c227"
+      }
+    },
+    {
+      "id": "14913614316",
+      "type": "IssueCommentEvent",
+      "repo": "no-human-ai/no_human",
+      "created_at": "2026-09-12T14:36:04Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/227",
+          "repository_url": "https://api.github.com/repos/no-human-ai/no_human",
+          "labels_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/labels{/name}",
+          "comments_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/comments",
+          "events_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/events",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/227",
+          "id": 5409869487,
+          "node_id": "I_kwDOTu0-rM8AAAABQnQOrw",
+          "number": 227,
+          "title": "llm.permission_mode reaches only the coder and reviewer; ~12 other sessions stay on the disabled mode",
+          "user": {
+            "login": "eyalgolan",
+            "id": 5146175,
+            "node_id": "MDQ6VXNlcjUxNDYxNzU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5146175?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eyalgolan",
+            "html_url": "https://github.com/eyalgolan",
+            "followers_url": "https://api.github.com/users/eyalgolan/followers",
+            "following_url": "https://api.github.com/users/eyalgolan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/eyalgolan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/eyalgolan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/eyalgolan/subscriptions",
+            "organizations_url": "https://api.github.com/users/eyalgolan/orgs",
+            "repos_url": "https://api.github.com/users/eyalgolan/repos",
+            "events_url": "https://api.github.com/users/eyalgolan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/eyalgolan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11739271008,
+              "node_id": "LA_kwDOTu0-rM8AAAACu7cPYA",
+              "url": "https://api.github.com/repos/no-human-ai/no_human/labels/bug",
+              "name": "bug",
+              "color": "d73a4a",
+              "default": true,
+              "description": "Something isn't working",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "Rahul-pamula",
+              "id": 153642358,
+              "node_id": "U_kgDOCShldg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Rahul-pamula",
+              "html_url": "https://github.com/Rahul-pamula",
+              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 4,
+          "created_at": "2026-09-10T08:35:45Z",
+          "updated_at": "2026-09-12T16:46:47Z",
+          "closed_at": null,
+          "assignee": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "Follow-up to #220. The `llm.permission_mode` key is resolved inside\n`agent/backend.py::make_backend`, so it reaches exactly the two sessions built\nthrough that factory — the coder (`core/runtime.py`) and the reviewer\n(`review/reviewer.py`). Every other session constructs `ClaudeBackend`\ndirectly and keeps the class default `bypassPermissions`, which is the mode a\npolicy-bound organisation disables.\n\nOn such an install the task loop is restored and these are not.\n\n## The sites\n\n`grep -rn \"ClaudeBackend(\" --include='*.py' src/` — the ones that matter are the\nsessions that WRITE, because a read-only session degrades quietly while a\nwriting one fails outright:\n\n* `cli/commands.py:3309` — `nh wiki`. No `readonly=`, so it writes files:\n  ```python\n  backend = ClaudeBackend(\n      model=config.primary_model,\n      forbidden_paths=config[\"safety\"][\"forbidden_paths\"],\n  )\n  gen = WikiGenerator(backend, max_turns=12)\n  ```\n* `api/app.py:5990` — the wiki job behind the API, same shape.\n* `cli/commands.py:7319 / 7652 / 8596` — the eval, northstar and shadow\n  harnesses, all writing.\n* `eval/funnel_eval.py:146` — builds `ClaudeBackend` directly and documents\n  `permission_mode` as \"deliberately NOT passed\". That comment is still true;\n  it simply predates the key.\n\nRead-only sessions on the same footing: the planner and aggregator\n(`core/orchestrator.py`), the intake evaluator, the grill sessions, the\nadvisory seam, and `nh doctor`'s probe (`agent/backend_check.py:251`).\n\n## The sharper one: the researcher subagent\n\nEvery coder attempt is handed a subagent that hardcodes the mode and holds Bash\n(`core/orchestrator.py:2448`, wired at `:5771`, pinned by\n`tests/test_e2e_orchestrator.py:6074`):\n\n```python\ntools=[\"Read\", \"Grep\", \"Glob\", \"Bash\"],\ndisallowedTools=[\"Write\", \"Edit\", \"MultiEdit\", \"NotebookEdit\"],\npermissionMode=\"bypassPermissions\",\n```\n\nSo after setting the key, the coder runs `acceptEdits` and its own subagent\nstill asks for the disabled mode. Because the researcher is advisory, watching\none attempt reach a commit does **not** surface this — the attempt succeeds and\nthe subagent silently returns nothing useful.\n\n## Two related gaps\n\n* **No validation at load.** `load_config` rejects an API key in config, invalid\n  role backends and enabled decomposition, but does not check\n  `permission_mode`. The value is validated at first backend construction, so a\n  misspelling is discovered by a burned attempt rather than at `nh doctor`\n  time — for a key whose whole justification is that a silent fallback\n  reproduces the symptom, the check belongs at load.\n* **`nh doctor` is blind to it.** Its probe constructs `ClaudeBackend` directly\n  (`agent/backend_check.py:247-251`), so it cannot report that the configured\n  mode is the one the organisation refuses.\n\n## Suggested direction\n\nRoute the remaining sessions through `make_backend` (or give `ClaudeBackend` a\nconfig-aware constructor) rather than widening the key's reach site by site.\nUntil then, `docs/configuration.md` states the coder+reviewer limitation\nexplicitly, which is the honest interim.",
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5646547234",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/227#issuecomment-5646547234",
+          "issue_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227",
+          "id": 5646547234,
+          "node_id": "IC_kwDOTu0-rM8AAAABUI95Ig",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-12T14:36:04Z",
+          "updated_at": "2026-09-12T14:36:04Z",
+          "body": "Thanks, Eyal! I appreciate you verifying the sites against main and pointing out the extra construction sites — that saves me a lot of time.\n\nOn the researcher subagent (Point 2): Understood completely. I'll ensure disallowedTools remains untouched and explicitly document in the PR description why pulling from the config remains safe and honors the R10 constraint against prompting modes.\n\nThanks for the heads-up on the CLA ledger and RELEASE_MANIFEST.txt — I'll make sure those are included in the same commit.\n\nI'll get to work on the first two sites (writing sessions through make_backend and the researcher subagent) and push a draft PR shortly so we can align on the shape.",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5646547234/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "20913899865",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-12T13:47:40Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 43385319731,
+        "ref": "refs/heads/main",
+        "head": "d54fac29a8fb9a4b72943a5299dc6ab91b61c39b",
+        "before": "de4206e5f7614c1e55393e5b6ae1b0c7d5420fc2"
+      }
+    },
+    {
+      "id": "20904852264",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-12T11:40:25Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 43379908704,
+        "ref": "refs/heads/main",
+        "head": "de4206e5f7614c1e55393e5b6ae1b0c7d5420fc2",
+        "before": "4d7c5a6393acef80f5405c7b827aaa2ff6daf3c6"
+      }
+    },
+    {
+      "id": "14909218913",
+      "type": "IssueCommentEvent",
+      "repo": "no-human-ai/no_human",
+      "created_at": "2026-09-12T11:27:59Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/227",
+          "repository_url": "https://api.github.com/repos/no-human-ai/no_human",
+          "labels_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/labels{/name}",
+          "comments_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/comments",
+          "events_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/events",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/227",
+          "id": 5409869487,
+          "node_id": "I_kwDOTu0-rM8AAAABQnQOrw",
+          "number": 227,
+          "title": "llm.permission_mode reaches only the coder and reviewer; ~12 other sessions stay on the disabled mode",
+          "user": {
+            "login": "eyalgolan",
+            "id": 5146175,
+            "node_id": "MDQ6VXNlcjUxNDYxNzU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5146175?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eyalgolan",
+            "html_url": "https://github.com/eyalgolan",
+            "followers_url": "https://api.github.com/users/eyalgolan/followers",
+            "following_url": "https://api.github.com/users/eyalgolan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/eyalgolan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/eyalgolan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/eyalgolan/subscriptions",
+            "organizations_url": "https://api.github.com/users/eyalgolan/orgs",
+            "repos_url": "https://api.github.com/users/eyalgolan/repos",
+            "events_url": "https://api.github.com/users/eyalgolan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/eyalgolan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11739271008,
+              "node_id": "LA_kwDOTu0-rM8AAAACu7cPYA",
+              "url": "https://api.github.com/repos/no-human-ai/no_human/labels/bug",
+              "name": "bug",
+              "color": "d73a4a",
+              "default": true,
+              "description": "Something isn't working",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "Rahul-pamula",
+              "id": 153642358,
+              "node_id": "U_kgDOCShldg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Rahul-pamula",
+              "html_url": "https://github.com/Rahul-pamula",
+              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 4,
+          "created_at": "2026-09-10T08:35:45Z",
+          "updated_at": "2026-09-12T16:46:47Z",
+          "closed_at": null,
+          "assignee": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "Follow-up to #220. The `llm.permission_mode` key is resolved inside\n`agent/backend.py::make_backend`, so it reaches exactly the two sessions built\nthrough that factory — the coder (`core/runtime.py`) and the reviewer\n(`review/reviewer.py`). Every other session constructs `ClaudeBackend`\ndirectly and keeps the class default `bypassPermissions`, which is the mode a\npolicy-bound organisation disables.\n\nOn such an install the task loop is restored and these are not.\n\n## The sites\n\n`grep -rn \"ClaudeBackend(\" --include='*.py' src/` — the ones that matter are the\nsessions that WRITE, because a read-only session degrades quietly while a\nwriting one fails outright:\n\n* `cli/commands.py:3309` — `nh wiki`. No `readonly=`, so it writes files:\n  ```python\n  backend = ClaudeBackend(\n      model=config.primary_model,\n      forbidden_paths=config[\"safety\"][\"forbidden_paths\"],\n  )\n  gen = WikiGenerator(backend, max_turns=12)\n  ```\n* `api/app.py:5990` — the wiki job behind the API, same shape.\n* `cli/commands.py:7319 / 7652 / 8596` — the eval, northstar and shadow\n  harnesses, all writing.\n* `eval/funnel_eval.py:146` — builds `ClaudeBackend` directly and documents\n  `permission_mode` as \"deliberately NOT passed\". That comment is still true;\n  it simply predates the key.\n\nRead-only sessions on the same footing: the planner and aggregator\n(`core/orchestrator.py`), the intake evaluator, the grill sessions, the\nadvisory seam, and `nh doctor`'s probe (`agent/backend_check.py:251`).\n\n## The sharper one: the researcher subagent\n\nEvery coder attempt is handed a subagent that hardcodes the mode and holds Bash\n(`core/orchestrator.py:2448`, wired at `:5771`, pinned by\n`tests/test_e2e_orchestrator.py:6074`):\n\n```python\ntools=[\"Read\", \"Grep\", \"Glob\", \"Bash\"],\ndisallowedTools=[\"Write\", \"Edit\", \"MultiEdit\", \"NotebookEdit\"],\npermissionMode=\"bypassPermissions\",\n```\n\nSo after setting the key, the coder runs `acceptEdits` and its own subagent\nstill asks for the disabled mode. Because the researcher is advisory, watching\none attempt reach a commit does **not** surface this — the attempt succeeds and\nthe subagent silently returns nothing useful.\n\n## Two related gaps\n\n* **No validation at load.** `load_config` rejects an API key in config, invalid\n  role backends and enabled decomposition, but does not check\n  `permission_mode`. The value is validated at first backend construction, so a\n  misspelling is discovered by a burned attempt rather than at `nh doctor`\n  time — for a key whose whole justification is that a silent fallback\n  reproduces the symptom, the check belongs at load.\n* **`nh doctor` is blind to it.** Its probe constructs `ClaudeBackend` directly\n  (`agent/backend_check.py:247-251`), so it cannot report that the configured\n  mode is the one the organisation refuses.\n\n## Suggested direction\n\nRoute the remaining sessions through `make_backend` (or give `ClaudeBackend` a\nconfig-aware constructor) rather than widening the key's reach site by site.\nUntil then, `docs/configuration.md` states the coder+reviewer limitation\nexplicitly, which is the honest interim.",
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5645600084",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/227#issuecomment-5645600084",
+          "issue_url": "https://api.github.com/repos/no-human-ai/no_human/issues/227",
+          "id": 5645600084,
+          "node_id": "IC_kwDOTu0-rM8AAAABUIEFVA",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-12T11:27:59Z",
+          "updated_at": "2026-09-12T11:27:59Z",
+          "body": "Hi @eyalgolan  — I've gone through the issue and traced the sites in the codebase.\n\nThe fix I'm planning:\n\nRoute all writing sessions through make_backend — specifically cli/commands.py (wiki, eval, northstar, shadow harnesses) and api/app.py (wiki job), so they pick up llm.permission_mode from config automatically instead of hardcoding the class default.\n\nFix the researcher subagent at core/orchestrator.py:2448 — the permissionMode=\"bypassPermissions\" is hardcoded there. I'll replace it with a value derived from the loaded config so it respects the operator's setting.\n\nAdd validation at load time — check permission_mode inside load_config so a misspelling fails loudly at startup, not mid-attempt after burning tokens.\n\nFix nh doctor — update agent/backend_check.py:247-251 to route through make_backend so the probe reflects the actual configured mode.\n\nI'll leave read-only sessions (planner, aggregator, intake evaluator, grill, advisory) for a follow-up unless they're in scope here.\n\nCan I be assigned? I'll open a draft PR once I have the core sites done.",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5645600084/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "14907932923",
+      "type": "ForkEvent",
+      "repo": "no-human-ai/no_human",
+      "created_at": "2026-09-12T10:27:01Z",
+      "payload": {
+        "action": "forked",
+        "forkee": {
+          "id": 1367188943,
+          "node_id": "R_kgDOUX2lzw",
+          "name": "no_human",
+          "full_name": "Rahul-pamula/no_human",
+          "private": false,
+          "owner": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/Rahul-pamula/no_human",
+          "description": "From ticket to reviewed pull request. Free and open-source, on your machine.",
+          "fork": true,
+          "url": "https://api.github.com/repos/Rahul-pamula/no_human",
+          "forks_url": "https://api.github.com/repos/Rahul-pamula/no_human/forks",
+          "keys_url": "https://api.github.com/repos/Rahul-pamula/no_human/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/no_human/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/Rahul-pamula/no_human/teams",
+          "hooks_url": "https://api.github.com/repos/Rahul-pamula/no_human/hooks",
+          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/no_human/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/no_human/events",
+          "assignees_url": "https://api.github.com/repos/Rahul-pamula/no_human/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/Rahul-pamula/no_human/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/Rahul-pamula/no_human/tags",
+          "blobs_url": "https://api.github.com/repos/Rahul-pamula/no_human/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/no_human/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/no_human/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/Rahul-pamula/no_human/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/Rahul-pamula/no_human/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/Rahul-pamula/no_human/languages",
+          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/no_human/stargazers",
+          "contributors_url": "https://api.github.com/repos/Rahul-pamula/no_human/contributors",
+          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/no_human/subscribers",
+          "subscription_url": "https://api.github.com/repos/Rahul-pamula/no_human/subscription",
+          "commits_url": "https://api.github.com/repos/Rahul-pamula/no_human/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/no_human/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/no_human/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/no_human/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/Rahul-pamula/no_human/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/Rahul-pamula/no_human/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/Rahul-pamula/no_human/merges",
+          "archive_url": "https://api.github.com/repos/Rahul-pamula/no_human/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/Rahul-pamula/no_human/downloads",
+          "issues_url": "https://api.github.com/repos/Rahul-pamula/no_human/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/Rahul-pamula/no_human/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/Rahul-pamula/no_human/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/Rahul-pamula/no_human/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/no_human/labels{/name}",
+          "releases_url": "https://api.github.com/repos/Rahul-pamula/no_human/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/Rahul-pamula/no_human/deployments",
+          "created_at": "2026-09-12T10:27:01Z",
+          "updated_at": "2026-09-12T16:04:00Z",
+          "pushed_at": "2026-09-12T20:26:55Z",
+          "git_url": "git://github.com/Rahul-pamula/no_human.git",
+          "ssh_url": "git@github.com:Rahul-pamula/no_human.git",
+          "clone_url": "https://github.com/Rahul-pamula/no_human.git",
+          "svn_url": "https://github.com/Rahul-pamula/no_human",
+          "homepage": "https://getnohuman.com",
+          "size": 37485,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "language": "Python",
+          "has_issues": false,
+          "has_projects": true,
+          "has_downloads": false,
+          "has_wiki": false,
+          "has_pages": false,
+          "has_discussions": false,
+          "forks_count": 0,
+          "mirror_url": null,
+          "archived": false,
+          "disabled": false,
+          "open_issues_count": 0,
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "allow_forking": true,
+          "is_template": false,
+          "web_commit_signoff_required": false,
+          "has_pull_requests": true,
+          "pull_request_creation_policy": "all",
+          "topics": [],
+          "visibility": "public",
+          "forks": 0,
+          "open_issues": 0,
+          "watchers": 0,
+          "default_branch": "main"
+        }
+      }
+    },
     {
       "id": "14872343332",
       "type": "IssueCommentEvent",
@@ -1943,7 +2718,9 @@
               "name": "bug",
               "color": "d73a4a",
               "default": true,
-              "description": "Something isn't working"
+              "description": "Something isn't working",
+              "archived_at": null,
+              "archived_by": null
             },
             {
               "id": 9929303792,
@@ -1952,7 +2729,9 @@
               "name": "good first issue",
               "color": "7057ff",
               "default": true,
-              "description": "Good for newcomers"
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
             }
           ],
           "state": "closed",
@@ -2091,7 +2870,9 @@
               "name": "documentation",
               "color": "0075ca",
               "default": true,
-              "description": "Improvements or additions to documentation"
+              "description": "Improvements or additions to documentation",
+              "archived_at": null,
+              "archived_by": null
             },
             {
               "id": 10892291079,
@@ -2100,7 +2881,9 @@
               "name": "good first issue",
               "color": "7057ff",
               "default": true,
-              "description": "Good for newcomers"
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
             },
             {
               "id": 12111997657,
@@ -2109,7 +2892,9 @@
               "name": "sequences",
               "color": "EDEDED",
               "default": false,
-              "description": ""
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
             }
           ],
           "state": "open",
@@ -2242,528 +3027,11 @@
           "minimized": null
         }
       }
-    },
-    {
-      "id": "14722588144",
-      "type": "IssueCommentEvent",
-      "repo": "reticlehq/reticle",
-      "created_at": "2026-09-09T15:50:08Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/reticlehq/reticle/issues/606",
-          "repository_url": "https://api.github.com/repos/reticlehq/reticle",
-          "labels_url": "https://api.github.com/repos/reticlehq/reticle/issues/606/labels{/name}",
-          "comments_url": "https://api.github.com/repos/reticlehq/reticle/issues/606/comments",
-          "events_url": "https://api.github.com/repos/reticlehq/reticle/issues/606/events",
-          "html_url": "https://github.com/reticlehq/reticle/issues/606",
-          "id": 5270945306,
-          "node_id": "I_kwDOS3TU6c8AAAABOiw-Gg",
-          "number": 606,
-          "title": "[agent] the throttle recommendation does not mention that leasing empties the human's HUD",
-          "user": {
-            "login": "divshekhar",
-            "id": 61140213,
-            "node_id": "MDQ6VXNlcjYxMTQwMjEz",
-            "avatar_url": "https://avatars.githubusercontent.com/u/61140213?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/divshekhar",
-            "html_url": "https://github.com/divshekhar",
-            "followers_url": "https://api.github.com/users/divshekhar/followers",
-            "following_url": "https://api.github.com/users/divshekhar/following{/other_user}",
-            "gists_url": "https://api.github.com/users/divshekhar/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/divshekhar/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/divshekhar/subscriptions",
-            "organizations_url": "https://api.github.com/users/divshekhar/orgs",
-            "repos_url": "https://api.github.com/users/divshekhar/repos",
-            "events_url": "https://api.github.com/users/divshekhar/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/divshekhar/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11202538248,
-              "node_id": "LA_kwDOS3TU6c8AAAACm7krCA",
-              "url": "https://api.github.com/repos/reticlehq/reticle/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation"
-            },
-            {
-              "id": 11202538296,
-              "node_id": "LA_kwDOS3TU6c8AAAACm7krOA",
-              "url": "https://api.github.com/repos/reticlehq/reticle/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
-            },
-            {
-              "id": 11202538311,
-              "node_id": "LA_kwDOS3TU6c8AAAACm7krRw",
-              "url": "https://api.github.com/repos/reticlehq/reticle/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed"
-            },
-            {
-              "id": 11824172455,
-              "node_id": "LA_kwDOS3TU6c8AAAACwMaNpw",
-              "url": "https://api.github.com/repos/reticlehq/reticle/labels/agent-reported",
-              "name": "agent-reported",
-              "color": "5319E7",
-              "default": false,
-              "description": "Filed from an AI agent's reticle_feedback report. Title is prefixed [agent]."
-            },
-            {
-              "id": 12117972175,
-              "node_id": "LA_kwDOS3TU6c8AAAAC0kmUzw",
-              "url": "https://api.github.com/repos/reticlehq/reticle/labels/area/browser",
-              "name": "area/browser",
-              "color": "1D76DB",
-              "default": false,
-              "description": "Affects packages/browser"
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 5,
-          "created_at": "2026-08-27T18:37:52Z",
-          "updated_at": "2026-09-09T15:50:08Z",
-          "closed_at": null,
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "When a connected session reports `throttled: true, focused: false`, the recommendation reads:\n\n> tab hidden/throttled and may be un-focusable from here; refocus it, or acquire a guaranteed\n> scriptable context yourself with `reticle_lease`\n\nFollowing the second half moves every subsequent verdict into a pooled context **the human cannot\nsee**. Their HUD stays empty for the whole run and the product looks broken while working correctly.\n\nThe same reporter later drove the same \"throttled\" tab successfully, so the flag is not a reliable\nsignal that the tab is undriveable — it is being read as one because the recommendation offers\nleasing as the remedy.\n\n## Fix (wording, no behaviour change)\n\n1. Say what leasing costs, in the recommendation itself: \"this opens a context the human cannot watch\n   — prefer refocusing their tab if they are sitting in front of it.\"\n2. Say that `throttled: true` does not necessarily mean the tab cannot be driven, so trying the drive\n   first is reasonable.\n\nRelated to #400 and #521, which cover other angles on the same recovery path; this one is purely\nabout what the recommendation does not disclose.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/reticlehq/reticle/issues/606/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/reticlehq/reticle/issues/606/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/reticlehq/reticle/issues/comments/5604713584",
-          "html_url": "https://github.com/reticlehq/reticle/issues/606#issuecomment-5604713584",
-          "issue_url": "https://api.github.com/repos/reticlehq/reticle/issues/606",
-          "id": 5604713584,
-          "node_id": "IC_kwDOS3TU6c8AAAABThEkcA",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-09T15:50:08Z",
-          "updated_at": "2026-09-09T15:50:08Z",
-          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I'm interested in contributing here. Could I be assigned this one? I'll get started right away! 🚀",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/reticlehq/reticle/issues/comments/5604713584/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "14722466971",
-      "type": "IssueCommentEvent",
-      "repo": "OpenRecruiterTools/linkedin-toolkit",
-      "created_at": "2026-09-09T15:48:21Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4",
-          "repository_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit",
-          "labels_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/labels{/name}",
-          "comments_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/comments",
-          "events_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/events",
-          "html_url": "https://github.com/OpenRecruiterTools/linkedin-toolkit/issues/4",
-          "id": 5392681698,
-          "node_id": "I_kwDOSXQlss8AAAABQW3K4g",
-          "number": 4,
-          "title": "Five more sequence templates",
-          "user": {
-            "login": "FormatixAI",
-            "id": 169889855,
-            "node_id": "U_kgDOCiBQPw",
-            "avatar_url": "https://avatars.githubusercontent.com/u/169889855?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/FormatixAI",
-            "html_url": "https://github.com/FormatixAI",
-            "followers_url": "https://api.github.com/users/FormatixAI/followers",
-            "following_url": "https://api.github.com/users/FormatixAI/following{/other_user}",
-            "gists_url": "https://api.github.com/users/FormatixAI/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/FormatixAI/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/FormatixAI/subscriptions",
-            "organizations_url": "https://api.github.com/users/FormatixAI/orgs",
-            "repos_url": "https://api.github.com/users/FormatixAI/repos",
-            "events_url": "https://api.github.com/users/FormatixAI/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/FormatixAI/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 10892291053,
-              "node_id": "LA_kwDOSXQlss8AAAACiTsr7Q",
-              "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation"
-            },
-            {
-              "id": 10892291079,
-              "node_id": "LA_kwDOSXQlss8AAAACiTssBw",
-              "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers"
-            },
-            {
-              "id": 12111997657,
-              "node_id": "LA_kwDOSXQlss8AAAAC0e5q2Q",
-              "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/labels/sequences",
-              "name": "sequences",
-              "color": "EDEDED",
-              "default": false,
-              "description": ""
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "ranita872",
-              "id": 181709849,
-              "node_id": "U_kgDOCtSsGQ",
-              "avatar_url": "https://avatars.githubusercontent.com/u/181709849?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/ranita872",
-              "html_url": "https://github.com/ranita872",
-              "followers_url": "https://api.github.com/users/ranita872/followers",
-              "following_url": "https://api.github.com/users/ranita872/following{/other_user}",
-              "gists_url": "https://api.github.com/users/ranita872/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/ranita872/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/ranita872/subscriptions",
-              "organizations_url": "https://api.github.com/users/ranita872/orgs",
-              "repos_url": "https://api.github.com/users/ranita872/repos",
-              "events_url": "https://api.github.com/users/ranita872/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/ranita872/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 7,
-          "created_at": "2026-09-08T22:43:35Z",
-          "updated_at": "2026-09-10T08:04:58Z",
-          "closed_at": null,
-          "assignee": {
-            "login": "ranita872",
-            "id": 181709849,
-            "node_id": "U_kgDOCtSsGQ",
-            "avatar_url": "https://avatars.githubusercontent.com/u/181709849?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/ranita872",
-            "html_url": "https://github.com/ranita872",
-            "followers_url": "https://api.github.com/users/ranita872/followers",
-            "following_url": "https://api.github.com/users/ranita872/following{/other_user}",
-            "gists_url": "https://api.github.com/users/ranita872/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/ranita872/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/ranita872/subscriptions",
-            "organizations_url": "https://api.github.com/users/ranita872/orgs",
-            "repos_url": "https://api.github.com/users/ranita872/repos",
-            "events_url": "https://api.github.com/users/ranita872/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/ranita872/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "We ship 20. There is room for many more, and this needs no JavaScript at all — just judgement\nabout outreach.\n\nWanted, roughly in order of demand:\n- **Open-source maintainer to contributor** — someone starred or forked your repo\n- **Alumni outreach** — same school or same former employer\n- **Customer to case study** — asking a happy customer to go on the record\n- **Conference speaker follow-up** — you watched their talk\n- **Dormant customer win-back** — churned six months ago\n\nCopy `sequences/warm-connect.json`, change the copy, then:\n\n```bash\nnode sequences/validate.mjs\n```\n\n**Rules the validator enforces:** exactly two variants per invite and message step, 300-character\nceiling, a `|fallback` on every variable, at least 24h between outreach steps, a branch,\n`stopOnReply: true`, `autopilot: false`.\n\n**Rules review enforces:** copy a real person would actually send. Nothing from the ban list in\n`sequences/README.md`.\n\n**Done when:** the files validate and the table in `sequences/README.md` is updated.",
-          "reactions": {
-            "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/comments/5604689049",
-          "html_url": "https://github.com/OpenRecruiterTools/linkedin-toolkit/issues/4#issuecomment-5604689049",
-          "issue_url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/4",
-          "id": 5604689049,
-          "node_id": "IC_kwDOSXQlss8AAAABThDEmQ",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-09T15:48:21Z",
-          "updated_at": "2026-09-09T15:48:21Z",
-          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I have experience with the relevant tech stack. Could I be assigned this one? I'll have a fix ready soon! 🙌",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/OpenRecruiterTools/linkedin-toolkit/issues/comments/5604689049/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "20544021216",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/agent-context-os",
-      "created_at": "2026-09-09T08:00:41Z",
-      "payload": {
-        "ref": "align-integration-schema-v2",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/align-integration-schema-v2",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "20525913829",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T19:09:13Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 42847271652,
-        "ref": "refs/heads/main",
-        "head": "d2d0722a0cb5acf1913e63958dca4e3cdb34fe0a",
-        "before": "42571659e5d707f59c9f2c413f3d13c88af221ee"
-      }
-    },
-    {
-      "id": "20501665750",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T12:19:50Z",
-      "payload": {
-        "ref": "docs/landing-setup-redesign",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/docs/landing-setup-redesign",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "20499969687",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T12:00:50Z",
-      "payload": {
-        "ref": "docs/complete-documentation-audit",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/docs/complete-documentation-audit",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "20493968032",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T13:50:56Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 42823625347,
-        "ref": "refs/heads/main",
-        "head": "42571659e5d707f59c9f2c413f3d13c88af221ee",
-        "before": "fc682683756b77cca0e14ed868081e4ba1199862"
-      }
-    },
-    {
-      "id": "20492934217",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T12:20:09Z",
-      "payload": {
-        "ref": "docs/landing-setup-redesign",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/docs/landing-setup-redesign",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "20491200938",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T11:36:48Z",
-      "payload": {
-        "ref": "fix/github-pages-spa-routing",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix/github-pages-spa-routing",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "20489719955",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T12:01:15Z",
-      "payload": {
-        "ref": "docs/complete-documentation-audit",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/docs/complete-documentation-audit",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "20488352498",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T11:15:14Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 42812507886,
-        "ref": "refs/heads/main",
-        "head": "9897d683f6b89cc7faf1f54fca9e583d84e56a40",
-        "before": "513f474f395357cb60b131e08439d9b0626068ea"
-      }
-    },
-    {
-      "id": "20484782691",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T11:37:53Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 42814195895,
-        "ref": "refs/heads/main",
-        "head": "6478603134f78913fe452d8d71dbab5b3758f50f",
-        "before": "9897d683f6b89cc7faf1f54fca9e583d84e56a40"
-      }
-    },
-    {
-      "id": "20482073323",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-07T09:55:38Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 42806725011,
-        "ref": "refs/heads/main",
-        "head": "1fc5a9d48364702a12d13e9caa640d7f443d5c5b",
-        "before": "8fe98b2b330b8696d0ce9ba4dba327960f543ede"
-      }
     }
   ],
   "recentStats": {
-    "commits": 1706,
-    "prs": 143,
+    "commits": 1709,
+    "prs": 144,
     "issues": 258
   }
 }
