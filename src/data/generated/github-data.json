@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-14T03:16:54.824Z",
+  "updatedAt": "2026-09-15T03:18:26.381Z",
   "contributions": {
-    "totalLastYear": 1939,
+    "totalLastYear": 1940,
     "days": [
       {
         "date": "2025-09-14",
@@ -1830,8 +1830,13 @@
       },
       {
         "date": "2026-09-14",
-        "count": 1,
+        "count": 2,
         "level": 1
+      },
+      {
+        "date": "2026-09-15",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -1871,6 +1876,336 @@
     "updated_at": "2026-09-11T01:52:48Z"
   },
   "activityFeed": [
+    {
+      "id": "15038926182",
+      "type": "IssueCommentEvent",
+      "repo": "SolomonYakubu/collabdraw",
+      "created_at": "2026-09-15T03:03:32Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24",
+          "repository_url": "https://api.github.com/repos/SolomonYakubu/collabdraw",
+          "labels_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/labels{/name}",
+          "comments_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/comments",
+          "events_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/events",
+          "html_url": "https://github.com/SolomonYakubu/collabdraw/issues/24",
+          "id": 5357354707,
+          "node_id": "I_kwDOOb0XC88AAAABP1K-0w",
+          "number": 24,
+          "title": "node-canvas is a production dependency, pinned to a release candidate, used only by tests",
+          "user": {
+            "login": "SolomonYakubu",
+            "id": 59848082,
+            "node_id": "MDQ6VXNlcjU5ODQ4MDgy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/59848082?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SolomonYakubu",
+            "html_url": "https://github.com/SolomonYakubu",
+            "followers_url": "https://api.github.com/users/SolomonYakubu/followers",
+            "following_url": "https://api.github.com/users/SolomonYakubu/following{/other_user}",
+            "gists_url": "https://api.github.com/users/SolomonYakubu/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/SolomonYakubu/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/SolomonYakubu/subscriptions",
+            "organizations_url": "https://api.github.com/users/SolomonYakubu/orgs",
+            "repos_url": "https://api.github.com/users/SolomonYakubu/repos",
+            "events_url": "https://api.github.com/users/SolomonYakubu/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/SolomonYakubu/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 8478011382,
+              "node_id": "LA_kwDOOb0XC88AAAAB-VQv9g",
+              "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11991633482,
+              "node_id": "LA_kwDOOb0XC88AAAACysHOSg",
+              "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/labels/tech-debt",
+              "name": "tech-debt",
+              "color": "FBCA04",
+              "default": false,
+              "description": "Tooling, CI, and test-infrastructure debt",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 3,
+          "created_at": "2026-09-05T10:38:05Z",
+          "updated_at": "2026-09-15T03:03:32Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "`package.json:24`:\n\n```json\n\"canvas\": \"^3.0.0-rc3\",\n```\n\nIt sits in `dependencies`, and the only two things that import it are tests:\n\n- `app/testSetup.ts:12` — gives jsdom a real 2D context so the renderer tests can assert on drawing calls\n- `app/services/canvas/__tests__/renderer.test.ts:3`\n\nNo application code references it. The browser already has a canvas.\n\nTwo problems in one line:\n\n**It is in the wrong section.** `next build` and the production install pull it in. node-canvas is a native addon: it compiles against Cairo, Pango, libjpeg and giflib, or downloads a prebuilt binary for the exact platform+Node ABI. That is the single slowest and most fragile entry in the install — on a platform with no prebuild it needs a toolchain and system libraries present in the deploy image. All of that cost is currently paid by production for a dependency only `vitest` uses.\n\n**The range floats across prereleases.** `^3.0.0-rc3` resolves to any `3.x` at or above `3.0.0-rc3`, release candidates included, and an RC is exactly where the native build surface changes without ceremony. A fresh `npm install` on a machine with no lockfile hit can pick up a different RC than the one CI validated, and the failure shows up as a compile error during install rather than as a test failure.\n\n### Fix\n\nMove it to `devDependencies` and pin it to a stable `3.x` (`^3.2.0` at time of writing) rather than an RC. If a stable 3.x turns out not to work under the current Node, pin the exact RC that does — `3.0.0-rc3` with no caret — and say why in a comment, so the constraint is recorded instead of rediscovered.\n\nVerify with `npm ls canvas` and a clean `npm ci --omit=dev` (it should no longer appear), then `npm test` to confirm the renderer suite still gets its context.",
+          "reactions": {
+            "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/comments/5674031332",
+          "html_url": "https://github.com/SolomonYakubu/collabdraw/issues/24#issuecomment-5674031332",
+          "issue_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24",
+          "id": 5674031332,
+          "node_id": "IC_kwDOOb0XC88AAAABUjLY5A",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-15T03:03:32Z",
+          "updated_at": "2026-09-15T03:03:32Z",
+          "body": "Thank you.. ",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/comments/5674031332/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "21106518323",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-13T11:05:54Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43435272529,
+        "ref": "refs/heads/fix-permission-mode-227",
+        "head": "ca9ef69f309bbb8b6186d198cf9350d0f2085dbb",
+        "before": "9aa50bc85b275eab22a27dc56cccefa2e2d20f8f"
+      }
+    },
+    {
+      "id": "21090484859",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-12T20:14:44Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43403157853,
+        "ref": "refs/heads/fix-permission-mode-227",
+        "head": "840450ae31a223dfa1e9488f7d2601fb34b924b4",
+        "before": "5f701c34cafca509b741baec9982a809187ef455"
+      }
+    },
+    {
+      "id": "21068653634",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-12T20:15:52Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43403206571,
+        "ref": "refs/heads/fix-permission-mode-227",
+        "head": "8be4fcc125ee8f7253b551ade55967805d97f64c",
+        "before": "840450ae31a223dfa1e9488f7d2601fb34b924b4"
+      }
+    },
+    {
+      "id": "14971242437",
+      "type": "IssueCommentEvent",
+      "repo": "no-human-ai/no_human",
+      "created_at": "2026-09-14T05:43:12Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/259",
+          "repository_url": "https://api.github.com/repos/no-human-ai/no_human",
+          "labels_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/labels{/name}",
+          "comments_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/comments",
+          "events_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/events",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/259",
+          "id": 5415797230,
+          "node_id": "I_kwDOTu0-rM8AAAABQs6B7g",
+          "number": 259,
+          "title": "WINDOWS.md's line citations are unchecked and nine of ten do not resolve; the doc-anchor resolver cannot see the class that caused #110",
+          "user": {
+            "login": "eyalgolan",
+            "id": 5146175,
+            "node_id": "MDQ6VXNlcjUxNDYxNzU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5146175?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eyalgolan",
+            "html_url": "https://github.com/eyalgolan",
+            "followers_url": "https://api.github.com/users/eyalgolan/followers",
+            "following_url": "https://api.github.com/users/eyalgolan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/eyalgolan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/eyalgolan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/eyalgolan/subscriptions",
+            "organizations_url": "https://api.github.com/users/eyalgolan/orgs",
+            "repos_url": "https://api.github.com/users/eyalgolan/repos",
+            "events_url": "https://api.github.com/users/eyalgolan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/eyalgolan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11739271079,
+              "node_id": "LA_kwDOTu0-rM8AAAACu7cPpw",
+              "url": "https://api.github.com/repos/no-human-ai/no_human/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 2,
+          "created_at": "2026-09-10T18:17:12Z",
+          "updated_at": "2026-09-14T05:43:12Z",
+          "closed_at": null,
+          "assignee": null,
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "`docs/WINDOWS.md` carries ten line citations that nothing checks, nine of which do not even resolve — and the resolver that was supposed to catch #110's class cannot see a bare `.md` path\n\nFollow-up from #258 (which closed #110 by fixing two individual citations). That PR deliberately did not do this part, and its `CITATION_TABLE` comment says so; filing it rather than leaving it implied.\n\n## 1. The doc side of a WINDOWS.md citation is unenforced\n\n`WINDOWS.md` is not in `_CITATION_DOC_PATHS` (`tests/test_readme_claims.py`), which holds only `security.md`, `eval.md`, `KNOWN_ISSUES.md`. Consequences, both verified:\n\n- `_check_citation` never opens the doc — `doc` is used only in assertion messages. I deleted the `proc.py:hidden_console_kwargs` citation from `WINDOWS.md` entirely and the suite stayed green at `135 passed, 12 skipped`.\n- `test_the_citation_table_covers_every_line_citation_in_the_three_docs` never iterates WINDOWS.md, so neither its `missing` nor its `extra` half can fire for that file.\n\n## 2. Nine of its ten remaining citations do not resolve\n\n`_resolve_source` tries a slashed path from the repo root and the package root, but a **bare basename** is looked for with `(REPO / \"src\" / \"no_human\").rglob(path)` only. Every `desktop/` file cited by basename therefore misses:\n\n```\ncli/commands.py:7118          -> resolves (fixed in #258)\nelectron-builder.config.cjs:75 -> 0 files\nmain.mjs:598-601               -> 0 files\nserver.mjs:83-87               -> 0 files\nserver.mjs:96-100              -> 0 files\nserver.mjs:117-121             -> 0 files\nserver.mjs:140-147             -> 0 files\nserver.mjs:272-274             -> 0 files\nserver.mjs:364-369             -> 0 files\ntokenStore.mjs:152-153         -> 0 files\n```\n\nRegistering the doc without addressing this just moves the failure. The fix is either qualifying the paths in the doc (`desktop/server.mjs:117-121`) or teaching `_resolve_source` about `desktop/` and `web/`. Note some of these sit in the D1-D8 pre-fix defect inventory at `WINDOWS.md:64-71`, where a stale line number is arguably a historical snapshot — but the doc marks them as such nowhere, so that needs a decision either way.\n\n## 3. `reanchor_citations.py --apply` is one edit away from a KeyError\n\n`plan()` iterates every row; `_apply_all` does `doc_path = mod._CITATION_DOC_PATHS[d.doc]`. A WINDOWS.md row is safe today only because it carries no line number, so it never drifts. Add a line number — which 42 of the 48 rows carry — and `--apply` raises `KeyError('WINDOWS.md')` instead of honouring its documented contract (\"reported as unfixable and left for a human\"). The script's docstring and `--help` also still name only the three docs.\n\n## 4. Root cause: nothing resolves a bare in-repo `.md` path\n\nThis is how `docs/superpowers/plans/…md` survived in the first place. `tests/test_doc_anchors.py` is the only doc-reference resolver, and it structurally cannot see that class:\n\n- `_REFERENCE` requires a `#anchor`, so a bare `.md` path never matches.\n- Targets not already present in the repo are skipped as \"not a document in this repo\" — which is exactly the failing case.\n\nSo #110 was fixed as an instance, and the next hand-written dangling path reintroduces it. Extending that resolver to check bare in-repo `.md` paths is the part that actually closes the class.\n\n## Suggested order\n\n4 first — it is the smallest and prevents recurrence. Then 2, then 1 and 3 together, since registering the doc is what makes the `KeyError` reachable and also what fixes it.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5659560190",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/259#issuecomment-5659560190",
+          "issue_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259",
+          "id": 5659560190,
+          "node_id": "IC_kwDOTu0-rM8AAAABUVYI_g",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-14T05:43:12Z",
+          "updated_at": "2026-09-14T05:43:12Z",
+          "body": "I would love to take this one on!\n\nSince I just experienced the pain of manually re-anchoring WINDOWS.md multiple times in #227, I feel like I'm the perfect person to fix this script so no one else has to do it by hand again. 😅\n\nI promise to do my absolute best on this one—and hopefully save us both some time by getting it right without needing 5 rounds of review this time! Let me know if you're okay assigning it to me.",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5659560190/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
     {
       "id": "14951304860",
       "type": "IssueCommentEvent",
@@ -2666,187 +3001,10 @@
         "head": "5a31235499fe81135e03b2cf960182351816af50",
         "before": "1cd1625a0619c68363976f875475b10ea4a5821a"
       }
-    },
-    {
-      "id": "20968444290",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/no_human",
-      "created_at": "2026-09-13T04:22:50Z",
-      "payload": {
-        "repository_id": 1367188943,
-        "push_id": 43420656152,
-        "ref": "refs/heads/fix-permission-mode-227",
-        "head": "1cd1625a0619c68363976f875475b10ea4a5821a",
-        "before": "afbc0d0c7a61cf3ec95b862e3e8e7c16a5705780"
-      }
-    },
-    {
-      "id": "14932684441",
-      "type": "IssueCommentEvent",
-      "repo": "no-human-ai/no_human",
-      "created_at": "2026-09-13T04:21:28Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/308",
-          "repository_url": "https://api.github.com/repos/no-human-ai/no_human",
-          "labels_url": "https://api.github.com/repos/no-human-ai/no_human/issues/308/labels{/name}",
-          "comments_url": "https://api.github.com/repos/no-human-ai/no_human/issues/308/comments",
-          "events_url": "https://api.github.com/repos/no-human-ai/no_human/issues/308/events",
-          "html_url": "https://github.com/no-human-ai/no_human/pull/308",
-          "id": 5434675128,
-          "node_id": "PR_kwDOTu0-rM8AAAABDROA8Q",
-          "number": 308,
-          "title": "Fix #227: Route writing sessions through make_backend and derive subagent permission mode",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 13,
-          "created_at": "2026-09-12T16:45:13Z",
-          "updated_at": "2026-09-13T21:57:27Z",
-          "closed_at": "2026-09-13T21:57:27Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "draft": false,
-          "pull_request": {
-            "url": "https://api.github.com/repos/no-human-ai/no_human/pulls/308",
-            "html_url": "https://github.com/no-human-ai/no_human/pull/308",
-            "diff_url": "https://github.com/no-human-ai/no_human/pull/308.diff",
-            "patch_url": "https://github.com/no-human-ai/no_human/pull/308.patch",
-            "merged_at": null
-          },
-          "body": "### Description\r\nThis PR implements the resolution for #227, ensuring `llm.permission_mode` is respected across all sessions that write, while preserving read-only mode behavior.\r\n### Changes Made\r\n1. **Writing Sessions Routed**: Replaced direct `ClaudeBackend` instantiations with `make_backend(..., config=config.data)` for CLI writing sessions (`nh wiki`, `eval run`, `eval northstar`, `eval shadow`) and the API `wiki` job. Read-only sessions (e.g. `grill`, `recon`) were intentionally left untouched for a follow-up.\r\n2. **Researcher Subagent**: Updated the orchestrator's researcher subagent to dynamically derive its `permissionMode` from the loaded configuration instead of hardcoding `bypassPermissions`. \r\n3. **R10 Docstring Update**: Updated the orchestrator `R10` docstring to clarify that headless-safe modes (`bypassPermissions` and `acceptEdits`) are derived from configuration, and the true security boundary preventing writes is enforced by `disallowedTools`.\r\n4. **Early Validation**: Moved the `permission_mode()` validation into `config.py::load_config` so typos in `.no_human.yml` fail predictably at startup rather than during the first backend call.\r\n5. **Doctor Probe**: Updated `nh doctor` (`agent/backend_check.py`) to construct the probe using `make_backend` and the active configuration, authentically mirroring the operator's settings.\r\n6. **Mechanicals**: Signed the CLA ledger and regenerated `RELEASE_MANIFEST.txt`.\r\n### Validation\r\n- Validated via `uv run pytest tests/test_e2e_orchestrator.py` and `test_config.py`.\r\n- `check_release_manifest.py --strict` passes cleanly.\r\nCloses #227\r\n\r\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/308/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/no-human-ai/no_human/issues/308/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5651113455",
-          "html_url": "https://github.com/no-human-ai/no_human/pull/308#issuecomment-5651113455",
-          "issue_url": "https://api.github.com/repos/no-human-ai/no_human/issues/308",
-          "id": 5651113455,
-          "node_id": "IC_kwDOTu0-rM8AAAABUNUl7w",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-13T04:21:28Z",
-          "updated_at": "2026-09-13T04:25:06Z",
-          "body": "Everything should be fully resolved and green now! I merged the latest `main` to clear the `RELEASE_MANIFEST.txt` conflict and addressed all your blockers:\r\n\r\n**Blockers Fixed:**\r\n1. **Manifest Re-pinned:** I re-ran `scripts/check_release_manifest.py --write` after merging `main`. The manifest is now perfectly in sync. \r\n2. **`doctor --verify-auth` Vendor Fix:** `verify_credential_live` now explicitly passes `backend=\"claude\"` to `make_backend` so it won't wrongly bill OpenAI on a Codex install.\r\n3. **`permission_mode` Crash Fix:** I removed the eager validation of `permission_mode(merged)` from `load_config`. Instead, it is now checked inside `doctor`'s `_contradictions` via a `try/except` block, exactly like `codex_row`. This ensures config typos produce a readable contradiction rather than an unhandled traceback.\r\n\r\n**Smaller Items Addressed:**\r\n* Explicitly passed `backend=\"claude\"` to `docs_generate`, `onboarding_docs_generate`, `eval_cmd`, `bench_run`, and `shadow_cmd` to prevent silent vendor-switching on non-Claude setups.\r\n* Updated the stale rationale comment above `_NOT_ROUTED_ALLOWLIST` in `tests/test_advisory_harness.py`.\r\n* Fixed the `core/orchestrator.py` budget comment in `tests/test_structural_budget.py` to reflect the correct cause (replaced `bypassPermissions` with the helper).\r\n* **Documentation Drift:** I saw your note in `91708f1` that whichever branch lands second needs to re-anchor the `WINDOWS.md` citation since this PR shifts `commands.py`. I went ahead and manually re-anchored `docs/WINDOWS.md`. Additionally, since the `doctor` try/except block shifted `commands.py` down by ~10 lines, I also re-anchored the citations in `docs/eval.md` and `docs/security.md` so that `test_readme_claims.py` remains perfectly green.\r\n\r\nThe structural budgets have been re-measured, and the test suite runs cleanly locally. Thanks for your patience—let me know if anything else catches your eye!",
-          "reactions": {
-            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5651113455/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "20967823380",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/no_human",
-      "created_at": "2026-09-13T04:07:57Z",
-      "payload": {
-        "repository_id": 1367188943,
-        "push_id": 43420179131,
-        "ref": "refs/heads/fix-permission-mode-227",
-        "head": "afbc0d0c7a61cf3ec95b862e3e8e7c16a5705780",
-        "before": "fe3f95a29e8ea8bb5108145d2901077d75b4c235"
-      }
-    },
-    {
-      "id": "20967536813",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/no_human",
-      "created_at": "2026-09-13T04:01:34Z",
-      "payload": {
-        "repository_id": 1367188943,
-        "push_id": 43419945480,
-        "ref": "refs/heads/fix-permission-mode-227",
-        "head": "fe3f95a29e8ea8bb5108145d2901077d75b4c235",
-        "before": "6326c02ca905694b9cc21b59e4851e101a253108"
-      }
-    },
-    {
-      "id": "20951211714",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/no_human",
-      "created_at": "2026-09-12T16:41:43Z",
-      "payload": {
-        "ref": "fix-permission-mode-227",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix-permission-mode-227",
-        "master_branch": "main",
-        "description": "From ticket to reviewed pull request. Free and open-source, on your machine.",
-        "pusher_type": "user"
-      }
     }
   ],
   "recentStats": {
-    "commits": 1712,
+    "commits": 1713,
     "prs": 144,
     "issues": 258
   }
