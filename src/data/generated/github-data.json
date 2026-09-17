@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-16T03:14:29.447Z",
+  "updatedAt": "2026-09-17T03:20:13.979Z",
   "contributions": {
-    "totalLastYear": 1946,
+    "totalLastYear": 1948,
     "days": [
       {
         "date": "2025-09-14",
@@ -1840,8 +1840,13 @@
       },
       {
         "date": "2026-09-16",
-        "count": 1,
+        "count": 3,
         "level": 1
+      },
+      {
+        "date": "2026-09-17",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -1881,6 +1886,273 @@
     "updated_at": "2026-09-11T01:52:48Z"
   },
   "activityFeed": [
+    {
+      "id": "21345470028",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-16T18:26:04Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43779754264,
+        "ref": "refs/heads/fix/324-reconcile-diverged-citations",
+        "head": "29e5ebe42ece23aff7340053372fb1e949f10f7d",
+        "before": "8c4c385574081029394731037e4a9de399624123"
+      }
+    },
+    {
+      "id": "21332525247",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-16T19:32:20Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43784942167,
+        "ref": "refs/heads/fix/324-reconcile-diverged-citations",
+        "head": "9493e4b57ddd1a58f567207ef45adcadf20352ed",
+        "before": "784e56016af3a25b7faf0acf63845b10ca58ec86"
+      }
+    },
+    {
+      "id": "21327804866",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-16T18:28:04Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43779910458,
+        "ref": "refs/heads/fix/324-reconcile-diverged-citations",
+        "head": "cdd9b8d321cf6e7eeefd8149226a9f1b60b567cc",
+        "before": "29e5ebe42ece23aff7340053372fb1e949f10f7d"
+      }
+    },
+    {
+      "id": "21322781929",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-16T18:45:26Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43781282910,
+        "ref": "refs/heads/fix/324-reconcile-diverged-citations",
+        "head": "784e56016af3a25b7faf0acf63845b10ca58ec86",
+        "before": "cdd9b8d321cf6e7eeefd8149226a9f1b60b567cc"
+      }
+    },
+    {
+      "id": "15166491012",
+      "type": "PullRequestEvent",
+      "repo": "no-human-ai/no_human",
+      "created_at": "2026-09-16T18:16:48Z",
+      "payload": {
+        "action": "opened",
+        "number": 500,
+        "pull_request": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/pulls/500",
+          "id": 4550812240,
+          "number": 500,
+          "head": {
+            "ref": "fix/324-reconcile-diverged-citations",
+            "sha": "9493e4b57ddd1a58f567207ef45adcadf20352ed",
+            "repo": {
+              "id": 1367188943,
+              "url": "https://api.github.com/repos/Rahul-pamula/no_human",
+              "name": "no_human"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "df81bd721cca944ff1066c93c859cbc50e815d13",
+            "repo": {
+              "id": 1324170924,
+              "url": "https://api.github.com/repos/no-human-ai/no_human",
+              "name": "no_human"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "21320244772",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-16T18:13:54Z",
+      "payload": {
+        "ref": "fix/324-reconcile-diverged-citations",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/324-reconcile-diverged-citations",
+        "master_branch": "main",
+        "description": "From ticket to reviewed pull request. Free and open-source, on your machine.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "15134791972",
+      "type": "IssueCommentEvent",
+      "repo": "no-human-ai/no_human",
+      "created_at": "2026-09-16T10:04:54Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/324",
+          "repository_url": "https://api.github.com/repos/no-human-ai/no_human",
+          "labels_url": "https://api.github.com/repos/no-human-ai/no_human/issues/324/labels{/name}",
+          "comments_url": "https://api.github.com/repos/no-human-ai/no_human/issues/324/comments",
+          "events_url": "https://api.github.com/repos/no-human-ai/no_human/issues/324/events",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/324",
+          "id": 5438636268,
+          "node_id": "I_kwDOTu0-rM8AAAABRCsA7A",
+          "number": 324,
+          "title": "reanchor_citations.py --apply rewrites the doc, not the table, then fails",
+          "user": {
+            "login": "eyalgolan",
+            "id": 5146175,
+            "node_id": "MDQ6VXNlcjUxNDYxNzU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5146175?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eyalgolan",
+            "html_url": "https://github.com/eyalgolan",
+            "followers_url": "https://api.github.com/users/eyalgolan/followers",
+            "following_url": "https://api.github.com/users/eyalgolan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/eyalgolan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/eyalgolan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/eyalgolan/subscriptions",
+            "organizations_url": "https://api.github.com/users/eyalgolan/orgs",
+            "repos_url": "https://api.github.com/users/eyalgolan/repos",
+            "events_url": "https://api.github.com/users/eyalgolan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/eyalgolan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11739271079,
+              "node_id": "LA_kwDOTu0-rM8AAAACu7cPpw",
+              "url": "https://api.github.com/repos/no-human-ai/no_human/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 3,
+          "created_at": "2026-09-13T06:58:44Z",
+          "updated_at": "2026-09-16T16:07:24Z",
+          "closed_at": null,
+          "assignee": null,
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "Found while unblocking PR #308 (an external contributor's PR, red on this). Reproduced on that branch with the tool from `main`.\n\n## What happens\n\n`tests/test_readme_claims.py` fails on citation drift and the failure message says:\n\n> Run `uv run python scripts/reanchor_citations.py --apply` to re-anchor it; the symbol resolves, so the rewrite is exact\n\nRunning exactly that leaves the tree **worse than before** and exits FAIL.\n\nA citation is pinned in **two** places — the prose in `docs/*.md` and the `CITATION_TABLE` row in `tests/test_readme_claims.py`. The tool's own module docstring says it rewrites both (\"CITATION_TABLE row to the line the content now lives on\"). Measured, it rewrites only the doc:\n\n```\n                     before --apply      after --apply\ndocs/eval.md         7736 / 7765 / 7887  7745 / 7774 / 7896   <- correct\nCITATION_TABLE       7736 / 7765 / 7887  7736 / 7765 / 7887   <- untouched\n```\n\nThey agreed before and disagree after. Test count went from 3 failures to 4, because `test_the_citation_table_covers_every_line_citation_in_the_three_docs` now fails as well.\n\n## Why it then refuses\n\nHaving rewritten the doc, the table-rewrite step searches the doc for the **pre-rewrite** string and cannot find it:\n\n```\nDRIFT: eval.md `:bench_run:7887` -> `:bench_run:7896` (re-anchoring)\nFAIL:  eval.md `:bench_run:7887` — does not occur exactly once in docs/eval.md\n       — will not guess which occurrence to rewrite\nVERDICT=FAIL\n```\n\nBoth lines are about the same citation in the same run. The refusal is the right instinct reading stale state: the tool re-validates against a file it has already modified.\n\nIt does not converge — three consecutive `--apply` runs still end `VERDICT=FAIL`, with the remaining failures unchanged.\n\n## Why this matters beyond one PR\n\n1. It is the advice the failure message gives, so every contributor who hits drift is sent to a command that half-applies and then reports failure. An external contributor is blocked on it right now.\n2. Task `0ff9125c` is building a pre-flight **around this tool** so citation drift stops killing attempts at the last moment. A preflight that invokes a partially-applying tool inherits this. That task's own attempt 3 was rejected for a neighbouring fail-open — a commit failure swallowed to an advisory and then reported as re-anchored. Same family: the tool reports a state it has not reached.\n\n## Suggested shape\n\nApply doc and table rewrites from one computed plan, then write both, then re-validate once — rather than rewriting, re-reading, and re-deriving. Whatever the fix, make it **atomic**: a partial application that reports FAIL is worse than refusing to start, because it leaves two files disagreeing in a way neither the tool nor the test can then untangle.\n\nAlso worth correcting the failure message itself: while the tool cannot finish the job, \"Run `… --apply` to re-anchor it\" is instructions the reader cannot follow to green.",
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/324/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/no-human-ai/no_human/issues/324/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5695690289",
+          "html_url": "https://github.com/no-human-ai/no_human/issues/324#issuecomment-5695690289",
+          "issue_url": "https://api.github.com/repos/no-human-ai/no_human/issues/324",
+          "id": 5695690289,
+          "node_id": "IC_kwDOTu0-rM8AAAABU31WMQ",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-16T10:04:54Z",
+          "updated_at": "2026-09-16T10:04:54Z",
+          "body": "Hi! I’d like to work on this issue. \n\nI’ve gone through the issue and the relevant parts of the repository, especially `scripts/reanchor_citations.py` and its tests, and I’ve reproduced both the synchronized-drift case and the pre-diverged doc/table case.\n\nFrom the investigation, I found that the tool already computes the changes before writing and safely aborts when the expected citation is missing. The main question seems to be how we want `--apply` to behave when the documentation and `CITATION_TABLE` are already out of sync before it runs.\n\nBefore I start implementing, I wanted to confirm the intended direction with you:\n\n1. Should `--apply` automatically reconcile an already-diverged doc/table pair when the citation identity is unambiguous, or should it strictly refuse and require manual reconciliation?\n2. If automatic reconciliation is preferred, what should define the citation identity across the two surfaces?\n3. Is the current plan-before-write behavior sufficient, or do you expect stronger filesystem rollback semantics?\n4. Should the failure message be updated so it doesn't suggest running `--apply` when the underlying problem is a pre-existing doc/table divergence?\n\nI’ve intentionally held off on making code changes until I get your guidance on the intended architecture.\n",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5695690289/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "21281287951",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-16T09:28:46Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43733000670,
+        "ref": "refs/heads/main",
+        "head": "b4663e4a77e6ad2c5e286fb0ac94bdcbc55f98ad",
+        "before": "27ca998fa726d3c68bc609c67b02cf270fcf0e0d"
+      }
+    },
+    {
+      "id": "21267876627",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-16T01:51:21Z",
+      "payload": {
+        "ref": "fix/windows-citation-coverage",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/windows-citation-coverage",
+        "master_branch": "main",
+        "description": "From ticket to reviewed pull request. Free and open-source, on your machine.",
+        "pusher_type": "user"
+      }
+    },
     {
       "id": "21251872363",
       "type": "DeleteEvent",
@@ -1976,648 +2248,11 @@
           }
         }
       }
-    },
-    {
-      "id": "15085152086",
-      "type": "IssueCommentEvent",
-      "repo": "SolomonYakubu/collabdraw",
-      "created_at": "2026-09-15T16:39:26Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/26",
-          "repository_url": "https://api.github.com/repos/SolomonYakubu/collabdraw",
-          "labels_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/26/labels{/name}",
-          "comments_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/26/comments",
-          "events_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/26/events",
-          "html_url": "https://github.com/SolomonYakubu/collabdraw/pull/26",
-          "id": 5461243006,
-          "node_id": "PR_kwDOOb0XC88AAAABDmQCmA",
-          "number": 26,
-          "title": "build: move canvas to devDependencies and update to stable 3.x",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-09-15T11:21:57Z",
-          "updated_at": "2026-09-15T16:39:26Z",
-          "closed_at": "2026-09-15T12:05:06Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "draft": false,
-          "pull_request": {
-            "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/pulls/26",
-            "html_url": "https://github.com/SolomonYakubu/collabdraw/pull/26",
-            "diff_url": "https://github.com/SolomonYakubu/collabdraw/pull/26.diff",
-            "patch_url": "https://github.com/SolomonYakubu/collabdraw/pull/26.patch",
-            "merged_at": "2026-09-15T12:05:06Z"
-          },
-          "body": "Description: This PR moves the canvas package from dependencies to devDependencies and upgrades it from ^3.0.0-rc3 to stable ^3.2.3.\r\n\r\nWhy: canvas is a native addon that requires compiling bindings via node-addon-api. It is used exclusively by jsdom and our Vitest test suite (app/testSetup.ts and renderer tests) to provide a mock 2D context. It is never imported or utilized by our production runtime or Next.js SSR. Keeping it in dependencies unnecessarily slows down production deployments and introduces native compilation risks in the deployment container.\r\n\r\nMoving it to devDependencies ensures that npm ci --omit=dev strips it (and its transitive dependencies) from the production tree.\r\n\r\n**Testing section**\r\nRenderer Tests: Verified that vitest correctly loads canvas from the dev dependency tree and all renderer.test.ts assertions still pass flawlessly.\r\nProduction Build: Verified that npm run build succeeds with the new setup. next.config.ts correctly handles the Webpack externalization.\r\nProduction Omission: Verified via npm ci --omit=dev that canvas is completely absent from the runtime tree.\r\nNote on pre-existing failures: 10 assertions in storageSync.test.ts and useAIAssistant.test.ts currently fail with window.localStorage.clear is not a function. These failures were independently verified to be pre-existing on main. They are caused by an environmental conflict between jsdom and Node 22's native local storage, and are entirely unrelated to this PR's canvas changes.\r\n\r\n**Reviewer notes**\r\nWhy is the lockfile diff so large? When canvas was moved to devDependencies, npm correctly applied the \"dev\": true flag to all of its transitive native dependencies (like node-addon-api and prebuild-install). This is exactly what we want, as it removes them from production.\r\nWhy keep config.externals in Next.js? Even though canvas is no longer a production dependency, jsdom still requests it optionally. If Next.js attempts to bundle any file that transitively imports jsdom, it would fail looking for canvas. Keeping the external configuration guarantees Webpack will safely skip it.",
-          "reactions": {
-            "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/26/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/26/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/comments/5684176214",
-          "html_url": "https://github.com/SolomonYakubu/collabdraw/pull/26#issuecomment-5684176214",
-          "issue_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/26",
-          "id": 5684176214,
-          "node_id": "IC_kwDOOb0XC88AAAABUs2lVg",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-15T16:39:26Z",
-          "updated_at": "2026-09-15T16:39:26Z",
-          "body": "Hey! Could you take less than a minute to review my work and rate it? Your feedback would really help me improve and grow my portfolio:\r\n\r\nhttps://rahulpamula.me/review\r\n\r\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/comments/5684176214/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "15066180094",
-      "type": "PullRequestEvent",
-      "repo": "SolomonYakubu/collabdraw",
-      "created_at": "2026-09-15T12:05:06Z",
-      "payload": {
-        "action": "merged",
-        "number": 26,
-        "pull_request": {
-          "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/pulls/26",
-          "id": 4536402584,
-          "number": 26,
-          "head": {
-            "ref": "fix-canvas-dependency",
-            "sha": "74e1760c6f3c09f701455ea53c02cc69a450a93a",
-            "repo": {
-              "id": 1371279190,
-              "url": "https://api.github.com/repos/Rahul-pamula/collabdraw",
-              "name": "collabdraw"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "969e60bd822c8d702b4c9e5c837ca74432a3db92",
-            "repo": {
-              "id": 968693515,
-              "url": "https://api.github.com/repos/SolomonYakubu/collabdraw",
-              "name": "collabdraw"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15063659764",
-      "type": "PullRequestEvent",
-      "repo": "SolomonYakubu/collabdraw",
-      "created_at": "2026-09-15T11:21:57Z",
-      "payload": {
-        "action": "opened",
-        "number": 26,
-        "pull_request": {
-          "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/pulls/26",
-          "id": 4536402584,
-          "number": 26,
-          "head": {
-            "ref": "fix-canvas-dependency",
-            "sha": "74e1760c6f3c09f701455ea53c02cc69a450a93a",
-            "repo": {
-              "id": 1371279190,
-              "url": "https://api.github.com/repos/Rahul-pamula/collabdraw",
-              "name": "collabdraw"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "969e60bd822c8d702b4c9e5c837ca74432a3db92",
-            "repo": {
-              "id": 968693515,
-              "url": "https://api.github.com/repos/SolomonYakubu/collabdraw",
-              "name": "collabdraw"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "21188022733",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/collabdraw",
-      "created_at": "2026-09-15T11:20:39Z",
-      "payload": {
-        "ref": "fix-canvas-dependency",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix-canvas-dependency",
-        "master_branch": "main",
-        "description": "An open-source collaborative drawing application inspired by Excalidraw, built with Next.js and Canvas API. Create beautiful hand-drawn diagrams and collaborate in real-time with others.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "15061033168",
-      "type": "ForkEvent",
-      "repo": "SolomonYakubu/collabdraw",
-      "created_at": "2026-09-15T10:36:09Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1371279190,
-          "node_id": "R_kgDOUbwPVg",
-          "name": "collabdraw",
-          "full_name": "Rahul-pamula/collabdraw",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/collabdraw",
-          "description": "An open-source collaborative drawing application inspired by Excalidraw, built with Next.js and Canvas API. Create beautiful hand-drawn diagrams and collaborate in real-time with others.",
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/collabdraw",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/collabdraw/deployments",
-          "created_at": "2026-09-15T10:36:09Z",
-          "updated_at": "2026-09-15T10:36:10Z",
-          "pushed_at": "2026-09-15T16:33:08Z",
-          "git_url": "git://github.com/Rahul-pamula/collabdraw.git",
-          "ssh_url": "git@github.com:Rahul-pamula/collabdraw.git",
-          "clone_url": "https://github.com/Rahul-pamula/collabdraw.git",
-          "svn_url": "https://github.com/Rahul-pamula/collabdraw",
-          "homepage": "https://collabdraw-pi.vercel.app",
-          "size": 3526,
-          "stargazers_count": 0,
-          "watchers_count": 0,
-          "language": null,
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": true,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-          },
-          "allow_forking": true,
-          "is_template": false,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 0,
-          "default_branch": "main"
-        }
-      }
-    },
-    {
-      "id": "21167265337",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/no_human",
-      "created_at": "2026-09-15T04:01:26Z",
-      "payload": {
-        "repository_id": 1367188943,
-        "push_id": 43609201997,
-        "ref": "refs/heads/main",
-        "head": "84146eeed75b059c347bddd856028910808ecf61",
-        "before": "cfad1a28a01c6579b633a2b0422ae7c73bea3f80"
-      }
-    },
-    {
-      "id": "15041940370",
-      "type": "IssueCommentEvent",
-      "repo": "no-human-ai/no_human",
-      "created_at": "2026-09-15T04:27:59Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/259",
-          "repository_url": "https://api.github.com/repos/no-human-ai/no_human",
-          "labels_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/labels{/name}",
-          "comments_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/comments",
-          "events_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/events",
-          "html_url": "https://github.com/no-human-ai/no_human/issues/259",
-          "id": 5415797230,
-          "node_id": "I_kwDOTu0-rM8AAAABQs6B7g",
-          "number": 259,
-          "title": "WINDOWS.md's line citations are unchecked and nine of ten do not resolve; the doc-anchor resolver cannot see the class that caused #110",
-          "user": {
-            "login": "eyalgolan",
-            "id": 5146175,
-            "node_id": "MDQ6VXNlcjUxNDYxNzU=",
-            "avatar_url": "https://avatars.githubusercontent.com/u/5146175?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/eyalgolan",
-            "html_url": "https://github.com/eyalgolan",
-            "followers_url": "https://api.github.com/users/eyalgolan/followers",
-            "following_url": "https://api.github.com/users/eyalgolan/following{/other_user}",
-            "gists_url": "https://api.github.com/users/eyalgolan/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/eyalgolan/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/eyalgolan/subscriptions",
-            "organizations_url": "https://api.github.com/users/eyalgolan/orgs",
-            "repos_url": "https://api.github.com/users/eyalgolan/repos",
-            "events_url": "https://api.github.com/users/eyalgolan/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/eyalgolan/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11739271079,
-              "node_id": "LA_kwDOTu0-rM8AAAACu7cPpw",
-              "url": "https://api.github.com/repos/no-human-ai/no_human/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 4,
-          "created_at": "2026-09-10T18:17:12Z",
-          "updated_at": "2026-09-15T19:50:06Z",
-          "closed_at": "2026-09-15T19:50:06Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "`docs/WINDOWS.md` carries ten line citations that nothing checks, nine of which do not even resolve — and the resolver that was supposed to catch #110's class cannot see a bare `.md` path\n\nFollow-up from #258 (which closed #110 by fixing two individual citations). That PR deliberately did not do this part, and its `CITATION_TABLE` comment says so; filing it rather than leaving it implied.\n\n## 1. The doc side of a WINDOWS.md citation is unenforced\n\n`WINDOWS.md` is not in `_CITATION_DOC_PATHS` (`tests/test_readme_claims.py`), which holds only `security.md`, `eval.md`, `KNOWN_ISSUES.md`. Consequences, both verified:\n\n- `_check_citation` never opens the doc — `doc` is used only in assertion messages. I deleted the `proc.py:hidden_console_kwargs` citation from `WINDOWS.md` entirely and the suite stayed green at `135 passed, 12 skipped`.\n- `test_the_citation_table_covers_every_line_citation_in_the_three_docs` never iterates WINDOWS.md, so neither its `missing` nor its `extra` half can fire for that file.\n\n## 2. Nine of its ten remaining citations do not resolve\n\n`_resolve_source` tries a slashed path from the repo root and the package root, but a **bare basename** is looked for with `(REPO / \"src\" / \"no_human\").rglob(path)` only. Every `desktop/` file cited by basename therefore misses:\n\n```\ncli/commands.py:7118          -> resolves (fixed in #258)\nelectron-builder.config.cjs:75 -> 0 files\nmain.mjs:598-601               -> 0 files\nserver.mjs:83-87               -> 0 files\nserver.mjs:96-100              -> 0 files\nserver.mjs:117-121             -> 0 files\nserver.mjs:140-147             -> 0 files\nserver.mjs:272-274             -> 0 files\nserver.mjs:364-369             -> 0 files\ntokenStore.mjs:152-153         -> 0 files\n```\n\nRegistering the doc without addressing this just moves the failure. The fix is either qualifying the paths in the doc (`desktop/server.mjs:117-121`) or teaching `_resolve_source` about `desktop/` and `web/`. Note some of these sit in the D1-D8 pre-fix defect inventory at `WINDOWS.md:64-71`, where a stale line number is arguably a historical snapshot — but the doc marks them as such nowhere, so that needs a decision either way.\n\n## 3. `reanchor_citations.py --apply` is one edit away from a KeyError\n\n`plan()` iterates every row; `_apply_all` does `doc_path = mod._CITATION_DOC_PATHS[d.doc]`. A WINDOWS.md row is safe today only because it carries no line number, so it never drifts. Add a line number — which 42 of the 48 rows carry — and `--apply` raises `KeyError('WINDOWS.md')` instead of honouring its documented contract (\"reported as unfixable and left for a human\"). The script's docstring and `--help` also still name only the three docs.\n\n## 4. Root cause: nothing resolves a bare in-repo `.md` path\n\nThis is how `docs/superpowers/plans/…md` survived in the first place. `tests/test_doc_anchors.py` is the only doc-reference resolver, and it structurally cannot see that class:\n\n- `_REFERENCE` requires a `#anchor`, so a bare `.md` path never matches.\n- Targets not already present in the repo are skipped as \"not a document in this repo\" — which is exactly the failing case.\n\nSo #110 was fixed as an instance, and the next hand-written dangling path reintroduces it. Extending that resolver to check bare in-repo `.md` paths is the part that actually closes the class.\n\n## Suggested order\n\n4 first — it is the smallest and prevents recurrence. Then 2, then 1 and 3 together, since registering the doc is what makes the `KeyError` reachable and also what fixes it.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5674735839",
-          "html_url": "https://github.com/no-human-ai/no_human/issues/259#issuecomment-5674735839",
-          "issue_url": "https://api.github.com/repos/no-human-ai/no_human/issues/259",
-          "id": 5674735839,
-          "node_id": "IC_kwDOTu0-rM8AAAABUj2Y3w",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-15T04:27:59Z",
-          "updated_at": "2026-09-15T04:27:59Z",
-          "body": "I’ve completed the repository-level investigation for #259, and before implementing anything I want to confirm one semantic point with you.\n\nThe issue’s symptoms are confirmed: `WINDOWS.md` is currently outside the main citation coverage, and the nine `.mjs`/`.cjs` references do not resolve through the current live-citation resolver.\n\nHowever, after tracing the surrounding citation/reanchoring code and reading the relevant `WINDOWS.md` section, there appears to be an important distinction:\n\n* The nine JS citations in the D1–D8 / defect-inventory section are explicitly described as being verified against the historical branch point `d2687c8`, rather than the current `main`.\n* The cited code has since changed/fixed, so qualifying those paths as `desktop/...` would make them resolve but would then fail live line/token validation.\n* Treating those historical references as current live citations would therefore change their meaning rather than simply fixing path resolution.\n* Broadening `_resolve_source` to search `desktop/`/`web/` also appears risky because bare filenames can be ambiguous.\n\nThe current investigation therefore points toward:\n\n1. Keep the historical D1–D8 references as historical documentation rather than live line citations.\n2. Keep the genuinely live `cli/commands.py` reference enforceable, preferably using the existing symbol-anchor mechanism.\n3. Register `WINDOWS.md` in the main citation coverage.\n4. Remove the temporary/custom WINDOWS.md citation test once the document is covered by the canonical citation machinery.\n5. Update `reanchor_citations.py` documentation/help for the additional supported document.\n\nBefore I make any changes, could you confirm the intended contract here:\n\n**Should the D1–D8 / `electron-builder.config.cjs` references remain historical references and therefore be excluded from live citation validation, or do you want all ten references in `WINDOWS.md` to become live, current-`main` citations?**\n\nIf the intention is to keep them historical, I believe the above approach is the safer architectural fix and avoids changing `_resolve_source` merely to make stale historical references resolve.\n\nI also want to confirm whether removing the backticks from those historical references is consistent with the project's documentation/citation conventions, or whether there is an existing convention for explicitly marking historical code references that we should use instead.\n\nI have **not changed code or tests yet**. Once this semantic point is confirmed, I can proceed with the implementation plan and validate the full blast radius without weakening or rewriting tests just to make them pass.\n",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/no-human-ai/no_human/issues/comments/5674735839/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "15038926182",
-      "type": "IssueCommentEvent",
-      "repo": "SolomonYakubu/collabdraw",
-      "created_at": "2026-09-15T03:03:32Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24",
-          "repository_url": "https://api.github.com/repos/SolomonYakubu/collabdraw",
-          "labels_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/labels{/name}",
-          "comments_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/comments",
-          "events_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/events",
-          "html_url": "https://github.com/SolomonYakubu/collabdraw/issues/24",
-          "id": 5357354707,
-          "node_id": "I_kwDOOb0XC88AAAABP1K-0w",
-          "number": 24,
-          "title": "node-canvas is a production dependency, pinned to a release candidate, used only by tests",
-          "user": {
-            "login": "SolomonYakubu",
-            "id": 59848082,
-            "node_id": "MDQ6VXNlcjU5ODQ4MDgy",
-            "avatar_url": "https://avatars.githubusercontent.com/u/59848082?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/SolomonYakubu",
-            "html_url": "https://github.com/SolomonYakubu",
-            "followers_url": "https://api.github.com/users/SolomonYakubu/followers",
-            "following_url": "https://api.github.com/users/SolomonYakubu/following{/other_user}",
-            "gists_url": "https://api.github.com/users/SolomonYakubu/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/SolomonYakubu/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/SolomonYakubu/subscriptions",
-            "organizations_url": "https://api.github.com/users/SolomonYakubu/orgs",
-            "repos_url": "https://api.github.com/users/SolomonYakubu/repos",
-            "events_url": "https://api.github.com/users/SolomonYakubu/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/SolomonYakubu/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 8478011382,
-              "node_id": "LA_kwDOOb0XC88AAAAB-VQv9g",
-              "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11991633482,
-              "node_id": "LA_kwDOOb0XC88AAAACysHOSg",
-              "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/labels/tech-debt",
-              "name": "tech-debt",
-              "color": "FBCA04",
-              "default": false,
-              "description": "Tooling, CI, and test-infrastructure debt",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 3,
-          "created_at": "2026-09-05T10:38:05Z",
-          "updated_at": "2026-09-15T17:51:46Z",
-          "closed_at": "2026-09-15T17:51:46Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "`package.json:24`:\n\n```json\n\"canvas\": \"^3.0.0-rc3\",\n```\n\nIt sits in `dependencies`, and the only two things that import it are tests:\n\n- `app/testSetup.ts:12` — gives jsdom a real 2D context so the renderer tests can assert on drawing calls\n- `app/services/canvas/__tests__/renderer.test.ts:3`\n\nNo application code references it. The browser already has a canvas.\n\nTwo problems in one line:\n\n**It is in the wrong section.** `next build` and the production install pull it in. node-canvas is a native addon: it compiles against Cairo, Pango, libjpeg and giflib, or downloads a prebuilt binary for the exact platform+Node ABI. That is the single slowest and most fragile entry in the install — on a platform with no prebuild it needs a toolchain and system libraries present in the deploy image. All of that cost is currently paid by production for a dependency only `vitest` uses.\n\n**The range floats across prereleases.** `^3.0.0-rc3` resolves to any `3.x` at or above `3.0.0-rc3`, release candidates included, and an RC is exactly where the native build surface changes without ceremony. A fresh `npm install` on a machine with no lockfile hit can pick up a different RC than the one CI validated, and the failure shows up as a compile error during install rather than as a test failure.\n\n### Fix\n\nMove it to `devDependencies` and pin it to a stable `3.x` (`^3.2.0` at time of writing) rather than an RC. If a stable 3.x turns out not to work under the current Node, pin the exact RC that does — `3.0.0-rc3` with no caret — and say why in a comment, so the constraint is recorded instead of rediscovered.\n\nVerify with `npm ls canvas` and a clean `npm ci --omit=dev` (it should no longer appear), then `npm test` to confirm the renderer suite still gets its context.",
-          "reactions": {
-            "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/comments/5674031332",
-          "html_url": "https://github.com/SolomonYakubu/collabdraw/issues/24#issuecomment-5674031332",
-          "issue_url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/24",
-          "id": 5674031332,
-          "node_id": "IC_kwDOOb0XC88AAAABUjLY5A",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-15T03:03:32Z",
-          "updated_at": "2026-09-15T03:03:32Z",
-          "body": "Thank you.. ",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/SolomonYakubu/collabdraw/issues/comments/5674031332/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "21106518323",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/no_human",
-      "created_at": "2026-09-13T11:05:54Z",
-      "payload": {
-        "repository_id": 1367188943,
-        "push_id": 43435272529,
-        "ref": "refs/heads/fix-permission-mode-227",
-        "head": "ca9ef69f309bbb8b6186d198cf9350d0f2085dbb",
-        "before": "9aa50bc85b275eab22a27dc56cccefa2e2d20f8f"
-      }
     }
   ],
   "recentStats": {
-    "commits": 1716,
-    "prs": 146,
+    "commits": 1717,
+    "prs": 147,
     "issues": 258
   }
 }
