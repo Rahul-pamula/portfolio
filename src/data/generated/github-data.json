@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-18T03:06:11.494Z",
+  "updatedAt": "2026-09-19T03:02:26.109Z",
   "contributions": {
-    "totalLastYear": 1951,
+    "totalLastYear": 1956,
     "days": [
       {
         "date": "2025-09-14",
@@ -1850,6 +1850,11 @@
       },
       {
         "date": "2026-09-18",
+        "count": 5,
+        "level": 1
+      },
+      {
+        "date": "2026-09-19",
         "count": 0,
         "level": 0
       }
@@ -1883,7 +1888,7 @@
     "hireable": null,
     "bio": "AI/ML Engineer | Full Stack Developer | Android Developer | Azure Certified",
     "twitter_username": null,
-    "public_repos": 68,
+    "public_repos": 69,
     "public_gists": 0,
     "followers": 58,
     "following": 31,
@@ -1891,6 +1896,691 @@
     "updated_at": "2026-09-11T01:52:48Z"
   },
   "activityFeed": [
+    {
+      "id": "21523296471",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Prism-platform",
+      "created_at": "2026-09-18T17:20:05Z",
+      "payload": {
+        "ref": "fix/ci-permissions-386",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/ci-permissions-386",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "21520393195",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-17T10:27:31Z",
+      "payload": {
+        "ref": "fix/324-reconcile-diverged-citations",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/324-reconcile-diverged-citations",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "15290730140",
+      "type": "PullRequestEvent",
+      "repo": "NovaCode37/Prism-platform",
+      "created_at": "2026-09-18T12:21:44Z",
+      "payload": {
+        "action": "merged",
+        "number": 398,
+        "pull_request": {
+          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/pulls/398",
+          "id": 4567433856,
+          "number": 398,
+          "head": {
+            "ref": "fix/ci-permissions-386",
+            "sha": "77a808e9204f7575a94de9cd09a723de1f41421a",
+            "repo": {
+              "id": 1375625021,
+              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
+              "name": "Prism-platform"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "d7577ee0811a157d1a4f9ba548868dc6bf785c1f",
+            "repo": {
+              "id": 1195989923,
+              "url": "https://api.github.com/repos/NovaCode37/Prism-platform",
+              "name": "Prism-platform"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "15282192129",
+      "type": "IssueCommentEvent",
+      "repo": "NovaCode37/Prism-platform",
+      "created_at": "2026-09-18T09:36:43Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386",
+          "repository_url": "https://api.github.com/repos/NovaCode37/Prism-platform",
+          "labels_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/labels{/name}",
+          "comments_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/comments",
+          "events_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/events",
+          "html_url": "https://github.com/NovaCode37/Prism-platform/issues/386",
+          "id": 5496043359,
+          "node_id": "I_kwDOR0lbo88AAAABR5b3Xw",
+          "number": 386,
+          "title": "Declare permissions for the CI workflow jobs",
+          "user": {
+            "login": "NovaCode37",
+            "id": 151601307,
+            "node_id": "U_kgDOCQlAmw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/151601307?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/NovaCode37",
+            "html_url": "https://github.com/NovaCode37",
+            "followers_url": "https://api.github.com/users/NovaCode37/followers",
+            "following_url": "https://api.github.com/users/NovaCode37/following{/other_user}",
+            "gists_url": "https://api.github.com/users/NovaCode37/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/NovaCode37/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/NovaCode37/subscriptions",
+            "organizations_url": "https://api.github.com/users/NovaCode37/orgs",
+            "repos_url": "https://api.github.com/users/NovaCode37/repos",
+            "events_url": "https://api.github.com/users/NovaCode37/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/NovaCode37/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 10558054993,
+              "node_id": "LA_kwDOR0lbo88AAAACdU8iUQ",
+              "url": "https://api.github.com/repos/NovaCode37/Prism-platform/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11425074360,
+              "node_id": "LA_kwDOR0lbo88AAAACqPzMuA",
+              "url": "https://api.github.com/repos/NovaCode37/Prism-platform/labels/github_actions",
+              "name": "github_actions",
+              "color": "000000",
+              "default": false,
+              "description": "Pull requests that update GitHub Actions code",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "Rahul-pamula",
+              "id": 153642358,
+              "node_id": "U_kgDOCShldg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Rahul-pamula",
+              "html_url": "https://github.com/Rahul-pamula",
+              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 3,
+          "created_at": "2026-09-18T05:33:17Z",
+          "updated_at": "2026-09-18T12:21:45Z",
+          "closed_at": "2026-09-18T12:21:45Z",
+          "assignee": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "`.github/workflows/ci.yml` declares no `permissions:` anywhere, so its three jobs (`lint-and-test`, `frontend`, `docker-build`) run with whatever the repository default gives the token. All they do is check out the code, run tests and build an image, so read access to the contents is enough. Every other workflow in the repo already says what it needs: `codeql.yml`, `greeting.yml`, `labeler.yml`, `release-image.yml` and `stale.yml`.\n\nCodeQL flags this as `actions/missing-workflow-permissions`, three times, once per job.\n\nWhat to do:\n\n- Add `permissions:` with `contents: read` to the three jobs, or once at the top of the workflow if that reads better.\n- Check the coverage upload still works. `codecov/codecov-action` needs no token for a public repo, but it is the one step that talks to something outside.\n\nDone when the three `actions/missing-workflow-permissions` alerts are gone and CI still passes on a PR, coverage upload included.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/comments/5728147592",
+          "html_url": "https://github.com/NovaCode37/Prism-platform/issues/386#issuecomment-5728147592",
+          "issue_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386",
+          "id": 5728147592,
+          "node_id": "IC_kwDOR0lbo88AAAABVWyYiA",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-18T09:36:43Z",
+          "updated_at": "2026-09-18T09:36:43Z",
+          "body": "hey I have sent you pr #398 \n\nand could you take less than a minute to review my work and rate it? Your feedback would really help me improve and grow my portfolio:\n\nhttps://rahulpamula.me/review",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/comments/5728147592/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "15282016846",
+      "type": "PullRequestEvent",
+      "repo": "NovaCode37/Prism-platform",
+      "created_at": "2026-09-18T09:33:32Z",
+      "payload": {
+        "action": "opened",
+        "number": 398,
+        "pull_request": {
+          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/pulls/398",
+          "id": 4567433856,
+          "number": 398,
+          "head": {
+            "ref": "fix/ci-permissions-386",
+            "sha": "77a808e9204f7575a94de9cd09a723de1f41421a",
+            "repo": {
+              "id": 1375625021,
+              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
+              "name": "Prism-platform"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "d7577ee0811a157d1a4f9ba548868dc6bf785c1f",
+            "repo": {
+              "id": 1195989923,
+              "url": "https://api.github.com/repos/NovaCode37/Prism-platform",
+              "name": "Prism-platform"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "15282016222",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Prism-platform",
+      "created_at": "2026-09-18T09:29:38Z",
+      "payload": {
+        "action": "closed",
+        "number": 1,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/pulls/1",
+          "id": 4567398770,
+          "number": 1,
+          "head": {
+            "ref": "fix/ci-permissions-386",
+            "sha": "77a808e9204f7575a94de9cd09a723de1f41421a",
+            "repo": {
+              "id": 1375625021,
+              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
+              "name": "Prism-platform"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "d7577ee0811a157d1a4f9ba548868dc6bf785c1f",
+            "repo": {
+              "id": 1375625021,
+              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
+              "name": "Prism-platform"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "21484577509",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Prism-platform",
+      "created_at": "2026-09-18T09:29:08Z",
+      "payload": {
+        "ref": "fix/ci-permissions-386",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/ci-permissions-386",
+        "master_branch": "main",
+        "description": "Self-hosted OSINT platform. Point it at a domain, IP, email, phone or username and 22+ modules run in parallel: WHOIS, DNS, threat intel, breaches, username search. One dashboard, an exposure score, an entity graph, HTML and PDF reports.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "15281785720",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Prism-platform",
+      "created_at": "2026-09-18T09:29:28Z",
+      "payload": {
+        "action": "opened",
+        "number": 1,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/pulls/1",
+          "id": 4567398770,
+          "number": 1,
+          "head": {
+            "ref": "fix/ci-permissions-386",
+            "sha": "77a808e9204f7575a94de9cd09a723de1f41421a",
+            "repo": {
+              "id": 1375625021,
+              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
+              "name": "Prism-platform"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "d7577ee0811a157d1a4f9ba548868dc6bf785c1f",
+            "repo": {
+              "id": 1375625021,
+              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
+              "name": "Prism-platform"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "21483311643",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-17T03:43:31Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43812345506,
+        "ref": "refs/heads/fix/324-reconcile-diverged-citations",
+        "head": "808d8893624d16f652ae6e5f7deea4c3469ed7e8",
+        "before": "9493e4b57ddd1a58f567207ef45adcadf20352ed"
+      }
+    },
+    {
+      "id": "15280217820",
+      "type": "ForkEvent",
+      "repo": "NovaCode37/Prism-platform",
+      "created_at": "2026-09-18T09:01:12Z",
+      "payload": {
+        "action": "forked",
+        "forkee": {
+          "id": 1375625021,
+          "node_id": "R_kgDOUf5fPQ",
+          "name": "Prism-platform",
+          "full_name": "Rahul-pamula/Prism-platform",
+          "private": false,
+          "owner": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/Rahul-pamula/Prism-platform",
+          "description": "Self-hosted OSINT platform. Point it at a domain, IP, email, phone or username and 22+ modules run in parallel: WHOIS, DNS, threat intel, breaches, username search. One dashboard, an exposure score, an entity graph, HTML and PDF reports.",
+          "fork": true,
+          "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
+          "forks_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/forks",
+          "keys_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/teams",
+          "hooks_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/hooks",
+          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/events",
+          "assignees_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/tags",
+          "blobs_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/languages",
+          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/stargazers",
+          "contributors_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/contributors",
+          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/subscribers",
+          "subscription_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/subscription",
+          "commits_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/merges",
+          "archive_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/downloads",
+          "issues_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/labels{/name}",
+          "releases_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/deployments",
+          "created_at": "2026-09-18T09:01:12Z",
+          "updated_at": "2026-09-18T09:01:12Z",
+          "pushed_at": "2026-09-18T17:20:04Z",
+          "git_url": "git://github.com/Rahul-pamula/Prism-platform.git",
+          "ssh_url": "git@github.com:Rahul-pamula/Prism-platform.git",
+          "clone_url": "https://github.com/Rahul-pamula/Prism-platform.git",
+          "svn_url": "https://github.com/Rahul-pamula/Prism-platform",
+          "homepage": "https://getprism.su",
+          "size": 16844,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "language": null,
+          "has_issues": false,
+          "has_projects": true,
+          "has_downloads": false,
+          "has_wiki": false,
+          "has_pages": false,
+          "has_discussions": false,
+          "forks_count": 0,
+          "mirror_url": null,
+          "archived": false,
+          "disabled": false,
+          "open_issues_count": 0,
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "allow_forking": true,
+          "is_template": false,
+          "web_commit_signoff_required": false,
+          "has_pull_requests": true,
+          "pull_request_creation_policy": "all",
+          "topics": [],
+          "visibility": "public",
+          "forks": 0,
+          "open_issues": 0,
+          "watchers": 0,
+          "default_branch": "main"
+        }
+      }
+    },
+    {
+      "id": "15270840543",
+      "type": "IssueCommentEvent",
+      "repo": "NovaCode37/Prism-platform",
+      "created_at": "2026-09-18T05:46:05Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386",
+          "repository_url": "https://api.github.com/repos/NovaCode37/Prism-platform",
+          "labels_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/labels{/name}",
+          "comments_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/comments",
+          "events_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/events",
+          "html_url": "https://github.com/NovaCode37/Prism-platform/issues/386",
+          "id": 5496043359,
+          "node_id": "I_kwDOR0lbo88AAAABR5b3Xw",
+          "number": 386,
+          "title": "Declare permissions for the CI workflow jobs",
+          "user": {
+            "login": "NovaCode37",
+            "id": 151601307,
+            "node_id": "U_kgDOCQlAmw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/151601307?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/NovaCode37",
+            "html_url": "https://github.com/NovaCode37",
+            "followers_url": "https://api.github.com/users/NovaCode37/followers",
+            "following_url": "https://api.github.com/users/NovaCode37/following{/other_user}",
+            "gists_url": "https://api.github.com/users/NovaCode37/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/NovaCode37/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/NovaCode37/subscriptions",
+            "organizations_url": "https://api.github.com/users/NovaCode37/orgs",
+            "repos_url": "https://api.github.com/users/NovaCode37/repos",
+            "events_url": "https://api.github.com/users/NovaCode37/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/NovaCode37/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 10558054993,
+              "node_id": "LA_kwDOR0lbo88AAAACdU8iUQ",
+              "url": "https://api.github.com/repos/NovaCode37/Prism-platform/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11425074360,
+              "node_id": "LA_kwDOR0lbo88AAAACqPzMuA",
+              "url": "https://api.github.com/repos/NovaCode37/Prism-platform/labels/github_actions",
+              "name": "github_actions",
+              "color": "000000",
+              "default": false,
+              "description": "Pull requests that update GitHub Actions code",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "Rahul-pamula",
+              "id": 153642358,
+              "node_id": "U_kgDOCShldg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Rahul-pamula",
+              "html_url": "https://github.com/Rahul-pamula",
+              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 3,
+          "created_at": "2026-09-18T05:33:17Z",
+          "updated_at": "2026-09-18T12:21:45Z",
+          "closed_at": "2026-09-18T12:21:45Z",
+          "assignee": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "`.github/workflows/ci.yml` declares no `permissions:` anywhere, so its three jobs (`lint-and-test`, `frontend`, `docker-build`) run with whatever the repository default gives the token. All they do is check out the code, run tests and build an image, so read access to the contents is enough. Every other workflow in the repo already says what it needs: `codeql.yml`, `greeting.yml`, `labeler.yml`, `release-image.yml` and `stale.yml`.\n\nCodeQL flags this as `actions/missing-workflow-permissions`, three times, once per job.\n\nWhat to do:\n\n- Add `permissions:` with `contents: read` to the three jobs, or once at the top of the workflow if that reads better.\n- Check the coverage upload still works. `codecov/codecov-action` needs no token for a public repo, but it is the one step that talks to something outside.\n\nDone when the three `actions/missing-workflow-permissions` alerts are gone and CI still passes on a PR, coverage upload included.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/comments/5725748914",
+          "html_url": "https://github.com/NovaCode37/Prism-platform/issues/386#issuecomment-5725748914",
+          "issue_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386",
+          "id": 5725748914,
+          "node_id": "IC_kwDOR0lbo88AAAABVUf-sg",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-18T05:46:05Z",
+          "updated_at": "2026-09-18T05:46:05Z",
+          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I have experience with the relevant tech stack. Could I be assigned this one? I'll have a fix ready soon! 🙌",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/comments/5725748914/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
     {
       "id": "15244148386",
       "type": "IssuesEvent",
@@ -2214,902 +2904,11 @@
           "pinned_comment": null
         }
       }
-    },
-    {
-      "id": "15244146399",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:05Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/70",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/70/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/70/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/70/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/70",
-          "id": 5143778899,
-          "node_id": "I_kwDOTra-A88AAAABMpfWUw",
-          "number": 70,
-          "title": "Assignment 9: Set Operations and Subqueries - Reena",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:53:06Z",
-          "updated_at": "2026-09-17T18:59:05Z",
-          "closed_at": "2026-09-17T18:59:05Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: Reena\nYour specific assignment file: `assignments/assignment-9/reena.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 9 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-9/images/` folder. Name it exactly: `reena_set_ops_subqueries.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-9/reena.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/reena_set_ops_subqueries.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/70/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/70/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244145871",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:05Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/69",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/69/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/69/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/69/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/69",
-          "id": 5143778429,
-          "node_id": "I_kwDOTra-A88AAAABMpfUfQ",
-          "number": 69,
-          "title": "Assignment 8: SQL Joins - Reena",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:53:02Z",
-          "updated_at": "2026-09-17T18:59:04Z",
-          "closed_at": "2026-09-17T18:59:04Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: Reena\nYour specific assignment file: `assignments/assignment-8/reena.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 8 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-8/images/` folder. Name it exactly: `reena_joins.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-8/reena.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/reena_joins.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/69/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/69/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244145355",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:04Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/68",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/68/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/68/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/68/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/68",
-          "id": 5143778084,
-          "node_id": "I_kwDOTra-A88AAAABMpfTJA",
-          "number": 68,
-          "title": "Assignment 9: Set Operations and Subqueries - M. Ramya",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:52:59Z",
-          "updated_at": "2026-09-17T18:59:04Z",
-          "closed_at": "2026-09-17T18:59:04Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: M. Ramya\nYour specific assignment file: `assignments/assignment-9/m_ramya.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 9 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-9/images/` folder. Name it exactly: `m_ramya_set_ops_subqueries.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-9/m_ramya.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/m_ramya_set_ops_subqueries.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/68/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/68/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244144945",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:04Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/67",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/67/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/67/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/67/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/67",
-          "id": 5143777788,
-          "node_id": "I_kwDOTra-A88AAAABMpfR_A",
-          "number": 67,
-          "title": "Assignment 8: SQL Joins - M. Ramya",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:52:57Z",
-          "updated_at": "2026-09-17T18:59:03Z",
-          "closed_at": "2026-09-17T18:59:03Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: M. Ramya\nYour specific assignment file: `assignments/assignment-8/m_ramya.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 8 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-8/images/` folder. Name it exactly: `m_ramya_joins.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-8/m_ramya.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/m_ramya_joins.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/67/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/67/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244144480",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:03Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/66",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/66/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/66/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/66/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/66",
-          "id": 5143777554,
-          "node_id": "I_kwDOTra-A88AAAABMpfREg",
-          "number": 66,
-          "title": "Assignment 9: Set Operations and Subqueries - K. Ramya",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:52:55Z",
-          "updated_at": "2026-09-17T18:59:03Z",
-          "closed_at": "2026-09-17T18:59:03Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: K. Ramya\nYour specific assignment file: `assignments/assignment-9/k_ramya.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 9 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-9/images/` folder. Name it exactly: `k_ramya_set_ops_subqueries.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-9/k_ramya.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/k_ramya_set_ops_subqueries.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/66/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/66/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244144062",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:03Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/65",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/65/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/65/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/65/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/65",
-          "id": 5143777352,
-          "node_id": "I_kwDOTra-A88AAAABMpfQSA",
-          "number": 65,
-          "title": "Assignment 8: SQL Joins - K. Ramya",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:52:53Z",
-          "updated_at": "2026-09-17T18:59:02Z",
-          "closed_at": "2026-09-17T18:59:02Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: K. Ramya\nYour specific assignment file: `assignments/assignment-8/k_ramya.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 8 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-8/images/` folder. Name it exactly: `k_ramya_joins.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-8/k_ramya.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/k_ramya_joins.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/65/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/65/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244143549",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:02Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/58",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/58/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/58/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/58/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/58",
-          "id": 5123597171,
-          "node_id": "I_kwDOTra-A88AAAABMWPjcw",
-          "number": 58,
-          "title": "Assignment 7: Grouping and Ordering - Reena",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-11T18:59:30Z",
-          "updated_at": "2026-09-17T18:59:02Z",
-          "closed_at": "2026-09-17T18:59:02Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: Reena\nYour specific assignment file: `assignments/assignment-7/reena.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 7 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-7/images/` folder. Name it exactly: `reena_grouping_ordering.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-7/reena.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/reena_grouping_ordering.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/58/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/58/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244143005",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:02Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/57",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/57/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/57/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/57/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/57",
-          "id": 5123596997,
-          "node_id": "I_kwDOTra-A88AAAABMWPixQ",
-          "number": 57,
-          "title": "Assignment 7: Grouping and Ordering - M. Ramya",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-11T18:59:29Z",
-          "updated_at": "2026-09-17T18:59:01Z",
-          "closed_at": "2026-09-17T18:59:01Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: M. Ramya\nYour specific assignment file: `assignments/assignment-7/m_ramya.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 7 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-7/images/` folder. Name it exactly: `m_ramya_grouping_ordering.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-7/m_ramya.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/m_ramya_grouping_ordering.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/57/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/57/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244142575",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:01Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/56",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/56/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/56/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/56/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/56",
-          "id": 5123596730,
-          "node_id": "I_kwDOTra-A88AAAABMWPhug",
-          "number": 56,
-          "title": "Assignment 7: Grouping and Ordering - K. Ramya",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-11T18:59:28Z",
-          "updated_at": "2026-09-17T18:59:01Z",
-          "closed_at": "2026-09-17T18:59:01Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: K. Ramya\nYour specific assignment file: `assignments/assignment-7/k_ramya.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 7 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-7/images/` folder. Name it exactly: `k_ramya_grouping_ordering.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-7/k_ramya.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/k_ramya_grouping_ordering.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/56/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/56/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244142056",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:01Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/39",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/39/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/39/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/39/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/39",
-          "id": 5097747052,
-          "node_id": "I_kwDOTra-A88AAAABL9lybA",
-          "number": 39,
-          "title": "Assignment 6: Built-in Functions - Reena",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-08T13:41:08Z",
-          "updated_at": "2026-09-17T18:59:00Z",
-          "closed_at": "2026-09-17T18:59:00Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: Reena\nYour specific assignment file: `assignments/assignment-6/reena.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 6 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-6/images/` folder. Name it exactly: `reena_functions.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-6/reena.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/reena_functions.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/39/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/39/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244141553",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:00Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/38",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/38/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/38/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/38/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/38",
-          "id": 5097746976,
-          "node_id": "I_kwDOTra-A88AAAABL9lyIA",
-          "number": 38,
-          "title": "Assignment 5: Constraints & Referential Integrity - Reena",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-08T13:41:07Z",
-          "updated_at": "2026-09-17T18:59:00Z",
-          "closed_at": "2026-09-17T18:59:00Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: Reena\nYour specific assignment file: `assignments/assignment-5/reena.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 5 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-5/images/` folder. Name it exactly: `reena_constraints.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-5/reena.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/reena_constraints.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/38/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/38/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
     }
   ],
   "recentStats": {
-    "commits": 1719,
-    "prs": 147,
+    "commits": 1722,
+    "prs": 149,
     "issues": 258
   }
 }
