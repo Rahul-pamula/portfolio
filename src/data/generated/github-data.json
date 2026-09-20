@@ -1,43 +1,8 @@
 {
-  "updatedAt": "2026-09-19T03:02:26.109Z",
+  "updatedAt": "2026-09-20T03:18:28.241Z",
   "contributions": {
-    "totalLastYear": 1956,
+    "totalLastYear": 1959,
     "days": [
-      {
-        "date": "2025-09-14",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-09-15",
-        "count": 1,
-        "level": 1
-      },
-      {
-        "date": "2025-09-16",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-09-17",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-09-18",
-        "count": 1,
-        "level": 1
-      },
-      {
-        "date": "2025-09-19",
-        "count": 1,
-        "level": 1
-      },
-      {
-        "date": "2025-09-20",
-        "count": 0,
-        "level": 0
-      },
       {
         "date": "2025-09-21",
         "count": 0,
@@ -1855,8 +1820,13 @@
       },
       {
         "date": "2026-09-19",
-        "count": 0,
-        "level": 0
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-09-20",
+        "count": 1,
+        "level": 1
       }
     ]
   },
@@ -1896,6 +1866,600 @@
     "updated_at": "2026-09-11T01:52:48Z"
   },
   "activityFeed": [
+    {
+      "id": "15361924367",
+      "type": "PullRequestEvent",
+      "repo": "Create-Node-App/cna-templates",
+      "created_at": "2026-09-19T23:29:54Z",
+      "payload": {
+        "action": "merged",
+        "number": 463,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/pulls/463",
+          "id": 4579670935,
+          "number": 463,
+          "head": {
+            "ref": "feat/react-stylex-extension",
+            "sha": "be868049ca209a2f50c609e00b26fd9da7fed7aa",
+            "repo": {
+              "id": 1373992351,
+              "url": "https://api.github.com/repos/Rahul-pamula/cna-templates",
+              "name": "cna-templates"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fea0314ccbfc49d2a1db1158360266f1bc431e41",
+            "repo": {
+              "id": 298953142,
+              "url": "https://api.github.com/repos/Create-Node-App/cna-templates",
+              "name": "cna-templates"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "15357826288",
+      "type": "IssueCommentEvent",
+      "repo": "Create-Node-App/cna-templates",
+      "created_at": "2026-09-19T20:42:38Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463",
+          "repository_url": "https://api.github.com/repos/Create-Node-App/cna-templates",
+          "labels_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/comments",
+          "events_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/events",
+          "html_url": "https://github.com/Create-Node-App/cna-templates/pull/463",
+          "id": 5512519291,
+          "node_id": "PR_kwDOEdGpts8AAAABEPg7lw",
+          "number": 463,
+          "title": "feat: add StyleX extension for React Vite",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 5,
+          "created_at": "2026-09-19T18:09:30Z",
+          "updated_at": "2026-09-19T23:29:54Z",
+          "closed_at": "2026-09-19T23:29:54Z",
+          "assignee": null,
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "draft": false,
+          "pull_request": {
+            "url": "https://api.github.com/repos/Create-Node-App/cna-templates/pulls/463",
+            "html_url": "https://github.com/Create-Node-App/cna-templates/pull/463",
+            "diff_url": "https://github.com/Create-Node-App/cna-templates/pull/463.diff",
+            "patch_url": "https://github.com/Create-Node-App/cna-templates/pull/463.patch",
+            "merged_at": "2026-09-19T23:29:54Z"
+          },
+          "body": "## Summary\r\n\r\nAdds a StyleX extension for the React Vite starter as part of #462.\r\n\r\n### Changes\r\n\r\n- Add `@stylexjs/stylex` runtime dependency\r\n- Add StyleX Vite integration via `@stylexjs/unplugin`\r\n- Add StyleX ESLint integration\r\n- Add CSS layer configuration for atomic styles\r\n- Add typed StyleX theme tokens using `stylex.defineVars`\r\n- Add a reusable StyleX Button example using `stylex.create` and `stylex.props`\r\n- Add extension documentation and template metadata\r\n- Preserve the existing Vite and ESLint configurations through additive `.mjs` wrappers\r\n\r\n### Validation\r\n\r\n- `npm run format` ✅\r\n- `npm run lint` ✅\r\n- `npm run type-check` ✅\r\n- `npm run build` ✅\r\n- StyleX compiler/static analysis ✅\r\n- `git diff --check` ✅\r\n- `node scripts/validate-templates.js` ✅\r\n\r\nCloses #462\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n- **New Features**\n  - Added a React StyleX extension template for type-safe, atomic CSS-in-JS styling.\n  - Added a styled, loading-aware Button component with disabled-state handling.\n  - Added reusable color and spacing theme tokens.\n  - Added StyleX CSS layering and stylesheet integration.\n  - Added the StyleX template to the UI extension catalog.\n\n- **Documentation**\n  - Added setup and usage guidance for StyleX themes, components, and generated styles.\n\n- **Tooling**\n  - Added StyleX-aware development, build, preview, linting, and validation configuration.\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+          "reactions": {
+            "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/comments/5745153378",
+          "html_url": "https://github.com/Create-Node-App/cna-templates/pull/463#issuecomment-5745153378",
+          "issue_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463",
+          "id": 5745153378,
+          "node_id": "IC_kwDOEdGpts8AAAABVnAVYg",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-19T20:42:38Z",
+          "updated_at": "2026-09-19T20:42:38Z",
+          "body": "Implemented the requested review changes.\r\n\r\n- Fixed `StyleXButton` prop merging so `disabled` and StyleX classes cannot be clobbered.\r\n- Moved CSS injection from `main.tsx.append` to the established `theme/index.ts.append` seam.\r\n- Renamed the example component to `StyleXButton` to remove the path collision with Tailwind.\r\n- Did not add `incompatibleWith`, since the collision is resolved by the rename.\r\n- Documented the current Vite/ESLint wrapper limitation in the extension README.\r\n- Added/verified L2 scaffold proof: format, lint, type-check, and build all pass.\r\n- `git diff --check` and `node scripts/validate-templates.js` also pass.\r\n\r\nThe Vite config-loader warning remains documented as the known limitation of the current wrapper approach.\r\n\r\nReady for re-review. Thanks!",
+          "reactions": {
+            "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/comments/5745153378/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "21608449935",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/cna-templates",
+      "created_at": "2026-09-19T20:42:00Z",
+      "payload": {
+        "repository_id": 1373992351,
+        "push_id": 44036644962,
+        "ref": "refs/heads/feat/react-stylex-extension",
+        "head": "be868049ca209a2f50c609e00b26fd9da7fed7aa",
+        "before": "345100b5d186758127baa8b88244592e52e84cba"
+      }
+    },
+    {
+      "id": "15357227428",
+      "type": "IssueCommentEvent",
+      "repo": "Create-Node-App/cna-templates",
+      "created_at": "2026-09-19T20:19:28Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463",
+          "repository_url": "https://api.github.com/repos/Create-Node-App/cna-templates",
+          "labels_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/comments",
+          "events_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/events",
+          "html_url": "https://github.com/Create-Node-App/cna-templates/pull/463",
+          "id": 5512519291,
+          "node_id": "PR_kwDOEdGpts8AAAABEPg7lw",
+          "number": 463,
+          "title": "feat: add StyleX extension for React Vite",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 5,
+          "created_at": "2026-09-19T18:09:30Z",
+          "updated_at": "2026-09-19T23:29:54Z",
+          "closed_at": "2026-09-19T23:29:54Z",
+          "assignee": null,
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "draft": false,
+          "pull_request": {
+            "url": "https://api.github.com/repos/Create-Node-App/cna-templates/pulls/463",
+            "html_url": "https://github.com/Create-Node-App/cna-templates/pull/463",
+            "diff_url": "https://github.com/Create-Node-App/cna-templates/pull/463.diff",
+            "patch_url": "https://github.com/Create-Node-App/cna-templates/pull/463.patch",
+            "merged_at": "2026-09-19T23:29:54Z"
+          },
+          "body": "## Summary\r\n\r\nAdds a StyleX extension for the React Vite starter as part of #462.\r\n\r\n### Changes\r\n\r\n- Add `@stylexjs/stylex` runtime dependency\r\n- Add StyleX Vite integration via `@stylexjs/unplugin`\r\n- Add StyleX ESLint integration\r\n- Add CSS layer configuration for atomic styles\r\n- Add typed StyleX theme tokens using `stylex.defineVars`\r\n- Add a reusable StyleX Button example using `stylex.create` and `stylex.props`\r\n- Add extension documentation and template metadata\r\n- Preserve the existing Vite and ESLint configurations through additive `.mjs` wrappers\r\n\r\n### Validation\r\n\r\n- `npm run format` ✅\r\n- `npm run lint` ✅\r\n- `npm run type-check` ✅\r\n- `npm run build` ✅\r\n- StyleX compiler/static analysis ✅\r\n- `git diff --check` ✅\r\n- `node scripts/validate-templates.js` ✅\r\n\r\nCloses #462\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n- **New Features**\n  - Added a React StyleX extension template for type-safe, atomic CSS-in-JS styling.\n  - Added a styled, loading-aware Button component with disabled-state handling.\n  - Added reusable color and spacing theme tokens.\n  - Added StyleX CSS layering and stylesheet integration.\n  - Added the StyleX template to the UI extension catalog.\n\n- **Documentation**\n  - Added setup and usage guidance for StyleX themes, components, and generated styles.\n\n- **Tooling**\n  - Added StyleX-aware development, build, preview, linting, and validation configuration.\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+          "reactions": {
+            "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/comments/5745017693",
+          "html_url": "https://github.com/Create-Node-App/cna-templates/pull/463#issuecomment-5745017693",
+          "issue_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463",
+          "id": 5745017693,
+          "node_id": "IC_kwDOEdGpts8AAAABVm4DXQ",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-19T20:19:28Z",
+          "updated_at": "2026-09-19T20:19:28Z",
+          "body": "Thanks for the detailed review. I investigated all four areas against the existing extension patterns.\r\n\r\nI can resolve the first three items cleanly:\r\n\r\n1. Fix the Button prop ordering/merging so `disabled`, `className`, and `stylex` output cannot be unintentionally clobbered.\r\n2. Move the StyleX CSS entrypoint from `main.tsx.append` to the established `theme/index.ts.append` seam.\r\n3. Rename the example component to `StyleXButton` and add the appropriate incompatibility metadata after confirming the repository's exact slug/schema.\r\n\r\nFor the Vite/ESLint integration, I found that the current extension engine has no existing mechanism for safely injecting plugins into `vite.config.ts` or `eslint.config.mjs`. The current `.mjs` wrapper approach works in the scaffold validation, but it introduces the config-loading concern mentioned in the review and has no established sibling precedent.\r\n\r\nI don't want to resolve that by introducing another unsupported workaround or by overwriting the base configs.\r\n\r\nCould you advise whether you would prefer:\r\n- a small extension-engine/base-template capability for composable config/plugin injection, or\r\n- a different existing pattern that I may have missed?\r\n\r\nI'll proceed with the first three fixes while leaving the config-injection decision open.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/comments/5745017693/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "15353773849",
+      "type": "PullRequestEvent",
+      "repo": "Create-Node-App/cna-templates",
+      "created_at": "2026-09-19T18:09:30Z",
+      "payload": {
+        "action": "opened",
+        "number": 463,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/pulls/463",
+          "id": 4579670935,
+          "number": 463,
+          "head": {
+            "ref": "feat/react-stylex-extension",
+            "sha": "be868049ca209a2f50c609e00b26fd9da7fed7aa",
+            "repo": {
+              "id": 1373992351,
+              "url": "https://api.github.com/repos/Rahul-pamula/cna-templates",
+              "name": "cna-templates"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "fea0314ccbfc49d2a1db1158360266f1bc431e41",
+            "repo": {
+              "id": 298953142,
+              "url": "https://api.github.com/repos/Create-Node-App/cna-templates",
+              "name": "cna-templates"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "21600269577",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/cna-templates",
+      "created_at": "2026-09-19T18:08:32Z",
+      "payload": {
+        "ref": "feat/react-stylex-extension",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/react-stylex-extension",
+        "master_branch": "main",
+        "description": "This repository contains templates and extensions for the https://www.npmjs.com/package/create-awesome-node-app package.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "15352103153",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-19T17:11:56Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/167",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/167/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/167/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/167/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/167",
+          "id": 5358519596,
+          "node_id": "I_kwDOT91lnM8AAAABP2SFLA",
+          "number": 167,
+          "title": "Supabase returns \"No API key found in request\" even when valid Project URL and anon key are provided",
+          "user": {
+            "login": "SHREE-VIDYA-NAGARAJ",
+            "id": 184944995,
+            "node_id": "U_kgDOCwYJYw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/184944995?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ",
+            "html_url": "https://github.com/SHREE-VIDYA-NAGARAJ",
+            "followers_url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ/followers",
+            "following_url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ/following{/other_user}",
+            "gists_url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ/subscriptions",
+            "organizations_url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ/orgs",
+            "repos_url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ/repos",
+            "events_url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/SHREE-VIDYA-NAGARAJ/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-09-05T14:14:45Z",
+          "updated_at": "2026-09-19T17:11:56Z",
+          "closed_at": "2026-09-19T17:11:56Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## Bug Description\n\nI am getting the following error when trying to connect the application to Supabase:\n\n```json\n{\n  \"message\": \"No API key found in request\",\n  \"hint\": \"No `apikey` request header or url param was found.\"\n}\n\nHowever, I have entered the correct Supabase Project URL and anon key.\n\nExpected Behavior\n\nThe application should initialize the Supabase client successfully and make requests using the provided Project URL and API key.\n\nActual Behavior\n\nThe request fails with:\n\n{\n  \"message\": \"No API key found in request\",\n  \"hint\": \"No `apikey` request header or url param was found.\"\n}\n\nThis makes it appear that the API key is not being passed to Supabase, even though it has been entered in the application's configuration.\n\nAdditional Information\n\nI also checked the browser console. The console shows some MetaMask-related errors, but these appear to be unrelated to the Supabase API-key error.\n\nSteps to Reproduce\nOpen the application.\nEnter the Supabase Project URL.\nEnter the correct Supabase anon key.\nAttempt to connect/use the Supabase project.\nThe request fails with No API key found in request.\nEnvironment\nBrowser: Chrome\nSupabase: [your Supabase version/project details]\nApplication: [application/repository name]\n\nCould you please help identify why the apikey header is not being included in the request despite providing the correct credentials?\n\n\nOne thing I'd specifically mention to the maintainer is:\n\n> **The error seems to indicate that the API key isn't reaching the Supabase API at all, rather than the key being invalid. Could the issue be related to how the entered credentials are stored/read or how the Supabase client/request is initialized?**\n\nThat is a useful distinction because Supabase's API gateway explicitly expects an `apikey` header. :contentReference[oaicite:1]{index=1}\n\nAlso, **don't include your actual anon key in the GitHub issue**. Even though the anon/publishable key is intended for client-side use, it's still better not to paste credentials into an issue. Supabase is also transitioning from the legacy `anon` key to publishable keys during 2026. :contentReference[oaicite:2]{index=2}\n\nThe MetaMask errors visible in your screenshot (`MetaMask extension not found`) are likely a **separate browser-extension issue**, so I would not mix those into the main bug report.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/167/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/167/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
+      }
+    },
+    {
+      "id": "15349515117",
+      "type": "IssueCommentEvent",
+      "repo": "solomonBoltin/beautiful",
+      "created_at": "2026-09-19T15:44:15Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/solomonBoltin/beautiful/issues/9",
+          "repository_url": "https://api.github.com/repos/solomonBoltin/beautiful",
+          "labels_url": "https://api.github.com/repos/solomonBoltin/beautiful/issues/9/labels{/name}",
+          "comments_url": "https://api.github.com/repos/solomonBoltin/beautiful/issues/9/comments",
+          "events_url": "https://api.github.com/repos/solomonBoltin/beautiful/issues/9/events",
+          "html_url": "https://github.com/solomonBoltin/beautiful/issues/9",
+          "id": 5511347601,
+          "node_id": "I_kwDOUhe3W88AAAABSIB9kQ",
+          "number": 9,
+          "title": "counterexamples wanted: screenshots the score gets wrong",
+          "user": {
+            "login": "solomonBoltin",
+            "id": 121828172,
+            "node_id": "U_kgDOB0LzTA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/121828172?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/solomonBoltin",
+            "html_url": "https://github.com/solomonBoltin",
+            "followers_url": "https://api.github.com/users/solomonBoltin/followers",
+            "following_url": "https://api.github.com/users/solomonBoltin/following{/other_user}",
+            "gists_url": "https://api.github.com/users/solomonBoltin/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/solomonBoltin/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/solomonBoltin/subscriptions",
+            "organizations_url": "https://api.github.com/users/solomonBoltin/orgs",
+            "repos_url": "https://api.github.com/users/solomonBoltin/repos",
+            "events_url": "https://api.github.com/users/solomonBoltin/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/solomonBoltin/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 12265294824,
+              "node_id": "LA_kwDOUhe3W88AAAAC2xGL6A",
+              "url": "https://api.github.com/repos/solomonBoltin/beautiful/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12265682908,
+              "node_id": "LA_kwDOUhe3W88AAAAC2xd33A",
+              "url": "https://api.github.com/repos/solomonBoltin/beautiful/labels/counterexample",
+              "name": "counterexample",
+              "color": "e11d48",
+              "default": false,
+              "description": "An image the score gets wrong",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 2,
+          "created_at": "2026-09-19T15:37:12Z",
+          "updated_at": "2026-09-19T19:17:10Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "The fastest way to improve the formula is a screenshot that looks great and scores low, or looks bad and scores high.\n\nPost them here (or open a new issue with the *score is wrong* template): the image, the viewport it was captured at, the score it got, and roughly what you expected. Each one becomes a test case or a factor proposal.\n\nKnown ones already in the README: the unstyled npm page scores 82 because a giant wordmark centred on white is, pixel-wise, a minimalist splash page.",
+          "reactions": {
+            "url": "https://api.github.com/repos/solomonBoltin/beautiful/issues/9/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/solomonBoltin/beautiful/issues/9/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/solomonBoltin/beautiful/issues/comments/5743188667",
+          "html_url": "https://github.com/solomonBoltin/beautiful/issues/9#issuecomment-5743188667",
+          "issue_url": "https://api.github.com/repos/solomonBoltin/beautiful/issues/9",
+          "id": 5743188667,
+          "node_id": "IC_kwDOUhe3W88AAAABVlIauw",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-09-19T15:44:15Z",
+          "updated_at": "2026-09-19T15:44:15Z",
+          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I have experience with the relevant tech stack. Could I be assigned this one? I'll have a fix ready soon! 🙌",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/solomonBoltin/beautiful/issues/comments/5743188667/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "21561273327",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/no_human",
+      "created_at": "2026-09-19T05:24:30Z",
+      "payload": {
+        "repository_id": 1367188943,
+        "push_id": 43995145710,
+        "ref": "refs/heads/main",
+        "head": "5f99b7af3142bf9fc562bd35d127b852a99bc113",
+        "before": "b4663e4a77e6ad2c5e286fb0ac94bdcbc55f98ad"
+      }
+    },
+    {
+      "id": "15334201757",
+      "type": "WatchEvent",
+      "repo": "latent-spaces/brag",
+      "created_at": "2026-09-19T04:54:18Z",
+      "payload": {
+        "action": "started"
+      }
+    },
     {
       "id": "21523296471",
       "type": "DeleteEvent",
@@ -2177,738 +2741,11 @@
           }
         }
       }
-    },
-    {
-      "id": "15282016222",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Prism-platform",
-      "created_at": "2026-09-18T09:29:38Z",
-      "payload": {
-        "action": "closed",
-        "number": 1,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/pulls/1",
-          "id": 4567398770,
-          "number": 1,
-          "head": {
-            "ref": "fix/ci-permissions-386",
-            "sha": "77a808e9204f7575a94de9cd09a723de1f41421a",
-            "repo": {
-              "id": 1375625021,
-              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
-              "name": "Prism-platform"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "d7577ee0811a157d1a4f9ba548868dc6bf785c1f",
-            "repo": {
-              "id": 1375625021,
-              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
-              "name": "Prism-platform"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "21484577509",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Prism-platform",
-      "created_at": "2026-09-18T09:29:08Z",
-      "payload": {
-        "ref": "fix/ci-permissions-386",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix/ci-permissions-386",
-        "master_branch": "main",
-        "description": "Self-hosted OSINT platform. Point it at a domain, IP, email, phone or username and 22+ modules run in parallel: WHOIS, DNS, threat intel, breaches, username search. One dashboard, an exposure score, an entity graph, HTML and PDF reports.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "15281785720",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Prism-platform",
-      "created_at": "2026-09-18T09:29:28Z",
-      "payload": {
-        "action": "opened",
-        "number": 1,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/pulls/1",
-          "id": 4567398770,
-          "number": 1,
-          "head": {
-            "ref": "fix/ci-permissions-386",
-            "sha": "77a808e9204f7575a94de9cd09a723de1f41421a",
-            "repo": {
-              "id": 1375625021,
-              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
-              "name": "Prism-platform"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "d7577ee0811a157d1a4f9ba548868dc6bf785c1f",
-            "repo": {
-              "id": 1375625021,
-              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
-              "name": "Prism-platform"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "21483311643",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/no_human",
-      "created_at": "2026-09-17T03:43:31Z",
-      "payload": {
-        "repository_id": 1367188943,
-        "push_id": 43812345506,
-        "ref": "refs/heads/fix/324-reconcile-diverged-citations",
-        "head": "808d8893624d16f652ae6e5f7deea4c3469ed7e8",
-        "before": "9493e4b57ddd1a58f567207ef45adcadf20352ed"
-      }
-    },
-    {
-      "id": "15280217820",
-      "type": "ForkEvent",
-      "repo": "NovaCode37/Prism-platform",
-      "created_at": "2026-09-18T09:01:12Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1375625021,
-          "node_id": "R_kgDOUf5fPQ",
-          "name": "Prism-platform",
-          "full_name": "Rahul-pamula/Prism-platform",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/Prism-platform",
-          "description": "Self-hosted OSINT platform. Point it at a domain, IP, email, phone or username and 22+ modules run in parallel: WHOIS, DNS, threat intel, breaches, username search. One dashboard, an exposure score, an entity graph, HTML and PDF reports.",
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/Prism-platform/deployments",
-          "created_at": "2026-09-18T09:01:12Z",
-          "updated_at": "2026-09-18T09:01:12Z",
-          "pushed_at": "2026-09-18T17:20:04Z",
-          "git_url": "git://github.com/Rahul-pamula/Prism-platform.git",
-          "ssh_url": "git@github.com:Rahul-pamula/Prism-platform.git",
-          "clone_url": "https://github.com/Rahul-pamula/Prism-platform.git",
-          "svn_url": "https://github.com/Rahul-pamula/Prism-platform",
-          "homepage": "https://getprism.su",
-          "size": 16844,
-          "stargazers_count": 0,
-          "watchers_count": 0,
-          "language": null,
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": false,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-          },
-          "allow_forking": true,
-          "is_template": false,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 0,
-          "default_branch": "main"
-        }
-      }
-    },
-    {
-      "id": "15270840543",
-      "type": "IssueCommentEvent",
-      "repo": "NovaCode37/Prism-platform",
-      "created_at": "2026-09-18T05:46:05Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386",
-          "repository_url": "https://api.github.com/repos/NovaCode37/Prism-platform",
-          "labels_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/labels{/name}",
-          "comments_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/comments",
-          "events_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/events",
-          "html_url": "https://github.com/NovaCode37/Prism-platform/issues/386",
-          "id": 5496043359,
-          "node_id": "I_kwDOR0lbo88AAAABR5b3Xw",
-          "number": 386,
-          "title": "Declare permissions for the CI workflow jobs",
-          "user": {
-            "login": "NovaCode37",
-            "id": 151601307,
-            "node_id": "U_kgDOCQlAmw",
-            "avatar_url": "https://avatars.githubusercontent.com/u/151601307?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/NovaCode37",
-            "html_url": "https://github.com/NovaCode37",
-            "followers_url": "https://api.github.com/users/NovaCode37/followers",
-            "following_url": "https://api.github.com/users/NovaCode37/following{/other_user}",
-            "gists_url": "https://api.github.com/users/NovaCode37/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/NovaCode37/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/NovaCode37/subscriptions",
-            "organizations_url": "https://api.github.com/users/NovaCode37/orgs",
-            "repos_url": "https://api.github.com/users/NovaCode37/repos",
-            "events_url": "https://api.github.com/users/NovaCode37/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/NovaCode37/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 10558054993,
-              "node_id": "LA_kwDOR0lbo88AAAACdU8iUQ",
-              "url": "https://api.github.com/repos/NovaCode37/Prism-platform/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11425074360,
-              "node_id": "LA_kwDOR0lbo88AAAACqPzMuA",
-              "url": "https://api.github.com/repos/NovaCode37/Prism-platform/labels/github_actions",
-              "name": "github_actions",
-              "color": "000000",
-              "default": false,
-              "description": "Pull requests that update GitHub Actions code",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "Rahul-pamula",
-              "id": 153642358,
-              "node_id": "U_kgDOCShldg",
-              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rahul-pamula",
-              "html_url": "https://github.com/Rahul-pamula",
-              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 3,
-          "created_at": "2026-09-18T05:33:17Z",
-          "updated_at": "2026-09-18T12:21:45Z",
-          "closed_at": "2026-09-18T12:21:45Z",
-          "assignee": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "`.github/workflows/ci.yml` declares no `permissions:` anywhere, so its three jobs (`lint-and-test`, `frontend`, `docker-build`) run with whatever the repository default gives the token. All they do is check out the code, run tests and build an image, so read access to the contents is enough. Every other workflow in the repo already says what it needs: `codeql.yml`, `greeting.yml`, `labeler.yml`, `release-image.yml` and `stale.yml`.\n\nCodeQL flags this as `actions/missing-workflow-permissions`, three times, once per job.\n\nWhat to do:\n\n- Add `permissions:` with `contents: read` to the three jobs, or once at the top of the workflow if that reads better.\n- Check the coverage upload still works. `codecov/codecov-action` needs no token for a public repo, but it is the one step that talks to something outside.\n\nDone when the three `actions/missing-workflow-permissions` alerts are gone and CI still passes on a PR, coverage upload included.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/comments/5725748914",
-          "html_url": "https://github.com/NovaCode37/Prism-platform/issues/386#issuecomment-5725748914",
-          "issue_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386",
-          "id": 5725748914,
-          "node_id": "IC_kwDOR0lbo88AAAABVUf-sg",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-18T05:46:05Z",
-          "updated_at": "2026-09-18T05:46:05Z",
-          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I have experience with the relevant tech stack. Could I be assigned this one? I'll have a fix ready soon! 🙌",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/comments/5725748914/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "15244148386",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:07Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/74",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/74/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/74/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/74/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/74",
-          "id": 5143783720,
-          "node_id": "I_kwDOTra-A88AAAABMpfpKA",
-          "number": 74,
-          "title": "Assignment 9: Set Operations and Subqueries - Yamini",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:53:44Z",
-          "updated_at": "2026-09-17T18:59:07Z",
-          "closed_at": "2026-09-17T18:59:07Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: Yamini\nYour specific assignment file: `assignments/assignment-9/yamini.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 9 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-9/images/` folder. Name it exactly: `yamini_set_ops_subqueries.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-9/yamini.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/yamini_set_ops_subqueries.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/74/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/74/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244147804",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:07Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/73",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/73/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/73/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/73/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/73",
-          "id": 5143779709,
-          "node_id": "I_kwDOTra-A88AAAABMpfZfQ",
-          "number": 73,
-          "title": "Assignment 8: SQL Joins - Yamini",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:53:12Z",
-          "updated_at": "2026-09-17T18:59:06Z",
-          "closed_at": "2026-09-17T18:59:06Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: Yamini\nYour specific assignment file: `assignments/assignment-8/yamini.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 8 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-8/images/` folder. Name it exactly: `yamini_joins.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-8/yamini.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/yamini_joins.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/73/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/73/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244147434",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:06Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/72",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/72/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/72/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/72/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/72",
-          "id": 5143779524,
-          "node_id": "I_kwDOTra-A88AAAABMpfYxA",
-          "number": 72,
-          "title": "Assignment 9: Set Operations and Subqueries - Roshini",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:53:11Z",
-          "updated_at": "2026-09-17T18:59:06Z",
-          "closed_at": "2026-09-17T18:59:06Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: Roshini\nYour specific assignment file: `assignments/assignment-9/roshini.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 9 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-9/images/` folder. Name it exactly: `roshini_set_ops_subqueries.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-9/roshini.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/roshini_set_ops_subqueries.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/72/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/72/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15244146931",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/DBMS",
-      "created_at": "2026-09-17T18:59:06Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/71",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/DBMS",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/71/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/71/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/71/events",
-          "html_url": "https://github.com/Rahul-pamula/DBMS/issues/71",
-          "id": 5143779235,
-          "node_id": "I_kwDOTra-A88AAAABMpfXow",
-          "number": 71,
-          "title": "Assignment 8: SQL Joins - Roshini",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-08-13T16:53:08Z",
-          "updated_at": "2026-09-17T18:59:05Z",
-          "closed_at": "2026-09-17T18:59:05Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 🎯 Task Assigned To: Roshini\nYour specific assignment file: `assignments/assignment-8/roshini.md`\n\n## 📝 The Process\n1. **Pull Latest Changes**: Ensure you run `git pull` from the `main` branch so you have the latest Assignment 8 folder and your markdown file.\n2. **Write Queries**: Open your markdown file and write the SQL queries for all 10 questions.\n3. **Execute in MySQL**: Run your queries in your MySQL terminal to make sure they work.\n4. **Take a Screenshot**: Take a screenshot showing some of your queries successfully running in the MySQL terminal.\n5. **Upload Image**: Save your screenshot in the `assignments/assignment-8/images/` folder. Name it exactly: `roshini_joins.png`.\n6. **Update Your Markdown File**: Open your file (`assignments/assignment-8/roshini.md`) and embed your image at the bottom using:\n   ```markdown\n   ![Execution Screenshot](./images/roshini_joins.png)\n   ```\n7. **Submit a PR**: Commit your changes and create a Pull Request.\n8. **Link this Issue**: In your Pull Request description, write `Closes #<IssueNumber>` so this closes automatically when merged!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/71/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/DBMS/issues/71/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
     }
   ],
   "recentStats": {
-    "commits": 1722,
-    "prs": 149,
+    "commits": 1724,
+    "prs": 150,
     "issues": 258
   }
 }
