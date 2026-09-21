@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-20T03:18:28.241Z",
+  "updatedAt": "2026-09-21T03:13:54.272Z",
   "contributions": {
-    "totalLastYear": 1959,
+    "totalLastYear": 1958,
     "days": [
       {
         "date": "2025-09-21",
@@ -1825,8 +1825,13 @@
       },
       {
         "date": "2026-09-20",
-        "count": 1,
+        "count": 3,
         "level": 1
+      },
+      {
+        "date": "2026-09-21",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -1861,11 +1866,79 @@
     "public_repos": 69,
     "public_gists": 0,
     "followers": 58,
-    "following": 31,
+    "following": 30,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-09-11T01:52:48Z"
   },
   "activityFeed": [
+    {
+      "id": "21674333770",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/cna-templates",
+      "created_at": "2026-09-20T09:12:10Z",
+      "payload": {
+        "repository_id": 1373992351,
+        "push_id": 44067188612,
+        "ref": "refs/heads/feat/react-stylex-extension",
+        "head": "751a64c6ea028c3ceabdb34195f6931db8f20773",
+        "before": "be868049ca209a2f50c609e00b26fd9da7fed7aa"
+      }
+    },
+    {
+      "id": "21645095121",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/cna-templates",
+      "created_at": "2026-09-20T09:23:51Z",
+      "payload": {
+        "repository_id": 1373992351,
+        "push_id": 44067720563,
+        "ref": "refs/heads/feat/react-stylex-extension",
+        "head": "56bfb824c8a4bf565e5eab853f51f57bf3b00b62",
+        "before": "751a64c6ea028c3ceabdb34195f6931db8f20773"
+      }
+    },
+    {
+      "id": "15374461103",
+      "type": "WatchEvent",
+      "repo": "tsensei/OpenReels",
+      "created_at": "2026-09-20T09:20:50Z",
+      "payload": {
+        "action": "started"
+      }
+    },
+    {
+      "id": "15374391899",
+      "type": "PullRequestEvent",
+      "repo": "Create-Node-App/cna-templates",
+      "created_at": "2026-09-20T09:17:49Z",
+      "payload": {
+        "action": "opened",
+        "number": 465,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/pulls/465",
+          "id": 4583283043,
+          "number": 465,
+          "head": {
+            "ref": "feat/react-stylex-extension",
+            "sha": "56bfb824c8a4bf565e5eab853f51f57bf3b00b62",
+            "repo": {
+              "id": 1373992351,
+              "url": "https://api.github.com/repos/Rahul-pamula/cna-templates",
+              "name": "cna-templates"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "30f7a1127c0abb3f81d841462068f7650c666a61",
+            "repo": {
+              "id": 298953142,
+              "url": "https://api.github.com/repos/Create-Node-App/cna-templates",
+              "name": "cna-templates"
+            }
+          }
+        }
+      }
+    },
     {
       "id": "15361924367",
       "type": "PullRequestEvent",
@@ -2471,281 +2544,11 @@
         "full_ref": "refs/heads/fix/ci-permissions-386",
         "pusher_type": "user"
       }
-    },
-    {
-      "id": "21520393195",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/no_human",
-      "created_at": "2026-09-17T10:27:31Z",
-      "payload": {
-        "ref": "fix/324-reconcile-diverged-citations",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix/324-reconcile-diverged-citations",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "15290730140",
-      "type": "PullRequestEvent",
-      "repo": "NovaCode37/Prism-platform",
-      "created_at": "2026-09-18T12:21:44Z",
-      "payload": {
-        "action": "merged",
-        "number": 398,
-        "pull_request": {
-          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/pulls/398",
-          "id": 4567433856,
-          "number": 398,
-          "head": {
-            "ref": "fix/ci-permissions-386",
-            "sha": "77a808e9204f7575a94de9cd09a723de1f41421a",
-            "repo": {
-              "id": 1375625021,
-              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
-              "name": "Prism-platform"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "d7577ee0811a157d1a4f9ba548868dc6bf785c1f",
-            "repo": {
-              "id": 1195989923,
-              "url": "https://api.github.com/repos/NovaCode37/Prism-platform",
-              "name": "Prism-platform"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15282192129",
-      "type": "IssueCommentEvent",
-      "repo": "NovaCode37/Prism-platform",
-      "created_at": "2026-09-18T09:36:43Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386",
-          "repository_url": "https://api.github.com/repos/NovaCode37/Prism-platform",
-          "labels_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/labels{/name}",
-          "comments_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/comments",
-          "events_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/events",
-          "html_url": "https://github.com/NovaCode37/Prism-platform/issues/386",
-          "id": 5496043359,
-          "node_id": "I_kwDOR0lbo88AAAABR5b3Xw",
-          "number": 386,
-          "title": "Declare permissions for the CI workflow jobs",
-          "user": {
-            "login": "NovaCode37",
-            "id": 151601307,
-            "node_id": "U_kgDOCQlAmw",
-            "avatar_url": "https://avatars.githubusercontent.com/u/151601307?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/NovaCode37",
-            "html_url": "https://github.com/NovaCode37",
-            "followers_url": "https://api.github.com/users/NovaCode37/followers",
-            "following_url": "https://api.github.com/users/NovaCode37/following{/other_user}",
-            "gists_url": "https://api.github.com/users/NovaCode37/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/NovaCode37/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/NovaCode37/subscriptions",
-            "organizations_url": "https://api.github.com/users/NovaCode37/orgs",
-            "repos_url": "https://api.github.com/users/NovaCode37/repos",
-            "events_url": "https://api.github.com/users/NovaCode37/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/NovaCode37/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 10558054993,
-              "node_id": "LA_kwDOR0lbo88AAAACdU8iUQ",
-              "url": "https://api.github.com/repos/NovaCode37/Prism-platform/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11425074360,
-              "node_id": "LA_kwDOR0lbo88AAAACqPzMuA",
-              "url": "https://api.github.com/repos/NovaCode37/Prism-platform/labels/github_actions",
-              "name": "github_actions",
-              "color": "000000",
-              "default": false,
-              "description": "Pull requests that update GitHub Actions code",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "Rahul-pamula",
-              "id": 153642358,
-              "node_id": "U_kgDOCShldg",
-              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rahul-pamula",
-              "html_url": "https://github.com/Rahul-pamula",
-              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 3,
-          "created_at": "2026-09-18T05:33:17Z",
-          "updated_at": "2026-09-18T12:21:45Z",
-          "closed_at": "2026-09-18T12:21:45Z",
-          "assignee": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "`.github/workflows/ci.yml` declares no `permissions:` anywhere, so its three jobs (`lint-and-test`, `frontend`, `docker-build`) run with whatever the repository default gives the token. All they do is check out the code, run tests and build an image, so read access to the contents is enough. Every other workflow in the repo already says what it needs: `codeql.yml`, `greeting.yml`, `labeler.yml`, `release-image.yml` and `stale.yml`.\n\nCodeQL flags this as `actions/missing-workflow-permissions`, three times, once per job.\n\nWhat to do:\n\n- Add `permissions:` with `contents: read` to the three jobs, or once at the top of the workflow if that reads better.\n- Check the coverage upload still works. `codecov/codecov-action` needs no token for a public repo, but it is the one step that talks to something outside.\n\nDone when the three `actions/missing-workflow-permissions` alerts are gone and CI still passes on a PR, coverage upload included.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/comments/5728147592",
-          "html_url": "https://github.com/NovaCode37/Prism-platform/issues/386#issuecomment-5728147592",
-          "issue_url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/386",
-          "id": 5728147592,
-          "node_id": "IC_kwDOR0lbo88AAAABVWyYiA",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-18T09:36:43Z",
-          "updated_at": "2026-09-18T09:36:43Z",
-          "body": "hey I have sent you pr #398 \n\nand could you take less than a minute to review my work and rate it? Your feedback would really help me improve and grow my portfolio:\n\nhttps://rahulpamula.me/review",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/NovaCode37/Prism-platform/issues/comments/5728147592/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "15282016846",
-      "type": "PullRequestEvent",
-      "repo": "NovaCode37/Prism-platform",
-      "created_at": "2026-09-18T09:33:32Z",
-      "payload": {
-        "action": "opened",
-        "number": 398,
-        "pull_request": {
-          "url": "https://api.github.com/repos/NovaCode37/Prism-platform/pulls/398",
-          "id": 4567433856,
-          "number": 398,
-          "head": {
-            "ref": "fix/ci-permissions-386",
-            "sha": "77a808e9204f7575a94de9cd09a723de1f41421a",
-            "repo": {
-              "id": 1375625021,
-              "url": "https://api.github.com/repos/Rahul-pamula/Prism-platform",
-              "name": "Prism-platform"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "d7577ee0811a157d1a4f9ba548868dc6bf785c1f",
-            "repo": {
-              "id": 1195989923,
-              "url": "https://api.github.com/repos/NovaCode37/Prism-platform",
-              "name": "Prism-platform"
-            }
-          }
-        }
-      }
     }
   ],
   "recentStats": {
-    "commits": 1724,
-    "prs": 150,
+    "commits": 1725,
+    "prs": 151,
     "issues": 258
   }
 }
