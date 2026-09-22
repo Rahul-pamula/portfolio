@@ -3,7 +3,7 @@ import { ContributorSignal } from '../reviews/ContributorSignal';
 
 export const EngineeringIdentity = () => {
   return (
-    <section id="overview" className="card-premium p-6 sm:p-8">
+    <section id="overview" className="p-6 sm:p-8 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors shadow-sm">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
         <h2 className="text-xl font-semibold text-text-primary">Engineering Focus</h2>
         <ContributorSignal />

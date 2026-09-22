@@ -57,7 +57,7 @@ export const ContributionHeatmap = () => {
     <div className="mt-8 mb-4 relative">
       <h3 className="text-xl font-semibold text-text-primary mb-4">Contribution Activity</h3>
       
-      <div className="card-premium p-6 overflow-hidden relative group">
+      <div className="p-6 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors shadow-sm overflow-hidden relative group">
         <div 
           ref={scrollRef}
           className="overflow-x-auto pb-4 scrollbar-thin flex gap-1 justify-start md:justify-end"
