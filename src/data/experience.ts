@@ -17,7 +17,7 @@ export const experiences: ExperienceItem[] = [
     organization: 'GitHub',
     date: 'Sep 2025 - Present',
     description: 'Contribute to open-source projects across multiple technology stacks, collaborating with maintainers and contributors worldwide.',
-    metric: '1,066 GitHub Contributions in the Last Year 🚀 | 2000+ commits',
+    metric: '50+ public repos 🚀 | 2000+ commits',
   },
   {
     id: 'exp-2',
