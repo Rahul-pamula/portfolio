@@ -72,7 +72,7 @@ export const Sidebar = () => {
             href={profileData.github} 
             target="_blank" 
             rel="noreferrer"
-            className="flex items-center justify-between p-3 rounded-xl bg-surface-elevated border border-border/50 hover:border-accent/50 hover:bg-surface-elevated/80 transition-all duration-300 group"
+            className="flex items-center justify-between p-3 rounded-xl bg-surface-elevated/50 border border-border/50 hover:border-accent/50 hover:bg-surface-elevated transition-all duration-300 group"
           >
             <div className="flex items-center gap-3">
               <div className="relative flex h-2 w-2">
@@ -99,8 +99,8 @@ export const Sidebar = () => {
         <a href="#featured-work" className="text-sm text-text-secondary hover:text-text-primary transition-colors flex items-center gap-3">
           <span className="w-1 h-1 rounded-full bg-border"></span> Featured Work
         </a>
-        <a href="#open-source" className="text-sm text-text-secondary hover:text-text-primary transition-colors flex items-center gap-3">
-          <span className="w-1 h-1 rounded-full bg-border"></span> Open Source
+        <a href="#connect" className="text-sm text-text-secondary hover:text-text-primary transition-colors flex items-center gap-3">
+          <span className="w-1 h-1 rounded-full bg-border"></span> Connect
         </a>
       </nav>
 
