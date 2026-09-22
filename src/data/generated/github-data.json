@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-22T03:13:17.285Z",
+  "updatedAt": "2026-09-22T07:13:21.345Z",
   "contributions": {
-    "totalLastYear": 1963,
+    "totalLastYear": 1977,
     "days": [
       {
         "date": "2025-09-21",
@@ -1835,7 +1835,7 @@
       },
       {
         "date": "2026-09-22",
-        "count": 1,
+        "count": 15,
         "level": 1
       }
     ]
@@ -1877,1260 +1877,404 @@
   },
   "activityFeed": [
     {
-      "id": "15456804870",
-      "type": "WatchEvent",
-      "repo": "deepseek-ai/deepseek-harness",
-      "created_at": "2026-09-21T19:41:08Z",
-      "payload": {
-        "action": "started"
-      }
-    },
-    {
-      "id": "15456558423",
-      "type": "DiscussionEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-21T19:37:00Z",
-      "payload": {
-        "action": "created",
-        "discussion": {
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "category": {
-            "id": 51380545,
-            "node_id": "DIC_kwDOT91lnM4DEAFB",
-            "repository_id": 1339909532,
-            "emoji": ":bulb:",
-            "name": "Ideas",
-            "description": "Share ideas for new features",
-            "created_at": "2026-08-23T09:05:56.000Z",
-            "updated_at": "2026-08-23T09:05:56.000Z",
-            "slug": "ideas",
-            "is_answerable": false
-          },
-          "answer_html_url": null,
-          "answer_chosen_at": null,
-          "answer_chosen_by": null,
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/discussions/188",
-          "id": 10860123,
-          "node_id": "D_kwDOT91lnM4ApbZb",
-          "number": 188,
-          "title": "RFC: Scout 2.0 Architecture Pivot — From Issue Tracker to Agentic Context Engine",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136441,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11922713848,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-              "name": "priority:high",
-              "color": "b60205",
-              "default": false,
-              "description": "",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "state_reason": null,
-          "locked": false,
-          "comments": 0,
-          "created_at": "2026-09-21T19:37:00Z",
-          "updated_at": "2026-09-21T19:37:00Z",
-          "active_lock_reason": null,
-          "body": "> **👋 Note to Reviewers:**\r\n> We are pivoting Scout from a simple issue tracker into a platform-agnostic Agentic Context Engine (using MCP). I am looking for community feedback on:\r\n> 1. The `STATE.md` handoff system (Are there edge cases we missed when switching IDEs manually?)\r\n> 2. The DB Schema for generalizing Jira/Linear/GitHub tasks.\r\n> 3. Token optimization via dynamic skill loading.\r\n> \r\n> Please poke holes in this architecture!\r\n\r\n# Scout: The Agentic Context Engine\r\n## Technical & UX Architecture\r\n\r\n---\r\n\r\n## What Scout Will Become\r\n\r\nScout is no longer just an issue tracker. It is an **Agentic Context Engine** — a platform that:\r\n\r\n1. Collects tasks from any source (GitHub, Jira, Linear)\r\n2. Lets the user manage and prioritise them in a beautiful dashboard\r\n3. When the user says \"Solve\", Scout **orchestrates** the AI by feeding it the right context and skills via MCP\r\n4. The AI (Antigravity, Cursor, Copilot) does the actual coding\r\n5. Scout tracks progress and closes the loop\r\n\r\n---\r\n\r\n## The Complete End-to-End Flow\r\n\r\n    ┌─────────────────────────────────────────────────────────────────┐\r\n    │                     CLOUD (Scout Dashboard)                     │\r\n    │                                                                 │\r\n    │  GitHub Issues ──┐                                              │\r\n    │  Jira Tickets  ──┼──► Scout Database (Supabase)                 │\r\n    │  Linear Issues ──┘         │                                    │\r\n    │                            │  User sees unified task queue      │\r\n    │                            │  User clicks \"Solve\" on a task     │\r\n    └────────────────────────────┼────────────────────────────────────┘\r\n                                 │\r\n                                 │ (Scout shows setup instructions)\r\n                                 │\r\n    ┌────────────────────────────▼────────────────────────────────────┐\r\n    │                   LOCAL MACHINE (User's Laptop)                 │\r\n    │                                                                 │\r\n    │  1. User clones the target repo                                 │\r\n    │     git clone https://github.com/org/repo                      │\r\n    │                                                                 │\r\n    │  2. Scout MCP server is running (installed once, runs always)   │\r\n    │     Connected to Scout's cloud via user's credentials           │\r\n    │                                                                 │\r\n    │  3. Scout Skills live inside the repo                           │\r\n    │     repo/.scout/skills/                                         │\r\n    │       ├── scout-planner/SKILL.md                                │\r\n    │       ├── scout-proof-fix/SKILL.md                              │\r\n    │       ├── scout-run-tests/SKILL.md                              │\r\n    │       └── ...                                                   │\r\n    │                                                                 │\r\n    │  4. User opens IDE (Antigravity / Cursor / Copilot)             │\r\n    │     Says: \"Solve issue #123 from Scout\"                         │\r\n    │                                                                 │\r\n    └─────────────────────────────────────────────────────────────────┘\r\n                                 │\r\n                                 ▼\r\n    ┌─────────────────────────────────────────────────────────────────┐\r\n    │                  SCOUT MCP ORCHESTRATION LOOP                   │\r\n    │                                                                 │\r\n    │  STEP 1 — ANALYSE (Scout → AI)                                  │\r\n    │  Scout MCP calls: get_task_blueprint(task_id)                   │\r\n    │  Returns to AI:                                                 │\r\n    │    \"Here is the full issue. Here is the repo context.           │\r\n    │     Your first job: READ this. Then tell me what TYPE           │\r\n    │     of problem this is: bug_fix / new_feature / docs...\"        │\r\n    │                                                                 │\r\n    │  ↓ AI reads the issue, reads relevant code files                │\r\n    │  ↓ AI classifies: \"This is a bug_fix\"                           │\r\n    │  ↓ AI calls Scout MCP: report_analysis(type=\"bug_fix\")          │\r\n    │                                                                 │\r\n    │  STEP 2 — SKILL SELECTION (Scout decides)                       │\r\n    │  Scout receives the classification from the AI.                 │\r\n    │  Scout looks up the skill map for \"bug_fix\".                    │\r\n    │  Scout reads relevant SKILL.md files from the local repo.       │\r\n    │  Scout returns them to the AI as the execution instructions.    │\r\n    │                                                                 │\r\n    │  STEP 3 — EXECUTION (AI follows skills)                         │\r\n    │  AI now has clear, step-by-step skill instructions.             │\r\n    │  It plans → codes → proves the fix → runs tests → reviews.     │\r\n    │                                                                 │\r\n    │  STEP 4 — COMPLETION (AI → Scout)                               │\r\n    │  AI opens a Pull Request.                                       │\r\n    │  AI calls: mark_task_status(task_id, \"pr_opened\", pr_url)       │\r\n    │  Scout updates the cloud dashboard automatically.               │\r\n    └─────────────────────────────────────────────────────────────────┘\r\n\r\n---\r\n\r\n## Why the AI Does the Analysis (Not Scout)\r\n\r\nThe AI that is already in the user's IDE does the analysis as **Step 1 of the skill workflow**. \r\n\r\n**Why this is better:**\r\n- No extra API costs — the same AI session that solves the issue also classifies it.\r\n- The AI reads actual code, not just the title — it can tell a bug from a feature by looking at the failing test or the missing function.\r\n- No latency from a cloud round-trip — it happens instantly in the local IDE session.\r\n- Scout stays simple — it is the conductor, not the analyst.\r\n\r\n---\r\n\r\n## Scout Skills System & Token Optimisation\r\n\r\nSkills are `SKILL.md` files stored directly inside the target repository under `.scout/skills/`. They travel with the repo — any developer who clones the project and connects Scout MCP gets the skills automatically.\r\n\r\nScout only loads the skills relevant to the issue type. This keeps token usage low.\r\n\r\n| Issue Type | Skills Loaded | Approx Tokens |\r\n|---|---|---|\r\n| **Bug Fix** | planner + proof-fix + run-tests + adversarial-review | ~2,000 |\r\n| **New Feature** | planner + tamper-guard + run-tests | ~1,500 |\r\n| **Performance** | planner + proof-fix + run-tests + honest-stop | ~1,800 |\r\n| **Security** | planner + tamper-guard + adversarial-review + honest-stop | ~2,000 |\r\n| **Documentation** | planner + honest-stop | ~800 |\r\n| **Refactor** | planner + tamper-guard + run-tests + adversarial-review | ~2,000 |\r\n\r\n**Without this system:** Every task would load all skills = ~4,500 tokens every time.  \r\n**With this system:** Tasks load only what they need = 800–2,000 tokens per task.  \r\n**Token savings: up to 55–80% reduction.**\r\n\r\n---\r\n\r\n## State Persistence & Model Switching (The \"Handoff\" System)\r\n\r\nA critical requirement is the ability to **switch AI models mid-task**. For example, if a user hits their IDE token limit, they should be able to switch to another IDE without the new AI having to re-read the issue, re-plan the task, or lose track of what was already done.\r\n\r\nScout will use a **filesystem-based state checkpointing system**:\r\n\r\n1. **The `STATE.md` File**: When the AI begins a task, it creates or updates a `.scout/STATE.md` file in the root of the local repository. \r\n2. **Continuous Checkpointing**: The AI is instructed via the `scout-planner` skill to write its plan to `STATE.md` and mark checkboxes (`[x]`) as it completes each step. It must also log the current `task_id`.\r\n3. **The Interruption**: AI runs out of tokens while halfway through fixing a bug. The IDE stops.\r\n4. **The Handoff**: The user opens another IDE in the same repository and prompts: *\"Resume my Scout task.\"*\r\n5. **The Resumption**: Because `STATE.md` is a plain text markdown file, the new IDE reads it immediately. It sees the `task_id`, sees which steps are checked off, and resumes on the exact unchecked step where the previous IDE failed.\r\n\r\nBy storing the execution state in the local filesystem (`.scout/STATE.md`), **any IDE and any AI model can natively read it**. The state travels with the code.\r\n\r\n---\r\n\r\n## Scout MCP Server\r\n\r\n### Location in Monorepo\r\n```text\r\nOpen_Source_Scout/\r\n  packages/\r\n    scout-mcp/\r\n      src/\r\n        index.ts          ← MCP server entry point\r\n        auth.ts           ← reads ~/.scout/credentials.json\r\n        skills-loader.ts  ← reads SKILL.md files from local repo\r\n        tools/\r\n          get_assigned_tasks.ts\r\n          get_task_blueprint.ts\r\n          report_analysis.ts\r\n          mark_task_status.ts\r\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/discussions/188/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/discussions/188/timeline"
-        }
-      }
-    },
-    {
-      "id": "15456080843",
-      "type": "DiscussionEvent",
-      "repo": "community/community",
-      "created_at": "2026-09-21T19:28:59Z",
-      "payload": {
-        "action": "created",
-        "discussion": {
-          "repository_url": "https://api.github.com/repos/community/community",
-          "category": {
-            "id": 39163383,
-            "node_id": "DIC_kwDOEfmk4M4CVZX3",
-            "repository_id": 301573344,
-            "emoji": ":technologist:",
-            "name": "Programming Help",
-            "description": "Conversations related to programming languages, open source, and software development. Please review the pinned post for this category’s guidelines prior to posting. ",
-            "created_at": "2023-03-29T17:40:35.000Z",
-            "updated_at": "2026-03-25T00:06:32.000Z",
-            "slug": "programming-help",
-            "is_answerable": true
-          },
-          "answer_html_url": null,
-          "answer_chosen_at": null,
-          "answer_chosen_by": null,
-          "html_url": "https://github.com/orgs/community/discussions/208472",
-          "id": 10860074,
-          "node_id": "D_kwDOEfmk4M4ApbYq",
-          "number": 208472,
-          "title": "Building an Open Source Agentic Context Engine (Need Architecture Feedback!)",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 4736003381,
-              "node_id": "LA_kwDOEfmk4M8AAAABGkmtNQ",
-              "url": "https://api.github.com/repos/community/community/labels/Product%20Feedback",
-              "name": "Product Feedback",
-              "color": "35ae5d",
-              "default": false,
-              "description": "Share your thoughts and suggestions on GitHub features and improvements",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 5326883647,
-              "node_id": "LA_kwDOEfmk4M8AAAABPYHLPw",
-              "url": "https://api.github.com/repos/community/community/labels/Programming%20Help",
-              "name": "Programming Help",
-              "color": "64B786",
-              "default": false,
-              "description": "Discussions around programming languages, open source and software development",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 10168873637,
-              "node_id": "LA_kwDOEfmk4M8AAAACXhyypQ",
-              "url": "https://api.github.com/repos/community/community/labels/Welcome%20%F0%9F%8E%89",
-              "name": "Welcome 🎉",
-              "color": "3718be",
-              "default": false,
-              "description": "Used to greet and highlight first-time discussion participants. Welcome to the community!",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 10512632407,
-              "node_id": "LA_kwDOEfmk4M8AAAACcpoKVw",
-              "url": "https://api.github.com/repos/community/community/labels/source:ui",
-              "name": "source:ui",
-              "color": "5f9bda",
-              "default": false,
-              "description": "Discussions created via Community GitHub templates",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "state_reason": null,
-          "locked": false,
-          "comments": 1,
-          "created_at": "2026-09-21T19:28:59Z",
-          "updated_at": "2026-09-21T19:29:36Z",
-          "active_lock_reason": null,
-          "body": "### 🏷️ Discussion Type\n\nProduct Feedback\n\n### Body\n\nHey everyone, I am pivoting my open-source project, Scout, into an Agentic Context Engine that feeds Jira/Linear tasks into local AI IDEs via the Model Context Protocol (MCP).\r\n\r\nI just wrote a massive technical architecture report and would love feedback from any open-source builders here. Specifically looking for edge cases on how we handle manual AI Model handoffs via a local STATE.md file.\r\n\r\nRead the full RFC and drop your thoughts here: https://github.com/Rahul-pamula/Open_Source_Scout/issues/187\n\n### Guidelines\n\n- [X] I have read and understood this category's [guidelines](https://github.com/orgs/community/discussions/51384) before making this post.",
-          "reactions": {
-            "url": "https://api.github.com/repos/community/community/discussions/208472/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/community/community/discussions/208472/timeline"
-        }
-      }
-    },
-    {
-      "id": "15455194015",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-21T19:14:22Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/187",
-          "id": 5531354673,
-          "node_id": "I_kwDOT91lnM8AAAABSbHGMQ",
-          "number": 187,
-          "title": "RFC: Scout 2.0 Architecture Pivot — From Issue Tracker to Agentic Context Engine",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136441,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11922713848,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-              "name": "priority:high",
-              "color": "b60205",
-              "default": false,
-              "description": "",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-09-21T19:13:56Z",
-          "updated_at": "2026-09-21T19:19:14Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "> **👋 Note to Reviewers:**\n> We are pivoting Scout from a simple issue tracker into a platform-agnostic Agentic Context Engine (using MCP). I am looking for community feedback on:\n> 1. The `STATE.md` handoff system (Are there edge cases we missed when switching IDEs manually?)\n> 2. The DB Schema for generalizing Jira/Linear/GitHub tasks.\n> 3. Token optimization via dynamic skill loading.\n> \n> Please poke holes in this architecture!\n\n# Scout: The Agentic Context Engine\n## Technical & UX Architecture\n\n---\n\n## What Scout Will Become\n\nScout is no longer just an issue tracker. It is an **Agentic Context Engine** — a platform that:\n\n1. Collects tasks from any source (GitHub, Jira, Linear)\n2. Lets the user manage and prioritise them in a beautiful dashboard\n3. When the user says \"Solve\", Scout **orchestrates** the AI by feeding it the right context and skills via MCP\n4. The AI (Antigravity, Cursor, Copilot) does the actual coding\n5. Scout tracks progress and closes the loop\n\n---\n\n## The Complete End-to-End Flow\n\n    ┌─────────────────────────────────────────────────────────────────┐\n    │                     CLOUD (Scout Dashboard)                     │\n    │                                                                 │\n    │  GitHub Issues ──┐                                              │\n    │  Jira Tickets  ──┼──► Scout Database (Supabase)                 │\n    │  Linear Issues ──┘         │                                    │\n    │                            │  User sees unified task queue      │\n    │                            │  User clicks \"Solve\" on a task     │\n    └────────────────────────────┼────────────────────────────────────┘\n                                 │\n                                 │ (Scout shows setup instructions)\n                                 │\n    ┌────────────────────────────▼────────────────────────────────────┐\n    │                   LOCAL MACHINE (User's Laptop)                 │\n    │                                                                 │\n    │  1. User clones the target repo                                 │\n    │     git clone https://github.com/org/repo                      │\n    │                                                                 │\n    │  2. Scout MCP server is running (installed once, runs always)   │\n    │     Connected to Scout's cloud via user's credentials           │\n    │                                                                 │\n    │  3. Scout Skills live inside the repo                           │\n    │     repo/.scout/skills/                                         │\n    │       ├── scout-planner/SKILL.md                                │\n    │       ├── scout-proof-fix/SKILL.md                              │\n    │       ├── scout-run-tests/SKILL.md                              │\n    │       └── ...                                                   │\n    │                                                                 │\n    │  4. User opens IDE (Antigravity / Cursor / Copilot)             │\n    │     Says: \"Solve issue #123 from Scout\"                         │\n    │                                                                 │\n    └─────────────────────────────────────────────────────────────────┘\n                                 │\n                                 ▼\n    ┌─────────────────────────────────────────────────────────────────┐\n    │                  SCOUT MCP ORCHESTRATION LOOP                   │\n    │                                                                 │\n    │  STEP 1 — ANALYSE (Scout → AI)                                  │\n    │  Scout MCP calls: get_task_blueprint(task_id)                   │\n    │  Returns to AI:                                                 │\n    │    \"Here is the full issue. Here is the repo context.           │\n    │     Your first job: READ this. Then tell me what TYPE           │\n    │     of problem this is: bug_fix / new_feature / docs...\"        │\n    │                                                                 │\n    │  ↓ AI reads the issue, reads relevant code files                │\n    │  ↓ AI classifies: \"This is a bug_fix\"                           │\n    │  ↓ AI calls Scout MCP: report_analysis(type=\"bug_fix\")          │\n    │                                                                 │\n    │  STEP 2 — SKILL SELECTION (Scout decides)                       │\n    │  Scout receives the classification from the AI.                 │\n    │  Scout looks up the skill map for \"bug_fix\".                    │\n    │  Scout reads relevant SKILL.md files from the local repo.       │\n    │  Scout returns them to the AI as the execution instructions.    │\n    │                                                                 │\n    │  STEP 3 — EXECUTION (AI follows skills)                         │\n    │  AI now has clear, step-by-step skill instructions.             │\n    │  It plans → codes → proves the fix → runs tests → reviews.     │\n    │                                                                 │\n    │  STEP 4 — COMPLETION (AI → Scout)                               │\n    │  AI opens a Pull Request.                                       │\n    │  AI calls: mark_task_status(task_id, \"pr_opened\", pr_url)       │\n    │  Scout updates the cloud dashboard automatically.               │\n    └─────────────────────────────────────────────────────────────────┘\n\n---\n\n## Why the AI Does the Analysis (Not Scout)\n\nThe AI that is already in the user's IDE does the analysis as **Step 1 of the skill workflow**. \n\n**Why this is better:**\n- No extra API costs — the same AI session that solves the issue also classifies it.\n- The AI reads actual code, not just the title — it can tell a bug from a feature by looking at the failing test or the missing function.\n- No latency from a cloud round-trip — it happens instantly in the local IDE session.\n- Scout stays simple — it is the conductor, not the analyst.\n\n---\n\n## Scout Skills System & Token Optimisation\n\nSkills are `SKILL.md` files stored directly inside the target repository under `.scout/skills/`. They travel with the repo — any developer who clones the project and connects Scout MCP gets the skills automatically.\n\nScout only loads the skills relevant to the issue type. This keeps token usage low.\n\n| Issue Type | Skills Loaded | Approx Tokens |\n|---|---|---|\n| **Bug Fix** | planner + proof-fix + run-tests + adversarial-review | ~2,000 |\n| **New Feature** | planner + tamper-guard + run-tests | ~1,500 |\n| **Performance** | planner + proof-fix + run-tests + honest-stop | ~1,800 |\n| **Security** | planner + tamper-guard + adversarial-review + honest-stop | ~2,000 |\n| **Documentation** | planner + honest-stop | ~800 |\n| **Refactor** | planner + tamper-guard + run-tests + adversarial-review | ~2,000 |\n\n**Without this system:** Every task would load all skills = ~4,500 tokens every time.  \n**With this system:** Tasks load only what they need = 800–2,000 tokens per task.  \n**Token savings: up to 55–80% reduction.**\n\n---\n\n## State Persistence & Model Switching (The \"Handoff\" System)\n\nA critical requirement is the ability to **switch AI models mid-task**. For example, if a user hits their IDE token limit, they should be able to switch to another IDE without the new AI having to re-read the issue, re-plan the task, or lose track of what was already done.\n\nScout will use a **filesystem-based state checkpointing system**:\n\n1. **The `STATE.md` File**: When the AI begins a task, it creates or updates a `.scout/STATE.md` file in the root of the local repository. \n2. **Continuous Checkpointing**: The AI is instructed via the `scout-planner` skill to write its plan to `STATE.md` and mark checkboxes (`[x]`) as it completes each step. It must also log the current `task_id`.\n3. **The Interruption**: AI runs out of tokens while halfway through fixing a bug. The IDE stops.\n4. **The Handoff**: The user opens another IDE in the same repository and prompts: *\"Resume my Scout task.\"*\n5. **The Resumption**: Because `STATE.md` is a plain text markdown file, the new IDE reads it immediately. It sees the `task_id`, sees which steps are checked off, and resumes on the exact unchecked step where the previous IDE failed.\n\nBy storing the execution state in the local filesystem (`.scout/STATE.md`), **any IDE and any AI model can natively read it**. The state travels with the code.\n\n---\n\n## Scout MCP Server\n\n### Location in Monorepo\n```text\nOpen_Source_Scout/\n  packages/\n    scout-mcp/\n      src/\n        index.ts          ← MCP server entry point\n        auth.ts           ← reads ~/.scout/credentials.json\n        skills-loader.ts  ← reads SKILL.md files from local repo\n        tools/\n          get_assigned_tasks.ts\n          get_task_blueprint.ts\n          report_analysis.ts\n          mark_task_status.ts\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "label": {
-          "id": 11922713848,
-          "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-          "name": "priority:high",
-          "color": "b60205",
-          "default": false,
-          "description": "",
-          "archived_at": null,
-          "archived_by": null
-        },
-        "labels": [
-          {
-            "id": 11890136441,
-            "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "008672",
-            "default": true,
-            "description": "Extra attention is needed",
-            "archived_at": null,
-            "archived_by": null
-          },
-          {
-            "id": 11922713848,
-            "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-            "name": "priority:high",
-            "color": "b60205",
-            "default": false,
-            "description": "",
-            "archived_at": null,
-            "archived_by": null
-          }
-        ]
-      }
-    },
-    {
-      "id": "15455193867",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-21T19:14:22Z",
-      "payload": {
-        "action": "labeled",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/187",
-          "id": 5531354673,
-          "node_id": "I_kwDOT91lnM8AAAABSbHGMQ",
-          "number": 187,
-          "title": "RFC: Scout 2.0 Architecture Pivot — From Issue Tracker to Agentic Context Engine",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136441,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11922713848,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-              "name": "priority:high",
-              "color": "b60205",
-              "default": false,
-              "description": "",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-09-21T19:13:56Z",
-          "updated_at": "2026-09-21T19:19:14Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "> **👋 Note to Reviewers:**\n> We are pivoting Scout from a simple issue tracker into a platform-agnostic Agentic Context Engine (using MCP). I am looking for community feedback on:\n> 1. The `STATE.md` handoff system (Are there edge cases we missed when switching IDEs manually?)\n> 2. The DB Schema for generalizing Jira/Linear/GitHub tasks.\n> 3. Token optimization via dynamic skill loading.\n> \n> Please poke holes in this architecture!\n\n# Scout: The Agentic Context Engine\n## Technical & UX Architecture\n\n---\n\n## What Scout Will Become\n\nScout is no longer just an issue tracker. It is an **Agentic Context Engine** — a platform that:\n\n1. Collects tasks from any source (GitHub, Jira, Linear)\n2. Lets the user manage and prioritise them in a beautiful dashboard\n3. When the user says \"Solve\", Scout **orchestrates** the AI by feeding it the right context and skills via MCP\n4. The AI (Antigravity, Cursor, Copilot) does the actual coding\n5. Scout tracks progress and closes the loop\n\n---\n\n## The Complete End-to-End Flow\n\n    ┌─────────────────────────────────────────────────────────────────┐\n    │                     CLOUD (Scout Dashboard)                     │\n    │                                                                 │\n    │  GitHub Issues ──┐                                              │\n    │  Jira Tickets  ──┼──► Scout Database (Supabase)                 │\n    │  Linear Issues ──┘         │                                    │\n    │                            │  User sees unified task queue      │\n    │                            │  User clicks \"Solve\" on a task     │\n    └────────────────────────────┼────────────────────────────────────┘\n                                 │\n                                 │ (Scout shows setup instructions)\n                                 │\n    ┌────────────────────────────▼────────────────────────────────────┐\n    │                   LOCAL MACHINE (User's Laptop)                 │\n    │                                                                 │\n    │  1. User clones the target repo                                 │\n    │     git clone https://github.com/org/repo                      │\n    │                                                                 │\n    │  2. Scout MCP server is running (installed once, runs always)   │\n    │     Connected to Scout's cloud via user's credentials           │\n    │                                                                 │\n    │  3. Scout Skills live inside the repo                           │\n    │     repo/.scout/skills/                                         │\n    │       ├── scout-planner/SKILL.md                                │\n    │       ├── scout-proof-fix/SKILL.md                              │\n    │       ├── scout-run-tests/SKILL.md                              │\n    │       └── ...                                                   │\n    │                                                                 │\n    │  4. User opens IDE (Antigravity / Cursor / Copilot)             │\n    │     Says: \"Solve issue #123 from Scout\"                         │\n    │                                                                 │\n    └─────────────────────────────────────────────────────────────────┘\n                                 │\n                                 ▼\n    ┌─────────────────────────────────────────────────────────────────┐\n    │                  SCOUT MCP ORCHESTRATION LOOP                   │\n    │                                                                 │\n    │  STEP 1 — ANALYSE (Scout → AI)                                  │\n    │  Scout MCP calls: get_task_blueprint(task_id)                   │\n    │  Returns to AI:                                                 │\n    │    \"Here is the full issue. Here is the repo context.           │\n    │     Your first job: READ this. Then tell me what TYPE           │\n    │     of problem this is: bug_fix / new_feature / docs...\"        │\n    │                                                                 │\n    │  ↓ AI reads the issue, reads relevant code files                │\n    │  ↓ AI classifies: \"This is a bug_fix\"                           │\n    │  ↓ AI calls Scout MCP: report_analysis(type=\"bug_fix\")          │\n    │                                                                 │\n    │  STEP 2 — SKILL SELECTION (Scout decides)                       │\n    │  Scout receives the classification from the AI.                 │\n    │  Scout looks up the skill map for \"bug_fix\".                    │\n    │  Scout reads relevant SKILL.md files from the local repo.       │\n    │  Scout returns them to the AI as the execution instructions.    │\n    │                                                                 │\n    │  STEP 3 — EXECUTION (AI follows skills)                         │\n    │  AI now has clear, step-by-step skill instructions.             │\n    │  It plans → codes → proves the fix → runs tests → reviews.     │\n    │                                                                 │\n    │  STEP 4 — COMPLETION (AI → Scout)                               │\n    │  AI opens a Pull Request.                                       │\n    │  AI calls: mark_task_status(task_id, \"pr_opened\", pr_url)       │\n    │  Scout updates the cloud dashboard automatically.               │\n    └─────────────────────────────────────────────────────────────────┘\n\n---\n\n## Why the AI Does the Analysis (Not Scout)\n\nThe AI that is already in the user's IDE does the analysis as **Step 1 of the skill workflow**. \n\n**Why this is better:**\n- No extra API costs — the same AI session that solves the issue also classifies it.\n- The AI reads actual code, not just the title — it can tell a bug from a feature by looking at the failing test or the missing function.\n- No latency from a cloud round-trip — it happens instantly in the local IDE session.\n- Scout stays simple — it is the conductor, not the analyst.\n\n---\n\n## Scout Skills System & Token Optimisation\n\nSkills are `SKILL.md` files stored directly inside the target repository under `.scout/skills/`. They travel with the repo — any developer who clones the project and connects Scout MCP gets the skills automatically.\n\nScout only loads the skills relevant to the issue type. This keeps token usage low.\n\n| Issue Type | Skills Loaded | Approx Tokens |\n|---|---|---|\n| **Bug Fix** | planner + proof-fix + run-tests + adversarial-review | ~2,000 |\n| **New Feature** | planner + tamper-guard + run-tests | ~1,500 |\n| **Performance** | planner + proof-fix + run-tests + honest-stop | ~1,800 |\n| **Security** | planner + tamper-guard + adversarial-review + honest-stop | ~2,000 |\n| **Documentation** | planner + honest-stop | ~800 |\n| **Refactor** | planner + tamper-guard + run-tests + adversarial-review | ~2,000 |\n\n**Without this system:** Every task would load all skills = ~4,500 tokens every time.  \n**With this system:** Tasks load only what they need = 800–2,000 tokens per task.  \n**Token savings: up to 55–80% reduction.**\n\n---\n\n## State Persistence & Model Switching (The \"Handoff\" System)\n\nA critical requirement is the ability to **switch AI models mid-task**. For example, if a user hits their IDE token limit, they should be able to switch to another IDE without the new AI having to re-read the issue, re-plan the task, or lose track of what was already done.\n\nScout will use a **filesystem-based state checkpointing system**:\n\n1. **The `STATE.md` File**: When the AI begins a task, it creates or updates a `.scout/STATE.md` file in the root of the local repository. \n2. **Continuous Checkpointing**: The AI is instructed via the `scout-planner` skill to write its plan to `STATE.md` and mark checkboxes (`[x]`) as it completes each step. It must also log the current `task_id`.\n3. **The Interruption**: AI runs out of tokens while halfway through fixing a bug. The IDE stops.\n4. **The Handoff**: The user opens another IDE in the same repository and prompts: *\"Resume my Scout task.\"*\n5. **The Resumption**: Because `STATE.md` is a plain text markdown file, the new IDE reads it immediately. It sees the `task_id`, sees which steps are checked off, and resumes on the exact unchecked step where the previous IDE failed.\n\nBy storing the execution state in the local filesystem (`.scout/STATE.md`), **any IDE and any AI model can natively read it**. The state travels with the code.\n\n---\n\n## Scout MCP Server\n\n### Location in Monorepo\n```text\nOpen_Source_Scout/\n  packages/\n    scout-mcp/\n      src/\n        index.ts          ← MCP server entry point\n        auth.ts           ← reads ~/.scout/credentials.json\n        skills-loader.ts  ← reads SKILL.md files from local repo\n        tools/\n          get_assigned_tasks.ts\n          get_task_blueprint.ts\n          report_analysis.ts\n          mark_task_status.ts\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "label": {
-          "id": 11922713848,
-          "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-          "name": "priority:high",
-          "color": "b60205",
-          "default": false,
-          "description": "",
-          "archived_at": null,
-          "archived_by": null
-        },
-        "labels": [
-          {
-            "id": 11890136441,
-            "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "008672",
-            "default": true,
-            "description": "Extra attention is needed",
-            "archived_at": null,
-            "archived_by": null
-          },
-          {
-            "id": 11922713848,
-            "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-            "name": "priority:high",
-            "color": "b60205",
-            "default": false,
-            "description": "",
-            "archived_at": null,
-            "archived_by": null
-          }
-        ]
-      }
-    },
-    {
-      "id": "15455170322",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-21T19:13:57Z",
-      "payload": {
-        "action": "opened",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/187",
-          "id": 5531354673,
-          "node_id": "I_kwDOT91lnM8AAAABSbHGMQ",
-          "number": 187,
-          "title": "RFC: Scout 2.0 Architecture Pivot — From Issue Tracker to Agentic Context Engine",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11890136441,
-              "node_id": "LA_kwDOT91lnM8AAAACxLUVeQ",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11922713848,
-              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
-              "name": "priority:high",
-              "color": "b60205",
-              "default": false,
-              "description": "",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-09-21T19:13:56Z",
-          "updated_at": "2026-09-21T19:19:14Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "> **👋 Note to Reviewers:**\n> We are pivoting Scout from a simple issue tracker into a platform-agnostic Agentic Context Engine (using MCP). I am looking for community feedback on:\n> 1. The `STATE.md` handoff system (Are there edge cases we missed when switching IDEs manually?)\n> 2. The DB Schema for generalizing Jira/Linear/GitHub tasks.\n> 3. Token optimization via dynamic skill loading.\n> \n> Please poke holes in this architecture!\n\n# Scout: The Agentic Context Engine\n## Technical & UX Architecture\n\n---\n\n## What Scout Will Become\n\nScout is no longer just an issue tracker. It is an **Agentic Context Engine** — a platform that:\n\n1. Collects tasks from any source (GitHub, Jira, Linear)\n2. Lets the user manage and prioritise them in a beautiful dashboard\n3. When the user says \"Solve\", Scout **orchestrates** the AI by feeding it the right context and skills via MCP\n4. The AI (Antigravity, Cursor, Copilot) does the actual coding\n5. Scout tracks progress and closes the loop\n\n---\n\n## The Complete End-to-End Flow\n\n    ┌─────────────────────────────────────────────────────────────────┐\n    │                     CLOUD (Scout Dashboard)                     │\n    │                                                                 │\n    │  GitHub Issues ──┐                                              │\n    │  Jira Tickets  ──┼──► Scout Database (Supabase)                 │\n    │  Linear Issues ──┘         │                                    │\n    │                            │  User sees unified task queue      │\n    │                            │  User clicks \"Solve\" on a task     │\n    └────────────────────────────┼────────────────────────────────────┘\n                                 │\n                                 │ (Scout shows setup instructions)\n                                 │\n    ┌────────────────────────────▼────────────────────────────────────┐\n    │                   LOCAL MACHINE (User's Laptop)                 │\n    │                                                                 │\n    │  1. User clones the target repo                                 │\n    │     git clone https://github.com/org/repo                      │\n    │                                                                 │\n    │  2. Scout MCP server is running (installed once, runs always)   │\n    │     Connected to Scout's cloud via user's credentials           │\n    │                                                                 │\n    │  3. Scout Skills live inside the repo                           │\n    │     repo/.scout/skills/                                         │\n    │       ├── scout-planner/SKILL.md                                │\n    │       ├── scout-proof-fix/SKILL.md                              │\n    │       ├── scout-run-tests/SKILL.md                              │\n    │       └── ...                                                   │\n    │                                                                 │\n    │  4. User opens IDE (Antigravity / Cursor / Copilot)             │\n    │     Says: \"Solve issue #123 from Scout\"                         │\n    │                                                                 │\n    └─────────────────────────────────────────────────────────────────┘\n                                 │\n                                 ▼\n    ┌─────────────────────────────────────────────────────────────────┐\n    │                  SCOUT MCP ORCHESTRATION LOOP                   │\n    │                                                                 │\n    │  STEP 1 — ANALYSE (Scout → AI)                                  │\n    │  Scout MCP calls: get_task_blueprint(task_id)                   │\n    │  Returns to AI:                                                 │\n    │    \"Here is the full issue. Here is the repo context.           │\n    │     Your first job: READ this. Then tell me what TYPE           │\n    │     of problem this is: bug_fix / new_feature / docs...\"        │\n    │                                                                 │\n    │  ↓ AI reads the issue, reads relevant code files                │\n    │  ↓ AI classifies: \"This is a bug_fix\"                           │\n    │  ↓ AI calls Scout MCP: report_analysis(type=\"bug_fix\")          │\n    │                                                                 │\n    │  STEP 2 — SKILL SELECTION (Scout decides)                       │\n    │  Scout receives the classification from the AI.                 │\n    │  Scout looks up the skill map for \"bug_fix\".                    │\n    │  Scout reads relevant SKILL.md files from the local repo.       │\n    │  Scout returns them to the AI as the execution instructions.    │\n    │                                                                 │\n    │  STEP 3 — EXECUTION (AI follows skills)                         │\n    │  AI now has clear, step-by-step skill instructions.             │\n    │  It plans → codes → proves the fix → runs tests → reviews.     │\n    │                                                                 │\n    │  STEP 4 — COMPLETION (AI → Scout)                               │\n    │  AI opens a Pull Request.                                       │\n    │  AI calls: mark_task_status(task_id, \"pr_opened\", pr_url)       │\n    │  Scout updates the cloud dashboard automatically.               │\n    └─────────────────────────────────────────────────────────────────┘\n\n---\n\n## Why the AI Does the Analysis (Not Scout)\n\nThe AI that is already in the user's IDE does the analysis as **Step 1 of the skill workflow**. \n\n**Why this is better:**\n- No extra API costs — the same AI session that solves the issue also classifies it.\n- The AI reads actual code, not just the title — it can tell a bug from a feature by looking at the failing test or the missing function.\n- No latency from a cloud round-trip — it happens instantly in the local IDE session.\n- Scout stays simple — it is the conductor, not the analyst.\n\n---\n\n## Scout Skills System & Token Optimisation\n\nSkills are `SKILL.md` files stored directly inside the target repository under `.scout/skills/`. They travel with the repo — any developer who clones the project and connects Scout MCP gets the skills automatically.\n\nScout only loads the skills relevant to the issue type. This keeps token usage low.\n\n| Issue Type | Skills Loaded | Approx Tokens |\n|---|---|---|\n| **Bug Fix** | planner + proof-fix + run-tests + adversarial-review | ~2,000 |\n| **New Feature** | planner + tamper-guard + run-tests | ~1,500 |\n| **Performance** | planner + proof-fix + run-tests + honest-stop | ~1,800 |\n| **Security** | planner + tamper-guard + adversarial-review + honest-stop | ~2,000 |\n| **Documentation** | planner + honest-stop | ~800 |\n| **Refactor** | planner + tamper-guard + run-tests + adversarial-review | ~2,000 |\n\n**Without this system:** Every task would load all skills = ~4,500 tokens every time.  \n**With this system:** Tasks load only what they need = 800–2,000 tokens per task.  \n**Token savings: up to 55–80% reduction.**\n\n---\n\n## State Persistence & Model Switching (The \"Handoff\" System)\n\nA critical requirement is the ability to **switch AI models mid-task**. For example, if a user hits their IDE token limit, they should be able to switch to another IDE without the new AI having to re-read the issue, re-plan the task, or lose track of what was already done.\n\nScout will use a **filesystem-based state checkpointing system**:\n\n1. **The `STATE.md` File**: When the AI begins a task, it creates or updates a `.scout/STATE.md` file in the root of the local repository. \n2. **Continuous Checkpointing**: The AI is instructed via the `scout-planner` skill to write its plan to `STATE.md` and mark checkboxes (`[x]`) as it completes each step. It must also log the current `task_id`.\n3. **The Interruption**: AI runs out of tokens while halfway through fixing a bug. The IDE stops.\n4. **The Handoff**: The user opens another IDE in the same repository and prompts: *\"Resume my Scout task.\"*\n5. **The Resumption**: Because `STATE.md` is a plain text markdown file, the new IDE reads it immediately. It sees the `task_id`, sees which steps are checked off, and resumes on the exact unchecked step where the previous IDE failed.\n\nBy storing the execution state in the local filesystem (`.scout/STATE.md`), **any IDE and any AI model can natively read it**. The state travels with the code.\n\n---\n\n## Scout MCP Server\n\n### Location in Monorepo\n```text\nOpen_Source_Scout/\n  packages/\n    scout-mcp/\n      src/\n        index.ts          ← MCP server entry point\n        auth.ts           ← reads ~/.scout/credentials.json\n        skills-loader.ts  ← reads SKILL.md files from local repo\n        tools/\n          get_assigned_tasks.ts\n          get_task_blueprint.ts\n          report_analysis.ts\n          mark_task_status.ts\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/187/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "15441564377",
-      "type": "ForkEvent",
-      "repo": "FasterThanAi/ai-lead-generation-mvp",
-      "created_at": "2026-09-21T15:37:24Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1380034697,
-          "node_id": "R_kgDOUkGoiQ",
-          "name": "ai-lead-generation-mvp",
-          "full_name": "Rahul-pamula/ai-lead-generation-mvp",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/ai-lead-generation-mvp",
-          "description": null,
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/ai-lead-generation-mvp/deployments",
-          "created_at": "2026-09-21T15:37:24Z",
-          "updated_at": "2026-09-21T15:37:24Z",
-          "pushed_at": "2026-09-01T02:18:53Z",
-          "git_url": "git://github.com/Rahul-pamula/ai-lead-generation-mvp.git",
-          "ssh_url": "git@github.com:Rahul-pamula/ai-lead-generation-mvp.git",
-          "clone_url": "https://github.com/Rahul-pamula/ai-lead-generation-mvp.git",
-          "svn_url": "https://github.com/Rahul-pamula/ai-lead-generation-mvp",
-          "homepage": "https://ai-lead-generation-mvp.vercel.app",
-          "size": 21939,
-          "stargazers_count": 0,
-          "watchers_count": 0,
-          "language": null,
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": true,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "apache-2.0",
-            "name": "Apache License 2.0",
-            "spdx_id": "Apache-2.0",
-            "url": "https://api.github.com/licenses/apache-2.0",
-            "node_id": "MDc6TGljZW5zZTI="
-          },
-          "allow_forking": true,
-          "is_template": false,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 0,
-          "default_branch": "main"
-        }
-      }
-    },
-    {
-      "id": "15440635396",
-      "type": "IssueCommentEvent",
-      "repo": "FasterThanAi/ai-lead-generation-mvp",
-      "created_at": "2026-09-21T15:24:04Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/issues/6",
-          "repository_url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp",
-          "labels_url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/issues/6/labels{/name}",
-          "comments_url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/issues/6/comments",
-          "events_url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/issues/6/events",
-          "html_url": "https://github.com/FasterThanAi/ai-lead-generation-mvp/issues/6",
-          "id": 5528793391,
-          "node_id": "I_kwDOSUC3Ms8AAAABSYqxLw",
-          "number": 6,
-          "title": "Add a friendly 404 “Page not found” page",
-          "user": {
-            "login": "FasterThanAi",
-            "id": 147833279,
-            "node_id": "U_kgDOCM_Bvw",
-            "avatar_url": "https://avatars.githubusercontent.com/u/147833279?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/FasterThanAi",
-            "html_url": "https://github.com/FasterThanAi",
-            "followers_url": "https://api.github.com/users/FasterThanAi/followers",
-            "following_url": "https://api.github.com/users/FasterThanAi/following{/other_user}",
-            "gists_url": "https://api.github.com/users/FasterThanAi/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/FasterThanAi/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/FasterThanAi/subscriptions",
-            "organizations_url": "https://api.github.com/users/FasterThanAi/orgs",
-            "repos_url": "https://api.github.com/users/FasterThanAi/repos",
-            "events_url": "https://api.github.com/users/FasterThanAi/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/FasterThanAi/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 10861200347,
-              "node_id": "LA_kwDOSUC3Ms8AAAACh2DD2w",
-              "url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "Rahul-pamula",
-              "id": 153642358,
-              "node_id": "U_kgDOCShldg",
-              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rahul-pamula",
-              "html_url": "https://github.com/Rahul-pamula",
-              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-09-21T15:07:52Z",
-          "updated_at": "2026-09-21T20:23:21Z",
-          "closed_at": null,
-          "assignee": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Description\nVisiting an unknown URL such as `/abc` shows an empty page with the header `AI Lead Generation`. Add a catch-all route that explains the page does not exist and links back to the Dashboard.\n\n## What needs to change\n- Add a `NotFound` component built from the existing `EmptyState` and `Button` components.\n- Register it as `<Route path=\"*\" />` after every other route.\n- The header now reads `Page not found` for unknown URLs. A trailing slash (`/leads/`) still shows `Leads`.\n\n## File\n`frontend/src/App.jsx`\n\n## How to check\nOpen `http://localhost:5173/does-not-exist`: you see “Page not found” and a *Back to Dashboard* button.\n\n---\n**Good first issue.** Comment below to claim it. One issue per person, please, so more people get a chance to contribute.",
-          "reactions": {
-            "url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/issues/6/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/issues/6/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/issues/comments/5762973873",
-          "html_url": "https://github.com/FasterThanAi/ai-lead-generation-mvp/issues/6#issuecomment-5762973873",
-          "issue_url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/issues/6",
-          "id": 5762973873,
-          "node_id": "IC_kwDOSUC3Ms8AAAABV4AAsQ",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-21T15:24:04Z",
-          "updated_at": "2026-09-21T15:24:04Z",
-          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I have experience with the relevant tech stack. Could I be assigned this one? I'll have a fix ready soon! 🙌",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/FasterThanAi/ai-lead-generation-mvp/issues/comments/5762973873/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "15439146650",
-      "type": "ForkEvent",
-      "repo": "ulises-jeremias/agent-toolkit",
-      "created_at": "2026-09-21T15:03:07Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1379978224,
-          "node_id": "R_kgDOUkDL8A",
-          "name": "agent-toolkit",
-          "full_name": "Rahul-pamula/agent-toolkit",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/agent-toolkit",
-          "description": "🛠️ Composable AI agent toolkit — skills, agents, loops, and MCP templates for Claude Code, Cursor, OpenCode, Copilot, Windsurf, and Pi",
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/agent-toolkit/deployments",
-          "created_at": "2026-09-21T15:03:07Z",
-          "updated_at": "2026-09-21T15:03:08Z",
-          "pushed_at": "2026-09-21T09:26:13Z",
-          "git_url": "git://github.com/Rahul-pamula/agent-toolkit.git",
-          "ssh_url": "git@github.com:Rahul-pamula/agent-toolkit.git",
-          "clone_url": "https://github.com/Rahul-pamula/agent-toolkit.git",
-          "svn_url": "https://github.com/Rahul-pamula/agent-toolkit",
-          "homepage": "https://ulises-jeremias.github.io/agent-toolkit",
-          "size": 49568,
-          "stargazers_count": 0,
-          "watchers_count": 0,
-          "language": null,
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": true,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-          },
-          "allow_forking": true,
-          "is_template": false,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 0,
-          "default_branch": "main"
-        }
-      }
-    },
-    {
-      "id": "21674333770",
+      "id": "21814183023",
       "type": "PushEvent",
-      "repo": "Rahul-pamula/cna-templates",
-      "created_at": "2026-09-20T09:12:10Z",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-22T06:57:01Z",
       "payload": {
-        "repository_id": 1373992351,
-        "push_id": 44067188612,
-        "ref": "refs/heads/feat/react-stylex-extension",
-        "head": "751a64c6ea028c3ceabdb34195f6931db8f20773",
-        "before": "be868049ca209a2f50c609e00b26fd9da7fed7aa"
+        "repository_id": 1254086059,
+        "push_id": 44232777773,
+        "ref": "refs/heads/main",
+        "head": "dbedbd9b813241eff0aed944f27b239ffd8cf52e",
+        "before": "0747f8da3e4cbaaa57a0cf920d233d40a5a4baa9"
       }
     },
     {
-      "id": "21645095121",
+      "id": "21813811341",
       "type": "PushEvent",
-      "repo": "Rahul-pamula/cna-templates",
-      "created_at": "2026-09-20T09:23:51Z",
+      "repo": "Rahul-pamula/Rahul-pamula",
+      "created_at": "2026-09-22T06:33:58Z",
       "payload": {
-        "repository_id": 1373992351,
-        "push_id": 44067720563,
-        "ref": "refs/heads/feat/react-stylex-extension",
-        "head": "56bfb824c8a4bf565e5eab853f51f57bf3b00b62",
-        "before": "751a64c6ea028c3ceabdb34195f6931db8f20773"
+        "repository_id": 1177502211,
+        "push_id": 44231319909,
+        "ref": "refs/heads/main",
+        "head": "40017c4f5c6fd05b394d2ac6be8414d5cae8bbba",
+        "before": "40fc0e947e474e64511d77942b1d021cb4800803"
       }
     },
     {
-      "id": "15374461103",
-      "type": "WatchEvent",
-      "repo": "tsensei/OpenReels",
-      "created_at": "2026-09-20T09:20:50Z",
-      "payload": {
-        "action": "started"
-      }
-    },
-    {
-      "id": "15374391899",
+      "id": "15483888370",
       "type": "PullRequestEvent",
-      "repo": "Create-Node-App/cna-templates",
-      "created_at": "2026-09-20T09:17:49Z",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T09:13:14Z",
       "payload": {
-        "action": "opened",
-        "number": 465,
+        "action": "closed",
+        "number": 21,
         "pull_request": {
-          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/pulls/465",
-          "id": 4583283043,
-          "number": 465,
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/21",
+          "id": 4449813412,
+          "number": 21,
           "head": {
-            "ref": "feat/react-stylex-extension",
-            "sha": "56bfb824c8a4bf565e5eab853f51f57bf3b00b62",
+            "ref": "dependabot/npm_and_yarn/vite-8.2.2",
+            "sha": "c47118083ec00495e3e75cf3462a3d34d12eeb72",
             "repo": {
-              "id": 1373992351,
-              "url": "https://api.github.com/repos/Rahul-pamula/cna-templates",
-              "name": "cna-templates"
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
             }
           },
           "base": {
             "ref": "main",
-            "sha": "30f7a1127c0abb3f81d841462068f7650c666a61",
+            "sha": "5891229ba17099ce29bdf9589b508481063603ef",
             "repo": {
-              "id": 298953142,
-              "url": "https://api.github.com/repos/Create-Node-App/cna-templates",
-              "name": "cna-templates"
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
             }
           }
         }
       }
     },
     {
-      "id": "15361924367",
+      "id": "15483888368",
       "type": "PullRequestEvent",
-      "repo": "Create-Node-App/cna-templates",
-      "created_at": "2026-09-19T23:29:54Z",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T01:58:19Z",
       "payload": {
-        "action": "merged",
-        "number": 463,
+        "action": "closed",
+        "number": 17,
         "pull_request": {
-          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/pulls/463",
-          "id": 4579670935,
-          "number": 463,
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/17",
+          "id": 4448133916,
+          "number": 17,
           "head": {
-            "ref": "feat/react-stylex-extension",
-            "sha": "be868049ca209a2f50c609e00b26fd9da7fed7aa",
+            "ref": "dependabot/npm_and_yarn/typescript-7.0.2",
+            "sha": "6779379e033773934dcf98b936d11acbcc2dcbb9",
             "repo": {
-              "id": 1373992351,
-              "url": "https://api.github.com/repos/Rahul-pamula/cna-templates",
-              "name": "cna-templates"
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
             }
           },
           "base": {
             "ref": "main",
-            "sha": "fea0314ccbfc49d2a1db1158360266f1bc431e41",
+            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
             "repo": {
-              "id": 298953142,
-              "url": "https://api.github.com/repos/Create-Node-App/cna-templates",
-              "name": "cna-templates"
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
             }
           }
         }
       }
     },
     {
-      "id": "15357826288",
-      "type": "IssueCommentEvent",
-      "repo": "Create-Node-App/cna-templates",
-      "created_at": "2026-09-19T20:42:38Z",
+      "id": "15483888163",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T01:58:29Z",
       "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463",
-          "repository_url": "https://api.github.com/repos/Create-Node-App/cna-templates",
-          "labels_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/comments",
-          "events_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/events",
-          "html_url": "https://github.com/Create-Node-App/cna-templates/pull/463",
-          "id": 5512519291,
-          "node_id": "PR_kwDOEdGpts8AAAABEPg7lw",
-          "number": 463,
-          "title": "feat: add StyleX extension for React Vite",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
+        "action": "closed",
+        "number": 18,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/18",
+          "id": 4448134031,
+          "number": 18,
+          "head": {
+            "ref": "dependabot/npm_and_yarn/react-three/fiber-9.7.0",
+            "sha": "b4586197cd563bc94023a76214165223859f4788",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
           },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 5,
-          "created_at": "2026-09-19T18:09:30Z",
-          "updated_at": "2026-09-19T23:29:54Z",
-          "closed_at": "2026-09-19T23:29:54Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "draft": false,
-          "pull_request": {
-            "url": "https://api.github.com/repos/Create-Node-App/cna-templates/pulls/463",
-            "html_url": "https://github.com/Create-Node-App/cna-templates/pull/463",
-            "diff_url": "https://github.com/Create-Node-App/cna-templates/pull/463.diff",
-            "patch_url": "https://github.com/Create-Node-App/cna-templates/pull/463.patch",
-            "merged_at": "2026-09-19T23:29:54Z"
-          },
-          "body": "## Summary\r\n\r\nAdds a StyleX extension for the React Vite starter as part of #462.\r\n\r\n### Changes\r\n\r\n- Add `@stylexjs/stylex` runtime dependency\r\n- Add StyleX Vite integration via `@stylexjs/unplugin`\r\n- Add StyleX ESLint integration\r\n- Add CSS layer configuration for atomic styles\r\n- Add typed StyleX theme tokens using `stylex.defineVars`\r\n- Add a reusable StyleX Button example using `stylex.create` and `stylex.props`\r\n- Add extension documentation and template metadata\r\n- Preserve the existing Vite and ESLint configurations through additive `.mjs` wrappers\r\n\r\n### Validation\r\n\r\n- `npm run format` ✅\r\n- `npm run lint` ✅\r\n- `npm run type-check` ✅\r\n- `npm run build` ✅\r\n- StyleX compiler/static analysis ✅\r\n- `git diff --check` ✅\r\n- `node scripts/validate-templates.js` ✅\r\n\r\nCloses #462\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n- **New Features**\n  - Added a React StyleX extension template for type-safe, atomic CSS-in-JS styling.\n  - Added a styled, loading-aware Button component with disabled-state handling.\n  - Added reusable color and spacing theme tokens.\n  - Added StyleX CSS layering and stylesheet integration.\n  - Added the StyleX template to the UI extension catalog.\n\n- **Documentation**\n  - Added setup and usage guidance for StyleX themes, components, and generated styles.\n\n- **Tooling**\n  - Added StyleX-aware development, build, preview, linting, and validation configuration.\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
-          "reactions": {
-            "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/comments/5745153378",
-          "html_url": "https://github.com/Create-Node-App/cna-templates/pull/463#issuecomment-5745153378",
-          "issue_url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/463",
-          "id": 5745153378,
-          "node_id": "IC_kwDOEdGpts8AAAABVnAVYg",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-09-19T20:42:38Z",
-          "updated_at": "2026-09-19T20:42:38Z",
-          "body": "Implemented the requested review changes.\r\n\r\n- Fixed `StyleXButton` prop merging so `disabled` and StyleX classes cannot be clobbered.\r\n- Moved CSS injection from `main.tsx.append` to the established `theme/index.ts.append` seam.\r\n- Renamed the example component to `StyleXButton` to remove the path collision with Tailwind.\r\n- Did not add `incompatibleWith`, since the collision is resolved by the rename.\r\n- Documented the current Vite/ESLint wrapper limitation in the extension README.\r\n- Added/verified L2 scaffold proof: format, lint, type-check, and build all pass.\r\n- `git diff --check` and `node scripts/validate-templates.js` also pass.\r\n\r\nThe Vite config-loader warning remains documented as the known limitation of the current wrapper approach.\r\n\r\nReady for re-review. Thanks!",
-          "reactions": {
-            "url": "https://api.github.com/repos/Create-Node-App/cna-templates/issues/comments/5745153378/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
+          "base": {
+            "ref": "main",
+            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          }
         }
+      }
+    },
+    {
+      "id": "15483887027",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T01:58:15Z",
+      "payload": {
+        "action": "closed",
+        "number": 16,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/16",
+          "id": 4448133559,
+          "number": 16,
+          "head": {
+            "ref": "dependabot/npm_and_yarn/tailwindcss-4.3.3",
+            "sha": "afc7426d2a20fcab317729117d52cd3b7471314c",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "15483887022",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T01:58:06Z",
+      "payload": {
+        "action": "closed",
+        "number": 15,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/15",
+          "id": 4448133277,
+          "number": 15,
+          "head": {
+            "ref": "dependabot/npm_and_yarn/eslint-10.9.1",
+            "sha": "3ecd6de030d24aa847c4504ed3951269751f0300",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "15483887020",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T01:57:57Z",
+      "payload": {
+        "action": "closed",
+        "number": 14,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/14",
+          "id": 4448133223,
+          "number": 14,
+          "head": {
+            "ref": "dependabot/npm_and_yarn/multi-15e0f44842",
+            "sha": "f1e8380180af99cb5c1c888bed1f2d18b040940a",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "15483887016",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T01:57:46Z",
+      "payload": {
+        "action": "closed",
+        "number": 13,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/13",
+          "id": 4448132446,
+          "number": 13,
+          "head": {
+            "ref": "dependabot/npm_and_yarn/autoprefixer-10.5.4",
+            "sha": "b03d1096b07c2c2f74a6627e58f2a2c388d993a3",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "15483885310",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T01:57:36Z",
+      "payload": {
+        "action": "closed",
+        "number": 12,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/12",
+          "id": 4448132146,
+          "number": 12,
+          "head": {
+            "ref": "dependabot/npm_and_yarn/three-0.185.1",
+            "sha": "ca336e88f7baff9c61dc79f591b7a012470d639a",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "15483885299",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T01:57:26Z",
+      "payload": {
+        "action": "closed",
+        "number": 11,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/11",
+          "id": 4448132076,
+          "number": 11,
+          "head": {
+            "ref": "dependabot/npm_and_yarn/globals-17.12.0",
+            "sha": "f9ce81fcc2d0c90a1c6d94c926c450bfa27656c2",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "15483885131",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-05T01:57:16Z",
+      "payload": {
+        "action": "closed",
+        "number": 10,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/10",
+          "id": 4448131847,
+          "number": 10,
+          "head": {
+            "ref": "dependabot/npm_and_yarn/typescript-eslint-8.69.0",
+            "sha": "44f945a81a471cda856e8e70cfa1e7638ad0d930",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
+            "repo": {
+              "id": 1254086059,
+              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
+              "name": "portfolio"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "21813129185",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-22T06:52:02Z",
+      "payload": {
+        "repository_id": 1254086059,
+        "push_id": 44232463116,
+        "ref": "refs/heads/main",
+        "head": "0747f8da3e4cbaaa57a0cf920d233d40a5a4baa9",
+        "before": "44ceec26556d0e54e905b9eeb3202d065fe3fcc0"
+      }
+    },
+    {
+      "id": "21812964457",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/portfolio",
+      "created_at": "2026-09-22T06:50:15Z",
+      "payload": {
+        "repository_id": 1254086059,
+        "push_id": 44232349083,
+        "ref": "refs/heads/main",
+        "head": "44ceec26556d0e54e905b9eeb3202d065fe3fcc0",
+        "before": "d841b0321ceab59ed14c9ba9c14e149ae72c57a2"
+      }
+    },
+    {
+      "id": "21812689115",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Rahul-pamula",
+      "created_at": "2026-09-22T06:46:13Z",
+      "payload": {
+        "repository_id": 1177502211,
+        "push_id": 44232091389,
+        "ref": "refs/heads/main",
+        "head": "47577d5a20646494d28eb96ac66ce4173ffc53d0",
+        "before": "268c7dba27f0c2e868f9f63138dc9baa046191f3"
       }
     }
   ],
   "recentStats": {
-    "commits": 1726,
-    "prs": 151,
+    "commits": 1739,
+    "prs": 152,
     "issues": 259
   }
 }

@@ -3,9 +3,9 @@ import { MacLayout } from './layout/MacLayout';
 import { Sidebar } from './components/profile/Sidebar';
 import { EngineeringIdentity } from './components/about/EngineeringIdentity';
 import { FeaturedProjects } from './components/projects/FeaturedProjects';
-import { OpenSourceSection } from './components/opensource/OpenSourceSection';
-import { GitHubActivity } from './components/activity/GitHubActivity';
-import { MoreProjects } from './components/projects/MoreProjects';
+import { ExperienceSection } from './components/experience/ExperienceSection';
+import { CertificationsSection } from './components/certifications/CertificationsSection';
+import { ConnectSection } from './components/connect/ConnectSection';
 import { SupportCard } from './components/support/SupportCard';
 import { ContributionHeatmap } from './components/activity/ContributionHeatmap';
 import { ContributionStats } from './components/activity/ContributionStats';
@@ -109,21 +109,21 @@ function App() {
                   <FeaturedProjects />
                 </section>
                 
-                <section id="opensource" className="card-premium scroll-reveal p-6 sm:p-8">
-                  <OpenSourceSection />
+                <section id="experience" className="card-premium scroll-reveal p-6 sm:p-8">
+                  <ExperienceSection />
                 </section>
                 
-                <div className="card-premium scroll-reveal p-6 sm:p-8">
-                  <GitHubActivity />
-                </div>
+                <section id="certifications" className="card-premium scroll-reveal p-6 sm:p-8">
+                  <CertificationsSection />
+                </section>
                 
                 <div id="activity" className="xl:hidden card-premium scroll-reveal p-6 sm:p-8">
                   <PersonalIdentity />
                 </div>
 
-                <div className="card-premium scroll-reveal p-6 sm:p-8">
-                  <MoreProjects />
-                </div>
+                <section id="connect" className="card-premium scroll-reveal p-6 sm:p-8">
+                  <ConnectSection />
+                </section>
                 
                 <div className="card-premium scroll-reveal p-6 sm:p-8">
                   <SupportCard />
