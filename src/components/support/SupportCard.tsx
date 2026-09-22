@@ -13,7 +13,7 @@ export const SupportCard = () => {
           <Heart className="w-6 h-6" />
         </div>
         <div>
-          <h3 className="text-lg font-semibold text-text-primary mb-2">Help build open-source financial education.</h3>
+          <h3 className="text-lg font-semibold text-text-primary mb-2">Help build {mainProject.title}</h3>
           <p className="text-sm text-text-secondary mb-4 leading-relaxed">
             The {mainProject.title} is an open-source initiative relying on community contributions. Whether it's code, documentation, or ideas, your help matters.
           </p>

@@ -10,12 +10,12 @@ export interface OpenSourceProject {
 
 export const openSourceProjects: OpenSourceProject[] = [
   {
-    title: 'Financial Literacy Simulator',
-    description: 'An open-source gamified financial life simulator that teaches money management through realistic life decisions.',
-    repositoryUrl: 'https://github.com/LifeSimLabs/financial-literacy-simulator',
-    issuesUrl: 'https://github.com/LifeSimLabs/financial-literacy-simulator/issues',
-    discussionsUrl: 'https://github.com/LifeSimLabs/financial-literacy-simulator/discussions',
-    technologies: ['Python', 'Education', 'Simulation'],
+    title: 'Open Source Scout',
+    description: 'An intelligent AI-powered scout that automatically discovers, analyzes, and categorizes high-quality open-source projects and issues for developers.',
+    repositoryUrl: 'https://github.com/Rahul-pamula/open-source-scout',
+    issuesUrl: 'https://github.com/Rahul-pamula/open-source-scout/issues',
+    discussionsUrl: 'https://github.com/Rahul-pamula/open-source-scout/discussions',
+    technologies: ['TypeScript', 'AI', 'Open Source'],
     isMainFocus: true,
   },
   {
