@@ -14,8 +14,23 @@ export const ReviewSection: React.FC = () => {
 
   useEffect(() => {
     const fetchReviews = async () => {
+      // 1. Instantly load from cache if available to prevent layout shift and loading delays
+      const cached = localStorage.getItem('portfolio_reviews_cache');
+      if (cached) {
+        try {
+          setReviews(JSON.parse(cached));
+          setLoading(false);
+        } catch (e) {
+          console.error('Failed to parse cached reviews', e);
+        }
+      }
+
+      // 2. Fetch fresh data silently in the background
       const data = await reviewService.getApprovedReviews();
+      
+      // 3. Update UI and cache with the latest data
       setReviews(data);
+      localStorage.setItem('portfolio_reviews_cache', JSON.stringify(data));
       setLoading(false);
     };
     fetchReviews();
