@@ -12,9 +12,9 @@ export const openSourceProjects: OpenSourceProject[] = [
   {
     title: 'Open Source Scout',
     description: 'An intelligent AI-powered scout that automatically discovers, analyzes, and categorizes high-quality open-source projects and issues for developers.',
-    repositoryUrl: 'https://github.com/Rahul-pamula/open-source-scout',
-    issuesUrl: 'https://github.com/Rahul-pamula/open-source-scout/issues',
-    discussionsUrl: 'https://github.com/Rahul-pamula/open-source-scout/discussions',
+    repositoryUrl: 'https://github.com/Rahul-pamula/Open_Source_Scout',
+    issuesUrl: 'https://github.com/Rahul-pamula/Open_Source_Scout/issues',
+    discussionsUrl: 'https://github.com/Rahul-pamula/Open_Source_Scout/discussions',
     technologies: ['TypeScript', 'AI', 'Open Source'],
     isMainFocus: true,
   },

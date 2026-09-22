@@ -44,7 +44,7 @@ export const projects: Project[] = [
   {
     title: 'Open Source Scout',
     description: 'An intelligent AI-powered scout that automatically discovers, analyzes, and categorizes high-quality open-source projects and issues for developers.',
-    repositoryUrl: 'https://github.com/Rahul-pamula/open-source-scout',
+    repositoryUrl: 'https://github.com/Rahul-pamula/Open_Source_Scout',
     technologies: ['TypeScript', 'AI', 'Open Source'],
     language: 'TypeScript',
     featured: true,
