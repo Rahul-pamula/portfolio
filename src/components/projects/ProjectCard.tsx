@@ -3,7 +3,7 @@ import { Github, ExternalLink } from 'lucide-react';
 
 export const ProjectCard = ({ project }: { project: Project }) => {
   return (
-    <div className="card-premium p-6 flex flex-col h-full group relative overflow-hidden">
+    <div className="p-6 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors shadow-sm flex flex-col h-full group relative overflow-hidden">
       {/* Subtle background glow effect on hover */}
       <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       

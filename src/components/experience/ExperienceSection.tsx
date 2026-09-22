@@ -20,7 +20,7 @@ export const ExperienceSection = () => {
             {experiences.filter(e => e.type === 'work').map((exp) => (
               <div key={exp.id} className="relative flex items-start gap-4 group is-active">
                 <div className="flex items-center justify-center w-4 h-4 mt-1 rounded-full border-2 border-accent bg-surface-elevated shrink-0 z-10" />
-                <div className="flex-1 p-4 rounded-xl border border-border/50 bg-surface-elevated transition-colors shadow-sm">
+                <div className="flex-1 p-4 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors shadow-sm">
                   <div className="flex flex-col gap-1">
                     <div className="flex justify-between items-start gap-2">
                       <h4 className="font-semibold text-text-primary text-sm">{exp.title}</h4>
@@ -55,7 +55,7 @@ export const ExperienceSection = () => {
           </div>
           <div className="flex flex-col gap-4">
             {experiences.filter(e => e.type === 'education').map((edu) => (
-              <div key={edu.id} className="p-4 rounded-xl border border-border/50 bg-surface-elevated transition-colors shadow-sm flex flex-col gap-2">
+              <div key={edu.id} className="p-4 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors shadow-sm flex flex-col gap-2">
                 <div className="flex justify-between items-start gap-2">
                   <h4 className="font-semibold text-text-primary text-sm">{edu.organization}</h4>
                   <span className="text-[10px] text-text-muted shrink-0 bg-surface px-2 py-1 rounded-md border border-border/50">{edu.date}</span>

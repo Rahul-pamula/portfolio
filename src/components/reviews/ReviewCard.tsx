@@ -8,7 +8,7 @@ interface ReviewCardProps {
 
 export const ReviewCard: React.FC<ReviewCardProps> = ({ review }) => {
   return (
-    <div className="card-premium p-6 flex flex-col gap-4 h-full">
+    <div className="p-6 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors shadow-sm flex flex-col gap-4 h-full">
       <div className="flex gap-1 text-yellow-500">
         {[1, 2, 3, 4, 5].map((star) => (
           <Star 

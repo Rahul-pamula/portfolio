@@ -11,7 +11,7 @@ export const CertificationsSection = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {certifications.map((cert) => (
-          <div key={cert.id} className="p-5 rounded-xl border border-border/50 bg-surface-elevated hover:bg-surface-elevated/80 transition-colors shadow-sm flex flex-col gap-3 group">
+          <div key={cert.id} className="p-5 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors shadow-sm flex flex-col gap-3 group">
             <div className="flex items-start gap-4">
               <div className="p-3 bg-blue-500/10 rounded-lg text-blue-400 shrink-0">
                 <Award size={24} />

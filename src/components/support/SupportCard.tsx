@@ -7,7 +7,7 @@ export const SupportCard = () => {
   if (!mainProject) return null;
 
   return (
-    <div className="card-premium p-6 border-accent/20 bg-accent/5 mt-8 mb-8">
+    <div className="card-premium p-6 border-accent/20 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors mt-8 mb-8">
       <div className="flex items-start gap-4">
         <div className="p-3 bg-accent/10 rounded-lg text-accent">
           <Heart className="w-6 h-6" />
