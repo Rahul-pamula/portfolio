@@ -42,12 +42,20 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: 'Open Source Scout',
+    description: 'An intelligent AI-powered scout that automatically discovers, analyzes, and categorizes high-quality open-source projects and issues for developers.',
+    repositoryUrl: 'https://github.com/Rahul-pamula/open-source-scout',
+    technologies: ['TypeScript', 'AI', 'Open Source'],
+    language: 'TypeScript',
+    featured: true,
+  },
+  {
     title: 'Fundsroom Infotech',
     description: 'A full-stack Mini ERP + CRM Operations Portal for internal business operations.',
     repositoryUrl: 'https://github.com/Rahul-pamula/fundsroom_infotech',
     technologies: ['TypeScript', 'ERP', 'CRM', 'Full Stack'],
     language: 'TypeScript',
-    featured: true,
+    featured: false,
   },
   {
     title: 'FlavorGraph',
