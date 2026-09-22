@@ -16,11 +16,11 @@ export const ExperienceSection = () => {
             <Briefcase size={20} />
             <h3 className="text-lg font-medium text-text-primary">Work Experience</h3>
           </div>
-          <div className="flex flex-col gap-6 relative before:absolute before:inset-0 before:ml-2 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-border before:to-transparent">
+          <div className="flex flex-col gap-6 relative before:absolute before:inset-0 before:ml-2 before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-border before:to-transparent">
             {experiences.filter(e => e.type === 'work').map((exp) => (
-              <div key={exp.id} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                <div className="flex items-center justify-center w-4 h-4 rounded-full border-2 border-accent bg-surface-elevated shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_0_4px_rgba(var(--accent),0.1)] z-10" />
-                <div className="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors shadow-sm">
+              <div key={exp.id} className="relative flex items-start gap-4 group is-active">
+                <div className="flex items-center justify-center w-4 h-4 mt-1 rounded-full border-2 border-accent bg-surface-elevated shrink-0 z-10" />
+                <div className="flex-1 p-4 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated transition-colors shadow-sm">
                   <div className="flex flex-col gap-1">
                     <div className="flex justify-between items-start gap-2">
                       <h4 className="font-semibold text-text-primary text-sm">{exp.title}</h4>
