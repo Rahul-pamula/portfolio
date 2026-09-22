@@ -14,7 +14,7 @@ export const ConnectSection = () => {
           href="https://linkedin.com/in/rahul-pamula" 
           target="_blank" 
           rel="noreferrer"
-          className="group flex flex-col justify-between p-6 rounded-xl border border-border/50 bg-[#0A66C2]/5 hover:bg-[#0A66C2]/10 hover:border-[#0A66C2]/30 transition-all duration-300 relative overflow-hidden"
+          className="group flex flex-col justify-between p-6 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated hover:border-[#0A66C2]/30 transition-all duration-300 relative overflow-hidden"
         >
           <div className="absolute top-0 right-0 p-6 opacity-10 transform translate-x-4 -translate-y-4 group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
             <Linkedin size={80} />
@@ -39,7 +39,7 @@ export const ConnectSection = () => {
         {/* Email Card */}
         <a 
           href="mailto:pamularahul123@gmail.com" 
-          className="group flex flex-col justify-between p-6 rounded-xl border border-border/50 bg-emerald-500/5 hover:bg-emerald-500/10 hover:border-emerald-500/30 transition-all duration-300 relative overflow-hidden"
+          className="group flex flex-col justify-between p-6 rounded-xl border border-border/50 bg-surface-elevated/50 hover:bg-surface-elevated hover:border-emerald-500/30 transition-all duration-300 relative overflow-hidden"
         >
           <div className="absolute top-0 right-0 p-6 opacity-10 transform translate-x-4 -translate-y-4 group-hover:scale-110 group-hover:-rotate-12 transition-transform duration-500">
             <Mail size={80} />

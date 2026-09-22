@@ -3,7 +3,7 @@ import { Github, Linkedin, ExternalLink, GitCommit } from 'lucide-react';
 import githubData from '../../data/generated/github-data.json';
 
 export const Sidebar = () => {
-  const user = githubData.user;
+  const user = (githubData.user || {}) as any;
   
   return (
     <aside className="w-full h-[calc(100vh-6rem)] min-h-[650px] flex flex-col gap-6 card-premium p-4 sm:p-6 overflow-hidden">

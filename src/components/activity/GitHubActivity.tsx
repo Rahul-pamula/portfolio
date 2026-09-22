@@ -1,7 +1,7 @@
 import githubData from '../../data/generated/github-data.json';
 
 export const GitHubActivity = () => {
-  const user = githubData.user;
+  const user = (githubData.user || {}) as any;
   
   return (
     <section className="py-6 border-b border-border/50">
