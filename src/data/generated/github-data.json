@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-22T07:13:21.345Z",
+  "updatedAt": "2026-09-23T03:13:31.295Z",
   "contributions": {
-    "totalLastYear": 1977,
+    "totalLastYear": 2047,
     "days": [
       {
         "date": "2025-09-21",
@@ -1835,8 +1835,13 @@
       },
       {
         "date": "2026-09-22",
-        "count": 15,
-        "level": 1
+        "count": 46,
+        "level": 3
+      },
+      {
+        "date": "2026-09-23",
+        "count": 39,
+        "level": 3
       }
     ]
   },
@@ -1877,404 +1882,206 @@
   },
   "activityFeed": [
     {
-      "id": "21814183023",
+      "id": "21899515053",
       "type": "PushEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-22T06:57:01Z",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T19:10:10Z",
       "payload": {
-        "repository_id": 1254086059,
-        "push_id": 44232777773,
+        "repository_id": 1339909532,
+        "push_id": 44290613873,
         "ref": "refs/heads/main",
-        "head": "dbedbd9b813241eff0aed944f27b239ffd8cf52e",
-        "before": "0747f8da3e4cbaaa57a0cf920d233d40a5a4baa9"
+        "head": "c40f75b3f1cf159555eb176a96c05c160c07a5be",
+        "before": "d54fac29a8fb9a4b72943a5299dc6ab91b61c39b"
       }
     },
     {
-      "id": "21813811341",
+      "id": "21892234427",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T20:45:12Z",
+      "payload": {
+        "ref": "fix/ci-lockfile-sync",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/ci-lockfile-sync",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "21890251253",
       "type": "PushEvent",
-      "repo": "Rahul-pamula/Rahul-pamula",
-      "created_at": "2026-09-22T06:33:58Z",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T20:01:02Z",
       "payload": {
-        "repository_id": 1177502211,
-        "push_id": 44231319909,
+        "repository_id": 1339909532,
+        "push_id": 44294485331,
         "ref": "refs/heads/main",
-        "head": "40017c4f5c6fd05b394d2ac6be8414d5cae8bbba",
-        "before": "40fc0e947e474e64511d77942b1d021cb4800803"
+        "head": "2ea42ab618736f154bb897d775ed017debdb2586",
+        "before": "d85c1f8e4c5afcd2acdd7ddaf9f24991858d5d16"
       }
     },
     {
-      "id": "15483888370",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T09:13:14Z",
-      "payload": {
-        "action": "closed",
-        "number": 21,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/21",
-          "id": 4449813412,
-          "number": 21,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/vite-8.2.2",
-            "sha": "c47118083ec00495e3e75cf3462a3d34d12eeb72",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "5891229ba17099ce29bdf9589b508481063603ef",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15483888368",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:58:19Z",
-      "payload": {
-        "action": "closed",
-        "number": 17,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/17",
-          "id": 4448133916,
-          "number": 17,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/typescript-7.0.2",
-            "sha": "6779379e033773934dcf98b936d11acbcc2dcbb9",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15483888163",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:58:29Z",
-      "payload": {
-        "action": "closed",
-        "number": 18,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/18",
-          "id": 4448134031,
-          "number": 18,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/react-three/fiber-9.7.0",
-            "sha": "b4586197cd563bc94023a76214165223859f4788",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15483887027",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:58:15Z",
-      "payload": {
-        "action": "closed",
-        "number": 16,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/16",
-          "id": 4448133559,
-          "number": 16,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/tailwindcss-4.3.3",
-            "sha": "afc7426d2a20fcab317729117d52cd3b7471314c",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15483887022",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:58:06Z",
-      "payload": {
-        "action": "closed",
-        "number": 15,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/15",
-          "id": 4448133277,
-          "number": 15,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/eslint-10.9.1",
-            "sha": "3ecd6de030d24aa847c4504ed3951269751f0300",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15483887020",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:57:57Z",
-      "payload": {
-        "action": "closed",
-        "number": 14,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/14",
-          "id": 4448133223,
-          "number": 14,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/multi-15e0f44842",
-            "sha": "f1e8380180af99cb5c1c888bed1f2d18b040940a",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15483887016",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:57:46Z",
-      "payload": {
-        "action": "closed",
-        "number": 13,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/13",
-          "id": 4448132446,
-          "number": 13,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/autoprefixer-10.5.4",
-            "sha": "b03d1096b07c2c2f74a6627e58f2a2c388d993a3",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15483885310",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:57:36Z",
-      "payload": {
-        "action": "closed",
-        "number": 12,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/12",
-          "id": 4448132146,
-          "number": 12,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/three-0.185.1",
-            "sha": "ca336e88f7baff9c61dc79f591b7a012470d639a",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15483885299",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:57:26Z",
-      "payload": {
-        "action": "closed",
-        "number": 11,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/11",
-          "id": 4448132076,
-          "number": 11,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/globals-17.12.0",
-            "sha": "f9ce81fcc2d0c90a1c6d94c926c450bfa27656c2",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "15483885131",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-05T01:57:16Z",
-      "payload": {
-        "action": "closed",
-        "number": 10,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/portfolio/pulls/10",
-          "id": 4448131847,
-          "number": 10,
-          "head": {
-            "ref": "dependabot/npm_and_yarn/typescript-eslint-8.69.0",
-            "sha": "44f945a81a471cda856e8e70cfa1e7638ad0d930",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "ff8d1b78007e178cc203340075367be2327ac061",
-            "repo": {
-              "id": 1254086059,
-              "url": "https://api.github.com/repos/Rahul-pamula/portfolio",
-              "name": "portfolio"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "21813129185",
+      "id": "21888244378",
       "type": "PushEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-22T06:52:02Z",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T19:18:37Z",
       "payload": {
-        "repository_id": 1254086059,
-        "push_id": 44232463116,
+        "repository_id": 1339909532,
+        "push_id": 44291270783,
         "ref": "refs/heads/main",
-        "head": "0747f8da3e4cbaaa57a0cf920d233d40a5a4baa9",
-        "before": "44ceec26556d0e54e905b9eeb3202d065fe3fcc0"
+        "head": "0ddb98b214336707c7b3f2503f67c49304f07a3b",
+        "before": "d54fac29a8fb9a4b72943a5299dc6ab91b61c39b"
       }
     },
     {
-      "id": "21812964457",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/portfolio",
-      "created_at": "2026-09-22T06:50:15Z",
+      "id": "21887831538",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T19:09:54Z",
       "payload": {
-        "repository_id": 1254086059,
-        "push_id": 44232349083,
-        "ref": "refs/heads/main",
-        "head": "44ceec26556d0e54e905b9eeb3202d065fe3fcc0",
-        "before": "d841b0321ceab59ed14c9ba9c14e149ae72c57a2"
+        "ref": "feat/governance-baseline",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/governance-baseline",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "21812689115",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Rahul-pamula",
-      "created_at": "2026-09-22T06:46:13Z",
+      "id": "21885891525",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T20:38:36Z",
       "payload": {
-        "repository_id": 1177502211,
-        "push_id": 44232091389,
+        "ref": "fix/ci-lockfile-sync",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/ci-lockfile-sync",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "21882349063",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T20:24:00Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44296215902,
         "ref": "refs/heads/main",
-        "head": "47577d5a20646494d28eb96ac66ce4173ffc53d0",
-        "before": "268c7dba27f0c2e868f9f63138dc9baa046191f3"
+        "head": "c823e8b06af0bcbce336d661378c10194fe18bd9",
+        "before": "f5b7c3dad73dc7f70b22602a92b9522afdbaae9e"
+      }
+    },
+    {
+      "id": "21881250156",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T20:14:31Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44295516678,
+        "ref": "refs/heads/feat/phase-2-mcp",
+        "head": "9da01ee5f6f86af42d7a4be6bdeee3cfa1bb01a2",
+        "before": "5d0a1ec6b72929b41f9756c2bd0673fdace5fd38"
+      }
+    },
+    {
+      "id": "21881015104",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T20:09:57Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44295179762,
+        "ref": "refs/heads/main",
+        "head": "88a2552e34ae132803daf88f9170f9e07bdeb346",
+        "before": "2ea42ab618736f154bb897d775ed017debdb2586"
+      }
+    },
+    {
+      "id": "21880133098",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T19:55:01Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44294021095,
+        "ref": "refs/heads/main",
+        "head": "d85c1f8e4c5afcd2acdd7ddaf9f24991858d5d16",
+        "before": "48643b369240c2d187aa96653f09dc1f87ee907c"
+      }
+    },
+    {
+      "id": "21877625441",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T20:16:12Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44295643196,
+        "ref": "refs/heads/main",
+        "head": "f5b7c3dad73dc7f70b22602a92b9522afdbaae9e",
+        "before": "88a2552e34ae132803daf88f9170f9e07bdeb346"
+      }
+    },
+    {
+      "id": "21876212473",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T19:54:12Z",
+      "payload": {
+        "ref": "feat/phase-1-ci",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/phase-1-ci",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "21876009318",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T19:21:59Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44291533952,
+        "ref": "refs/heads/main",
+        "head": "48643b369240c2d187aa96653f09dc1f87ee907c",
+        "before": "5dcd36b6d382120e96097646ccd3e4efd6a0862d"
+      }
+    },
+    {
+      "id": "21875549098",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T20:45:09Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44297754978,
+        "ref": "refs/heads/main",
+        "head": "95bf6544b4d0e753c13472ced1d962a1195e0ebc",
+        "before": "c823e8b06af0bcbce336d661378c10194fe18bd9"
+      }
+    },
+    {
+      "id": "21874871574",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-22T19:16:48Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44291129753,
+        "ref": "refs/heads/main",
+        "head": "d54fac29a8fb9a4b72943a5299dc6ab91b61c39b",
+        "before": "c40f75b3f1cf159555eb176a96c05c160c07a5be"
       }
     }
   ],
   "recentStats": {
-    "commits": 1739,
-    "prs": 152,
-    "issues": 259
+    "commits": 1768,
+    "prs": 161,
+    "issues": 291
   }
 }
