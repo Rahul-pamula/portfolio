@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-23T03:13:31.295Z",
+  "updatedAt": "2026-09-24T03:03:34.103Z",
   "contributions": {
-    "totalLastYear": 2047,
+    "totalLastYear": 2156,
     "days": [
       {
         "date": "2025-09-21",
@@ -411,7 +411,7 @@
       {
         "date": "2025-12-11",
         "count": 21,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2025-12-12",
@@ -1631,7 +1631,7 @@
       {
         "date": "2026-08-12",
         "count": 21,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-13",
@@ -1641,7 +1641,7 @@
       {
         "date": "2026-08-14",
         "count": 19,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-15",
@@ -1761,7 +1761,7 @@
       {
         "date": "2026-09-07",
         "count": 42,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-09-08",
@@ -1840,7 +1840,12 @@
       },
       {
         "date": "2026-09-23",
-        "count": 39,
+        "count": 89,
+        "level": 4
+      },
+      {
+        "date": "2026-09-24",
+        "count": 59,
         "level": 3
       }
     ]
@@ -1875,213 +1880,211 @@
     "twitter_username": null,
     "public_repos": 70,
     "public_gists": 0,
-    "followers": 58,
-    "following": 30,
+    "followers": 60,
+    "following": 32,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-09-11T01:52:48Z"
   },
   "activityFeed": [
     {
-      "id": "21899515053",
-      "type": "PushEvent",
+      "id": "21999883047",
+      "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T19:10:10Z",
+      "created_at": "2026-09-23T21:01:51Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 44290613873,
-        "ref": "refs/heads/main",
-        "head": "c40f75b3f1cf159555eb176a96c05c160c07a5be",
-        "before": "d54fac29a8fb9a4b72943a5299dc6ab91b61c39b"
+        "ref": "feat/issue-266-harness",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-266-harness",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "21892234427",
+      "id": "21997918614",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-23T20:36:01Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44399505302,
+        "ref": "refs/heads/main",
+        "head": "7da8b40184276c10da27423b784acbdd47636a72",
+        "before": "3ba9d9488aa8822c759afa53112416462472a46d"
+      }
+    },
+    {
+      "id": "21995654576",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-23T20:06:40Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44397245119,
+        "ref": "refs/heads/main",
+        "head": "5c17d824c0e5293d87d8c47dba3edd1e29265875",
+        "before": "299409711800b69f96ea79806b8f3fe86df59367"
+      }
+    },
+    {
+      "id": "21994868879",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-23T20:26:32Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44398781664,
+        "ref": "refs/heads/feat/issue-261-mcp-decoupling",
+        "head": "053975ef35863da81f6bea9e69f1674a54ba32d6",
+        "before": "ab57c9fd81dc3a91bc8f8f904f421cf15548dd8c"
+      }
+    },
+    {
+      "id": "21994525870",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-23T20:21:47Z",
+      "payload": {
+        "ref": "feat/issue-260-test-infra",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-260-test-infra",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "21993985625",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T20:45:12Z",
+      "created_at": "2026-09-23T19:45:56Z",
       "payload": {
-        "ref": "fix/ci-lockfile-sync",
+        "ref": "feat/issue-247-state-machine",
         "ref_type": "branch",
-        "full_ref": "refs/heads/fix/ci-lockfile-sync",
+        "full_ref": "refs/heads/feat/issue-247-state-machine",
         "pusher_type": "user"
       }
     },
     {
-      "id": "21890251253",
-      "type": "PushEvent",
+      "id": "21992227601",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T20:01:02Z",
+      "created_at": "2026-09-23T20:30:40Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 44294485331,
-        "ref": "refs/heads/main",
-        "head": "2ea42ab618736f154bb897d775ed017debdb2586",
-        "before": "d85c1f8e4c5afcd2acdd7ddaf9f24991858d5d16"
+        "ref": "feat/issue-262-local-task-state",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-262-local-task-state",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "21888244378",
-      "type": "PushEvent",
+      "id": "21991846700",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T19:18:37Z",
+      "created_at": "2026-09-23T19:45:56Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 44291270783,
-        "ref": "refs/heads/main",
-        "head": "0ddb98b214336707c7b3f2503f67c49304f07a3b",
-        "before": "d54fac29a8fb9a4b72943a5299dc6ab91b61c39b"
+        "ref": "feat/issue-249-worktree-isolation",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-249-worktree-isolation",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "21887831538",
+      "id": "21990609400",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-23T20:55:06Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44400912698,
+        "ref": "refs/heads/main",
+        "head": "10cbaea611c9d7e4bf138ffd04163b09ebcffa86",
+        "before": "e61dafe99a7cfdb4b8de61ae4133b6f8ba048212"
+      }
+    },
+    {
+      "id": "21989704555",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-23T19:17:18Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44393353172,
+        "ref": "refs/heads/main",
+        "head": "2d9798d7a6940c3e71627513c2a3be3d51fb508d",
+        "before": "87acfcbaac49b23a0f0c89103dfe830479878ee2"
+      }
+    },
+    {
+      "id": "21988233153",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-09-23T19:38:44Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 44395060067,
+        "ref": "refs/heads/main",
+        "head": "2005ffacb120b6892e209f88cfdc362fcf1ca2aa",
+        "before": "ed24280049440befcf5cdcbf342b6006e32a94d7"
+      }
+    },
+    {
+      "id": "21987879210",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T19:09:54Z",
+      "created_at": "2026-09-23T19:34:16Z",
       "payload": {
-        "ref": "feat/governance-baseline",
+        "ref": "feat/issue-249-worktree-isolation",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/governance-baseline",
+        "full_ref": "refs/heads/feat/issue-249-worktree-isolation",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "21885891525",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T20:38:36Z",
-      "payload": {
-        "ref": "fix/ci-lockfile-sync",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix/ci-lockfile-sync",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "21882349063",
+      "id": "21987826617",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T20:24:00Z",
+      "created_at": "2026-09-23T20:41:52Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 44296215902,
+        "push_id": 44399942330,
         "ref": "refs/heads/main",
-        "head": "c823e8b06af0bcbce336d661378c10194fe18bd9",
-        "before": "f5b7c3dad73dc7f70b22602a92b9522afdbaae9e"
+        "head": "e61dafe99a7cfdb4b8de61ae4133b6f8ba048212",
+        "before": "7da8b40184276c10da27423b784acbdd47636a72"
       }
     },
     {
-      "id": "21881250156",
+      "id": "21987587628",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T20:14:31Z",
+      "created_at": "2026-09-23T19:30:32Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 44295516678,
-        "ref": "refs/heads/feat/phase-2-mcp",
-        "head": "9da01ee5f6f86af42d7a4be6bdeee3cfa1bb01a2",
-        "before": "5d0a1ec6b72929b41f9756c2bd0673fdace5fd38"
-      }
-    },
-    {
-      "id": "21881015104",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T20:09:57Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 44295179762,
+        "push_id": 44394410931,
         "ref": "refs/heads/main",
-        "head": "88a2552e34ae132803daf88f9170f9e07bdeb346",
-        "before": "2ea42ab618736f154bb897d775ed017debdb2586"
+        "head": "ae3b6628f866b43def3affc3c600c048b9eab259",
+        "before": "888dd271efab91af7afc0b8828b42ea4ed93023b"
       }
     },
     {
-      "id": "21880133098",
+      "id": "21987066316",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T19:55:01Z",
+      "created_at": "2026-09-23T20:30:39Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 44294021095,
+        "push_id": 44399098158,
         "ref": "refs/heads/main",
-        "head": "d85c1f8e4c5afcd2acdd7ddaf9f24991858d5d16",
-        "before": "48643b369240c2d187aa96653f09dc1f87ee907c"
-      }
-    },
-    {
-      "id": "21877625441",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T20:16:12Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 44295643196,
-        "ref": "refs/heads/main",
-        "head": "f5b7c3dad73dc7f70b22602a92b9522afdbaae9e",
-        "before": "88a2552e34ae132803daf88f9170f9e07bdeb346"
-      }
-    },
-    {
-      "id": "21876212473",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T19:54:12Z",
-      "payload": {
-        "ref": "feat/phase-1-ci",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/phase-1-ci",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "21876009318",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T19:21:59Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 44291533952,
-        "ref": "refs/heads/main",
-        "head": "48643b369240c2d187aa96653f09dc1f87ee907c",
-        "before": "5dcd36b6d382120e96097646ccd3e4efd6a0862d"
-      }
-    },
-    {
-      "id": "21875549098",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T20:45:09Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 44297754978,
-        "ref": "refs/heads/main",
-        "head": "95bf6544b4d0e753c13472ced1d962a1195e0ebc",
-        "before": "c823e8b06af0bcbce336d661378c10194fe18bd9"
-      }
-    },
-    {
-      "id": "21874871574",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-09-22T19:16:48Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 44291129753,
-        "ref": "refs/heads/main",
-        "head": "d54fac29a8fb9a4b72943a5299dc6ab91b61c39b",
-        "before": "c40f75b3f1cf159555eb176a96c05c160c07a5be"
+        "head": "3ba9d9488aa8822c759afa53112416462472a46d",
+        "before": "9b402896d8fdfe4de8dc4fea207d3be00dc019ef"
       }
     }
   ],
   "recentStats": {
-    "commits": 1768,
-    "prs": 161,
-    "issues": 291
+    "commits": 1830,
+    "prs": 191,
+    "issues": 308
   }
 }
