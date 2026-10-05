@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-04T04:13:08.602Z",
+  "updatedAt": "2026-10-05T03:57:31.461Z",
   "contributions": {
-    "totalLastYear": 2171,
+    "totalLastYear": 2230,
     "days": [
       {
         "date": "2025-10-05",
@@ -1825,8 +1825,13 @@
       },
       {
         "date": "2026-10-04",
-        "count": 0,
-        "level": 0
+        "count": 41,
+        "level": 2
+      },
+      {
+        "date": "2026-10-05",
+        "count": 24,
+        "level": 2
       }
     ]
   },
@@ -1861,1110 +1866,211 @@
     "public_repos": 70,
     "public_gists": 0,
     "followers": 60,
-    "following": 33,
+    "following": 34,
     "created_at": "2023-12-12T15:29:11Z",
-    "updated_at": "2026-09-25T06:31:10Z"
+    "updated_at": "2026-10-04T20:17:38Z"
   },
   "activityFeed": [
     {
-      "id": "16297709836",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:54:32Z",
+      "id": "23016598538",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T21:20:38Z",
       "payload": {
-        "action": "labeled",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/9",
-          "id": 5681265298,
-          "node_id": "I_kwDOPi4Xf88AAAABUqE6kg",
-          "number": 9,
-          "title": "🎯 [Documentation] Conclusion & Future Work – Project Summary and Roadmap",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:54:30Z",
-          "updated_at": "2026-10-02T17:54:30Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Conclusion and Future Work** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nSummarize the overall project outcomes, reflect on what was achieved vs. the original objectives, and outline a concrete roadmap for future enhancements to Chatnalyxer.\n\n---\n\n## 📝 Content Required\n\n### 1. Conclusion\n\n#### 1.1 Project Summary\n- Recap of the problem statement: 70% of students miss deadlines due to WhatsApp information overload\n- Brief description of the solution built: AI-powered, multi-modal WhatsApp task extractor\n- Technologies used: Google Gemini AI, Azure Cognitive Services, Node.js, React Native, MongoDB\n\n#### 1.2 Objectives Achieved\n| Objective | Status |\n|-----------|--------|\n| Automatic deadline extraction from WhatsApp messages | ✅ Achieved |\n| Multi-modal support (text, image, PDF, voice) | ✅ Achieved |\n| Smart notification system with priority-based alarms | ✅ Achieved |\n| Privacy-first architecture (no message storage) | ✅ Achieved |\n| Cross-platform mobile app (iOS + Android) | ✅ Achieved |\n\n#### 1.3 Key Learnings\n- Challenges faced with WhatsApp session management (Baileys library)\n- AI prompt engineering for accurate date/time extraction\n- Balancing real-time processing with battery/performance on mobile\n\n#### 1.4 Impact Assessment\n- Potential to reduce missed academic deadlines significantly\n- Addresses a real, measurable pain point for students\n\n---\n\n### 2. Future Work\n\n#### 2.1 Short-Term Enhancements (3–6 months)\n- **Multi-platform messaging**: Extend support to Telegram and Microsoft Teams\n- **Collaborative task sharing**: Allow extracted tasks to be shared with study groups\n- **AI model fine-tuning**: Train a custom model on academic deadline language\n- **Offline mode**: Cache extracted tasks locally for offline access\n\n#### 2.2 Medium-Term Enhancements (6–12 months)\n- **Google Calendar / iCal sync**: Direct integration with external calendar apps\n- **LMS Integration**: Connect with Moodle, Google Classroom for academic context\n- **Analytics dashboard**: Personal productivity insights for students\n- **Multi-language NLP**: Improve support for regional languages\n\n#### 2.3 Long-Term Vision\n- **Institution-level deployment**: Scalable SaaS for colleges and universities\n- **Proactive AI assistant**: Suggest study schedules based on deadline density\n- **WhatsApp Business API migration**: Move from unofficial Baileys to official API for reliability\n- **Voice-based task entry**: Allow students to add tasks via voice commands\n\n#### 2.4 Open Research Areas\n- Improving accuracy for ambiguous temporal expressions in regional languages\n- Privacy-preserving federated learning for personalized task extraction\n\n---\n\n## 📊 Deliverables\n- [ ] Conclusion narrative (1–2 pages)\n- [ ] Objectives achievement table\n- [ ] Future work roadmap (with timeline estimates)\n- [ ] Project impact statement\n\n---\n\n## 🔗 Related Sections\n- Results Analysis (#5)\n- Testing (#6)\n- Deployment (#8)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "label": {
-          "id": 9157947109,
-          "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-          "name": "documentation",
-          "color": "0075ca",
-          "default": true,
-          "description": "Improvements or additions to documentation",
-          "archived_at": null,
-          "archived_by": null
-        },
-        "labels": [
-          {
-            "id": 9157947109,
-            "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-            "name": "documentation",
-            "color": "0075ca",
-            "default": true,
-            "description": "Improvements or additions to documentation",
-            "archived_at": null,
-            "archived_by": null
-          }
-        ]
+        "repository_id": 1339909532,
+        "push_id": 45444846717,
+        "ref": "refs/heads/main",
+        "head": "d0214211120398809da8b6a8bc4260c89451331b",
+        "before": "6f6bfbc4f7038e897ec1acbca76d78b1c46bb2df"
       }
     },
     {
-      "id": "16297709639",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:54:32Z",
+      "id": "23014523698",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T20:40:48Z",
       "payload": {
-        "action": "opened",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/9",
-          "id": 5681265298,
-          "node_id": "I_kwDOPi4Xf88AAAABUqE6kg",
-          "number": 9,
-          "title": "🎯 [Documentation] Conclusion & Future Work – Project Summary and Roadmap",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:54:30Z",
-          "updated_at": "2026-10-02T17:54:30Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Conclusion and Future Work** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nSummarize the overall project outcomes, reflect on what was achieved vs. the original objectives, and outline a concrete roadmap for future enhancements to Chatnalyxer.\n\n---\n\n## 📝 Content Required\n\n### 1. Conclusion\n\n#### 1.1 Project Summary\n- Recap of the problem statement: 70% of students miss deadlines due to WhatsApp information overload\n- Brief description of the solution built: AI-powered, multi-modal WhatsApp task extractor\n- Technologies used: Google Gemini AI, Azure Cognitive Services, Node.js, React Native, MongoDB\n\n#### 1.2 Objectives Achieved\n| Objective | Status |\n|-----------|--------|\n| Automatic deadline extraction from WhatsApp messages | ✅ Achieved |\n| Multi-modal support (text, image, PDF, voice) | ✅ Achieved |\n| Smart notification system with priority-based alarms | ✅ Achieved |\n| Privacy-first architecture (no message storage) | ✅ Achieved |\n| Cross-platform mobile app (iOS + Android) | ✅ Achieved |\n\n#### 1.3 Key Learnings\n- Challenges faced with WhatsApp session management (Baileys library)\n- AI prompt engineering for accurate date/time extraction\n- Balancing real-time processing with battery/performance on mobile\n\n#### 1.4 Impact Assessment\n- Potential to reduce missed academic deadlines significantly\n- Addresses a real, measurable pain point for students\n\n---\n\n### 2. Future Work\n\n#### 2.1 Short-Term Enhancements (3–6 months)\n- **Multi-platform messaging**: Extend support to Telegram and Microsoft Teams\n- **Collaborative task sharing**: Allow extracted tasks to be shared with study groups\n- **AI model fine-tuning**: Train a custom model on academic deadline language\n- **Offline mode**: Cache extracted tasks locally for offline access\n\n#### 2.2 Medium-Term Enhancements (6–12 months)\n- **Google Calendar / iCal sync**: Direct integration with external calendar apps\n- **LMS Integration**: Connect with Moodle, Google Classroom for academic context\n- **Analytics dashboard**: Personal productivity insights for students\n- **Multi-language NLP**: Improve support for regional languages\n\n#### 2.3 Long-Term Vision\n- **Institution-level deployment**: Scalable SaaS for colleges and universities\n- **Proactive AI assistant**: Suggest study schedules based on deadline density\n- **WhatsApp Business API migration**: Move from unofficial Baileys to official API for reliability\n- **Voice-based task entry**: Allow students to add tasks via voice commands\n\n#### 2.4 Open Research Areas\n- Improving accuracy for ambiguous temporal expressions in regional languages\n- Privacy-preserving federated learning for personalized task extraction\n\n---\n\n## 📊 Deliverables\n- [ ] Conclusion narrative (1–2 pages)\n- [ ] Objectives achievement table\n- [ ] Future work roadmap (with timeline estimates)\n- [ ] Project impact statement\n\n---\n\n## 🔗 Related Sections\n- Results Analysis (#5)\n- Testing (#6)\n- Deployment (#8)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/9/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 45442568631,
+        "ref": "refs/heads/main",
+        "head": "0787dfbe766de1d77c2a81383e942e7b35b3da5c",
+        "before": "75e022b3dbd80709d1a13e1ff4ec3e15db4357e6"
       }
     },
     {
-      "id": "16297689359",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:54:12Z",
+      "id": "23014214419",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T20:55:51Z",
       "payload": {
-        "action": "labeled",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/8",
-          "id": 5681261765,
-          "node_id": "I_kwDOPi4Xf88AAAABUqEsxQ",
-          "number": 8,
-          "title": "🚀 [Documentation] Deployment – Production Setup, Docker & EAS Build Guide",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:54:11Z",
-          "updated_at": "2026-10-02T17:54:11Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Deployment** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nDocument the complete deployment pipeline and production environment setup for Chatnalyxer — covering backend infrastructure, mobile app publishing, and third-party service configuration.\n\n---\n\n## 📝 Content Required\n\n### 1. Deployment Architecture Overview\n- Diagram of the production environment\n- Components: Backend (Node.js), Database (MongoDB), Mobile App (React Native/Expo), AI Services (Google Gemini, Azure)\n\n### 2. Backend Deployment\n- **Docker Deployment** (via docker-compose.yml):\n  - Service definitions: chatnalyxer-backend, admin-whatsapp-otp\n  - Environment variables and secrets management\n  - Volume mounts for WhatsApp session persistence\n  - Docker network configuration\n- **Cloud Hosting**: Recommended platforms (AWS EC2, DigitalOcean, Railway, Render)\n- NGINX reverse proxy configuration\n- SSL/TLS certificate setup (Let's Encrypt)\n\n### 3. Database Deployment\n- MongoDB Atlas (cloud) setup vs. self-hosted\n- Connection string configuration\n- Network access and IP whitelisting\n\n### 4. Mobile App Deployment\n- **Expo Application Services (EAS)** — from eas.json:\n  - Development build configuration\n  - Preview / production profiles\n  -  commands for iOS and Android\n  -  for App Store and Google Play\n- Environment variable injection for production builds\n\n### 5. Third-Party Service Configuration\n- Google Gemini API key setup and quotas\n- Azure Cognitive Services provisioning:\n  - Vision API endpoint\n  - Document Intelligence endpoint\n  - Speech Services endpoint\n- WhatsApp session storage configuration\n\n### 6. CI/CD Pipeline (if applicable)\n- GitHub Actions workflow overview (from .github/)\n- Automated build and test on push\n- Deployment triggers\n\n### 7. Post-Deployment Checklist\n- Smoke testing after deployment\n- Session connectivity verification\n- Notification service validation\n\n---\n\n## 📊 Deliverables\n- [ ] Deployment architecture diagram\n- [ ] Step-by-step backend deployment guide\n- [ ] Mobile app release checklist (iOS + Android)\n- [ ] Environment variable template (.env.example)\n- [ ] Post-deployment verification checklist\n\n---\n\n## 🔗 Related Sections\n- Maintenance of the System (#7)\n- Implementation (#)\n- System Design (#)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "label": {
-          "id": 9157947109,
-          "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-          "name": "documentation",
-          "color": "0075ca",
-          "default": true,
-          "description": "Improvements or additions to documentation",
-          "archived_at": null,
-          "archived_by": null
-        },
-        "labels": [
-          {
-            "id": 9157947109,
-            "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-            "name": "documentation",
-            "color": "0075ca",
-            "default": true,
-            "description": "Improvements or additions to documentation",
-            "archived_at": null,
-            "archived_by": null
-          }
-        ]
+        "repository_id": 1339909532,
+        "push_id": 45443422660,
+        "ref": "refs/heads/main",
+        "head": "6f6bfbc4f7038e897ec1acbca76d78b1c46bb2df",
+        "before": "0787dfbe766de1d77c2a81383e942e7b35b3da5c"
       }
     },
     {
-      "id": "16297689065",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:54:12Z",
+      "id": "23011835928",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T19:49:26Z",
       "payload": {
-        "action": "opened",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/8",
-          "id": 5681261765,
-          "node_id": "I_kwDOPi4Xf88AAAABUqEsxQ",
-          "number": 8,
-          "title": "🚀 [Documentation] Deployment – Production Setup, Docker & EAS Build Guide",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:54:11Z",
-          "updated_at": "2026-10-02T17:54:11Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Deployment** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nDocument the complete deployment pipeline and production environment setup for Chatnalyxer — covering backend infrastructure, mobile app publishing, and third-party service configuration.\n\n---\n\n## 📝 Content Required\n\n### 1. Deployment Architecture Overview\n- Diagram of the production environment\n- Components: Backend (Node.js), Database (MongoDB), Mobile App (React Native/Expo), AI Services (Google Gemini, Azure)\n\n### 2. Backend Deployment\n- **Docker Deployment** (via docker-compose.yml):\n  - Service definitions: chatnalyxer-backend, admin-whatsapp-otp\n  - Environment variables and secrets management\n  - Volume mounts for WhatsApp session persistence\n  - Docker network configuration\n- **Cloud Hosting**: Recommended platforms (AWS EC2, DigitalOcean, Railway, Render)\n- NGINX reverse proxy configuration\n- SSL/TLS certificate setup (Let's Encrypt)\n\n### 3. Database Deployment\n- MongoDB Atlas (cloud) setup vs. self-hosted\n- Connection string configuration\n- Network access and IP whitelisting\n\n### 4. Mobile App Deployment\n- **Expo Application Services (EAS)** — from eas.json:\n  - Development build configuration\n  - Preview / production profiles\n  -  commands for iOS and Android\n  -  for App Store and Google Play\n- Environment variable injection for production builds\n\n### 5. Third-Party Service Configuration\n- Google Gemini API key setup and quotas\n- Azure Cognitive Services provisioning:\n  - Vision API endpoint\n  - Document Intelligence endpoint\n  - Speech Services endpoint\n- WhatsApp session storage configuration\n\n### 6. CI/CD Pipeline (if applicable)\n- GitHub Actions workflow overview (from .github/)\n- Automated build and test on push\n- Deployment triggers\n\n### 7. Post-Deployment Checklist\n- Smoke testing after deployment\n- Session connectivity verification\n- Notification service validation\n\n---\n\n## 📊 Deliverables\n- [ ] Deployment architecture diagram\n- [ ] Step-by-step backend deployment guide\n- [ ] Mobile app release checklist (iOS + Android)\n- [ ] Environment variable template (.env.example)\n- [ ] Post-deployment verification checklist\n\n---\n\n## 🔗 Related Sections\n- Maintenance of the System (#7)\n- Implementation (#)\n- System Design (#)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/8/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 45439555998,
+        "ref": "refs/heads/main",
+        "head": "2990666d775053e88223fd951b49b306f883581c",
+        "before": "af6432d4583e6cf823e41b058ab869f171e872cf"
       }
     },
     {
-      "id": "16297673085",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:53:57Z",
+      "id": "23011177942",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T19:56:42Z",
       "payload": {
-        "action": "labeled",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/7",
-          "id": 5681258276,
-          "node_id": "I_kwDOPi4Xf88AAAABUqEfJA",
-          "number": 7,
-          "title": "🔧 [Documentation] Maintenance of the System – Operational & Support Guide",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:53:55Z",
-          "updated_at": "2026-10-02T17:53:55Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Maintenance of the System** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nDocument all procedures, strategies, and guidelines required to keep Chatnalyxer operational, up-to-date, and secure after deployment — covering both corrective and preventive maintenance.\n\n---\n\n## 📝 Content Required\n\n### 1. Types of Maintenance\n| Type | Description |\n|------|-------------|\n| **Corrective** | Bug fixes, crash recovery, API failure handling |\n| **Adaptive** | Updates for WhatsApp API changes (Baileys library), Azure SDK upgrades |\n| **Perfective** | Performance tuning, AI model prompt optimization |\n| **Preventive** | Security patches, dependency updates, session cleanup |\n\n### 2. Backend Maintenance\n- Monitoring active WhatsApp sessions (Node.js backend)\n- MongoDB database maintenance:\n  - Regular backups\n  - Index optimization\n  - Stale session cleanup scripts\n- API key rotation for: Google Gemini, Azure Vision, Azure Speech, Azure Document Intelligence\n- Docker container health checks and restart policies (from )\n\n### 3. Mobile App Maintenance\n- React Native / Expo update procedures\n- OTA (Over-The-Air) updates via EAS (from )\n- Push notification service (Expo Notifications) maintenance\n- App store submission for updates (iOS / Android)\n\n### 4. Dependency Management\n- Regular # npm audit report\n\naxios  1.0.0 - 1.19.0\nSeverity: high\nAxios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF - https://github.com/advisories/GHSA-3p68-rc4w-qgx5\nAxios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy - https://github.com/advisories/GHSA-w9j2-pvgh-6h63\nAxios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0 - https://github.com/advisories/GHSA-pmwg-cvhr-8vh7\nAxios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver` - https://github.com/advisories/GHSA-3w6x-2g7m-8v23\nAxios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams - https://github.com/advisories/GHSA-xhjh-pmcv-23jw\nAxios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream - https://github.com/advisories/GHSA-445q-vr5w-6q77\nAxios: no_proxy bypass via IP alias allows SSRF - https://github.com/advisories/GHSA-m7pr-hjqh-92cm\nAxios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0 - https://github.com/advisories/GHSA-5c9x-8gcm-mpgx\nAxios: HTTP adapter streamed responses bypass maxContentLength - https://github.com/advisories/GHSA-vf2m-468p-8v99\nAxios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking - https://github.com/advisories/GHSA-pf86-5x62-jrwf\nAxios: Header Injection via Prototype Pollution - https://github.com/advisories/GHSA-6chq-wfr3-2hj9\nAxios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion - https://github.com/advisories/GHSA-xx6v-rp6x-q39c\nAxios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig - https://github.com/advisories/GHSA-43fc-jf86-j433\nAxios has prototype pollution read-side gadgets in HTTP adapter that allow credential injection and request hijacking - https://github.com/advisories/GHSA-q8qp-cvcw-x6jj\nAxios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain - https://github.com/advisories/GHSA-fvcv-3m26-pcqx\nAxios: unbounded recursion in toFormData causes DoS via deeply nested request data - https://github.com/advisories/GHSA-62hf-57xw-28j9\nAxios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection - https://github.com/advisories/GHSA-hfxv-24rg-xrqf\nAllocation of Resources Without Limits or Throttling in Axios - https://github.com/advisories/GHSA-777c-7fjr-54vf\nAxios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter - https://github.com/advisories/GHSA-p92q-9vqr-4j8v\nAxios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection - https://github.com/advisories/GHSA-j5f8-grm9-p9fc\naxios Vulnerable to Credential Theft and Response Hijacking via Prototype Pollution Gadget in Config Merge - https://github.com/advisories/GHSA-3g43-6gmg-66jw\naxios Vulnerable to Full Man-in-the-Middle via Prototype Pollution Gadget in `config.proxy` - https://github.com/advisories/GHSA-35jp-ww65-95wh\naxios has DoS & Header Injection via Prototype Pollution Read-Side Gadgets in axios merge functions - https://github.com/advisories/GHSA-898c-q2cr-xwhg\nAxios: Prototype pollution gadgets can alter axios request construction - https://github.com/advisories/GHSA-mmx7-hfxf-jppx\nAxios: Deep formToJSON Key Recursion Can Cause Denial of Service - https://github.com/advisories/GHSA-pmv8-rq9r-6j72\nAxios: HTTP/2 streamed uploads bypass `maxBodyLength` - https://github.com/advisories/GHSA-mwf2-3pr3-8698\nAxios: Nested axios option objects can consume polluted prototype values - https://github.com/advisories/GHSA-7q8q-rj6j-mhjq\nAxios: Fetch adapter `ReadableStream` uploads bypass `maxBodyLength` - https://github.com/advisories/GHSA-jqh4-m9w3-8hp9\nAxios: Excessive recursion in formDataToJSON can cause denial of service - https://github.com/advisories/GHSA-42h9-826w-cgv3\nAxios: Prototype pollution gadget in fetch adapter can alter outbound requests - https://github.com/advisories/GHSA-vh66-26gq-q6x8\nAxios: Prototype-Pollution Gadget in the Default Instance Allows Inherited Object.prototype.method to Override HTTP Method - https://github.com/advisories/GHSA-9fr6-4gfg-395g\nAxios: HTTP/2 adapter bypasses configured DNS lookup and proxy controls - https://github.com/advisories/GHSA-3pq3-5fj3-cg6v\nAxios: Denial of Service via Unhandled 'error' Event in HTTP/2 ClientHttp2Session Initialization - https://github.com/advisories/GHSA-542g-h47m-68v8\nAxios: Header Injection via Inherited headers After Minimal Interceptor - https://github.com/advisories/GHSA-j8rh-479h-cp32\nAxios: Fetch Adapter Header Injection via Inherited FormData getHeaders - https://github.com/advisories/GHSA-4hqw-qxg8-jxx2\nfix available via `npm audit fix`\nnode_modules/axios\n\nfollow-redirects  <=1.15.11\nSeverity: moderate\nfollow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets - https://github.com/advisories/GHSA-r4q5-vmmm-2653\nfix available via `npm audit fix`\nnode_modules/follow-redirects\n\nform-data  4.0.0 - 4.0.5\nSeverity: high\nform-data: CRLF injection in form-data via unescaped multipart field names and filenames - https://github.com/advisories/GHSA-hmw2-7cc7-3qxx\nfix available via `npm audit fix`\nnode_modules/form-data\n\nlodash  <=4.17.23\nSeverity: high\nlodash vulnerable to Code Injection via `_.template` imports key names - https://github.com/advisories/GHSA-r5fr-rjxr-66jc\nlodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit` - https://github.com/advisories/GHSA-f23m-r3pf-42rh\nLodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions - https://github.com/advisories/GHSA-xxjr-mmjv-4gpg\nfix available via `npm audit fix`\nnode_modules/lodash\n\nshell-quote  <=1.8.4\nSeverity: critical\nshell-quote quote() does not escape newlines in object .op values - https://github.com/advisories/GHSA-w7jw-789q-3m8p\nshell-quote: Quadratic-complexity Denial of Service in `parse()` (CWE-407) - https://github.com/advisories/GHSA-395f-4hp3-45gv\nfix available via `npm audit fix`\nnode_modules/shell-quote\n\n5 vulnerabilities (1 moderate, 3 high, 1 critical)\n\nTo address all issues, run:\n  npm audit fix and  checks\n- Updating Baileys (WhatsApp library) when WhatsApp protocol changes\n- Managing breaking changes in third-party SDKs\n\n### 5. Logging & Monitoring\n- Application log review procedures\n- Error alerting setup recommendations\n- Performance monitoring dashboards\n\n### 6. User Support\n- Admin portal (admin-whatsapp-otp) maintenance\n- Handling user session issues\n- FAQ and troubleshooting guide for end users\n\n---\n\n## 📊 Deliverables\n- [ ] Maintenance schedule/calendar (weekly, monthly, yearly tasks)\n- [ ] Runbook for common operational issues\n- [ ] Dependency update checklist\n- [ ] Backup and recovery procedure document\n\n---\n\n## 🔗 Related Sections\n- Deployment (#)\n- Testing (#6)\n- System Design (#)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "label": {
-          "id": 9157947109,
-          "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-          "name": "documentation",
-          "color": "0075ca",
-          "default": true,
-          "description": "Improvements or additions to documentation",
-          "archived_at": null,
-          "archived_by": null
-        },
-        "labels": [
-          {
-            "id": 9157947109,
-            "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-            "name": "documentation",
-            "color": "0075ca",
-            "default": true,
-            "description": "Improvements or additions to documentation",
-            "archived_at": null,
-            "archived_by": null
-          }
-        ]
+        "repository_id": 1339909532,
+        "push_id": 45439977870,
+        "ref": "refs/heads/main",
+        "head": "e09cb1c0630b1c78f7b19051fe31f68bf8430209",
+        "before": "e27bf60d73b03f63a49fb1ec2153c3fd11719c3f"
       }
     },
     {
-      "id": "16297672919",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:53:57Z",
+      "id": "23011111958",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T19:55:27Z",
       "payload": {
-        "action": "opened",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/7",
-          "id": 5681258276,
-          "node_id": "I_kwDOPi4Xf88AAAABUqEfJA",
-          "number": 7,
-          "title": "🔧 [Documentation] Maintenance of the System – Operational & Support Guide",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:53:55Z",
-          "updated_at": "2026-10-02T17:53:55Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Maintenance of the System** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nDocument all procedures, strategies, and guidelines required to keep Chatnalyxer operational, up-to-date, and secure after deployment — covering both corrective and preventive maintenance.\n\n---\n\n## 📝 Content Required\n\n### 1. Types of Maintenance\n| Type | Description |\n|------|-------------|\n| **Corrective** | Bug fixes, crash recovery, API failure handling |\n| **Adaptive** | Updates for WhatsApp API changes (Baileys library), Azure SDK upgrades |\n| **Perfective** | Performance tuning, AI model prompt optimization |\n| **Preventive** | Security patches, dependency updates, session cleanup |\n\n### 2. Backend Maintenance\n- Monitoring active WhatsApp sessions (Node.js backend)\n- MongoDB database maintenance:\n  - Regular backups\n  - Index optimization\n  - Stale session cleanup scripts\n- API key rotation for: Google Gemini, Azure Vision, Azure Speech, Azure Document Intelligence\n- Docker container health checks and restart policies (from )\n\n### 3. Mobile App Maintenance\n- React Native / Expo update procedures\n- OTA (Over-The-Air) updates via EAS (from )\n- Push notification service (Expo Notifications) maintenance\n- App store submission for updates (iOS / Android)\n\n### 4. Dependency Management\n- Regular # npm audit report\n\naxios  1.0.0 - 1.19.0\nSeverity: high\nAxios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF - https://github.com/advisories/GHSA-3p68-rc4w-qgx5\nAxios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy - https://github.com/advisories/GHSA-w9j2-pvgh-6h63\nAxios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0 - https://github.com/advisories/GHSA-pmwg-cvhr-8vh7\nAxios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver` - https://github.com/advisories/GHSA-3w6x-2g7m-8v23\nAxios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams - https://github.com/advisories/GHSA-xhjh-pmcv-23jw\nAxios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream - https://github.com/advisories/GHSA-445q-vr5w-6q77\nAxios: no_proxy bypass via IP alias allows SSRF - https://github.com/advisories/GHSA-m7pr-hjqh-92cm\nAxios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0 - https://github.com/advisories/GHSA-5c9x-8gcm-mpgx\nAxios: HTTP adapter streamed responses bypass maxContentLength - https://github.com/advisories/GHSA-vf2m-468p-8v99\nAxios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking - https://github.com/advisories/GHSA-pf86-5x62-jrwf\nAxios: Header Injection via Prototype Pollution - https://github.com/advisories/GHSA-6chq-wfr3-2hj9\nAxios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion - https://github.com/advisories/GHSA-xx6v-rp6x-q39c\nAxios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig - https://github.com/advisories/GHSA-43fc-jf86-j433\nAxios has prototype pollution read-side gadgets in HTTP adapter that allow credential injection and request hijacking - https://github.com/advisories/GHSA-q8qp-cvcw-x6jj\nAxios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain - https://github.com/advisories/GHSA-fvcv-3m26-pcqx\nAxios: unbounded recursion in toFormData causes DoS via deeply nested request data - https://github.com/advisories/GHSA-62hf-57xw-28j9\nAxios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection - https://github.com/advisories/GHSA-hfxv-24rg-xrqf\nAllocation of Resources Without Limits or Throttling in Axios - https://github.com/advisories/GHSA-777c-7fjr-54vf\nAxios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter - https://github.com/advisories/GHSA-p92q-9vqr-4j8v\nAxios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection - https://github.com/advisories/GHSA-j5f8-grm9-p9fc\naxios Vulnerable to Credential Theft and Response Hijacking via Prototype Pollution Gadget in Config Merge - https://github.com/advisories/GHSA-3g43-6gmg-66jw\naxios Vulnerable to Full Man-in-the-Middle via Prototype Pollution Gadget in `config.proxy` - https://github.com/advisories/GHSA-35jp-ww65-95wh\naxios has DoS & Header Injection via Prototype Pollution Read-Side Gadgets in axios merge functions - https://github.com/advisories/GHSA-898c-q2cr-xwhg\nAxios: Prototype pollution gadgets can alter axios request construction - https://github.com/advisories/GHSA-mmx7-hfxf-jppx\nAxios: Deep formToJSON Key Recursion Can Cause Denial of Service - https://github.com/advisories/GHSA-pmv8-rq9r-6j72\nAxios: HTTP/2 streamed uploads bypass `maxBodyLength` - https://github.com/advisories/GHSA-mwf2-3pr3-8698\nAxios: Nested axios option objects can consume polluted prototype values - https://github.com/advisories/GHSA-7q8q-rj6j-mhjq\nAxios: Fetch adapter `ReadableStream` uploads bypass `maxBodyLength` - https://github.com/advisories/GHSA-jqh4-m9w3-8hp9\nAxios: Excessive recursion in formDataToJSON can cause denial of service - https://github.com/advisories/GHSA-42h9-826w-cgv3\nAxios: Prototype pollution gadget in fetch adapter can alter outbound requests - https://github.com/advisories/GHSA-vh66-26gq-q6x8\nAxios: Prototype-Pollution Gadget in the Default Instance Allows Inherited Object.prototype.method to Override HTTP Method - https://github.com/advisories/GHSA-9fr6-4gfg-395g\nAxios: HTTP/2 adapter bypasses configured DNS lookup and proxy controls - https://github.com/advisories/GHSA-3pq3-5fj3-cg6v\nAxios: Denial of Service via Unhandled 'error' Event in HTTP/2 ClientHttp2Session Initialization - https://github.com/advisories/GHSA-542g-h47m-68v8\nAxios: Header Injection via Inherited headers After Minimal Interceptor - https://github.com/advisories/GHSA-j8rh-479h-cp32\nAxios: Fetch Adapter Header Injection via Inherited FormData getHeaders - https://github.com/advisories/GHSA-4hqw-qxg8-jxx2\nfix available via `npm audit fix`\nnode_modules/axios\n\nfollow-redirects  <=1.15.11\nSeverity: moderate\nfollow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets - https://github.com/advisories/GHSA-r4q5-vmmm-2653\nfix available via `npm audit fix`\nnode_modules/follow-redirects\n\nform-data  4.0.0 - 4.0.5\nSeverity: high\nform-data: CRLF injection in form-data via unescaped multipart field names and filenames - https://github.com/advisories/GHSA-hmw2-7cc7-3qxx\nfix available via `npm audit fix`\nnode_modules/form-data\n\nlodash  <=4.17.23\nSeverity: high\nlodash vulnerable to Code Injection via `_.template` imports key names - https://github.com/advisories/GHSA-r5fr-rjxr-66jc\nlodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit` - https://github.com/advisories/GHSA-f23m-r3pf-42rh\nLodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions - https://github.com/advisories/GHSA-xxjr-mmjv-4gpg\nfix available via `npm audit fix`\nnode_modules/lodash\n\nshell-quote  <=1.8.4\nSeverity: critical\nshell-quote quote() does not escape newlines in object .op values - https://github.com/advisories/GHSA-w7jw-789q-3m8p\nshell-quote: Quadratic-complexity Denial of Service in `parse()` (CWE-407) - https://github.com/advisories/GHSA-395f-4hp3-45gv\nfix available via `npm audit fix`\nnode_modules/shell-quote\n\n5 vulnerabilities (1 moderate, 3 high, 1 critical)\n\nTo address all issues, run:\n  npm audit fix and  checks\n- Updating Baileys (WhatsApp library) when WhatsApp protocol changes\n- Managing breaking changes in third-party SDKs\n\n### 5. Logging & Monitoring\n- Application log review procedures\n- Error alerting setup recommendations\n- Performance monitoring dashboards\n\n### 6. User Support\n- Admin portal (admin-whatsapp-otp) maintenance\n- Handling user session issues\n- FAQ and troubleshooting guide for end users\n\n---\n\n## 📊 Deliverables\n- [ ] Maintenance schedule/calendar (weekly, monthly, yearly tasks)\n- [ ] Runbook for common operational issues\n- [ ] Dependency update checklist\n- [ ] Backup and recovery procedure document\n\n---\n\n## 🔗 Related Sections\n- Deployment (#)\n- Testing (#6)\n- System Design (#)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/7/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        }
+        "ref": "Rahul-pamula-patch-1",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/Rahul-pamula-patch-1",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "16297653325",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:53:39Z",
+      "id": "23005665223",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T18:08:57Z",
       "payload": {
-        "action": "labeled",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/6",
-          "id": 5681254773,
-          "node_id": "I_kwDOPi4Xf88AAAABUqERdQ",
-          "number": 6,
-          "title": "🧪 [Documentation] Testing – Unit, Integration & End-to-End Test Documentation",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:53:37Z",
-          "updated_at": "2026-10-02T17:53:37Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Testing** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nComprehensively document all testing strategies, test cases, tools, and outcomes used to validate the correctness, reliability, and security of Chatnalyxer across its full stack (backend, mobile app, AI pipeline, and third-party integrations).\n\n---\n\n## 📝 Content Required\n\n### 1. Testing Strategy Overview\n- Define the testing pyramid used: Unit → Integration → End-to-End\n- Tools used per layer (e.g., Jest, pytest, Postman, Detox, etc.)\n\n### 2. Unit Testing\n- Backend API unit tests (Node.js / Express routes, controllers)\n- AI extraction function tests (mocking Gemini API responses)\n- Utility function tests (date parsing, priority classification)\n- Coverage report summary\n\n### 3. Integration Testing\n- WhatsApp session integration (Baileys library) test cases\n- Azure service integration tests:\n  - Azure Vision API (image OCR)\n  - Azure Document Intelligence (PDF parsing)\n  - Azure Cognitive Speech (voice transcription)\n- Database (MongoDB) CRUD operation tests\n\n### 4. End-to-End (E2E) Testing\n- Complete flow: WhatsApp message → AI extraction → notification delivery\n- Mobile app E2E scenarios:\n  - User login via WhatsApp OTP\n  - Task list display after extraction\n  - Calendar view and event creation\n  - Notification trigger and acknowledgment\n\n### 5. Security Testing\n- JWT authentication validation\n- Session token expiry and refresh testing\n- WhatsApp session isolation between users\n\n### 6. Test Results Summary\n- Total test cases: Passed / Failed / Skipped\n- Critical bugs found and resolved during testing\n\n---\n\n## 📊 Deliverables\n- [ ] Test plan document\n- [ ] Test case table (ID, description, input, expected output, result)\n- [ ] Coverage report screenshot/summary\n- [ ] Bug log with resolution status\n\n---\n\n## 🔗 Related Sections\n- Results Analysis (#5)\n- Implementation (#)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "label": {
-          "id": 9157947109,
-          "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-          "name": "documentation",
-          "color": "0075ca",
-          "default": true,
-          "description": "Improvements or additions to documentation",
-          "archived_at": null,
-          "archived_by": null
-        },
-        "labels": [
-          {
-            "id": 9157947109,
-            "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-            "name": "documentation",
-            "color": "0075ca",
-            "default": true,
-            "description": "Improvements or additions to documentation",
-            "archived_at": null,
-            "archived_by": null
-          }
-        ]
+        "repository_id": 1339909532,
+        "push_id": 45433542827,
+        "ref": "refs/heads/main",
+        "head": "ac7df20e0f73d8f91fc8b86196a8523e863672d7",
+        "before": "b24e80b30affabbab36658de517f9b47e01ac217"
       }
     },
     {
-      "id": "16297653228",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:53:39Z",
+      "id": "23005453713",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T17:47:49Z",
       "payload": {
-        "action": "opened",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/6",
-          "id": 5681254773,
-          "node_id": "I_kwDOPi4Xf88AAAABUqERdQ",
-          "number": 6,
-          "title": "🧪 [Documentation] Testing – Unit, Integration & End-to-End Test Documentation",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:53:37Z",
-          "updated_at": "2026-10-02T17:53:37Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Testing** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nComprehensively document all testing strategies, test cases, tools, and outcomes used to validate the correctness, reliability, and security of Chatnalyxer across its full stack (backend, mobile app, AI pipeline, and third-party integrations).\n\n---\n\n## 📝 Content Required\n\n### 1. Testing Strategy Overview\n- Define the testing pyramid used: Unit → Integration → End-to-End\n- Tools used per layer (e.g., Jest, pytest, Postman, Detox, etc.)\n\n### 2. Unit Testing\n- Backend API unit tests (Node.js / Express routes, controllers)\n- AI extraction function tests (mocking Gemini API responses)\n- Utility function tests (date parsing, priority classification)\n- Coverage report summary\n\n### 3. Integration Testing\n- WhatsApp session integration (Baileys library) test cases\n- Azure service integration tests:\n  - Azure Vision API (image OCR)\n  - Azure Document Intelligence (PDF parsing)\n  - Azure Cognitive Speech (voice transcription)\n- Database (MongoDB) CRUD operation tests\n\n### 4. End-to-End (E2E) Testing\n- Complete flow: WhatsApp message → AI extraction → notification delivery\n- Mobile app E2E scenarios:\n  - User login via WhatsApp OTP\n  - Task list display after extraction\n  - Calendar view and event creation\n  - Notification trigger and acknowledgment\n\n### 5. Security Testing\n- JWT authentication validation\n- Session token expiry and refresh testing\n- WhatsApp session isolation between users\n\n### 6. Test Results Summary\n- Total test cases: Passed / Failed / Skipped\n- Critical bugs found and resolved during testing\n\n---\n\n## 📊 Deliverables\n- [ ] Test plan document\n- [ ] Test case table (ID, description, input, expected output, result)\n- [ ] Coverage report screenshot/summary\n- [ ] Bug log with resolution status\n\n---\n\n## 🔗 Related Sections\n- Results Analysis (#5)\n- Implementation (#)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/6/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 45432254787,
+        "ref": "refs/heads/main",
+        "head": "5ffea2e421d7428cb9b9a8b476aaf2f2d5938c14",
+        "before": "6b0b42e6e96ad7680e50188299395ae84ca6b0f4"
       }
     },
     {
-      "id": "16297634782",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:53:21Z",
+      "id": "23005261379",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T18:01:23Z",
       "payload": {
-        "action": "labeled",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/5",
-          "id": 5681251567,
-          "node_id": "I_kwDOPi4Xf88AAAABUqEE7w",
-          "number": 5,
-          "title": "📊 [Documentation] Results Analysis – Performance Metrics & AI Accuracy Report",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:53:19Z",
-          "updated_at": "2026-10-02T17:53:19Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Results Analysis** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nDocument and present the quantitative and qualitative results obtained from running Chatnalyxer in a real-world student environment, providing evidence of its effectiveness as an AI-powered WhatsApp task extractor.\n\n---\n\n## 📝 Content Required\n\n### 1. AI Extraction Accuracy\n- Accuracy rate of Google Gemini AI in identifying deadline-related messages\n- Precision and recall metrics for task extraction across:\n  - Text messages\n  - Image-based messages (Azure Vision OCR)\n  - PDF documents (Azure Document Intelligence)\n  - Voice messages (Azure Cognitive Speech transcription)\n\n### 2. Performance Benchmarks\n- Average response time for message processing (end-to-end latency)\n- Backend API response times under normal and peak load\n- Mobile app UI rendering performance (React Native)\n\n### 3. Notification Delivery Analysis\n- Notification delivery success rate\n- Snooze/acknowledge interaction rates\n- Alarm reliability for high-priority deadlines\n\n### 4. User Study Results (if applicable)\n- Reduction in missed deadlines reported by beta users\n- User satisfaction survey scores\n- Comparison: before vs. after Chatnalyxer usage\n\n### 5. Comparative Analysis\n- Compare Chatnalyxer's accuracy with baseline NLP approaches\n- Discuss limitations observed during testing\n\n---\n\n## 📊 Deliverables\n- [ ] Results summary table (metrics, values, benchmarks)\n- [ ] Graphs/charts for accuracy and performance data\n- [ ] Analysis narrative (2–3 pages)\n- [ ] Identified limitations and edge cases\n\n---\n\n## 🔗 Related Sections\n- Testing Documentation (#)\n- System Design (#)\n- Implementation (#)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "label": {
-          "id": 9157947109,
-          "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-          "name": "documentation",
-          "color": "0075ca",
-          "default": true,
-          "description": "Improvements or additions to documentation",
-          "archived_at": null,
-          "archived_by": null
-        },
-        "labels": [
-          {
-            "id": 9157947109,
-            "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-            "name": "documentation",
-            "color": "0075ca",
-            "default": true,
-            "description": "Improvements or additions to documentation",
-            "archived_at": null,
-            "archived_by": null
-          }
-        ]
+        "repository_id": 1339909532,
+        "push_id": 45433074169,
+        "ref": "refs/heads/main",
+        "head": "aaf4dc981b167f003dc4cc7763cf7c3847c43966",
+        "before": "563f6ff88a3bc112480f257b1fc984a1e76471eb"
       }
     },
     {
-      "id": "16297634606",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/chatnalyxer",
-      "created_at": "2026-10-02T17:53:21Z",
+      "id": "23004113799",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T17:39:21Z",
       "payload": {
-        "action": "opened",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/events",
-          "html_url": "https://github.com/Rahul-pamula/chatnalyxer/issues/5",
-          "id": 5681251567,
-          "node_id": "I_kwDOPi4Xf88AAAABUqEE7w",
-          "number": 5,
-          "title": "📊 [Documentation] Results Analysis – Performance Metrics & AI Accuracy Report",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 9157947109,
-              "node_id": "LA_kwDOPi4Xf88AAAACIdsu5Q",
-              "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 0,
-          "created_at": "2026-10-02T17:53:19Z",
-          "updated_at": "2026-10-02T17:53:19Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 📋 Issue Overview\n\nThis issue tracks the creation of the **Results Analysis** documentation chapter for the Chatnalyxer project report.\n\n---\n\n## 📌 Objective\n\nDocument and present the quantitative and qualitative results obtained from running Chatnalyxer in a real-world student environment, providing evidence of its effectiveness as an AI-powered WhatsApp task extractor.\n\n---\n\n## 📝 Content Required\n\n### 1. AI Extraction Accuracy\n- Accuracy rate of Google Gemini AI in identifying deadline-related messages\n- Precision and recall metrics for task extraction across:\n  - Text messages\n  - Image-based messages (Azure Vision OCR)\n  - PDF documents (Azure Document Intelligence)\n  - Voice messages (Azure Cognitive Speech transcription)\n\n### 2. Performance Benchmarks\n- Average response time for message processing (end-to-end latency)\n- Backend API response times under normal and peak load\n- Mobile app UI rendering performance (React Native)\n\n### 3. Notification Delivery Analysis\n- Notification delivery success rate\n- Snooze/acknowledge interaction rates\n- Alarm reliability for high-priority deadlines\n\n### 4. User Study Results (if applicable)\n- Reduction in missed deadlines reported by beta users\n- User satisfaction survey scores\n- Comparison: before vs. after Chatnalyxer usage\n\n### 5. Comparative Analysis\n- Compare Chatnalyxer's accuracy with baseline NLP approaches\n- Discuss limitations observed during testing\n\n---\n\n## 📊 Deliverables\n- [ ] Results summary table (metrics, values, benchmarks)\n- [ ] Graphs/charts for accuracy and performance data\n- [ ] Analysis narrative (2–3 pages)\n- [ ] Identified limitations and edge cases\n\n---\n\n## 🔗 Related Sections\n- Testing Documentation (#)\n- System Design (#)\n- Implementation (#)\n\n---\n\n**Type:** Documentation  \n**Category:** External / Project Report Chapter",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/chatnalyxer/issues/5/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        }
+        "repository_id": 1339909532,
+        "push_id": 45431751056,
+        "ref": "refs/heads/main",
+        "head": "6b0b42e6e96ad7680e50188299395ae84ca6b0f4",
+        "before": "cf818ea116ceaedafcc60eee5b588a4dd59590e2"
       }
     },
     {
-      "id": "15841046036",
-      "type": "WatchEvent",
-      "repo": "bradAGI/awesome-cli-coding-agents",
-      "created_at": "2026-09-27T05:27:26Z",
+      "id": "23003895692",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T17:18:24Z",
       "payload": {
-        "action": "started"
+        "repository_id": 1339909532,
+        "push_id": 45430498280,
+        "ref": "refs/heads/main",
+        "head": "a18d5034123413acb5e95f179ea7dd3ab1ad9b8d",
+        "before": "213c54a5ebdc3d09ad6fafaa44f373998dd0f7ae"
       }
     },
     {
-      "id": "15805289383",
-      "type": "WatchEvent",
-      "repo": "hydra-db/hydradb",
-      "created_at": "2026-09-26T08:52:57Z",
+      "id": "23000758480",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T16:22:06Z",
       "payload": {
-        "action": "started"
+        "repository_id": 1339909532,
+        "push_id": 45427053338,
+        "ref": "refs/heads/feat/issue-277-timeouts",
+        "head": "4d912dd1297b0918249a535490de0326856077dc",
+        "before": "403162254a1b31b72e6fa9f69eab816a40c80a85"
       }
     },
     {
-      "id": "15805219745",
-      "type": "WatchEvent",
-      "repo": "juspay/hyperswitch",
-      "created_at": "2026-09-26T08:50:31Z",
+      "id": "23000723881",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T21:25:38Z",
       "payload": {
-        "action": "started"
+        "repository_id": 1339909532,
+        "push_id": 45445125901,
+        "ref": "refs/heads/main",
+        "head": "0b8867af7b859c7cff2d75f6f0f1dd2fcd6ad6f1",
+        "before": "645810af680e1db5dd4a081619cdbe0323e2c54f"
       }
     },
     {
-      "id": "15805187052",
-      "type": "WatchEvent",
-      "repo": "rocketride-org/rocketride-server",
-      "created_at": "2026-09-26T08:49:22Z",
+      "id": "23000651841",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T16:20:15Z",
       "payload": {
-        "action": "started"
+        "repository_id": 1339909532,
+        "push_id": 45426937764,
+        "ref": "refs/heads/main",
+        "head": "67e80c03c09b731d423c5fd3c7d31fcbee2720e4",
+        "before": "42dc1c449722c79150b7a6463a7374d09c872af8"
       }
     },
     {
-      "id": "15805159332",
-      "type": "WatchEvent",
-      "repo": "vectorize-io/hindsight",
-      "created_at": "2026-09-26T08:48:19Z",
+      "id": "23000551235",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-04T16:18:26Z",
       "payload": {
-        "action": "started"
+        "repository_id": 1339909532,
+        "push_id": 45426825496,
+        "ref": "refs/heads/main",
+        "head": "42dc1c449722c79150b7a6463a7374d09c872af8",
+        "before": "3cee834a6fa6198bf73ec76eb4a772fa7b9b88a0"
       }
     }
   ],
   "recentStats": {
-    "commits": 1841,
-    "prs": 191,
-    "issues": 313
+    "commits": 1887,
+    "prs": 201,
+    "issues": 322
   }
 }
