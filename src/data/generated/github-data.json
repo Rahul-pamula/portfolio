@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-05T03:57:31.461Z",
+  "updatedAt": "2026-10-06T04:46:30.890Z",
   "contributions": {
-    "totalLastYear": 2230,
+    "totalLastYear": 2264,
     "days": [
       {
         "date": "2025-10-05",
@@ -1830,8 +1830,13 @@
       },
       {
         "date": "2026-10-05",
-        "count": 24,
-        "level": 2
+        "count": 46,
+        "level": 3
+      },
+      {
+        "date": "2026-10-06",
+        "count": 12,
+        "level": 1
       }
     ]
   },
@@ -1872,205 +1877,1241 @@
   },
   "activityFeed": [
     {
-      "id": "23016598538",
+      "id": "23128134079",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T21:20:38Z",
+      "created_at": "2026-10-05T23:35:55Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 45444846717,
+        "push_id": 45559601882,
         "ref": "refs/heads/main",
-        "head": "d0214211120398809da8b6a8bc4260c89451331b",
-        "before": "6f6bfbc4f7038e897ec1acbca76d78b1c46bb2df"
+        "head": "dabfb90e6dd1f2deda6eab505785471642c8d9c6",
+        "before": "9ddc5886303587fca5afcb0bc8b7f874472aba45"
       }
     },
     {
-      "id": "23014523698",
+      "id": "23126106012",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T20:40:48Z",
+      "created_at": "2026-10-04T20:31:59Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 45442568631,
+        "push_id": 45442063539,
         "ref": "refs/heads/main",
-        "head": "0787dfbe766de1d77c2a81383e942e7b35b3da5c",
-        "before": "75e022b3dbd80709d1a13e1ff4ec3e15db4357e6"
+        "head": "dbb1905c3ff346a3e3fd95bc7651e68cfc3752eb",
+        "before": "6620b9026dbc171ec8296b8408137284b62d6175"
       }
     },
     {
-      "id": "23014214419",
+      "id": "23125111384",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T20:55:51Z",
+      "created_at": "2026-10-04T16:22:15Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 45443422660,
+        "push_id": 45427062061,
         "ref": "refs/heads/main",
-        "head": "6f6bfbc4f7038e897ec1acbca76d78b1c46bb2df",
-        "before": "0787dfbe766de1d77c2a81383e942e7b35b3da5c"
+        "head": "0b4f999d2b3a47ea8fc20c19a1aa7cd98852c0f4",
+        "before": "7aa77d1dd26cf541fb62b87b3c73c100eee95110"
       }
     },
     {
-      "id": "23011835928",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T19:49:26Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 45439555998,
-        "ref": "refs/heads/main",
-        "head": "2990666d775053e88223fd951b49b306f883581c",
-        "before": "af6432d4583e6cf823e41b058ab869f171e872cf"
-      }
-    },
-    {
-      "id": "23011177942",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T19:56:42Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 45439977870,
-        "ref": "refs/heads/main",
-        "head": "e09cb1c0630b1c78f7b19051fe31f68bf8430209",
-        "before": "e27bf60d73b03f63a49fb1ec2153c3fd11719c3f"
-      }
-    },
-    {
-      "id": "23011111958",
+      "id": "23124736555",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T19:55:27Z",
+      "created_at": "2026-10-04T16:15:58Z",
       "payload": {
-        "ref": "Rahul-pamula-patch-1",
+        "ref": "feat/issue-268-cloud-adapter",
         "ref_type": "branch",
-        "full_ref": "refs/heads/Rahul-pamula-patch-1",
+        "full_ref": "refs/heads/feat/issue-268-cloud-adapter",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "23005665223",
+      "id": "23124580028",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T18:08:57Z",
+      "created_at": "2026-10-04T20:05:15Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 45433542827,
+        "push_id": 45440503974,
         "ref": "refs/heads/main",
-        "head": "ac7df20e0f73d8f91fc8b86196a8523e863672d7",
-        "before": "b24e80b30affabbab36658de517f9b47e01ac217"
+        "head": "4649c5f12f45935f844143e6f3307c82f83ba40c",
+        "before": "be057ab84da5ad11f99bec6e37fb6fd1bfc51be1"
       }
     },
     {
-      "id": "23005453713",
+      "id": "23120115259",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T17:47:49Z",
+      "created_at": "2026-10-04T18:48:15Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 45432254787,
+        "push_id": 45435914489,
         "ref": "refs/heads/main",
-        "head": "5ffea2e421d7428cb9b9a8b476aaf2f2d5938c14",
-        "before": "6b0b42e6e96ad7680e50188299395ae84ca6b0f4"
+        "head": "c407c545fa94ea676589463f2753d4b77cb9a827",
+        "before": "82cf5d7f14f9d09e16e3f84f05767be453e86a1b"
       }
     },
     {
-      "id": "23005261379",
+      "id": "23118975313",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T18:01:23Z",
+      "created_at": "2026-10-04T18:28:58Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 45433074169,
+        "push_id": 45434755579,
         "ref": "refs/heads/main",
-        "head": "aaf4dc981b167f003dc4cc7763cf7c3847c43966",
-        "before": "563f6ff88a3bc112480f257b1fc984a1e76471eb"
+        "head": "82cf5d7f14f9d09e16e3f84f05767be453e86a1b",
+        "before": "ac7df20e0f73d8f91fc8b86196a8523e863672d7"
       }
     },
     {
-      "id": "23004113799",
+      "id": "23117429111",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T17:39:21Z",
+      "created_at": "2026-10-04T18:02:59Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 45431751056,
+        "push_id": 45433176802,
         "ref": "refs/heads/main",
-        "head": "6b0b42e6e96ad7680e50188299395ae84ca6b0f4",
-        "before": "cf818ea116ceaedafcc60eee5b588a4dd59590e2"
+        "head": "87f4c651111bbb9c143ab4093fe3555e15c959a6",
+        "before": "aaf4dc981b167f003dc4cc7763cf7c3847c43966"
       }
     },
     {
-      "id": "23003895692",
-      "type": "PushEvent",
+      "id": "16499939581",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T17:18:24Z",
+      "created_at": "2026-10-06T00:20:48Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 45430498280,
-        "ref": "refs/heads/main",
-        "head": "a18d5034123413acb5e95f179ea7dd3ab1ad9b8d",
-        "before": "213c54a5ebdc3d09ad6fafaa44f373998dd0f7ae"
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/313",
+          "id": 5720829197,
+          "node_id": "I_kwDOT91lnM8AAAABVPztDQ",
+          "number": 313,
+          "title": "Public Test: Scout MCP Generic Client Testing",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713848,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+              "name": "priority:high",
+              "color": "b60205",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-06T00:17:16Z",
+          "updated_at": "2026-10-06T00:20:48Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "We are calling on the public to test Scout MCP across arbitrary generic MCP Clients!\n\n**Instructions:**\n1. Configure your IDE or CLI MCP client with:\n   ```json\n   \"scout\": {\n     \"command\": \"npx\",\n     \"args\": [\"-y\", \"open-source-scout-mcp@latest\"]\n   }\n   ```\n2. Restart your client.\n3. Open any directory. Execute the `initialize_execution` tool to analyze the codebase.\n4. Take screenshots of the output and logs.\n5. Create a folder in `public-testing-reports` and submit a PR with your screenshots and a review!\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 11922713848,
+          "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+          "name": "priority:high",
+          "color": "b60205",
+          "default": false,
+          "description": "",
+          "archived_at": null,
+          "archived_by": null
+        },
+        "labels": [
+          {
+            "id": 11890136446,
+            "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "7057ff",
+            "default": true,
+            "description": "Good for newcomers",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713604,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+            "name": "type:testing",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713848,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+            "name": "priority:high",
+            "color": "b60205",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ]
       }
     },
     {
-      "id": "23000758480",
-      "type": "PushEvent",
+      "id": "16499939518",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T16:22:06Z",
+      "created_at": "2026-10-06T00:20:48Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 45427053338,
-        "ref": "refs/heads/feat/issue-277-timeouts",
-        "head": "4d912dd1297b0918249a535490de0326856077dc",
-        "before": "403162254a1b31b72e6fa9f69eab816a40c80a85"
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/313",
+          "id": 5720829197,
+          "node_id": "I_kwDOT91lnM8AAAABVPztDQ",
+          "number": 313,
+          "title": "Public Test: Scout MCP Generic Client Testing",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713848,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+              "name": "priority:high",
+              "color": "b60205",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-06T00:17:16Z",
+          "updated_at": "2026-10-06T00:20:48Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "We are calling on the public to test Scout MCP across arbitrary generic MCP Clients!\n\n**Instructions:**\n1. Configure your IDE or CLI MCP client with:\n   ```json\n   \"scout\": {\n     \"command\": \"npx\",\n     \"args\": [\"-y\", \"open-source-scout-mcp@latest\"]\n   }\n   ```\n2. Restart your client.\n3. Open any directory. Execute the `initialize_execution` tool to analyze the codebase.\n4. Take screenshots of the output and logs.\n5. Create a folder in `public-testing-reports` and submit a PR with your screenshots and a review!\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 11922713848,
+          "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+          "name": "priority:high",
+          "color": "b60205",
+          "default": false,
+          "description": "",
+          "archived_at": null,
+          "archived_by": null
+        },
+        "labels": [
+          {
+            "id": 11890136446,
+            "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "7057ff",
+            "default": true,
+            "description": "Good for newcomers",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713604,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+            "name": "type:testing",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713848,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+            "name": "priority:high",
+            "color": "b60205",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ]
       }
     },
     {
-      "id": "23000723881",
-      "type": "PushEvent",
+      "id": "16499939422",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T21:25:38Z",
+      "created_at": "2026-10-06T00:20:48Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 45445125901,
-        "ref": "refs/heads/main",
-        "head": "0b8867af7b859c7cff2d75f6f0f1dd2fcd6ad6f1",
-        "before": "645810af680e1db5dd4a081619cdbe0323e2c54f"
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/313",
+          "id": 5720829197,
+          "node_id": "I_kwDOT91lnM8AAAABVPztDQ",
+          "number": 313,
+          "title": "Public Test: Scout MCP Generic Client Testing",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713848,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+              "name": "priority:high",
+              "color": "b60205",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-06T00:17:16Z",
+          "updated_at": "2026-10-06T00:20:48Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "We are calling on the public to test Scout MCP across arbitrary generic MCP Clients!\n\n**Instructions:**\n1. Configure your IDE or CLI MCP client with:\n   ```json\n   \"scout\": {\n     \"command\": \"npx\",\n     \"args\": [\"-y\", \"open-source-scout-mcp@latest\"]\n   }\n   ```\n2. Restart your client.\n3. Open any directory. Execute the `initialize_execution` tool to analyze the codebase.\n4. Take screenshots of the output and logs.\n5. Create a folder in `public-testing-reports` and submit a PR with your screenshots and a review!\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/313/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 11922713848,
+          "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+          "name": "priority:high",
+          "color": "b60205",
+          "default": false,
+          "description": "",
+          "archived_at": null,
+          "archived_by": null
+        },
+        "labels": [
+          {
+            "id": 11890136446,
+            "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "7057ff",
+            "default": true,
+            "description": "Good for newcomers",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713604,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+            "name": "type:testing",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713848,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+            "name": "priority:high",
+            "color": "b60205",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ]
       }
     },
     {
-      "id": "23000651841",
-      "type": "PushEvent",
+      "id": "16499938812",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T16:20:15Z",
+      "created_at": "2026-10-06T00:20:47Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 45426937764,
-        "ref": "refs/heads/main",
-        "head": "67e80c03c09b731d423c5fd3c7d31fcbee2720e4",
-        "before": "42dc1c449722c79150b7a6463a7374d09c872af8"
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/312",
+          "id": 5720828809,
+          "node_id": "I_kwDOT91lnM8AAAABVPzriQ",
+          "number": 312,
+          "title": "Public Test: Scout MCP Linux/Antigravity Compatibility",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713848,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+              "name": "priority:high",
+              "color": "b60205",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-06T00:17:14Z",
+          "updated_at": "2026-10-06T00:20:47Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "We are calling on the public to test Scout MCP!\n\n**Instructions:**\n1. Configure your Antigravity IDE with:\n   ```json\n   \"scout\": {\n     \"command\": \"npx\",\n     \"args\": [\"-y\", \"open-source-scout-mcp@latest\"]\n   }\n   ```\n2. Restart your IDE.\n3. Open any directory. Ask your AI: *\"Use the scout MCP server. Call the `initialize_execution` tool to analyze this codebase and list the available skills.\"*\n4. Take screenshots of the response.\n5. Create a folder in `public-testing-reports` and submit a PR with your screenshots and a review!\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 11922713848,
+          "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+          "name": "priority:high",
+          "color": "b60205",
+          "default": false,
+          "description": "",
+          "archived_at": null,
+          "archived_by": null
+        },
+        "labels": [
+          {
+            "id": 11890136446,
+            "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "7057ff",
+            "default": true,
+            "description": "Good for newcomers",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713604,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+            "name": "type:testing",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713848,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+            "name": "priority:high",
+            "color": "b60205",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ]
       }
     },
     {
-      "id": "23000551235",
-      "type": "PushEvent",
+      "id": "16499938719",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-04T16:18:26Z",
+      "created_at": "2026-10-06T00:20:47Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 45426825496,
-        "ref": "refs/heads/main",
-        "head": "42dc1c449722c79150b7a6463a7374d09c872af8",
-        "before": "3cee834a6fa6198bf73ec76eb4a772fa7b9b88a0"
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/312",
+          "id": 5720828809,
+          "node_id": "I_kwDOT91lnM8AAAABVPzriQ",
+          "number": 312,
+          "title": "Public Test: Scout MCP Linux/Antigravity Compatibility",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713848,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+              "name": "priority:high",
+              "color": "b60205",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-06T00:17:14Z",
+          "updated_at": "2026-10-06T00:20:47Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "We are calling on the public to test Scout MCP!\n\n**Instructions:**\n1. Configure your Antigravity IDE with:\n   ```json\n   \"scout\": {\n     \"command\": \"npx\",\n     \"args\": [\"-y\", \"open-source-scout-mcp@latest\"]\n   }\n   ```\n2. Restart your IDE.\n3. Open any directory. Ask your AI: *\"Use the scout MCP server. Call the `initialize_execution` tool to analyze this codebase and list the available skills.\"*\n4. Take screenshots of the response.\n5. Create a folder in `public-testing-reports` and submit a PR with your screenshots and a review!\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 11922713848,
+          "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+          "name": "priority:high",
+          "color": "b60205",
+          "default": false,
+          "description": "",
+          "archived_at": null,
+          "archived_by": null
+        },
+        "labels": [
+          {
+            "id": 11890136446,
+            "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "7057ff",
+            "default": true,
+            "description": "Good for newcomers",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713604,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+            "name": "type:testing",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713848,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+            "name": "priority:high",
+            "color": "b60205",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "16499938597",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-06T00:20:47Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/312",
+          "id": 5720828809,
+          "node_id": "I_kwDOT91lnM8AAAABVPzriQ",
+          "number": 312,
+          "title": "Public Test: Scout MCP Linux/Antigravity Compatibility",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713848,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+              "name": "priority:high",
+              "color": "b60205",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-06T00:17:14Z",
+          "updated_at": "2026-10-06T00:20:47Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "We are calling on the public to test Scout MCP!\n\n**Instructions:**\n1. Configure your Antigravity IDE with:\n   ```json\n   \"scout\": {\n     \"command\": \"npx\",\n     \"args\": [\"-y\", \"open-source-scout-mcp@latest\"]\n   }\n   ```\n2. Restart your IDE.\n3. Open any directory. Ask your AI: *\"Use the scout MCP server. Call the `initialize_execution` tool to analyze this codebase and list the available skills.\"*\n4. Take screenshots of the response.\n5. Create a folder in `public-testing-reports` and submit a PR with your screenshots and a review!\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/312/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 11922713848,
+          "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+          "name": "priority:high",
+          "color": "b60205",
+          "default": false,
+          "description": "",
+          "archived_at": null,
+          "archived_by": null
+        },
+        "labels": [
+          {
+            "id": 11890136446,
+            "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "7057ff",
+            "default": true,
+            "description": "Good for newcomers",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713604,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+            "name": "type:testing",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713848,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+            "name": "priority:high",
+            "color": "b60205",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "16499938124",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-06T00:20:46Z",
+      "payload": {
+        "action": "labeled",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/311",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/311/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/311/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/311/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/311",
+          "id": 5720827457,
+          "node_id": "I_kwDOT91lnM8AAAABVPzmQQ",
+          "number": 311,
+          "title": "Public Test: Scout MCP Mac/Cursor Compatibility",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713848,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+              "name": "priority:high",
+              "color": "b60205",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-06T00:17:05Z",
+          "updated_at": "2026-10-06T00:20:46Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "We are calling on the public to test Scout MCP!\n\n**Instructions:**\n1. Configure your Cursor IDE with:\n   ```json\n   \"scout\": {\n     \"command\": \"npx\",\n     \"args\": [\"-y\", \"open-source-scout-mcp@latest\"]\n   }\n   ```\n2. Restart Cursor.\n3. Open any directory. Ask your AI: *\"Use the scout MCP server. Call the `initialize_execution` tool to analyze this codebase and list the available skills.\"*\n4. Take screenshots of the response.\n5. Create a folder in `public-testing-reports` and submit a PR with your screenshots and a review!\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/311/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/311/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "label": {
+          "id": 11922713848,
+          "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+          "name": "priority:high",
+          "color": "b60205",
+          "default": false,
+          "description": "",
+          "archived_at": null,
+          "archived_by": null
+        },
+        "labels": [
+          {
+            "id": 11890136446,
+            "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "7057ff",
+            "default": true,
+            "description": "Good for newcomers",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713604,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+            "name": "type:testing",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 11922713848,
+            "node_id": "LA_kwDOT91lnM8AAAACxqYs-A",
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/priority:high",
+            "name": "priority:high",
+            "color": "b60205",
+            "default": false,
+            "description": "",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ]
       }
     }
   ],
   "recentStats": {
-    "commits": 1887,
-    "prs": 201,
-    "issues": 322
+    "commits": 1904,
+    "prs": 210,
+    "issues": 331
   }
 }
