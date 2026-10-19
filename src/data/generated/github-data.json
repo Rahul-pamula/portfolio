@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T02:56:53.950Z",
+  "updatedAt": "2026-10-19T03:10:22.629Z",
   "contributions": {
-    "totalLastYear": 2311,
+    "totalLastYear": 2303,
     "days": [
       {
         "date": "2025-10-19",
@@ -1825,8 +1825,13 @@
       },
       {
         "date": "2026-10-18",
-        "count": 5,
+        "count": 12,
         "level": 1
+      },
+      {
+        "date": "2026-10-19",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -1866,6 +1871,201 @@
     "updated_at": "2026-10-11T03:17:24Z"
   },
   "activityFeed": [
+    {
+      "id": "24458058689",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
+      "created_at": "2026-10-18T09:01:45Z",
+      "payload": {
+        "repository_id": 1420852461,
+        "push_id": 46888757872,
+        "ref": "refs/heads/main",
+        "head": "5eeb8d0f15e53c377210a3edbb87527ed08160ee",
+        "before": "247e427bdad598dc4ac4ac1dcac7542e181318da"
+      }
+    },
+    {
+      "id": "24442308567",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
+      "created_at": "2026-10-17T20:34:29Z",
+      "payload": {
+        "ref": "test/verify-external-links-safe-rel",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/test/verify-external-links-safe-rel",
+        "master_branch": "main",
+        "description": "MForce Enhanced Framework",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24438211787",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
+      "created_at": "2026-10-17T20:26:10Z",
+      "payload": {
+        "ref": "test/category-registry-offline-schema",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/test/category-registry-offline-schema",
+        "master_branch": "main",
+        "description": "MForce Enhanced Framework",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24422866009",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
+      "created_at": "2026-10-17T20:32:31Z",
+      "payload": {
+        "ref": "test/verify-executable-mode-shell-entrypoints",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/test/verify-executable-mode-shell-entrypoints",
+        "master_branch": "main",
+        "description": "MForce Enhanced Framework",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24422590161",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
+      "created_at": "2026-10-17T20:28:21Z",
+      "payload": {
+        "ref": "test/registry-orphaned-modules-fixture",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/test/registry-orphaned-modules-fixture",
+        "master_branch": "main",
+        "description": "MForce Enhanced Framework",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24418802862",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
+      "created_at": "2026-10-17T20:07:12Z",
+      "payload": {
+        "repository_id": 1420852461,
+        "push_id": 46846713506,
+        "ref": "refs/heads/main",
+        "head": "247e427bdad598dc4ac4ac1dcac7542e181318da",
+        "before": "4b177b80dd1d5439e8fc03a2c4ed8ffc38cb7588"
+      }
+    },
+    {
+      "id": "17522746105",
+      "type": "PullRequestEvent",
+      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
+      "created_at": "2026-10-18T09:01:33Z",
+      "payload": {
+        "action": "opened",
+        "number": 70,
+        "pull_request": {
+          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/70",
+          "id": 4907782482,
+          "number": 70,
+          "head": {
+            "ref": "test/shields-endpoint-json-offline-schema",
+            "sha": "4bbf07510ac925f64e33c802ff1c374a0eb6094f",
+            "repo": {
+              "id": 1420852461,
+              "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
+              "name": "MForce-Enhanced-Framework"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "5eeb8d0f15e53c377210a3edbb87527ed08160ee",
+            "repo": {
+              "id": 1331354453,
+              "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
+              "name": "MForce-Enhanced-Framework"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "17514833929",
+      "type": "PullRequestEvent",
+      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
+      "created_at": "2026-10-18T04:58:58Z",
+      "payload": {
+        "action": "merged",
+        "number": 68,
+        "pull_request": {
+          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/68",
+          "id": 4903705039,
+          "number": 68,
+          "head": {
+            "ref": "test/verify-external-links-safe-rel",
+            "sha": "cd110428a7cf1042f3e0c3ae5db842d82f5de6b9",
+            "repo": {
+              "id": 1420852461,
+              "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
+              "name": "MForce-Enhanced-Framework"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "247e427bdad598dc4ac4ac1dcac7542e181318da",
+            "repo": {
+              "id": 1331354453,
+              "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
+              "name": "MForce-Enhanced-Framework"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "17514761418",
+      "type": "PullRequestEvent",
+      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
+      "created_at": "2026-10-18T04:56:26Z",
+      "payload": {
+        "action": "merged",
+        "number": 64,
+        "pull_request": {
+          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/64",
+          "id": 4903648707,
+          "number": 64,
+          "head": {
+            "ref": "test/category-registry-offline-schema",
+            "sha": "2dbcfea8ba1d52e1f81ea2d48fffa8520aac0eee",
+            "repo": {
+              "id": 1420852461,
+              "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
+              "name": "MForce-Enhanced-Framework"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "247e427bdad598dc4ac4ac1dcac7542e181318da",
+            "repo": {
+              "id": 1331354453,
+              "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
+              "name": "MForce-Enhanced-Framework"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "24389071217",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
+      "created_at": "2026-10-17T20:30:45Z",
+      "payload": {
+        "ref": "test/shell-syntax-check-public-modules",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/test/shell-syntax-check-public-modules",
+        "master_branch": "main",
+        "description": "MForce Enhanced Framework",
+        "pusher_type": "user"
+      }
+    },
     {
       "id": "17498031532",
       "type": "ForkEvent",
@@ -2091,754 +2291,11 @@
           }
         }
       }
-    },
-    {
-      "id": "17497752790",
-      "type": "PullRequestEvent",
-      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:28:32Z",
-      "payload": {
-        "action": "opened",
-        "number": 65,
-        "pull_request": {
-          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/65",
-          "id": 4903662273,
-          "number": 65,
-          "head": {
-            "ref": "test/registry-orphaned-modules-fixture",
-            "sha": "d762abdbc251e7a928e9c82ef9dfcbbeb00034e2",
-            "repo": {
-              "id": 1420852461,
-              "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "247e427bdad598dc4ac4ac1dcac7542e181318da",
-            "repo": {
-              "id": 1331354453,
-              "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "17497671772",
-      "type": "PullRequestEvent",
-      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:26:26Z",
-      "payload": {
-        "action": "opened",
-        "number": 64,
-        "pull_request": {
-          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/64",
-          "id": 4903648707,
-          "number": 64,
-          "head": {
-            "ref": "test/category-registry-offline-schema",
-            "sha": "2dbcfea8ba1d52e1f81ea2d48fffa8520aac0eee",
-            "repo": {
-              "id": 1420852461,
-              "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "247e427bdad598dc4ac4ac1dcac7542e181318da",
-            "repo": {
-              "id": 1331354453,
-              "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "17493498306",
-      "type": "ForkEvent",
-      "repo": "morluto/rea",
-      "created_at": "2026-10-17T18:43:17Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1423637476,
-          "node_id": "R_kgDOVNr75A",
-          "name": "rea",
-          "full_name": "Rahul-pamula/rea",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/rea",
-          "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/rea",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/rea/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/rea/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/rea/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/rea/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/rea/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/rea/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/rea/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/rea/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/rea/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/rea/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/rea/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/rea/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/rea/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/rea/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/rea/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/rea/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/rea/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/rea/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/rea/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/rea/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/rea/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/rea/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/rea/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/rea/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/rea/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/rea/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/rea/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/rea/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/rea/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/rea/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/rea/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/rea/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/rea/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/rea/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/rea/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/rea/deployments",
-          "created_at": "2026-10-17T18:43:17Z",
-          "updated_at": "2026-10-17T18:43:17Z",
-          "pushed_at": "2026-10-17T18:41:09Z",
-          "git_url": "git://github.com/Rahul-pamula/rea.git",
-          "ssh_url": "git@github.com:Rahul-pamula/rea.git",
-          "clone_url": "https://github.com/Rahul-pamula/rea.git",
-          "svn_url": "https://github.com/Rahul-pamula/rea",
-          "homepage": "https://rea.tools",
-          "size": 84703,
-          "stargazers_count": 0,
-          "watchers_count": 0,
-          "language": null,
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": false,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-          },
-          "allow_forking": true,
-          "is_template": false,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 0,
-          "default_branch": "main"
-        }
-      }
-    },
-    {
-      "id": "17493492214",
-      "type": "WatchEvent",
-      "repo": "morluto/rea",
-      "created_at": "2026-10-17T18:43:11Z",
-      "payload": {
-        "action": "started"
-      }
-    },
-    {
-      "id": "24225237923",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/every-language-fiscal-code",
-      "created_at": "2026-10-15T14:29:13Z",
-      "payload": {
-        "ref": "feat/kotlin",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/kotlin",
-        "master_branch": "main",
-        "description": "🌍 One algorithm, every programming language: the Italian Fiscal Code implemented and verified in 64 languages and beyond — a community challenge promoted by @Openapi®",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "17398787476",
-      "type": "IssueCommentEvent",
-      "repo": "openapi/every-language-fiscal-code",
-      "created_at": "2026-10-15T17:36:17Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/issues/6",
-          "repository_url": "https://api.github.com/repos/openapi/every-language-fiscal-code",
-          "labels_url": "https://api.github.com/repos/openapi/every-language-fiscal-code/issues/6/labels{/name}",
-          "comments_url": "https://api.github.com/repos/openapi/every-language-fiscal-code/issues/6/comments",
-          "events_url": "https://api.github.com/repos/openapi/every-language-fiscal-code/issues/6/events",
-          "html_url": "https://github.com/openapi/every-language-fiscal-code/issues/6",
-          "id": 5846094684,
-          "node_id": "I_kwDOS-NYBM8AAAABXHRTXA",
-          "number": 6,
-          "title": "Implement Italian Fiscal Code in Kotlin",
-          "user": {
-            "login": "francescobianco",
-            "id": 472171,
-            "node_id": "MDQ6VXNlcjQ3MjE3MQ==",
-            "avatar_url": "https://avatars.githubusercontent.com/u/472171?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/francescobianco",
-            "html_url": "https://github.com/francescobianco",
-            "followers_url": "https://api.github.com/users/francescobianco/followers",
-            "following_url": "https://api.github.com/users/francescobianco/following{/other_user}",
-            "gists_url": "https://api.github.com/users/francescobianco/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/francescobianco/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/francescobianco/subscriptions",
-            "organizations_url": "https://api.github.com/users/francescobianco/orgs",
-            "repos_url": "https://api.github.com/users/francescobianco/repos",
-            "events_url": "https://api.github.com/users/francescobianco/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/francescobianco/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11269302715,
-              "node_id": "LA_kwDOS-NYBM8AAAACn7Ppuw",
-              "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11269302727,
-              "node_id": "LA_kwDOS-NYBM8AAAACn7Ppxw",
-              "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 12682374895,
-              "node_id": "LA_kwDOS-NYBM8AAAAC8-2u7w",
-              "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/labels/hacktoberfest",
-              "name": "hacktoberfest",
-              "color": "FF8AE2",
-              "default": false,
-              "description": "Open for Hacktoberfest contributions",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 12682375157,
-              "node_id": "LA_kwDOS-NYBM8AAAAC8-2v9Q",
-              "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/labels/new-language",
-              "name": "new-language",
-              "color": "1D76DB",
-              "default": false,
-              "description": "Implement the algorithm in a language not yet covered",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "Rahul-pamula",
-              "id": 153642358,
-              "node_id": "U_kgDOCShldg",
-              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rahul-pamula",
-              "html_url": "https://github.com/Rahul-pamula",
-              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": {
-            "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/milestones/1",
-            "html_url": "https://github.com/openapi/every-language-fiscal-code/milestone/1",
-            "labels_url": "https://api.github.com/repos/openapi/every-language-fiscal-code/milestones/1/labels",
-            "id": 18568787,
-            "node_id": "MI_kwDOS-NYBM4BG1ZT",
-            "number": 1,
-            "title": "64 languages",
-            "description": "2⁶ — built by the core team in sessions of ten languages. See ROADMAP.md.",
-            "creator": {
-              "login": "francescobianco",
-              "id": 472171,
-              "node_id": "MDQ6VXNlcjQ3MjE3MQ==",
-              "avatar_url": "https://avatars.githubusercontent.com/u/472171?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/francescobianco",
-              "html_url": "https://github.com/francescobianco",
-              "followers_url": "https://api.github.com/users/francescobianco/followers",
-              "following_url": "https://api.github.com/users/francescobianco/following{/other_user}",
-              "gists_url": "https://api.github.com/users/francescobianco/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/francescobianco/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/francescobianco/subscriptions",
-              "organizations_url": "https://api.github.com/users/francescobianco/orgs",
-              "repos_url": "https://api.github.com/users/francescobianco/repos",
-              "events_url": "https://api.github.com/users/francescobianco/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/francescobianco/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            },
-            "open_issues": 13,
-            "closed_issues": 8,
-            "state": "open",
-            "created_at": "2026-10-14T10:27:31Z",
-            "updated_at": "2026-10-14T10:36:56Z",
-            "due_on": null,
-            "closed_at": null
-          },
-          "comments": 4,
-          "created_at": "2026-10-14T10:22:54Z",
-          "updated_at": "2026-10-16T07:51:57Z",
-          "closed_at": null,
-          "assignee": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "Implement the Italian Fiscal Code algorithm in **Kotlin** and get it verified by the shared test suite.\n\n### What to build\n\nA program that reads one JSON object on stdin and writes the fiscal code (or an error) as JSON on stdout, exactly as described in [SPECIFICATION.md](https://github.com/openapi/every-language-fiscal-code/blob/main/SPECIFICATION.md).\n\n```console\n$ echo '{\"surname\":\"ROSSI\",\"name\":\"MARIO\",\"birth_date\":\"1980-01-01\",\"sex\":\"M\",\"birthplace_code\":\"H501\"}' | ./elc run kotlin\n{\"fiscal_code\": \"RSSMRA80A01H501U\"}\n```\n\n### Suggested setup\n\n| | |\n|---|---|\n| Directory | `languages/kotlin/` |\n| Family | `jvm` |\n| Docker base | `eclipse-temurin:21-jdk + kotlinc` (just a suggestion) |\n\n### Checklist\n\n- [ ] `languages/kotlin/` with source, `Dockerfile`, `run.sh`, `manifest.yaml` and `README.md`\n- [ ] The algorithm is written entirely in Kotlin (no wrappers, no fiscal-code libraries, no remote calls)\n- [ ] `./elc test kotlin` passes **87/87**\n- [ ] PR opened with `Closes #<this issue>`\n\nSee [CONTRIBUTING.md](https://github.com/openapi/every-language-fiscal-code/blob/main/CONTRIBUTING.md) and the [Python](https://github.com/openapi/every-language-fiscal-code/tree/main/languages/python) / [PHP](https://github.com/openapi/every-language-fiscal-code/tree/main/languages/php) implementations for complete examples.\n\n🎃 This issue is part of **Hacktoberfest**. Comment below to claim it!",
-          "reactions": {
-            "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/issues/6/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/openapi/every-language-fiscal-code/issues/6/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/issues/comments/6198345654",
-          "html_url": "https://github.com/openapi/every-language-fiscal-code/issues/6#issuecomment-6198345654",
-          "issue_url": "https://api.github.com/repos/openapi/every-language-fiscal-code/issues/6",
-          "id": 6198345654,
-          "node_id": "IC_kwDOS-NYBM8AAAABcXM_tg",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-10-15T17:36:17Z",
-          "updated_at": "2026-10-15T17:36:17Z",
-          "body": "Hi @francescobianco, I've finished the Kotlin implementation and opened PR #22 with `Closes #6`.\n\n- 100% native Kotlin with self-contained JSON parser (zero external dependencies)\n- Multi-stage Docker build on Temurin 21 Alpine\n- 87/87 test vectors passed\n\nThank you for assigning this to me! 🙌\n",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/issues/comments/6198345654/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "24148426058",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/1inX",
-      "created_at": "2026-10-14T11:41:25Z",
-      "payload": {
-        "ref": "feat/demo-light-theme",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/demo-light-theme",
-        "master_branch": "main",
-        "description": "🎲 Discover how rare you really are. Answer 27 questions, get your 1-in-X score, percentile & archetype. Live demo + open source.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "17321070245",
-      "type": "PullRequestEvent",
-      "repo": "openapi/every-language-fiscal-code",
-      "created_at": "2026-10-15T17:34:36Z",
-      "payload": {
-        "action": "opened",
-        "number": 22,
-        "pull_request": {
-          "url": "https://api.github.com/repos/openapi/every-language-fiscal-code/pulls/22",
-          "id": 4877361451,
-          "number": 22,
-          "head": {
-            "ref": "feat/kotlin",
-            "sha": "7d64b32433ef1a77cb280e5d870b43de382f7f9f",
-            "repo": {
-              "id": 1420833835,
-              "url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code",
-              "name": "every-language-fiscal-code"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "24b8fadbd2b528a7b1ba16a444ea887ae57d0dfe",
-            "repo": {
-              "id": 1273190404,
-              "url": "https://api.github.com/repos/openapi/every-language-fiscal-code",
-              "name": "every-language-fiscal-code"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "17303449518",
-      "type": "ForkEvent",
-      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
-      "created_at": "2026-10-15T14:21:08Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1420852461,
-          "node_id": "R_kgDOVLB87Q",
-          "name": "MForce-Enhanced-Framework",
-          "full_name": "Rahul-pamula/MForce-Enhanced-Framework",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/MForce-Enhanced-Framework",
-          "description": "MForce Enhanced Framework",
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework/deployments",
-          "created_at": "2026-10-15T14:21:08Z",
-          "updated_at": "2026-10-17T20:07:16Z",
-          "pushed_at": "2026-10-17T20:36:53Z",
-          "git_url": "git://github.com/Rahul-pamula/MForce-Enhanced-Framework.git",
-          "ssh_url": "git@github.com:Rahul-pamula/MForce-Enhanced-Framework.git",
-          "clone_url": "https://github.com/Rahul-pamula/MForce-Enhanced-Framework.git",
-          "svn_url": "https://github.com/Rahul-pamula/MForce-Enhanced-Framework",
-          "homepage": "https://goturback-public.github.io/MForce-Enhanced-Framework/",
-          "size": 2555,
-          "stargazers_count": 1,
-          "watchers_count": 1,
-          "language": "Python",
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": true,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-          },
-          "allow_forking": true,
-          "is_template": true,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 1,
-          "default_branch": "main"
-        }
-      }
-    },
-    {
-      "id": "17302588609",
-      "type": "ForkEvent",
-      "repo": "openapi/every-language-fiscal-code",
-      "created_at": "2026-10-15T14:09:10Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1420833835,
-          "node_id": "R_kgDOVLA0Kw",
-          "name": "every-language-fiscal-code",
-          "full_name": "Rahul-pamula/every-language-fiscal-code",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/every-language-fiscal-code",
-          "description": "🌍 One algorithm, every programming language: the Italian Fiscal Code implemented and verified in 64 languages and beyond — a community challenge promoted by @Openapi®",
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/every-language-fiscal-code/deployments",
-          "created_at": "2026-10-15T14:09:10Z",
-          "updated_at": "2026-10-15T14:09:11Z",
-          "pushed_at": "2026-10-15T14:29:13Z",
-          "git_url": "git://github.com/Rahul-pamula/every-language-fiscal-code.git",
-          "ssh_url": "git@github.com:Rahul-pamula/every-language-fiscal-code.git",
-          "clone_url": "https://github.com/Rahul-pamula/every-language-fiscal-code.git",
-          "svn_url": "https://github.com/Rahul-pamula/every-language-fiscal-code",
-          "homepage": "https://console.openapi.com",
-          "size": 113,
-          "stargazers_count": 0,
-          "watchers_count": 0,
-          "language": null,
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": false,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-          },
-          "allow_forking": true,
-          "is_template": false,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 0,
-          "default_branch": "main"
-        }
-      }
     }
   ],
   "recentStats": {
-    "commits": 1921,
-    "prs": 218,
+    "commits": 1927,
+    "prs": 219,
     "issues": 360
   }
 }
