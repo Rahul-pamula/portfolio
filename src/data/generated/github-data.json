@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-20T03:19:16.873Z",
+  "updatedAt": "2026-10-21T03:14:09.666Z",
   "contributions": {
-    "totalLastYear": 2304,
+    "totalLastYear": 2384,
     "days": [
       {
         "date": "2025-10-19",
@@ -1835,6 +1835,11 @@
       },
       {
         "date": "2026-10-20",
+        "count": 80,
+        "level": 4
+      },
+      {
+        "date": "2026-10-21",
         "count": 0,
         "level": 0
       }
@@ -1868,7 +1873,7 @@
     "hireable": null,
     "bio": "AI/ML Engineer | Full Stack Developer | Android Developer | Azure Certified",
     "twitter_username": null,
-    "public_repos": 77,
+    "public_repos": 78,
     "public_gists": 0,
     "followers": 62,
     "following": 24,
@@ -1877,23 +1882,213 @@
   },
   "activityFeed": [
     {
-      "id": "17625252696",
+      "id": "24675018555",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T09:17:04Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47111153480,
+        "ref": "refs/heads/main",
+        "head": "b03569e33273a4e6386e90355b119159418206b9",
+        "before": "d8a9c405836d21ca884d48b413182bd5ca7149d6"
+      }
+    },
+    {
+      "id": "24673340441",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:56:59Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47109265218,
+        "ref": "refs/heads/main",
+        "head": "12355936a268f4db3d88b016acc5bb4ba7e2dfb6",
+        "before": "f020d7b65daa1f3aa65ecc1e2dd95dfaf5acadbf"
+      }
+    },
+    {
+      "id": "24673165146",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:55:07Z",
+      "payload": {
+        "ref": "feat/issue-15-job-components",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-15-job-components",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24673127673",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:54:39Z",
+      "payload": {
+        "ref": "feat/issue-14-landing-page",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-14-landing-page",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24672135971",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:57:10Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47109282438,
+        "ref": "refs/heads/main",
+        "head": "8baa5a1fe1cd85846ac910533157eaace4b6b77b",
+        "before": "12355936a268f4db3d88b016acc5bb4ba7e2dfb6"
+      }
+    },
+    {
+      "id": "24672094777",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:56:38Z",
+      "payload": {
+        "ref": "feat/issue-21-ai-summary",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-21-ai-summary",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24672050275",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:56:05Z",
+      "payload": {
+        "ref": "feat/issue-19-ai-improve",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-19-ai-improve",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24672033269",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:55:53Z",
+      "payload": {
+        "ref": "feat/issue-18-form-inputs",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-18-form-inputs",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24672010730",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:55:35Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47109135904,
+        "ref": "refs/heads/main",
+        "head": "f5c9f01edf2d1c547bb6d43cac1eac1d859c8d6f",
+        "before": "dcef3a5c1069303ed301021d0049128b169e8943"
+      }
+    },
+    {
+      "id": "24670780543",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:40:18Z",
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24668087436",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:57:03Z",
+      "payload": {
+        "ref": "feat/issue-23-responsive-mobile",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-23-responsive-mobile",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24667935963",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:55:14Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47109102280,
+        "ref": "refs/heads/main",
+        "head": "0d2465e17f92842485e72c25d792217d4edb50db",
+        "before": "d6b017e0119253f2ce1b273f13062d20357517ba"
+      }
+    },
+    {
+      "id": "24667742699",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:52:52Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47108882864,
+        "ref": "refs/heads/main",
+        "head": "9825a66b13c9c3b6033df4c9a288dc9c081f1a9e",
+        "before": "84fdcd3b0d05349a16f1248d5863a7731d91a8a4"
+      }
+    },
+    {
+      "id": "24667716706",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:52:32Z",
+      "payload": {
+        "ref": "feat/issue-10-nextjs-setup",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-10-nextjs-setup",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "17704647173",
       "type": "IssueCommentEvent",
-      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
-      "created_at": "2026-10-19T15:58:50Z",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T11:19:07Z",
       "payload": {
         "action": "created",
         "issue": {
-          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/issues/70",
-          "repository_url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
-          "labels_url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/issues/70/labels{/name}",
-          "comments_url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/issues/70/comments",
-          "events_url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/issues/70/events",
-          "html_url": "https://github.com/GotUrBack-Public/MForce-Enhanced-Framework/pull/70",
-          "id": 5907902217,
-          "node_id": "PR_kwDOT1rbVc8AAAABJIbRUg",
-          "number": 70,
-          "title": "test: add offline schema and format validation for Shields statistics JSON (#55)",
+          "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/job_management_system",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/events",
+          "html_url": "https://github.com/Rahul-pamula/job_management_system/issues/25",
+          "id": 5938452610,
+          "node_id": "I_kwDOVQf1iM8AAAABYfWYgg",
+          "number": 25,
+          "title": "[DEVOPS] Create .env.example files and complete README setup verification",
           "user": {
             "login": "Rahul-pamula",
             "id": 153642358,
@@ -1915,28 +2110,54 @@
             "user_view_type": "public",
             "site_admin": false
           },
-          "labels": [],
-          "state": "open",
+          "labels": [
+            {
+              "id": 12762190346,
+              "node_id": "LA_kwDOVQf1iM8AAAAC-K-SCg",
+              "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/labels/documentation",
+              "name": "documentation",
+              "color": "0075ca",
+              "default": true,
+              "description": "Improvements or additions to documentation",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12763519820,
+              "node_id": "LA_kwDOVQf1iM8AAAAC-MPbTA",
+              "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/labels/devops",
+              "name": "devops",
+              "color": "0e8a16",
+              "default": false,
+              "description": "DevOps and configuration",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
           "locked": false,
           "assignees": [],
           "milestone": null,
-          "comments": 2,
-          "created_at": "2026-10-18T09:01:33Z",
-          "updated_at": "2026-10-19T15:58:50Z",
-          "closed_at": null,
+          "comments": 1,
+          "created_at": "2026-10-20T08:24:50Z",
+          "updated_at": "2026-10-20T11:19:08Z",
+          "closed_at": "2026-10-20T11:19:08Z",
           "assignee": null,
           "active_lock_reason": null,
-          "draft": false,
-          "pull_request": {
-            "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/70",
-            "html_url": "https://github.com/GotUrBack-Public/MForce-Enhanced-Framework/pull/70",
-            "diff_url": "https://github.com/GotUrBack-Public/MForce-Enhanced-Framework/pull/70.diff",
-            "patch_url": "https://github.com/GotUrBack-Public/MForce-Enhanced-Framework/pull/70.patch",
-            "merged_at": null
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
           },
-          "body": "## Summary\n\nAdds comprehensive offline unit tests in `tests/test_repository_stats.py` to validate the Shields endpoint JSON payload files (`code-lines.json`, `files.json`, `directories.json`) generated by `scripts/repository_stats.py`. Tests verify key sets (`schemaVersion`, `label`, `message`, `color`), exact value types, numeric formatting, newline termination, and CLI invocation with temporary output directories.\n\n## Related issue\n\nCloses GotUrBack-Public/MForce-Enhanced-Framework#55\n\n## Testing and evidence\n\n- [x] `python3 -m unittest discover -s tests -v`\n- [x] `git diff --check`\n- [ ] Termux tested (device/version): Not applicable (test addition)\n- [x] Linux tested (distribution/version): POSIX Python test environment\n- [ ] Website checked for keyboard, mobile and reduced motion (if applicable)\n- [x] Not applicable / not tested: Website and shell modules untouched\n\n**Actual test results and limitations:**\n```\ntest_cli_main_generates_valid_statistics_files (tests.test_repository_stats.RepositoryStatsTests) ... ok\ntest_counts_are_based_on_tracked_files_only (tests.test_repository_stats.RepositoryStatsTests) ... ok\ntest_nested_directories_are_counted_once (tests.test_repository_stats.RepositoryStatsTests) ... ok\ntest_shields_endpoint_json_format_in_output_directory (tests.test_repository_stats.RepositoryStatsTests) ... ok\ntest_shields_endpoint_payloads (tests.test_repository_stats.RepositoryStatsTests) ... ok\nRan 5 tests in 0.163s - OK\n```\n\n## Security, privacy and compatibility\n\n- [x] I used only owned/authorized targets.\n- [x] No credentials, personal data or private scan logs are committed.\n- [x] New network calls have bounded timeouts, scope and output. (Zero network calls; tests use synthetic temporary directories)\n- [x] New data flows or external services are documented in `DSGVO/`. (None)\n- [x] I reviewed relevant licensing and attribution.\n- [x] Module registration, permissions and README commands are updated. (README.md unchanged per issue instructions)\n\n## AI assistance\n\nAI pair programmer assisted with formulating the test fixtures and CLI invocation tests in `tests/test_repository_stats.py`. All code was manually verified locally.\n\n## Reviewer notes\n\nNone. Focused, offline, deterministic test enhancement.",
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "Finalize environment configuration documentation.\n\n**Tasks:**\n- [ ] Create server/.env.example with all variable names and placeholder values (no real credentials)\n- [ ] Create client/.env.example with NEXT_PUBLIC_API_URL placeholder\n- [ ] Add both .env.example files to git (they should NOT be in .gitignore)\n- [ ] Verify server/.env and client/.env.local are still in .gitignore and NOT committed\n- [ ] Update README.md local setup steps to reference .env.example\n- [ ] Add a script to root package.json: dev:backend, dev:frontend, dev (runs both with concurrently)\n\n**Acceptance Criteria:**\n- .env.example files exist and are committed to git\n- Real .env files are NOT in git history\n- Root-level npm run dev starts both server and client",
           "reactions": {
-            "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/issues/70/reactions",
+            "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/reactions",
             "total_count": 0,
             "+1": 0,
             "-1": 0,
@@ -1947,16 +2168,17 @@
             "rocket": 0,
             "eyes": 0
           },
-          "timeline_url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/issues/70/timeline",
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/timeline",
           "performed_via_github_app": null,
-          "state_reason": null
+          "state_reason": "completed",
+          "pinned_comment": null
         },
         "comment": {
-          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/issues/comments/6271469750",
-          "html_url": "https://github.com/GotUrBack-Public/MForce-Enhanced-Framework/pull/70#issuecomment-6271469750",
-          "issue_url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/issues/70",
-          "id": 6271469750,
-          "node_id": "IC_kwDOT1rbVc8AAAABdc8Itg",
+          "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/comments/6289672386",
+          "html_url": "https://github.com/Rahul-pamula/job_management_system/issues/25#issuecomment-6289672386",
+          "issue_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25",
+          "id": 6289672386,
+          "node_id": "IC_kwDOVQf1iM8AAAABduTIwg",
           "user": {
             "login": "Rahul-pamula",
             "id": 153642358,
@@ -1978,11 +2200,12 @@
             "user_view_type": "public",
             "site_admin": false
           },
-          "created_at": "2026-10-19T15:58:50Z",
-          "updated_at": "2026-10-19T15:58:50Z",
-          "body": "check and review the pr @GotUrBack-Public ",
+          "created_at": "2026-10-20T11:19:07Z",
+          "updated_at": "2026-10-20T11:19:07Z",
+          "body": "Completed: .env.example files created and README setup verified.",
+          "pin": null,
           "reactions": {
-            "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/issues/comments/6271469750/reactions",
+            "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/comments/6289672386/reactions",
             "total_count": 0,
             "+1": 0,
             "-1": 0,
@@ -1997,380 +2220,11 @@
           "minimized": null
         }
       }
-    },
-    {
-      "id": "24537424658",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:36:53Z",
-      "payload": {
-        "ref": "test/shields-endpoint-json-offline-schema",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/test/shields-endpoint-json-offline-schema",
-        "master_branch": "main",
-        "description": "MForce Enhanced Framework",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24458058689",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
-      "created_at": "2026-10-18T09:01:45Z",
-      "payload": {
-        "repository_id": 1420852461,
-        "push_id": 46888757872,
-        "ref": "refs/heads/main",
-        "head": "5eeb8d0f15e53c377210a3edbb87527ed08160ee",
-        "before": "247e427bdad598dc4ac4ac1dcac7542e181318da"
-      }
-    },
-    {
-      "id": "24442308567",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:34:29Z",
-      "payload": {
-        "ref": "test/verify-external-links-safe-rel",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/test/verify-external-links-safe-rel",
-        "master_branch": "main",
-        "description": "MForce Enhanced Framework",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24438211787",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:26:10Z",
-      "payload": {
-        "ref": "test/category-registry-offline-schema",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/test/category-registry-offline-schema",
-        "master_branch": "main",
-        "description": "MForce Enhanced Framework",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24422866009",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:32:31Z",
-      "payload": {
-        "ref": "test/verify-executable-mode-shell-entrypoints",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/test/verify-executable-mode-shell-entrypoints",
-        "master_branch": "main",
-        "description": "MForce Enhanced Framework",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24422590161",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:28:21Z",
-      "payload": {
-        "ref": "test/registry-orphaned-modules-fixture",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/test/registry-orphaned-modules-fixture",
-        "master_branch": "main",
-        "description": "MForce Enhanced Framework",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24418802862",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:07:12Z",
-      "payload": {
-        "repository_id": 1420852461,
-        "push_id": 46846713506,
-        "ref": "refs/heads/main",
-        "head": "247e427bdad598dc4ac4ac1dcac7542e181318da",
-        "before": "4b177b80dd1d5439e8fc03a2c4ed8ffc38cb7588"
-      }
-    },
-    {
-      "id": "17522746105",
-      "type": "PullRequestEvent",
-      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
-      "created_at": "2026-10-18T09:01:33Z",
-      "payload": {
-        "action": "opened",
-        "number": 70,
-        "pull_request": {
-          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/70",
-          "id": 4907782482,
-          "number": 70,
-          "head": {
-            "ref": "test/shields-endpoint-json-offline-schema",
-            "sha": "4bbf07510ac925f64e33c802ff1c374a0eb6094f",
-            "repo": {
-              "id": 1420852461,
-              "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "5eeb8d0f15e53c377210a3edbb87527ed08160ee",
-            "repo": {
-              "id": 1331354453,
-              "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "17514833929",
-      "type": "PullRequestEvent",
-      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
-      "created_at": "2026-10-18T04:58:58Z",
-      "payload": {
-        "action": "merged",
-        "number": 68,
-        "pull_request": {
-          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/68",
-          "id": 4903705039,
-          "number": 68,
-          "head": {
-            "ref": "test/verify-external-links-safe-rel",
-            "sha": "cd110428a7cf1042f3e0c3ae5db842d82f5de6b9",
-            "repo": {
-              "id": 1420852461,
-              "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "247e427bdad598dc4ac4ac1dcac7542e181318da",
-            "repo": {
-              "id": 1331354453,
-              "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "17514761418",
-      "type": "PullRequestEvent",
-      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
-      "created_at": "2026-10-18T04:56:26Z",
-      "payload": {
-        "action": "merged",
-        "number": 64,
-        "pull_request": {
-          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/64",
-          "id": 4903648707,
-          "number": 64,
-          "head": {
-            "ref": "test/category-registry-offline-schema",
-            "sha": "2dbcfea8ba1d52e1f81ea2d48fffa8520aac0eee",
-            "repo": {
-              "id": 1420852461,
-              "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "247e427bdad598dc4ac4ac1dcac7542e181318da",
-            "repo": {
-              "id": 1331354453,
-              "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "24389071217",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:30:45Z",
-      "payload": {
-        "ref": "test/shell-syntax-check-public-modules",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/test/shell-syntax-check-public-modules",
-        "master_branch": "main",
-        "description": "MForce Enhanced Framework",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "17498031532",
-      "type": "ForkEvent",
-      "repo": "openapi/gknowledge",
-      "created_at": "2026-10-17T20:35:34Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1423720577,
-          "node_id": "R_kgDOVNxAgQ",
-          "name": "gknowledge",
-          "full_name": "Rahul-pamula/gknowledge",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/gknowledge",
-          "description": "🐧 A native GNOME knowledge workstation that turns documents into evolving AI-assisted knowledge bases.",
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/gknowledge",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/gknowledge/deployments",
-          "created_at": "2026-10-17T20:35:34Z",
-          "updated_at": "2026-10-17T20:35:34Z",
-          "pushed_at": "2026-10-16T08:22:40Z",
-          "git_url": "git://github.com/Rahul-pamula/gknowledge.git",
-          "ssh_url": "git@github.com:Rahul-pamula/gknowledge.git",
-          "clone_url": "https://github.com/Rahul-pamula/gknowledge.git",
-          "svn_url": "https://github.com/Rahul-pamula/gknowledge",
-          "homepage": "https://openapi.github.io/gknowledge",
-          "size": 1468,
-          "stargazers_count": 0,
-          "watchers_count": 0,
-          "language": null,
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": false,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-          },
-          "allow_forking": true,
-          "is_template": false,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 0,
-          "default_branch": "main"
-        }
-      }
-    },
-    {
-      "id": "17498019904",
-      "type": "WatchEvent",
-      "repo": "openapi/gknowledge",
-      "created_at": "2026-10-17T20:35:19Z",
-      "payload": {
-        "action": "started"
-      }
-    },
-    {
-      "id": "17497994433",
-      "type": "PullRequestEvent",
-      "repo": "GotUrBack-Public/MForce-Enhanced-Framework",
-      "created_at": "2026-10-17T20:34:41Z",
-      "payload": {
-        "action": "opened",
-        "number": 68,
-        "pull_request": {
-          "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework/pulls/68",
-          "id": 4903705039,
-          "number": 68,
-          "head": {
-            "ref": "test/verify-external-links-safe-rel",
-            "sha": "cd110428a7cf1042f3e0c3ae5db842d82f5de6b9",
-            "repo": {
-              "id": 1420852461,
-              "url": "https://api.github.com/repos/Rahul-pamula/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "247e427bdad598dc4ac4ac1dcac7542e181318da",
-            "repo": {
-              "id": 1331354453,
-              "url": "https://api.github.com/repos/GotUrBack-Public/MForce-Enhanced-Framework",
-              "name": "MForce-Enhanced-Framework"
-            }
-          }
-        }
-      }
     }
   ],
   "recentStats": {
-    "commits": 1928,
-    "prs": 219,
-    "issues": 360
+    "commits": 1965,
+    "prs": 234,
+    "issues": 387
   }
 }
