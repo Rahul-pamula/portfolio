@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-21T03:14:09.666Z",
+  "updatedAt": "2026-10-22T03:12:16.890Z",
   "contributions": {
-    "totalLastYear": 2384,
+    "totalLastYear": 2385,
     "days": [
       {
         "date": "2025-10-19",
@@ -1840,6 +1840,11 @@
       },
       {
         "date": "2026-10-21",
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-10-22",
         "count": 0,
         "level": 0
       }
@@ -1882,348 +1887,200 @@
   },
   "activityFeed": [
     {
-      "id": "24675018555",
-      "type": "PushEvent",
+      "id": "24763620713",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T09:17:04Z",
-      "payload": {
-        "repository_id": 1426584968,
-        "push_id": 47111153480,
-        "ref": "refs/heads/main",
-        "head": "b03569e33273a4e6386e90355b119159418206b9",
-        "before": "d8a9c405836d21ca884d48b413182bd5ca7149d6"
-      }
-    },
-    {
-      "id": "24673340441",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:56:59Z",
-      "payload": {
-        "repository_id": 1426584968,
-        "push_id": 47109265218,
-        "ref": "refs/heads/main",
-        "head": "12355936a268f4db3d88b016acc5bb4ba7e2dfb6",
-        "before": "f020d7b65daa1f3aa65ecc1e2dd95dfaf5acadbf"
-      }
-    },
-    {
-      "id": "24673165146",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:55:07Z",
-      "payload": {
-        "ref": "feat/issue-15-job-components",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-15-job-components",
-        "master_branch": "main",
-        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24673127673",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:54:39Z",
-      "payload": {
-        "ref": "feat/issue-14-landing-page",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-14-landing-page",
-        "master_branch": "main",
-        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24672135971",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:57:10Z",
-      "payload": {
-        "repository_id": 1426584968,
-        "push_id": 47109282438,
-        "ref": "refs/heads/main",
-        "head": "8baa5a1fe1cd85846ac910533157eaace4b6b77b",
-        "before": "12355936a268f4db3d88b016acc5bb4ba7e2dfb6"
-      }
-    },
-    {
-      "id": "24672094777",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:56:38Z",
+      "created_at": "2026-10-20T11:23:55Z",
       "payload": {
         "ref": "feat/issue-21-ai-summary",
         "ref_type": "branch",
         "full_ref": "refs/heads/feat/issue-21-ai-summary",
-        "master_branch": "main",
-        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "24672050275",
-      "type": "CreateEvent",
+      "id": "24763619033",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:56:05Z",
+      "created_at": "2026-10-20T11:23:54Z",
       "payload": {
-        "ref": "feat/issue-19-ai-improve",
+        "ref": "feat/backend-core",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-19-ai-improve",
-        "master_branch": "main",
-        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "full_ref": "refs/heads/feat/backend-core",
         "pusher_type": "user"
       }
     },
     {
-      "id": "24672033269",
-      "type": "CreateEvent",
+      "id": "24761592384",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:55:53Z",
+      "created_at": "2026-10-20T11:23:55Z",
       "payload": {
-        "ref": "feat/issue-18-form-inputs",
+        "ref": "feat/issue-20-job-create-form",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-18-form-inputs",
-        "master_branch": "main",
-        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "full_ref": "refs/heads/feat/issue-20-job-create-form",
         "pusher_type": "user"
       }
     },
     {
-      "id": "24672010730",
-      "type": "PushEvent",
+      "id": "24761591860",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:55:35Z",
+      "created_at": "2026-10-20T11:23:54Z",
       "payload": {
-        "repository_id": 1426584968,
-        "push_id": 47109135904,
-        "ref": "refs/heads/main",
-        "head": "f5c9f01edf2d1c547bb6d43cac1eac1d859c8d6f",
-        "before": "dcef3a5c1069303ed301021d0049128b169e8943"
-      }
-    },
-    {
-      "id": "24670780543",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:40:18Z",
-      "payload": {
-        "ref": "main",
+        "ref": "feat/issue-16-filter-panel",
         "ref_type": "branch",
-        "full_ref": "refs/heads/main",
-        "master_branch": "main",
-        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "full_ref": "refs/heads/feat/issue-16-filter-panel",
         "pusher_type": "user"
       }
     },
     {
-      "id": "24668087436",
-      "type": "CreateEvent",
+      "id": "24761591491",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:57:03Z",
+      "created_at": "2026-10-20T11:23:54Z",
       "payload": {
-        "ref": "feat/issue-23-responsive-mobile",
+        "ref": "feat/issue-13-layout",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-23-responsive-mobile",
-        "master_branch": "main",
-        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "full_ref": "refs/heads/feat/issue-13-layout",
         "pusher_type": "user"
       }
     },
     {
-      "id": "24667935963",
-      "type": "PushEvent",
+      "id": "24761591221",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:55:14Z",
-      "payload": {
-        "repository_id": 1426584968,
-        "push_id": 47109102280,
-        "ref": "refs/heads/main",
-        "head": "0d2465e17f92842485e72c25d792217d4edb50db",
-        "before": "d6b017e0119253f2ce1b273f13062d20357517ba"
-      }
-    },
-    {
-      "id": "24667742699",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:52:52Z",
-      "payload": {
-        "repository_id": 1426584968,
-        "push_id": 47108882864,
-        "ref": "refs/heads/main",
-        "head": "9825a66b13c9c3b6033df4c9a288dc9c081f1a9e",
-        "before": "84fdcd3b0d05349a16f1248d5863a7731d91a8a4"
-      }
-    },
-    {
-      "id": "24667716706",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:52:32Z",
+      "created_at": "2026-10-20T11:23:54Z",
       "payload": {
         "ref": "feat/issue-10-nextjs-setup",
         "ref_type": "branch",
         "full_ref": "refs/heads/feat/issue-10-nextjs-setup",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24756986769",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T10:24:01Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47117282786,
+        "ref": "refs/heads/main",
+        "head": "e62bee152c9f24fd41cbbb814eeced88cf12f697",
+        "before": "b03569e33273a4e6386e90355b119159418206b9"
+      }
+    },
+    {
+      "id": "24756912185",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T10:40:11Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47118723388,
+        "ref": "refs/heads/main",
+        "head": "d94d33ef899ccc404f67bd8dbc4049feeedfd821",
+        "before": "e62bee152c9f24fd41cbbb814eeced88cf12f697"
+      }
+    },
+    {
+      "id": "24748001939",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:55:29Z",
+      "payload": {
+        "ref": "feat/issue-17-jobs-listing-page",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-17-jobs-listing-page",
         "master_branch": "main",
         "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "17704647173",
-      "type": "IssueCommentEvent",
+      "id": "24747994277",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T11:19:07Z",
+      "created_at": "2026-10-20T08:55:25Z",
       "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/job_management_system",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/events",
-          "html_url": "https://github.com/Rahul-pamula/job_management_system/issues/25",
-          "id": 5938452610,
-          "node_id": "I_kwDOVQf1iM8AAAABYfWYgg",
-          "number": 25,
-          "title": "[DEVOPS] Create .env.example files and complete README setup verification",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 12762190346,
-              "node_id": "LA_kwDOVQf1iM8AAAAC-K-SCg",
-              "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Improvements or additions to documentation",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 12763519820,
-              "node_id": "LA_kwDOVQf1iM8AAAAC-MPbTA",
-              "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/labels/devops",
-              "name": "devops",
-              "color": "0e8a16",
-              "default": false,
-              "description": "DevOps and configuration",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-10-20T08:24:50Z",
-          "updated_at": "2026-10-20T11:19:08Z",
-          "closed_at": "2026-10-20T11:19:08Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "Finalize environment configuration documentation.\n\n**Tasks:**\n- [ ] Create server/.env.example with all variable names and placeholder values (no real credentials)\n- [ ] Create client/.env.example with NEXT_PUBLIC_API_URL placeholder\n- [ ] Add both .env.example files to git (they should NOT be in .gitignore)\n- [ ] Verify server/.env and client/.env.local are still in .gitignore and NOT committed\n- [ ] Update README.md local setup steps to reference .env.example\n- [ ] Add a script to root package.json: dev:backend, dev:frontend, dev (runs both with concurrently)\n\n**Acceptance Criteria:**\n- .env.example files exist and are committed to git\n- Real .env files are NOT in git history\n- Root-level npm run dev starts both server and client",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/comments/6289672386",
-          "html_url": "https://github.com/Rahul-pamula/job_management_system/issues/25#issuecomment-6289672386",
-          "issue_url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/25",
-          "id": 6289672386,
-          "node_id": "IC_kwDOVQf1iM8AAAABduTIwg",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-10-20T11:19:07Z",
-          "updated_at": "2026-10-20T11:19:07Z",
-          "body": "Completed: .env.example files created and README setup verified.",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/job_management_system/issues/comments/6289672386/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
+        "repository_id": 1426584968,
+        "push_id": 47109119397,
+        "ref": "refs/heads/main",
+        "head": "dcef3a5c1069303ed301021d0049128b169e8943",
+        "before": "0d2465e17f92842485e72c25d792217d4edb50db"
+      }
+    },
+    {
+      "id": "24747790636",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:53:30Z",
+      "payload": {
+        "ref": "feat/issue-11-types-api",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-11-types-api",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24746608368",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:54:47Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47109060339,
+        "ref": "refs/heads/main",
+        "head": "d6b017e0119253f2ce1b273f13062d20357517ba",
+        "before": "d050223854ce8877452b37b74704a696ed79906b"
+      }
+    },
+    {
+      "id": "24746441135",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:53:41Z",
+      "payload": {
+        "ref": "feat/issue-12-ui-components",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-12-ui-components",
+        "master_branch": "main",
+        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "24744457370",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:56:23Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47109210730,
+        "ref": "refs/heads/main",
+        "head": "3c56329116d031e142cc2f4e7f8a63b33889cdda",
+        "before": "c7fac338ae4cc95b80d21836191df6217c6d5964"
+      }
+    },
+    {
+      "id": "24744068595",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/job_management_system",
+      "created_at": "2026-10-20T08:53:37Z",
+      "payload": {
+        "repository_id": 1426584968,
+        "push_id": 47108952996,
+        "ref": "refs/heads/main",
+        "head": "392cb1ffa5a49f28fb1280d83d9d8b885654642d",
+        "before": "9825a66b13c9c3b6033df4c9a288dc9c081f1a9e"
       }
     }
   ],
   "recentStats": {
-    "commits": 1965,
+    "commits": 1966,
     "prs": 234,
     "issues": 387
   }
