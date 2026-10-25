@@ -1,43 +1,8 @@
 {
-  "updatedAt": "2026-10-24T03:11:44.705Z",
+  "updatedAt": "2026-10-25T03:07:10.933Z",
   "contributions": {
-    "totalLastYear": 2389,
+    "totalLastYear": 2345,
     "days": [
-      {
-        "date": "2025-10-19",
-        "count": 3,
-        "level": 1
-      },
-      {
-        "date": "2025-10-20",
-        "count": 3,
-        "level": 1
-      },
-      {
-        "date": "2025-10-21",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-10-22",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-10-23",
-        "count": 0,
-        "level": 0
-      },
-      {
-        "date": "2025-10-24",
-        "count": 3,
-        "level": 1
-      },
-      {
-        "date": "2025-10-25",
-        "count": 0,
-        "level": 0
-      },
       {
         "date": "2025-10-26",
         "count": 0,
@@ -845,13 +810,13 @@
       },
       {
         "date": "2026-04-05",
-        "count": 5,
+        "count": 4,
         "level": 1
       },
       {
         "date": "2026-04-06",
-        "count": 33,
-        "level": 2
+        "count": 1,
+        "level": 1
       },
       {
         "date": "2026-04-07",
@@ -860,8 +825,8 @@
       },
       {
         "date": "2026-04-08",
-        "count": 1,
-        "level": 1
+        "count": 0,
+        "level": 0
       },
       {
         "date": "2026-04-09",
@@ -1025,7 +990,7 @@
       },
       {
         "date": "2026-05-11",
-        "count": 3,
+        "count": 2,
         "level": 1
       },
       {
@@ -1480,22 +1445,22 @@
       },
       {
         "date": "2026-08-10",
-        "count": 14,
+        "count": 13,
         "level": 1
       },
       {
         "date": "2026-08-11",
-        "count": 34,
-        "level": 2
+        "count": 1,
+        "level": 1
       },
       {
         "date": "2026-08-12",
-        "count": 21,
+        "count": 20,
         "level": 1
       },
       {
         "date": "2026-08-13",
-        "count": 18,
+        "count": 14,
         "level": 1
       },
       {
@@ -1855,8 +1820,13 @@
       },
       {
         "date": "2026-10-24",
-        "count": 0,
-        "level": 0
+        "count": 17,
+        "level": 1
+      },
+      {
+        "date": "2026-10-25",
+        "count": 13,
+        "level": 1
       }
     ]
   },
@@ -1888,561 +1858,213 @@
     "hireable": null,
     "bio": "AI/ML Engineer | Full Stack Developer | Android Developer | Azure Certified",
     "twitter_username": null,
-    "public_repos": 78,
+    "public_repos": 76,
     "public_gists": 0,
-    "followers": 63,
+    "followers": 64,
     "following": 24,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-10-11T03:17:24Z"
   },
   "activityFeed": [
     {
-      "id": "18061427632",
-      "type": "IssueCommentEvent",
-      "repo": "itzzzzzzak/connector-kit",
-      "created_at": "2026-10-22T18:24:46Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/itzzzzzzak/connector-kit/issues/53",
-          "repository_url": "https://api.github.com/repos/itzzzzzzak/connector-kit",
-          "labels_url": "https://api.github.com/repos/itzzzzzzak/connector-kit/issues/53/labels{/name}",
-          "comments_url": "https://api.github.com/repos/itzzzzzzak/connector-kit/issues/53/comments",
-          "events_url": "https://api.github.com/repos/itzzzzzzak/connector-kit/issues/53/events",
-          "html_url": "https://github.com/itzzzzzzak/connector-kit/pull/53",
-          "id": 5820049620,
-          "node_id": "PR_kwDOUkXUN88AAAABICtOUQ",
-          "number": 53,
-          "title": "feat: add Dropbox connector",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "Rahul-pamula",
-              "id": 153642358,
-              "node_id": "U_kgDOCShldg",
-              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rahul-pamula",
-              "html_url": "https://github.com/Rahul-pamula",
-              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 13,
-          "created_at": "2026-10-12T20:32:46Z",
-          "updated_at": "2026-10-22T18:24:46Z",
-          "closed_at": "2026-10-13T08:16:16Z",
-          "assignee": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "active_lock_reason": null,
-          "draft": false,
-          "pull_request": {
-            "url": "https://api.github.com/repos/itzzzzzzak/connector-kit/pulls/53",
-            "html_url": "https://github.com/itzzzzzzak/connector-kit/pull/53",
-            "diff_url": "https://github.com/itzzzzzzak/connector-kit/pull/53.diff",
-            "patch_url": "https://github.com/itzzzzzzak/connector-kit/pull/53.patch",
-            "merged_at": "2026-10-13T08:16:16Z"
-          },
-          "body": "## What and why\nAdds the Dropbox connector covering the most common file and folder operations over Dropbox's RPC v2 API:\n- `files.listFolder` & `files.listFolderContinue`: Folder listing with cursor continuation\n- `files.getMetadata`: File and folder metadata retrieval\n- `files.search`: Content and filename search\n- `files.delete`: Destructive file and folder deletion\n- `sharing.createSharedLink` & `sharing.listSharedLinks`: Managing public sharing links\n\nFile upload and download endpoints (which require binary stream transfers over content endpoints) are omitted from this initial version as noted in the file.\n\n### API Documentation Links\n- [Files endpoints](https://www.dropbox.com/developers/documentation/http/documentation#files)\n- [Sharing endpoints](https://www.dropbox.com/developers/documentation/http/documentation#sharing)\n\nStatus: `docs-based` (tested against fake server with full failure path coverage).\n\n## Checklist\n- [x] Tests added or updated, including failure paths\n- [x] `pnpm smoke` run if `package.json`, exports, or the build changed\n- [x] No secrets in logs, errors, or tool output\n- [x] README/docs updated if behavior changed (`docs/connectors.md` regenerated via `pnpm catalog`)\n- [x] PR title is `type: summary` (e.g. `feat: add Dropbox connector`)\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/itzzzzzzak/connector-kit/issues/53/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/itzzzzzzak/connector-kit/issues/53/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/itzzzzzzak/connector-kit/issues/comments/6348127636",
-          "html_url": "https://github.com/itzzzzzzak/connector-kit/pull/53#issuecomment-6348127636",
-          "issue_url": "https://api.github.com/repos/itzzzzzzak/connector-kit/issues/53",
-          "id": 6348127636,
-          "node_id": "IC_kwDOUkXUN88AAAABemC9lA",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-10-22T18:24:46Z",
-          "updated_at": "2026-10-22T18:24:46Z",
-          "body": "Thanks for reaching out!\r\n\r\nI’ve been tied up with internal work commitments and upcoming exams recently, which has kept me away from open-source contributions for a bit.\r\n\r\nOnce my exams and current workload wrap up, I plan to dive right back into open source. I will definitely make it a priority to go through your codebase and application then. If I see any areas for improvement or have any suggestions regarding safe tool discovery, execution, or onboarding, I’ll be sure to share them and discuss them with you!\r\n\r\nRahul\r\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/itzzzzzzak/connector-kit/issues/comments/6348127636/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "18035542873",
-      "type": "IssueCommentEvent",
-      "repo": "CrossGL/crosstl",
-      "created_at": "2026-10-23T08:41:58Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/CrossGL/crosstl/issues/2750",
-          "repository_url": "https://api.github.com/repos/CrossGL/crosstl",
-          "labels_url": "https://api.github.com/repos/CrossGL/crosstl/issues/2750/labels{/name}",
-          "comments_url": "https://api.github.com/repos/CrossGL/crosstl/issues/2750/comments",
-          "events_url": "https://api.github.com/repos/CrossGL/crosstl/issues/2750/events",
-          "html_url": "https://github.com/CrossGL/crosstl/issues/2750",
-          "id": 5994144735,
-          "node_id": "I_kwDOL2TxDs8AAAABZUdj3w",
-          "number": 2750,
-          "title": "Sphinx warning: unterminated inline literal in a GLSL importer docstring",
-          "user": {
-            "login": "NripeshN",
-            "id": 86844847,
-            "node_id": "MDQ6VXNlcjg2ODQ0ODQ3",
-            "avatar_url": "https://avatars.githubusercontent.com/u/86844847?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/NripeshN",
-            "html_url": "https://github.com/NripeshN",
-            "followers_url": "https://api.github.com/users/NripeshN/followers",
-            "following_url": "https://api.github.com/users/NripeshN/following{/other_user}",
-            "gists_url": "https://api.github.com/users/NripeshN/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/NripeshN/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/NripeshN/subscriptions",
-            "organizations_url": "https://api.github.com/users/NripeshN/orgs",
-            "repos_url": "https://api.github.com/users/NripeshN/repos",
-            "events_url": "https://api.github.com/users/NripeshN/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/NripeshN/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 6900563122,
-              "node_id": "LA_kwDOL2TxDs8AAAABm048sg",
-              "url": "https://api.github.com/repos/CrossGL/crosstl/labels/documentation",
-              "name": "documentation",
-              "color": "0075ca",
-              "default": true,
-              "description": "Documentation changes",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 6900563146,
-              "node_id": "LA_kwDOL2TxDs8AAAABm048yg",
-              "url": "https://api.github.com/repos/CrossGL/crosstl/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Small, well-scoped task for a new contributor",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 7353771230,
-              "node_id": "LA_kwDOL2TxDs8AAAABtlGk3g",
-              "url": "https://api.github.com/repos/CrossGL/crosstl/labels/backend:glsl",
-              "name": "backend:glsl",
-              "color": "c5def5",
-              "default": false,
-              "description": "OpenGL and WebGL GLSL",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 12764415377,
-              "node_id": "LA_kwDOL2TxDs8AAAAC-NGFkQ",
-              "url": "https://api.github.com/repos/CrossGL/crosstl/labels/area:docs",
-              "name": "area:docs",
-              "color": "1d76db",
-              "default": false,
-              "description": "Documentation site and guides",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 3,
-          "created_at": "2026-10-23T07:58:39Z",
-          "updated_at": "2026-10-23T16:28:53Z",
-          "closed_at": "2026-10-23T16:28:53Z",
-          "assignee": null,
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "`make -C docs html` on main (991536a9) prints one warning:\n\n```text\ncrosstl/backend/GLSL/openglCrossglCodegen.py:docstring of crosstl.backend.GLSL.openglCrossglCodegen.GLSLToCrossGLConverter.private_global_prefix:1: WARNING: Inline literal start-string without end-string. [docutils]\n```\n\nThe first line of the docstring (`openglCrossglCodegen.py:1898`) opens the inline literal ``` ``static `` ```. reStructuredText does not allow whitespace before the closing backquotes, so docutils renders the rest of the line as plain text. Writing ``` ``static`` ``` fixes it, and the build is then free of warnings.\n\nTo check: `pip install -e . -r docs/requirements.txt`, then `python -m sphinx -b html -q docs/source /tmp/crosstl-docs` should print nothing.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/CrossGL/crosstl/issues/2750/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/CrossGL/crosstl/issues/2750/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/CrossGL/crosstl/issues/comments/6361015570",
-          "html_url": "https://github.com/CrossGL/crosstl/issues/2750#issuecomment-6361015570",
-          "issue_url": "https://api.github.com/repos/CrossGL/crosstl/issues/2750",
-          "id": 6361015570,
-          "node_id": "IC_kwDOL2TxDs8AAAABeyVlEg",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-10-23T08:41:58Z",
-          "updated_at": "2026-10-23T08:41:58Z",
-          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I have experience with the relevant tech stack. Could I be assigned this one? I'll have a fix ready soon! 🙌",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/CrossGL/crosstl/issues/comments/6361015570/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "18020859553",
-      "type": "PullRequestEvent",
+      "id": "25087690037",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-23T09:19:51Z",
+      "created_at": "2026-10-24T18:26:09Z",
       "payload": {
-        "action": "merged",
-        "number": 317,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/317",
-          "id": 4980581971,
-          "number": 317,
-          "head": {
-            "ref": "docs/add-scale-funnel-architecture",
-            "sha": "938f37bbc59b5bd6b320c1c392a069e1105fdbac",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "3014729c4b6a20effea7a4a053fe740f17ccea0b",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
+        "ref": "feat/issue-319-google-docs-link-button",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-319-google-docs-link-button",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "17998865750",
-      "type": "PullRequestEvent",
+      "id": "25087447216",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-23T09:18:58Z",
+      "created_at": "2026-10-24T18:22:51Z",
       "payload": {
-        "action": "opened",
-        "number": 317,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/317",
-          "id": 4980581971,
-          "number": 317,
-          "head": {
-            "ref": "docs/add-scale-funnel-architecture",
-            "sha": "938f37bbc59b5bd6b320c1c392a069e1105fdbac",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "3014729c4b6a20effea7a4a053fe740f17ccea0b",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "24763620713",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T11:23:55Z",
-      "payload": {
-        "ref": "feat/issue-21-ai-summary",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-21-ai-summary",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24763619033",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T11:23:54Z",
-      "payload": {
-        "ref": "feat/backend-core",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/backend-core",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24761592384",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T11:23:55Z",
-      "payload": {
-        "ref": "feat/issue-20-job-create-form",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-20-job-create-form",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24761591860",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T11:23:54Z",
-      "payload": {
-        "ref": "feat/issue-16-filter-panel",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-16-filter-panel",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24761591491",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T11:23:54Z",
-      "payload": {
-        "ref": "feat/issue-13-layout",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-13-layout",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24761591221",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T11:23:54Z",
-      "payload": {
-        "ref": "feat/issue-10-nextjs-setup",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-10-nextjs-setup",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "24756986769",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T10:24:01Z",
-      "payload": {
-        "repository_id": 1426584968,
-        "push_id": 47117282786,
+        "repository_id": 1339909532,
+        "push_id": 47649631682,
         "ref": "refs/heads/main",
-        "head": "e62bee152c9f24fd41cbbb814eeced88cf12f697",
-        "before": "b03569e33273a4e6386e90355b119159418206b9"
+        "head": "b9e7c6cda071e4d5793de45448507aa22ec41855",
+        "before": "d495b7e95306a8fdc1c943c1140bb60654dfb6be"
       }
     },
     {
-      "id": "24756912185",
+      "id": "25086648340",
       "type": "PushEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T10:40:11Z",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:50:14Z",
       "payload": {
-        "repository_id": 1426584968,
-        "push_id": 47118723388,
-        "ref": "refs/heads/main",
-        "head": "d94d33ef899ccc404f67bd8dbc4049feeedfd821",
-        "before": "e62bee152c9f24fd41cbbb814eeced88cf12f697"
+        "repository_id": 1339909532,
+        "push_id": 47651526032,
+        "ref": "refs/heads/feat/issue-325-toasts-and-ux-feedback",
+        "head": "9b3b24573e5d85845d65c171283eef68d6887224",
+        "before": "fd747fefee97c1e2d758f82f942f9b5cf4f903c9"
       }
     },
     {
-      "id": "24748001939",
+      "id": "25086224417",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:44:05Z",
+      "payload": {
+        "ref": "feat/issue-324-backend-notes-url",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-324-backend-notes-url",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25086147532",
       "type": "CreateEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:55:29Z",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:42:56Z",
       "payload": {
-        "ref": "feat/issue-17-jobs-listing-page",
+        "ref": "feat/issue-324-backend-notes-url",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-17-jobs-listing-page",
+        "full_ref": "refs/heads/feat/issue-324-backend-notes-url",
         "master_branch": "main",
-        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "24747994277",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:55:25Z",
+      "id": "25085727826",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:37:18Z",
       "payload": {
-        "repository_id": 1426584968,
-        "push_id": 47109119397,
-        "ref": "refs/heads/main",
-        "head": "dcef3a5c1069303ed301021d0049128b169e8943",
-        "before": "0d2465e17f92842485e72c25d792217d4edb50db"
+        "ref": "feat/issue-322-editable-notes-block",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-322-editable-notes-block",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "24747790636",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/job_management_system",
-      "created_at": "2026-10-20T08:53:30Z",
+      "id": "25084998228",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:26:06Z",
       "payload": {
-        "ref": "feat/issue-11-types-api",
+        "repository_id": 1339909532,
+        "push_id": 47649856900,
+        "ref": "refs/heads/main",
+        "head": "b777c4432fd64c5ef4e6d75f508588a4a63a346c",
+        "before": "b9e7c6cda071e4d5793de45448507aa22ec41855"
+      }
+    },
+    {
+      "id": "25072288344",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T19:08:39Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 47652805668,
+        "ref": "refs/heads/main",
+        "head": "1f4a1dd76eb90841c11225bf228a8181867ca607",
+        "before": "557f8f31fbfdbb80c2a20a75728017fc8418f4bf"
+      }
+    },
+    {
+      "id": "25072056846",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T19:08:41Z",
+      "payload": {
+        "ref": "docs/issue-327-interview-prep-documentation",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-11-types-api",
+        "full_ref": "refs/heads/docs/issue-327-interview-prep-documentation",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25064642462",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:40:54Z",
+      "payload": {
+        "ref": "feat/issue-323-integrate-merged-card",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-323-integrate-merged-card",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25063347722",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:21:47Z",
+      "payload": {
+        "ref": "feat/issue-318-task-interview-notes-type",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-318-task-interview-notes-type",
         "master_branch": "main",
-        "description": "I-powered job management platform with advanced filters, pagination, dynamic job details, and AI-assisted job descriptions and summaries.",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25062392554",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:51:05Z",
+      "payload": {
+        "ref": "feat/issue-325-toasts-and-ux-feedback",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-325-toasts-and-ux-feedback",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25062062107",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:46:04Z",
+      "payload": {
+        "ref": "feat/issue-325-toasts-and-ux-feedback",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-325-toasts-and-ux-feedback",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25061313799",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:36:04Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 47650551585,
+        "ref": "refs/heads/main",
+        "head": "60c002c0a5d7d6620e420a544d55cbea4d7e512f",
+        "before": "7cf8485159a48203d556b8d1b7a6b9c8a145a26f"
+      }
+    },
+    {
+      "id": "25060496019",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:24:30Z",
+      "payload": {
+        "ref": "feat/issue-319-google-docs-link-button",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-319-google-docs-link-button",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     }
   ],
   "recentStats": {
-    "commits": 1969,
-    "prs": 235,
-    "issues": 387
+    "commits": 1912,
+    "prs": 245,
+    "issues": 397
   }
 }
