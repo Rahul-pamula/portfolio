@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-25T03:07:10.933Z",
+  "updatedAt": "2026-10-26T03:06:48.287Z",
   "contributions": {
-    "totalLastYear": 2345,
+    "totalLastYear": 2563,
     "days": [
       {
         "date": "2025-10-26",
@@ -231,7 +231,7 @@
       {
         "date": "2025-12-10",
         "count": 25,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2025-12-11",
@@ -776,7 +776,7 @@
       {
         "date": "2026-03-29",
         "count": 28,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-03-30",
@@ -796,7 +796,7 @@
       {
         "date": "2026-04-02",
         "count": 46,
-        "level": 3
+        "level": 1
       },
       {
         "date": "2026-04-03",
@@ -901,7 +901,7 @@
       {
         "date": "2026-04-23",
         "count": 30,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-04-24",
@@ -931,7 +931,7 @@
       {
         "date": "2026-04-29",
         "count": 25,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-04-30",
@@ -1086,7 +1086,7 @@
       {
         "date": "2026-05-30",
         "count": 25,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-05-31",
@@ -1106,7 +1106,7 @@
       {
         "date": "2026-06-03",
         "count": 24,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-06-04",
@@ -1321,7 +1321,7 @@
       {
         "date": "2026-07-16",
         "count": 85,
-        "level": 4
+        "level": 2
       },
       {
         "date": "2026-07-17",
@@ -1436,7 +1436,7 @@
       {
         "date": "2026-08-08",
         "count": 26,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-09",
@@ -1501,12 +1501,12 @@
       {
         "date": "2026-08-21",
         "count": 32,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-22",
         "count": 97,
-        "level": 4
+        "level": 2
       },
       {
         "date": "2026-08-23",
@@ -1526,12 +1526,12 @@
       {
         "date": "2026-08-26",
         "count": 53,
-        "level": 3
+        "level": 1
       },
       {
         "date": "2026-08-27",
         "count": 33,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-28",
@@ -1541,12 +1541,12 @@
       {
         "date": "2026-08-29",
         "count": 33,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-30",
         "count": 27,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-31",
@@ -1576,7 +1576,7 @@
       {
         "date": "2026-09-05",
         "count": 72,
-        "level": 4
+        "level": 2
       },
       {
         "date": "2026-09-06",
@@ -1586,7 +1586,7 @@
       {
         "date": "2026-09-07",
         "count": 42,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-09-08",
@@ -1596,7 +1596,7 @@
       {
         "date": "2026-09-09",
         "count": 49,
-        "level": 3
+        "level": 1
       },
       {
         "date": "2026-09-10",
@@ -1661,17 +1661,17 @@
       {
         "date": "2026-09-22",
         "count": 46,
-        "level": 3
+        "level": 1
       },
       {
         "date": "2026-09-23",
         "count": 89,
-        "level": 4
+        "level": 2
       },
       {
         "date": "2026-09-24",
         "count": 61,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-09-25",
@@ -1721,12 +1721,12 @@
       {
         "date": "2026-10-04",
         "count": 41,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-10-05",
         "count": 46,
-        "level": 3
+        "level": 1
       },
       {
         "date": "2026-10-06",
@@ -1761,7 +1761,7 @@
       {
         "date": "2026-10-12",
         "count": 33,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-10-13",
@@ -1801,7 +1801,7 @@
       {
         "date": "2026-10-20",
         "count": 80,
-        "level": 4
+        "level": 2
       },
       {
         "date": "2026-10-21",
@@ -1825,8 +1825,13 @@
       },
       {
         "date": "2026-10-25",
-        "count": 13,
-        "level": 1
+        "count": 240,
+        "level": 4
+      },
+      {
+        "date": "2026-10-26",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -1860,211 +1865,210 @@
     "twitter_username": null,
     "public_repos": 76,
     "public_gists": 0,
-    "followers": 64,
-    "following": 24,
+    "followers": 66,
+    "following": 20,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-10-11T03:17:24Z"
   },
   "activityFeed": [
     {
-      "id": "25087690037",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:26:09Z",
-      "payload": {
-        "ref": "feat/issue-319-google-docs-link-button",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-319-google-docs-link-button",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25087447216",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:22:51Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 47649631682,
-        "ref": "refs/heads/main",
-        "head": "b9e7c6cda071e4d5793de45448507aa22ec41855",
-        "before": "d495b7e95306a8fdc1c943c1140bb60654dfb6be"
-      }
-    },
-    {
-      "id": "25086648340",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:50:14Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 47651526032,
-        "ref": "refs/heads/feat/issue-325-toasts-and-ux-feedback",
-        "head": "9b3b24573e5d85845d65c171283eef68d6887224",
-        "before": "fd747fefee97c1e2d758f82f942f9b5cf4f903c9"
-      }
-    },
-    {
-      "id": "25086224417",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:44:05Z",
-      "payload": {
-        "ref": "feat/issue-324-backend-notes-url",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-324-backend-notes-url",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25086147532",
+      "id": "25162898522",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:42:56Z",
-      "payload": {
-        "ref": "feat/issue-324-backend-notes-url",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-324-backend-notes-url",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25085727826",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:37:18Z",
-      "payload": {
-        "ref": "feat/issue-322-editable-notes-block",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-322-editable-notes-block",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25084998228",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:26:06Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 47649856900,
-        "ref": "refs/heads/main",
-        "head": "b777c4432fd64c5ef4e6d75f508588a4a63a346c",
-        "before": "b9e7c6cda071e4d5793de45448507aa22ec41855"
-      }
-    },
-    {
-      "id": "25072288344",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T19:08:39Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 47652805668,
-        "ref": "refs/heads/main",
-        "head": "1f4a1dd76eb90841c11225bf228a8181867ca607",
-        "before": "557f8f31fbfdbb80c2a20a75728017fc8418f4bf"
-      }
-    },
-    {
-      "id": "25072056846",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T19:08:41Z",
+      "created_at": "2026-10-24T19:07:39Z",
       "payload": {
         "ref": "docs/issue-327-interview-prep-documentation",
         "ref_type": "branch",
         "full_ref": "refs/heads/docs/issue-327-interview-prep-documentation",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25064642462",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:40:54Z",
-      "payload": {
-        "ref": "feat/issue-323-integrate-merged-card",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-323-integrate-merged-card",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25063347722",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:21:47Z",
-      "payload": {
-        "ref": "feat/issue-318-task-interview-notes-type",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-318-task-interview-notes-type",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "25062392554",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:51:05Z",
-      "payload": {
-        "ref": "feat/issue-325-toasts-and-ux-feedback",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-325-toasts-and-ux-feedback",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25062062107",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:46:04Z",
-      "payload": {
-        "ref": "feat/issue-325-toasts-and-ux-feedback",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-325-toasts-and-ux-feedback",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25061313799",
+      "id": "25161816108",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:36:04Z",
+      "created_at": "2026-10-24T18:51:02Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 47650551585,
+        "push_id": 47651582658,
         "ref": "refs/heads/main",
-        "head": "60c002c0a5d7d6620e420a544d55cbea4d7e512f",
-        "before": "7cf8485159a48203d556b8d1b7a6b9c8a145a26f"
+        "head": "e83560cc76dcc19b0d8b1ebf652253cb1619ae5e",
+        "before": "6b086e28fd9c56497f5826f62d5336880d085595"
       }
     },
     {
-      "id": "25060496019",
+      "id": "25160821251",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:36:07Z",
+      "payload": {
+        "ref": "feat/issue-321-context-notes-url",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-321-context-notes-url",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25160378070",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-24T18:30:27Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 47650159596,
+        "ref": "refs/heads/main",
+        "head": "7cf8485159a48203d556b8d1b7a6b9c8a145a26f",
+        "before": "b777c4432fd64c5ef4e6d75f508588a4a63a346c"
+      }
+    },
+    {
+      "id": "25144297600",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T11:24:25Z",
+      "payload": {
+        "ref": "issue-415-e2e-discovery-lifecycle",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-415-e2e-discovery-lifecycle",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25143796267",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T11:17:03Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 47709284052,
+        "ref": "refs/heads/main",
+        "head": "4f892a6e3761149fce61db923f8ab961d8d63404",
+        "before": "8db0954088d9f7ac54e3611b6b04f9439d0aae76"
+      }
+    },
+    {
+      "id": "25142944394",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-24T18:24:30Z",
+      "created_at": "2026-10-25T11:03:30Z",
       "payload": {
-        "ref": "feat/issue-319-google-docs-link-button",
+        "ref": "issue-402-copy-relevance-explanation",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-319-google-docs-link-button",
+        "full_ref": "refs/heads/issue-402-copy-relevance-explanation",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25142634042",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T10:58:45Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 47708094629,
+        "ref": "refs/heads/main",
+        "head": "939f2fe395ba978e2daef92d6299c9ca282686b4",
+        "before": "88e970d90225d616f1c2d75a0045ed6857eac964"
+      }
+    },
+    {
+      "id": "25142488584",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T10:56:39Z",
+      "payload": {
+        "ref": "issue-399-match-calculation-tab",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-399-match-calculation-tab",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25141909113",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T10:47:30Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 47707398239,
+        "ref": "refs/heads/main",
+        "head": "648f3ed7b33e99761776b15a062f6d3b59ec39bb",
+        "before": "16f3dd5291a2982335694da50c47612fb8247ea4"
+      }
+    },
+    {
+      "id": "25141738420",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T10:44:37Z",
+      "payload": {
+        "ref": "issue-392-deterministic-pagination",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-392-deterministic-pagination",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25141418844",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T10:38:58Z",
+      "payload": {
+        "ref": "issue-388-issuecard-score-badge",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-388-issuecard-score-badge",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25141125829",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T10:34:02Z",
+      "payload": {
+        "ref": "issue-385-master-calculate-relevance",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-385-master-calculate-relevance",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25141004618",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T11:22:05Z",
+      "payload": {
+        "ref": "issue-414-pipeline-memoization",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-414-pipeline-memoization",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25141001194",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-25T11:22:01Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 47709602218,
+        "ref": "refs/heads/main",
+        "head": "2d72e5b8aaec612d25098463bcbdb79ece16003b",
+        "before": "d14c271093150ee70d9d7801ae613fbc08a09690"
       }
     }
   ],
   "recentStats": {
-    "commits": 1912,
-    "prs": 245,
-    "issues": 397
+    "commits": 1994,
+    "prs": 325,
+    "issues": 477
   }
 }
