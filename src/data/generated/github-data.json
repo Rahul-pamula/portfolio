@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-30T04:17:31.303Z",
+  "updatedAt": "2026-10-31T03:58:25.712Z",
   "contributions": {
-    "totalLastYear": 2894,
+    "totalLastYear": 2951,
     "days": [
       {
         "date": "2025-10-26",
@@ -1850,6 +1850,11 @@
       },
       {
         "date": "2026-10-30",
+        "count": 57,
+        "level": 3
+      },
+      {
+        "date": "2026-10-31",
         "count": 0,
         "level": 0
       }
@@ -1892,196 +1897,914 @@
   },
   "activityFeed": [
     {
-      "id": "25579908369",
-      "type": "DeleteEvent",
+      "id": "18647792624",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:59:55Z",
+      "created_at": "2026-10-30T08:30:52Z",
       "payload": {
-        "ref": "issue-98-diff-resource",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-98-diff-resource",
-        "pusher_type": "user"
+        "action": "merged",
+        "number": 754,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/754",
+          "id": 5081613139,
+          "number": 754,
+          "head": {
+            "ref": "issue-128-milestone-consolidation",
+            "sha": "c77d2c22c7991ed80b5b24691088a3274da74ac3",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "a92881d980dbc41a0b160b98aefc6711e82a11a3",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "25577584027",
-      "type": "PushEvent",
+      "id": "18647791327",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:29:05Z",
+      "created_at": "2026-10-30T08:30:54Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48062778901,
-        "ref": "refs/heads/main",
-        "head": "e23e11db64e58642ef7bac922769b477ad6a329d",
-        "before": "d2ba11315b65be5d8bd194345c18a6c69ed7ee96"
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/626",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/626/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/626/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/626/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/626",
+          "id": 6033233016,
+          "node_id": "I_kwDOT91lnM8AAAABZ5vUeA",
+          "number": 626,
+          "title": "[MCP Phase 8] chore(release): final 128-PR milestone consolidation, README update, and release sign-off",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12315668121,
+              "node_id": "LA_kwDOT91lnM8AAAAC3hIumQ",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/phase:mcp",
+              "name": "phase:mcp",
+              "color": "5319e7",
+              "default": false,
+              "description": "Phase 2 MCP Orchestration",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-26T04:17:19Z",
+          "updated_at": "2026-10-30T08:30:53Z",
+          "closed_at": "2026-10-30T08:30:53Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### Objective & Description\nConsolidate 128-PR milestone, update root README with MCP v2.2.0 badge and documentation links.\n\n### Scope & Files to Touch\n• `README.md`\n• `docs/RELEASE_NOTES_v2.2.0.md`\n\n### Acceptance Criteria\n- [ ] README updated with v2.2.0 highlights\n- [ ] Milestone celebration documentation\n- [ ] All tests 100% green and verified\n\n### Co-Author Attribution\n- **Target Contributor:** @alphacoder-hash\n- **Required Git Commit Trailer:**\n```text\nCo-authored-by: Vaibhav Pandey <aryanpandey392@gmail.com>\n```\n\n### PR Merge Safety\nIsolated exclusively to `packages/scout-mcp` or documentation. Zero impact on Scout v1 web application.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/626/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/626/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     },
     {
-      "id": "25576397529",
-      "type": "DeleteEvent",
+      "id": "18647779489",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:15:19Z",
+      "created_at": "2026-10-30T08:30:43Z",
       "payload": {
-        "ref": "issue-85-skill-tags-languages",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-85-skill-tags-languages",
-        "pusher_type": "user"
+        "action": "opened",
+        "number": 754,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/754",
+          "id": 5081613139,
+          "number": 754,
+          "head": {
+            "ref": "issue-128-milestone-consolidation",
+            "sha": "c77d2c22c7991ed80b5b24691088a3274da74ac3",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "a92881d980dbc41a0b160b98aefc6711e82a11a3",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "25574708634",
-      "type": "PushEvent",
+      "id": "18647640534",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T06:57:09Z",
+      "created_at": "2026-10-30T08:28:40Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48060088490,
-        "ref": "refs/heads/main",
-        "head": "a98d7b95396a7726b111dc9082b5ea3c65c81355",
-        "before": "7fd96bee61945be782b9f42ae685a690089b2ae5"
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/625",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/625/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/625/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/625/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/625",
+          "id": 6033232458,
+          "node_id": "I_kwDOT91lnM8AAAABZ5vSSg",
+          "number": 625,
+          "title": "[MCP Phase 8] chore(release): bump open-source-scout-mcp package version to 2.2.0",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713298,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYq0g",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:feature",
+              "name": "type:feature",
+              "color": "1d76db",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12315668121,
+              "node_id": "LA_kwDOT91lnM8AAAAC3hIumQ",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/phase:mcp",
+              "name": "phase:mcp",
+              "color": "5319e7",
+              "default": false,
+              "description": "Phase 2 MCP Orchestration",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-26T04:17:16Z",
+          "updated_at": "2026-10-30T08:28:37Z",
+          "closed_at": "2026-10-30T08:28:37Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### Objective & Description\nBump package version to 2.2.0 in packages/scout-mcp/package.json in preparation for release.\n\n### Scope & Files to Touch\n• `packages/scout-mcp/package.json`\n\n### Acceptance Criteria\n- [ ] Version bumped to 2.2.0\n- [ ] Package dependencies and lockfile synchronized\n- [ ] npm run build passes cleanly\n\n### Co-Author Attribution\n- **Target Contributor:** @alphacoder-hash\n- **Required Git Commit Trailer:**\n```text\nCo-authored-by: Vaibhav Pandey <aryanpandey392@gmail.com>\n```\n\n### PR Merge Safety\nIsolated exclusively to `packages/scout-mcp` or documentation. Zero impact on Scout v1 web application.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/625/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/625/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     },
     {
-      "id": "25574681302",
-      "type": "DeleteEvent",
+      "id": "18647639983",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:01:08Z",
+      "created_at": "2026-10-30T08:28:36Z",
       "payload": {
-        "ref": "issue-82-lru-skills-cache",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-82-lru-skills-cache",
-        "pusher_type": "user"
+        "action": "merged",
+        "number": 753,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/753",
+          "id": 5081590614,
+          "number": 753,
+          "head": {
+            "ref": "issue-127-bump-version",
+            "sha": "849fa4ad4ff562b41645f3b179b71815ccd994d1",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "eb9c6f5e1aa8ce14084118279e7be6ebec1d5208",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "25563259339",
-      "type": "DeleteEvent",
+      "id": "18647627578",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T08:07:03Z",
+      "created_at": "2026-10-30T08:28:28Z",
       "payload": {
-        "ref": "issue-100-evidence-resource",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-100-evidence-resource",
-        "pusher_type": "user"
+        "action": "opened",
+        "number": 753,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/753",
+          "id": 5081590614,
+          "number": 753,
+          "head": {
+            "ref": "issue-127-bump-version",
+            "sha": "849fa4ad4ff562b41645f3b179b71815ccd994d1",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "eb9c6f5e1aa8ce14084118279e7be6ebec1d5208",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "25561992426",
-      "type": "DeleteEvent",
+      "id": "18647491895",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:52:36Z",
+      "created_at": "2026-10-30T08:26:28Z",
       "payload": {
-        "ref": "issue-96-phase6-regression",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-96-phase6-regression",
-        "pusher_type": "user"
+        "action": "merged",
+        "number": 752,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/752",
+          "id": 5081567480,
+          "number": 752,
+          "head": {
+            "ref": "issue-126-v2-changelog",
+            "sha": "ab3693e89ad144a43be8bf65381fb2d0d9d44825",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "61c4b5cd11aa6ac7272a15ebb8af4e6157f48bcf",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "25559060037",
-      "type": "DeleteEvent",
+      "id": "18647489280",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:17:46Z",
+      "created_at": "2026-10-30T08:26:30Z",
       "payload": {
-        "ref": "issue-86-tfidf-unit-tests",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-86-tfidf-unit-tests",
-        "pusher_type": "user"
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/624",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/624/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/624/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/624/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/624",
+          "id": 6033232058,
+          "node_id": "I_kwDOT91lnM8AAAABZ5vQug",
+          "number": 624,
+          "title": "[MCP Phase 8] docs(changelog): compile comprehensive Scout MCP v2.2.0 changelog across all 128 PRs",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12315668121,
+              "node_id": "LA_kwDOT91lnM8AAAAC3hIumQ",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/phase:mcp",
+              "name": "phase:mcp",
+              "color": "5319e7",
+              "default": false,
+              "description": "Phase 2 MCP Orchestration",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-26T04:17:13Z",
+          "updated_at": "2026-10-30T08:26:29Z",
+          "closed_at": "2026-10-30T08:26:29Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### Objective & Description\nCompile complete changelog documenting all 128 PRs, bugfixes, security hardenings, and co-authors.\n\n### Scope & Files to Touch\n• `packages/scout-mcp/CHANGELOG.md`\n\n### Acceptance Criteria\n- [ ] Documents all 8 phases\n- [ ] Credits Rnithins and alphacoder-hash\n- [ ] Clean markdown formatting\n\n### Co-Author Attribution\n- **Target Contributor:** @alphacoder-hash\n- **Required Git Commit Trailer:**\n```text\nCo-authored-by: Vaibhav Pandey <aryanpandey392@gmail.com>\n```\n\n### PR Merge Safety\nIsolated exclusively to `packages/scout-mcp` or documentation. Zero impact on Scout v1 web application.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/624/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/624/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     },
     {
-      "id": "25499890816",
-      "type": "DeleteEvent",
+      "id": "18647477540",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:29:37Z",
+      "created_at": "2026-10-30T08:26:18Z",
       "payload": {
-        "ref": "issue-90-debug-issue-prompt",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-90-debug-issue-prompt",
-        "pusher_type": "user"
+        "action": "opened",
+        "number": 752,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/752",
+          "id": 5081567480,
+          "number": 752,
+          "head": {
+            "ref": "issue-126-v2-changelog",
+            "sha": "ab3693e89ad144a43be8bf65381fb2d0d9d44825",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "61c4b5cd11aa6ac7272a15ebb8af4e6157f48bcf",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "25499675120",
-      "type": "PushEvent",
+      "id": "18647383454",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:27:04Z",
+      "created_at": "2026-10-30T08:24:50Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48062610910,
-        "ref": "refs/heads/main",
-        "head": "d2ba11315b65be5d8bd194345c18a6c69ed7ee96",
-        "before": "bc07736952c576b6e10de3da0a2ae168f8517733"
+        "action": "merged",
+        "number": 751,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/751",
+          "id": 5081550298,
+          "number": 751,
+          "head": {
+            "ref": "issue-125-perf-bench",
+            "sha": "2a5d1ba0db7b4ada1a575c35904ea61990b344d5",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "22a675c7e0c6fe395f47e5fb23f38d9517b401fc",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "25499394537",
-      "type": "PushEvent",
+      "id": "18647380048",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:24:00Z",
+      "created_at": "2026-10-30T08:24:56Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48062350476,
-        "ref": "refs/heads/main",
-        "head": "bc07736952c576b6e10de3da0a2ae168f8517733",
-        "before": "573d18623cd46f20a77d2e5748de78cfe6af298d"
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/623",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/623/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/623/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/623/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/623",
+          "id": 6033231595,
+          "node_id": "I_kwDOT91lnM8AAAABZ5vO6w",
+          "number": 623,
+          "title": "[MCP Phase 8] perf(bench): create benchmark comparing Scout worktree overhead vs native IDE execution",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713298,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYq0g",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:feature",
+              "name": "type:feature",
+              "color": "1d76db",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12315668121,
+              "node_id": "LA_kwDOT91lnM8AAAAC3hIumQ",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/phase:mcp",
+              "name": "phase:mcp",
+              "color": "5319e7",
+              "default": false,
+              "description": "Phase 2 MCP Orchestration",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-26T04:17:11Z",
+          "updated_at": "2026-10-30T08:24:52Z",
+          "closed_at": "2026-10-30T08:24:52Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### Objective & Description\nBenchmark overhead of worktree creation and command execution to prove sub-50ms latency.\n\n### Scope & Files to Touch\n• `packages/scout-mcp/src/benchmark.test.ts`\n\n### Acceptance Criteria\n- [ ] Measures command execution latency\n- [ ] Proves negligible overhead of sandboxing\n- [ ] Benchmark test passes cleanly\n\n### Co-Author Attribution\n- **Target Contributor:** @alphacoder-hash\n- **Required Git Commit Trailer:**\n```text\nCo-authored-by: Vaibhav Pandey <aryanpandey392@gmail.com>\n```\n\n### PR Merge Safety\nIsolated exclusively to `packages/scout-mcp` or documentation. Zero impact on Scout v1 web application.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/623/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/623/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     },
     {
-      "id": "25499080458",
-      "type": "PushEvent",
+      "id": "18647365632",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:19:38Z",
+      "created_at": "2026-10-30T08:24:41Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48061982107,
-        "ref": "refs/heads/main",
-        "head": "573d18623cd46f20a77d2e5748de78cfe6af298d",
-        "before": "eb35497e488ce44a43dece0c868d80177e950f9c"
+        "action": "opened",
+        "number": 751,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/751",
+          "id": 5081550298,
+          "number": 751,
+          "head": {
+            "ref": "issue-125-perf-bench",
+            "sha": "2a5d1ba0db7b4ada1a575c35904ea61990b344d5",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "22a675c7e0c6fe395f47e5fb23f38d9517b401fc",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "25499017376",
-      "type": "PushEvent",
+      "id": "18647247302",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T08:06:55Z",
+      "created_at": "2026-10-30T08:22:54Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48066107020,
-        "ref": "refs/heads/main",
-        "head": "3267c44b8140b4321539b73312264dcc631c5538",
-        "before": "075156ce2990c477fd1e210b453b85ea8d43cddb"
+        "action": "merged",
+        "number": 750,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/750",
+          "id": 5081531012,
+          "number": 750,
+          "head": {
+            "ref": "issue-124-e2e-simulation",
+            "sha": "efa5e4f05d5e81b6b0f342c7bfe7bff3949a379d",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "d8e05af5cb8631adeece2289c14d23203e71dfc6",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "25498908307",
-      "type": "PushEvent",
+      "id": "18647246349",
+      "type": "IssuesEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:17:37Z",
+      "created_at": "2026-10-30T08:22:56Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48061815114,
-        "ref": "refs/heads/main",
-        "head": "eb35497e488ce44a43dece0c868d80177e950f9c",
-        "before": "7826c241a0fb2f0ad79db4eea10c9eb02bb65426"
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/622",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/622/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/622/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/622/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/622",
+          "id": 6033231110,
+          "node_id": "I_kwDOT91lnM8AAAABZ5vNBg",
+          "number": 622,
+          "title": "[MCP Phase 8] test(e2e): add end-to-end simulation of autonomous agent solving task via Scout MCP",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11890136446,
+              "node_id": "LA_kwDOT91lnM8AAAACxLUVfg",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11922713604,
+              "node_id": "LA_kwDOT91lnM8AAAACxqYsBA",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/type:testing",
+              "name": "type:testing",
+              "color": "f9d0c4",
+              "default": false,
+              "description": "",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12315668121,
+              "node_id": "LA_kwDOT91lnM8AAAAC3hIumQ",
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/labels/phase:mcp",
+              "name": "phase:mcp",
+              "color": "5319e7",
+              "default": false,
+              "description": "Phase 2 MCP Orchestration",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-10-26T04:17:08Z",
+          "updated_at": "2026-10-30T08:22:56Z",
+          "closed_at": "2026-10-30T08:22:56Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "### Objective & Description\nAdd end-to-end test simulating agent workflow: initialize -> read -> edit -> run -> submit_for_review.\n\n### Scope & Files to Touch\n• `packages/scout-mcp/src/agentSimulation.test.ts`\n\n### Acceptance Criteria\n- [ ] Simulates complete agent lifecycle in test repository\n- [ ] Verifies worktree creation, diff capture, and submission\n- [ ] npm test passes cleanly\n\n### Co-Author Attribution\n- **Target Contributor:** @alphacoder-hash\n- **Required Git Commit Trailer:**\n```text\nCo-authored-by: Vaibhav Pandey <aryanpandey392@gmail.com>\n```\n\n### PR Merge Safety\nIsolated exclusively to `packages/scout-mcp` or documentation. Zero impact on Scout v1 web application.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/622/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/622/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     },
     {
-      "id": "25498089136",
-      "type": "DeleteEvent",
+      "id": "18647238071",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-28T07:56:55Z",
+      "created_at": "2026-10-30T08:22:46Z",
       "payload": {
-        "ref": "issue-97-resources-bootstrap",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-97-resources-bootstrap",
-        "pusher_type": "user"
+        "action": "opened",
+        "number": 750,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/750",
+          "id": 5081531012,
+          "number": 750,
+          "head": {
+            "ref": "issue-124-e2e-simulation",
+            "sha": "efa5e4f05d5e81b6b0f342c7bfe7bff3949a379d",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "d8e05af5cb8631adeece2289c14d23203e71dfc6",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     }
   ],
   "recentStats": {
-    "commits": 2098,
-    "prs": 425,
+    "commits": 2127,
+    "prs": 453,
     "issues": 605
   }
 }
