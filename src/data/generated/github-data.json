@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-01T04:16:52.169Z",
+  "updatedAt": "2026-11-02T04:19:03.355Z",
   "contributions": {
-    "totalLastYear": 2952,
+    "totalLastYear": 2955,
     "days": [
       {
         "date": "2025-11-02",
@@ -1825,6 +1825,11 @@
       },
       {
         "date": "2026-11-01",
+        "count": 3,
+        "level": 1
+      },
+      {
+        "date": "2026-11-02",
         "count": 0,
         "level": 0
       }
@@ -1863,214 +1868,667 @@
     "followers": 65,
     "following": 20,
     "created_at": "2023-12-12T15:29:11Z",
-    "updated_at": "2026-10-11T03:17:24Z"
+    "updated_at": "2026-11-01T23:11:16Z"
   },
   "activityFeed": [
     {
-      "id": "25773076896",
+      "id": "25868136637",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:28:21Z",
+      "created_at": "2026-10-30T08:18:40Z",
       "payload": {
-        "ref": "issue-127-bump-version",
+        "ref": "issue-123-architectural-spec",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-127-bump-version",
+        "full_ref": "refs/heads/issue-123-architectural-spec",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "25772214921",
-      "type": "PushEvent",
+      "id": "25868008282",
+      "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:18:57Z",
+      "created_at": "2026-10-30T08:17:18Z",
       "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48339088859,
-        "ref": "refs/heads/main",
-        "head": "d8e05af5cb8631adeece2289c14d23203e71dfc6",
-        "before": "90e47fb2c278856ccb3167c779c727c6136c6c2c"
+        "ref": "issue-122-ci-matrix",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-122-ci-matrix",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "25770911146",
-      "type": "CreateEvent",
+      "id": "25867358272",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:02:41Z",
+      "created_at": "2026-10-30T08:10:24Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 48338339456,
+        "ref": "refs/heads/main",
+        "head": "104949c16d5c3e6a5caa17e68a3726e66e152ff2",
+        "before": "239910289cbc4ef9a24d7d62d5b8430050c402c4"
+      }
+    },
+    {
+      "id": "25866710594",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-30T08:28:37Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 48339927180,
+        "ref": "refs/heads/main",
+        "head": "a92881d980dbc41a0b160b98aefc6711e82a11a3",
+        "before": "eb9c6f5e1aa8ce14084118279e7be6ebec1d5208"
+      }
+    },
+    {
+      "id": "25865573827",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-30T08:17:35Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 48338970985,
+        "ref": "refs/heads/main",
+        "head": "90e47fb2c278856ccb3167c779c727c6136c6c2c",
+        "before": "c55ac7f52ad0a5c3743581cdaab6127efe73a866"
+      }
+    },
+    {
+      "id": "25864407068",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-30T08:06:38Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 48337992248,
+        "ref": "refs/heads/main",
+        "head": "aeee1128a982725ea09a0c3921efa9b1e9458902",
+        "before": "dc801b0bb3bac1ef70a75242b360914101fb90e6"
+      }
+    },
+    {
+      "id": "25864239978",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-30T08:04:53Z",
+      "payload": {
+        "ref": "issue-116-shell-tests",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-116-shell-tests",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25864075316",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-10-30T08:03:16Z",
       "payload": {
         "ref": "issue-115-windows-process-manager",
         "ref_type": "branch",
         "full_ref": "refs/heads/issue-115-windows-process-manager",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "25769575306",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T07:49:09Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48336414538,
-        "ref": "refs/heads/main",
-        "head": "26f37cf55dd9651326152072b47173bc413e2bc9",
-        "before": "d2753ffc1d17a46de838701a5505db8c9c335037"
-      }
-    },
-    {
-      "id": "25768035133",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:08:41Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48338182009,
-        "ref": "refs/heads/main",
-        "head": "239910289cbc4ef9a24d7d62d5b8430050c402c4",
-        "before": "aeee1128a982725ea09a0c3921efa9b1e9458902"
-      }
-    },
-    {
-      "id": "25767854692",
+      "id": "25863516574",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:06:51Z",
+      "created_at": "2026-10-30T07:57:41Z",
       "payload": {
-        "ref": "issue-117-optimize-tsup",
+        "ref": "issue-112-phase7-test-suite",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-117-optimize-tsup",
+        "full_ref": "refs/heads/issue-112-phase7-test-suite",
         "pusher_type": "user"
       }
     },
     {
-      "id": "25767837011",
+      "id": "25863499172",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T07:23:23Z",
+      "created_at": "2026-10-30T07:57:30Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 48334311785,
+        "push_id": 48337182555,
         "ref": "refs/heads/main",
-        "head": "d2753ffc1d17a46de838701a5505db8c9c335037",
-        "before": "75500a16a358b188066ea9a16b6ccc2a4714d1a7"
+        "head": "55b39505eb9b6a5321f0b0c20897afa5a087be18",
+        "before": "1940fbec195ed510ccddbb1dc1ae03fabd877cc8"
       }
     },
     {
-      "id": "25767343582",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:00:41Z",
-      "payload": {
-        "ref": "issue-114-doctor-tests",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-114-doctor-tests",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25765973689",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:22:38Z",
-      "payload": {
-        "ref": "issue-124-e2e-simulation",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-124-e2e-simulation",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25764351597",
+      "id": "25859659222",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:04:41Z",
+      "created_at": "2026-10-30T07:15:09Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 48337813165,
+        "push_id": 48333645803,
         "ref": "refs/heads/main",
-        "head": "dc801b0bb3bac1ef70a75242b360914101fb90e6",
-        "before": "cc31af199cd121689871db85b7fbbcdd95044ba5"
+        "head": "3cc6433d03b898704dfce3b7857a7e11ccd6c34c",
+        "before": "2ede310e30b01acae6ec1bda45416b33fdf5ab12"
       }
     },
     {
-      "id": "25763487700",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T07:14:53Z",
+      "id": "18821213560",
+      "type": "IssuesEvent",
+      "repo": "LifeSimLabs/financial-literacy-simulator",
+      "created_at": "2026-11-01T17:47:06Z",
       "payload": {
-        "ref": "issue-103-progress-tokens",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-103-progress-tokens",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89",
+          "repository_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator",
+          "labels_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/labels{/name}",
+          "comments_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/comments",
+          "events_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/events",
+          "html_url": "https://github.com/LifeSimLabs/financial-literacy-simulator/issues/89",
+          "id": 4951616623,
+          "node_id": "I_kwDOTZo3188AAAABJyOsbw",
+          "number": 89,
+          "title": "Financial Literacy Issues Tracking",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "Rahul-pamula",
+              "id": 153642358,
+              "node_id": "U_kgDOCShldg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Rahul-pamula",
+              "html_url": "https://github.com/Rahul-pamula",
+              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-07-22T17:46:45Z",
+          "updated_at": "2026-11-01T17:47:05Z",
+          "closed_at": "2026-11-01T17:47:05Z",
+          "assignee": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "# Financial Literacy Issues\n\nThis document tracks various issues and challenges related to financial literacy, categorized by domain. These issues help inform the scenarios and lessons in the simulator.\n\n## 1. Financial Literacy\n- No financial education in schools\n- Poor budgeting\n- No expense tracking\n- No emergency fund\n- No savings habit\n- Poor money management\n- Living paycheck to paycheck\n- Lack of financial planning\n- No financial goals\n- Poor wealth-building mindset\n\n## 2. Banking\n- Choosing the wrong bank account\n- Hidden bank charges\n- Low banking awareness\n- ATM fraud\n- Debit card fraud\n- Credit card fraud\n- UPI fraud\n- QR code scams\n- Online banking fraud\n- Weak banking security\n- Poor password practices\n- KYC fraud\n- Fake customer care scams\n- Fake loan apps\n- Identity theft\n\n## 3. Salary & Employment\n- Mismanaging first salary\n- Lifestyle inflation\n- No salary budgeting\n- Ignoring employee benefits\n- Not understanding CTC\n- Poor salary negotiation\n- No career financial planning\n- No side income\n- Job loss without savings\n- Income instability\n\n## 4. Budgeting\n- Overspending\n- Impulse purchases\n- Emotional spending\n- Subscription overload\n- Poor monthly budgeting\n- No yearly planning\n- No family budget\n- No expense categorization\n- Poor cash flow\n- Lack of financial discipline\n\n## 5. Saving\n- No savings account\n- Saving too little\n- Keeping cash idle\n- No emergency savings\n- No long-term savings\n- No retirement savings\n- No education savings\n- Poor savings habits\n- No sinking funds\n- No wealth accumulation\n\n## 6. Credit & Debt\n- Credit card debt\n- Personal loan debt\n- Education loan issues\n- Vehicle loan burden\n- Home loan confusion\n- Debt trap\n- Loan defaults\n- Poor EMI planning\n- Excessive borrowing\n- Poor credit score\n\n## 7. Insurance\n- No health insurance\n- No life insurance\n- Wrong insurance products\n- Overinsurance\n- Underinsurance\n- Fake insurance policies\n- Ignoring claim processes\n- Insurance mis-selling\n- No nominee\n- Ignoring family protection\n\n## 8. Taxes\n- Income tax confusion\n- Old vs New tax regime confusion\n- Missing deductions\n- Late ITR filing\n- GST misunderstanding\n- Tax penalties\n- Tax planning ignorance\n- Investment tax confusion\n- Capital gains confusion\n- TDS misunderstanding\n\n## 9. Investing\n- No investing\n- Fear of investing\n- Investing too late\n- Wrong asset allocation\n- Lack of diversification\n- Emotional investing\n- Panic selling\n- FOMO investing\n- Blind investing\n- Unrealistic expectations\n\n## 10. Stock Market\n- Investing without knowledge\n- Intraday trading addiction\n- F&O gambling\n- Margin misuse\n- Leverage misuse\n- Revenge trading\n- Overtrading\n- IPO hype\n- Penny stock traps\n- Meme stocks\n- Buying high\n- Selling low\n- No stop loss\n- Ignoring risk management\n- Blindly following stock tips\n- Telegram trading scams\n- WhatsApp stock scams\n- Fake stock advisors\n- Finfluencer misinformation\n- Pump-and-dump schemes\n\n## 11. Mutual Funds\n- SIP misconceptions\n- Stopping SIPs during crashes\n- Wrong mutual fund selection\n- Chasing past returns\n- Ignoring expense ratios\n- No goal-based investing\n- Timing the market\n- Lack of patience\n- Portfolio overlap\n- Ignoring index funds\n\n## 12. Cryptocurrency\n- Crypto FOMO\n- Meme coins\n- Rug pulls\n- Fake exchanges\n- Fake crypto apps\n- Wallet scams\n- NFT scams\n- Pump groups\n- Unrealistic expectations\n- High-risk speculation\n\n## 13. Fraud & Scams\n- Ponzi schemes\n- MLM scams\n- Fake investment schemes\n- Guaranteed return scams\n- Fake financial advisors\n- Fake charity scams\n- Fake crowdfunding\n- Lottery scams\n- Romance scams\n- Job scams\n\n## 14. Consumer Finance\n- Buy Now Pay Later addiction\n- Online shopping addiction\n- EMI addiction\n- Brand obsession\n- Status spending\n- Festival overspending\n- Wedding overspending\n- Gadget obsession\n- Luxury lifestyle inflation\n- Peer pressure spending\n\n## 15. Students\n- No financial education\n- Pocket money mismanagement\n- Gaming addiction\n- Fantasy sports addiction\n- Gambling\n- Betting apps\n- Crypto hype\n- No budgeting\n- Education loan ignorance\n- Financial dependency\n\n## 16. Family Finance\n- No family financial planning\n- Poor inheritance planning\n- No will\n- No nominee\n- Family debt\n- Medical emergencies\n- Child education planning\n- Elder care planning\n- Marriage planning\n- Poor communication about money\n\n## 17. Business & Entrepreneurship\n- Poor business budgeting\n- Cash flow issues\n- Poor pricing\n- Lack of accounting\n- Tax non-compliance\n- Startup funding misconceptions\n- Poor inventory management\n- Business debt\n- Fraud in business\n- Business closure due to poor planning\n\n## 18. Behavioral Finance\n- Instant gratification\n- Loss aversion\n- Confirmation bias\n- Anchoring bias\n- Herd mentality\n- Overconfidence\n- Financial procrastination\n- Emotional decision-making\n- Lack of delayed gratification\n- Poor financial habits\n\n## 19. Economic Awareness\n- Inflation ignorance\n- Interest rate ignorance\n- Recession unpreparedness\n- Currency depreciation ignorance\n- Lack of economic awareness\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     },
     {
-      "id": "25763456026",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T07:54:43Z",
+      "id": "18821213195",
+      "type": "IssuesEvent",
+      "repo": "LifeSimLabs/financial-literacy-simulator",
+      "created_at": "2026-11-01T17:47:05Z",
       "payload": {
-        "ref": "issue-111-resources-docs",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-111-resources-docs",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88",
+          "repository_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator",
+          "labels_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/labels{/name}",
+          "comments_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/comments",
+          "events_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/events",
+          "html_url": "https://github.com/LifeSimLabs/financial-literacy-simulator/issues/88",
+          "id": 4917754176,
+          "node_id": "I_kwDOTZo3188AAAABJR75QA",
+          "number": 88,
+          "title": "[RESEARCH] research on this project",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11534346433,
+              "node_id": "LA_kwDOTZo3188AAAACr4AowQ",
+              "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/labels/research",
+              "name": "research",
+              "color": "c2e0c6",
+              "default": false,
+              "description": "Requires domain research",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "sai-suraj143",
+              "id": 193134192,
+              "node_id": "U_kgDOC4L-cA",
+              "avatar_url": "https://avatars.githubusercontent.com/u/193134192?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/sai-suraj143",
+              "html_url": "https://github.com/sai-suraj143",
+              "followers_url": "https://api.github.com/users/sai-suraj143/followers",
+              "following_url": "https://api.github.com/users/sai-suraj143/following{/other_user}",
+              "gists_url": "https://api.github.com/users/sai-suraj143/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/sai-suraj143/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/sai-suraj143/subscriptions",
+              "organizations_url": "https://api.github.com/users/sai-suraj143/orgs",
+              "repos_url": "https://api.github.com/users/sai-suraj143/repos",
+              "events_url": "https://api.github.com/users/sai-suraj143/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/sai-suraj143/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-07-18T09:52:07Z",
+          "updated_at": "2026-11-01T17:47:05Z",
+          "closed_at": "2026-11-01T17:47:05Z",
+          "assignee": {
+            "login": "sai-suraj143",
+            "id": 193134192,
+            "node_id": "U_kgDOC4L-cA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/193134192?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sai-suraj143",
+            "html_url": "https://github.com/sai-suraj143",
+            "followers_url": "https://api.github.com/users/sai-suraj143/followers",
+            "following_url": "https://api.github.com/users/sai-suraj143/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sai-suraj143/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sai-suraj143/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sai-suraj143/subscriptions",
+            "organizations_url": "https://api.github.com/users/sai-suraj143/orgs",
+            "repos_url": "https://api.github.com/users/sai-suraj143/repos",
+            "events_url": "https://api.github.com/users/sai-suraj143/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sai-suraj143/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "**This is research issue **\nwelcome sai suraj go through the project \nand breaf me about this project in comment section ",
+          "reactions": {
+            "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     },
     {
-      "id": "25762930039",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T07:08:24Z",
+      "id": "18821212795",
+      "type": "IssuesEvent",
+      "repo": "LifeSimLabs/financial-literacy-simulator",
+      "created_at": "2026-11-01T17:47:05Z",
       "payload": {
-        "ref": "issue-102-resources-test",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-102-resources-test",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87",
+          "repository_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator",
+          "labels_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/labels{/name}",
+          "comments_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/comments",
+          "events_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/events",
+          "html_url": "https://github.com/LifeSimLabs/financial-literacy-simulator/issues/87",
+          "id": 4917636318,
+          "node_id": "I_kwDOTZo3188AAAABJR0s3g",
+          "number": 87,
+          "title": "Research & Documentation: SDLC & Agile Methodology (Part 2)",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "Rahul-pamula",
+              "id": 153642358,
+              "node_id": "U_kgDOCShldg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Rahul-pamula",
+              "html_url": "https://github.com/Rahul-pamula",
+              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-07-18T09:11:09Z",
+          "updated_at": "2026-11-01T17:47:04Z",
+          "closed_at": "2026-11-01T17:47:04Z",
+          "assignee": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "# 📖 Objective\nWe need to establish the best Software Development Life Cycle (SDLC) and project management methodology for the **Financial Literacy Simulator**. \n\nThe goal of this issue is to research and document key project management concepts such as SDLC, Agile, Scrum, Sprints, and Jira, and determine which methodology will best suit our open-source project. \n\n# 🎯 Tasks\n\n1. **Create the Folder Structure**\n   - Navigate to the `docs/` directory and create a `methodology/` folder inside it (if it doesn't exist already).\n\n2. **Conduct Research**\n   - Gather comprehensive information on the following topics:\n     - What is **SDLC** (Software Development Life Cycle)?\n     - What is the **Agile** methodology?\n     - What is **Scrum**, and what are **Sprints**?\n     - What is **Jira**, and how is it used in project management?\n     - *Which methodology would best suit our specific project and why?*\n\n3. **Document Your Findings**\n   - Summarize your research clearly.\n   - Create a new markdown file for your research inside the `docs/methodology/` folder.\n   - ⚠️ **Important File Naming:** To avoid merge conflicts with other contributors working on similar research, please name your file exactly: **`SDLC_2.md`**\n\n# ✅ Deliverables\n- [x] Created `docs/methodology/` folder.\n- [x] Researched SDLC, Agile, Scrum, Sprints, Jira, and recommendations for our project.\n- [x] Created and committed the `SDLC_2.md` document with your findings.\n- [x] Submitted a Pull Request (PR) linking to this issue.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     },
     {
-      "id": "25760892748",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T07:19:21Z",
+      "id": "18821212406",
+      "type": "IssuesEvent",
+      "repo": "LifeSimLabs/financial-literacy-simulator",
+      "created_at": "2026-11-01T17:47:04Z",
       "payload": {
-        "ref": "issue-105-telemetry-memory-cpu",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-105-telemetry-memory-cpu",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25759373279",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:06:17Z",
-      "payload": {
-        "ref": "issue-117-optimize-tsup",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-117-optimize-tsup",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86",
+          "repository_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator",
+          "labels_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/labels{/name}",
+          "comments_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/comments",
+          "events_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/events",
+          "html_url": "https://github.com/LifeSimLabs/financial-literacy-simulator/issues/86",
+          "id": 4917636223,
+          "node_id": "I_kwDOTZo3188AAAABJR0sfw",
+          "number": 86,
+          "title": "Research & Documentation: SDLC & Agile Methodology (Part 1)",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [
+            {
+              "login": "chnithin20",
+              "id": 201229462,
+              "node_id": "U_kgDOC_6Elg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/201229462?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/chnithin20",
+              "html_url": "https://github.com/chnithin20",
+              "followers_url": "https://api.github.com/users/chnithin20/followers",
+              "following_url": "https://api.github.com/users/chnithin20/following{/other_user}",
+              "gists_url": "https://api.github.com/users/chnithin20/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/chnithin20/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/chnithin20/subscriptions",
+              "organizations_url": "https://api.github.com/users/chnithin20/orgs",
+              "repos_url": "https://api.github.com/users/chnithin20/repos",
+              "events_url": "https://api.github.com/users/chnithin20/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/chnithin20/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
+          "milestone": null,
+          "comments": 2,
+          "created_at": "2026-07-18T09:11:08Z",
+          "updated_at": "2026-11-01T17:47:04Z",
+          "closed_at": "2026-11-01T17:47:04Z",
+          "assignee": {
+            "login": "chnithin20",
+            "id": 201229462,
+            "node_id": "U_kgDOC_6Elg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/201229462?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/chnithin20",
+            "html_url": "https://github.com/chnithin20",
+            "followers_url": "https://api.github.com/users/chnithin20/followers",
+            "following_url": "https://api.github.com/users/chnithin20/following{/other_user}",
+            "gists_url": "https://api.github.com/users/chnithin20/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/chnithin20/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/chnithin20/subscriptions",
+            "organizations_url": "https://api.github.com/users/chnithin20/orgs",
+            "repos_url": "https://api.github.com/users/chnithin20/repos",
+            "events_url": "https://api.github.com/users/chnithin20/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/chnithin20/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "issue_field_values": [],
+          "type": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "# 📖 Objective\nWe need to establish the best Software Development Life Cycle (SDLC) and project management methodology for the **Financial Literacy Simulator**. \n\nThe goal of this issue is to research and document key project management concepts such as SDLC, Agile, Scrum, Sprints, and Jira, and determine which methodology will best suit our open-source project. \n\n# 🎯 Tasks\n\n1. **Create the Folder Structure**\n   - Navigate to the `docs/` directory and create a `methodology/` folder inside it (if it doesn't exist already).\n\n2. **Conduct Research**\n   - Gather comprehensive information on the following topics:\n     - What is **SDLC** (Software Development Life Cycle)?\n     - What is the **Agile** methodology?\n     - What is **Scrum**, and what are **Sprints**?\n     - What is **Jira**, and how is it used in project management?\n     - *Which methodology would best suit our specific project and why?*\n\n3. **Document Your Findings**\n   - Summarize your research clearly.\n   - Create a new markdown file for your research inside the `docs/methodology/` folder.\n   - ⚠️ **Important File Naming:** To avoid merge conflicts with other contributors working on similar research, please name your file exactly: **`SDLC_1.md`**\n\n# ✅ Deliverables\n- [x] Created `docs/methodology/` folder.\n- [x] Researched SDLC, Agile, Scrum, Sprints, Jira, and recommendations for our project.\n- [x] Created and committed the `SDLC_1.md` document with your findings.\n- [x] Submitted a Pull Request (PR) linking to this issue.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
       }
     }
   ],
   "recentStats": {
-    "commits": 2128,
-    "prs": 453,
+    "commits": 2130,
+    "prs": 454,
     "issues": 605
   }
 }
