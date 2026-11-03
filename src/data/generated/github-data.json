@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-02T04:19:03.355Z",
+  "updatedAt": "2026-11-03T05:17:01.145Z",
   "contributions": {
-    "totalLastYear": 2955,
+    "totalLastYear": 2957,
     "days": [
       {
         "date": "2025-11-02",
@@ -1830,6 +1830,11 @@
       },
       {
         "date": "2026-11-02",
+        "count": 2,
+        "level": 1
+      },
+      {
+        "date": "2026-11-03",
         "count": 0,
         "level": 0
       }
@@ -1865,12 +1870,51 @@
     "twitter_username": null,
     "public_repos": 76,
     "public_gists": 0,
-    "followers": 65,
+    "followers": 64,
     "following": 20,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-11-01T23:11:16Z"
   },
   "activityFeed": [
+    {
+      "id": "25946205982",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-01T09:43:35Z",
+      "payload": {
+        "ref": "fix-ci-matrix-and-tests",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix-ci-matrix-and-tests",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "25946038912",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-01T09:40:53Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 48555479444,
+        "ref": "refs/heads/fix-ci-matrix-and-tests",
+        "head": "0e4692925a95c9d5800d72f13aa1d80a12252c52",
+        "before": "369c63f4bbd3d8ba8e09818aa98fbf43fee92fee"
+      }
+    },
+    {
+      "id": "25945433583",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-01T09:31:23Z",
+      "payload": {
+        "ref": "fix-ci-matrix-and-tests",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix-ci-matrix-and-tests",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
     {
       "id": "25868136637",
       "type": "CreateEvent",
@@ -2137,397 +2181,10 @@
           "pinned_comment": null
         }
       }
-    },
-    {
-      "id": "18821213195",
-      "type": "IssuesEvent",
-      "repo": "LifeSimLabs/financial-literacy-simulator",
-      "created_at": "2026-11-01T17:47:05Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88",
-          "repository_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator",
-          "labels_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/labels{/name}",
-          "comments_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/comments",
-          "events_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/events",
-          "html_url": "https://github.com/LifeSimLabs/financial-literacy-simulator/issues/88",
-          "id": 4917754176,
-          "node_id": "I_kwDOTZo3188AAAABJR75QA",
-          "number": 88,
-          "title": "[RESEARCH] research on this project",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11534346433,
-              "node_id": "LA_kwDOTZo3188AAAACr4AowQ",
-              "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/labels/research",
-              "name": "research",
-              "color": "c2e0c6",
-              "default": false,
-              "description": "Requires domain research",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "sai-suraj143",
-              "id": 193134192,
-              "node_id": "U_kgDOC4L-cA",
-              "avatar_url": "https://avatars.githubusercontent.com/u/193134192?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/sai-suraj143",
-              "html_url": "https://github.com/sai-suraj143",
-              "followers_url": "https://api.github.com/users/sai-suraj143/followers",
-              "following_url": "https://api.github.com/users/sai-suraj143/following{/other_user}",
-              "gists_url": "https://api.github.com/users/sai-suraj143/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/sai-suraj143/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/sai-suraj143/subscriptions",
-              "organizations_url": "https://api.github.com/users/sai-suraj143/orgs",
-              "repos_url": "https://api.github.com/users/sai-suraj143/repos",
-              "events_url": "https://api.github.com/users/sai-suraj143/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/sai-suraj143/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-07-18T09:52:07Z",
-          "updated_at": "2026-11-01T17:47:05Z",
-          "closed_at": "2026-11-01T17:47:05Z",
-          "assignee": {
-            "login": "sai-suraj143",
-            "id": 193134192,
-            "node_id": "U_kgDOC4L-cA",
-            "avatar_url": "https://avatars.githubusercontent.com/u/193134192?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/sai-suraj143",
-            "html_url": "https://github.com/sai-suraj143",
-            "followers_url": "https://api.github.com/users/sai-suraj143/followers",
-            "following_url": "https://api.github.com/users/sai-suraj143/following{/other_user}",
-            "gists_url": "https://api.github.com/users/sai-suraj143/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/sai-suraj143/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/sai-suraj143/subscriptions",
-            "organizations_url": "https://api.github.com/users/sai-suraj143/orgs",
-            "repos_url": "https://api.github.com/users/sai-suraj143/repos",
-            "events_url": "https://api.github.com/users/sai-suraj143/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/sai-suraj143/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "**This is research issue **\nwelcome sai suraj go through the project \nand breaf me about this project in comment section ",
-          "reactions": {
-            "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/88/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "18821212795",
-      "type": "IssuesEvent",
-      "repo": "LifeSimLabs/financial-literacy-simulator",
-      "created_at": "2026-11-01T17:47:05Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87",
-          "repository_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator",
-          "labels_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/labels{/name}",
-          "comments_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/comments",
-          "events_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/events",
-          "html_url": "https://github.com/LifeSimLabs/financial-literacy-simulator/issues/87",
-          "id": 4917636318,
-          "node_id": "I_kwDOTZo3188AAAABJR0s3g",
-          "number": 87,
-          "title": "Research & Documentation: SDLC & Agile Methodology (Part 2)",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "Rahul-pamula",
-              "id": 153642358,
-              "node_id": "U_kgDOCShldg",
-              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rahul-pamula",
-              "html_url": "https://github.com/Rahul-pamula",
-              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-07-18T09:11:09Z",
-          "updated_at": "2026-11-01T17:47:04Z",
-          "closed_at": "2026-11-01T17:47:04Z",
-          "assignee": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "# 📖 Objective\nWe need to establish the best Software Development Life Cycle (SDLC) and project management methodology for the **Financial Literacy Simulator**. \n\nThe goal of this issue is to research and document key project management concepts such as SDLC, Agile, Scrum, Sprints, and Jira, and determine which methodology will best suit our open-source project. \n\n# 🎯 Tasks\n\n1. **Create the Folder Structure**\n   - Navigate to the `docs/` directory and create a `methodology/` folder inside it (if it doesn't exist already).\n\n2. **Conduct Research**\n   - Gather comprehensive information on the following topics:\n     - What is **SDLC** (Software Development Life Cycle)?\n     - What is the **Agile** methodology?\n     - What is **Scrum**, and what are **Sprints**?\n     - What is **Jira**, and how is it used in project management?\n     - *Which methodology would best suit our specific project and why?*\n\n3. **Document Your Findings**\n   - Summarize your research clearly.\n   - Create a new markdown file for your research inside the `docs/methodology/` folder.\n   - ⚠️ **Important File Naming:** To avoid merge conflicts with other contributors working on similar research, please name your file exactly: **`SDLC_2.md`**\n\n# ✅ Deliverables\n- [x] Created `docs/methodology/` folder.\n- [x] Researched SDLC, Agile, Scrum, Sprints, Jira, and recommendations for our project.\n- [x] Created and committed the `SDLC_2.md` document with your findings.\n- [x] Submitted a Pull Request (PR) linking to this issue.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/87/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "18821212406",
-      "type": "IssuesEvent",
-      "repo": "LifeSimLabs/financial-literacy-simulator",
-      "created_at": "2026-11-01T17:47:04Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86",
-          "repository_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator",
-          "labels_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/labels{/name}",
-          "comments_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/comments",
-          "events_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/events",
-          "html_url": "https://github.com/LifeSimLabs/financial-literacy-simulator/issues/86",
-          "id": 4917636223,
-          "node_id": "I_kwDOTZo3188AAAABJR0sfw",
-          "number": 86,
-          "title": "Research & Documentation: SDLC & Agile Methodology (Part 1)",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "chnithin20",
-              "id": 201229462,
-              "node_id": "U_kgDOC_6Elg",
-              "avatar_url": "https://avatars.githubusercontent.com/u/201229462?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/chnithin20",
-              "html_url": "https://github.com/chnithin20",
-              "followers_url": "https://api.github.com/users/chnithin20/followers",
-              "following_url": "https://api.github.com/users/chnithin20/following{/other_user}",
-              "gists_url": "https://api.github.com/users/chnithin20/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/chnithin20/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/chnithin20/subscriptions",
-              "organizations_url": "https://api.github.com/users/chnithin20/orgs",
-              "repos_url": "https://api.github.com/users/chnithin20/repos",
-              "events_url": "https://api.github.com/users/chnithin20/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/chnithin20/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 2,
-          "created_at": "2026-07-18T09:11:08Z",
-          "updated_at": "2026-11-01T17:47:04Z",
-          "closed_at": "2026-11-01T17:47:04Z",
-          "assignee": {
-            "login": "chnithin20",
-            "id": 201229462,
-            "node_id": "U_kgDOC_6Elg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/201229462?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/chnithin20",
-            "html_url": "https://github.com/chnithin20",
-            "followers_url": "https://api.github.com/users/chnithin20/followers",
-            "following_url": "https://api.github.com/users/chnithin20/following{/other_user}",
-            "gists_url": "https://api.github.com/users/chnithin20/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/chnithin20/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/chnithin20/subscriptions",
-            "organizations_url": "https://api.github.com/users/chnithin20/orgs",
-            "repos_url": "https://api.github.com/users/chnithin20/repos",
-            "events_url": "https://api.github.com/users/chnithin20/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/chnithin20/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "issue_field_values": [],
-          "type": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "# 📖 Objective\nWe need to establish the best Software Development Life Cycle (SDLC) and project management methodology for the **Financial Literacy Simulator**. \n\nThe goal of this issue is to research and document key project management concepts such as SDLC, Agile, Scrum, Sprints, and Jira, and determine which methodology will best suit our open-source project. \n\n# 🎯 Tasks\n\n1. **Create the Folder Structure**\n   - Navigate to the `docs/` directory and create a `methodology/` folder inside it (if it doesn't exist already).\n\n2. **Conduct Research**\n   - Gather comprehensive information on the following topics:\n     - What is **SDLC** (Software Development Life Cycle)?\n     - What is the **Agile** methodology?\n     - What is **Scrum**, and what are **Sprints**?\n     - What is **Jira**, and how is it used in project management?\n     - *Which methodology would best suit our specific project and why?*\n\n3. **Document Your Findings**\n   - Summarize your research clearly.\n   - Create a new markdown file for your research inside the `docs/methodology/` folder.\n   - ⚠️ **Important File Naming:** To avoid merge conflicts with other contributors working on similar research, please name your file exactly: **`SDLC_1.md`**\n\n# ✅ Deliverables\n- [x] Created `docs/methodology/` folder.\n- [x] Researched SDLC, Agile, Scrum, Sprints, Jira, and recommendations for our project.\n- [x] Created and committed the `SDLC_1.md` document with your findings.\n- [x] Submitted a Pull Request (PR) linking to this issue.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/86/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
     }
   ],
   "recentStats": {
-    "commits": 2130,
+    "commits": 2132,
     "prs": 454,
     "issues": 605
   }
