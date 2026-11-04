@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-03T05:17:01.145Z",
+  "updatedAt": "2026-11-04T04:46:30.133Z",
   "contributions": {
-    "totalLastYear": 2957,
+    "totalLastYear": 3093,
     "days": [
       {
         "date": "2025-11-02",
@@ -196,7 +196,7 @@
       {
         "date": "2025-12-10",
         "count": 25,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2025-12-11",
@@ -741,7 +741,7 @@
       {
         "date": "2026-03-29",
         "count": 28,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-03-30",
@@ -866,7 +866,7 @@
       {
         "date": "2026-04-23",
         "count": 30,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-04-24",
@@ -896,7 +896,7 @@
       {
         "date": "2026-04-29",
         "count": 25,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-04-30",
@@ -1051,7 +1051,7 @@
       {
         "date": "2026-05-30",
         "count": 25,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-05-31",
@@ -1286,7 +1286,7 @@
       {
         "date": "2026-07-16",
         "count": 85,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-07-17",
@@ -1401,7 +1401,7 @@
       {
         "date": "2026-08-08",
         "count": 26,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-09",
@@ -1466,12 +1466,12 @@
       {
         "date": "2026-08-21",
         "count": 32,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-22",
         "count": 97,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-08-23",
@@ -1491,12 +1491,12 @@
       {
         "date": "2026-08-26",
         "count": 53,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-08-27",
         "count": 33,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-28",
@@ -1506,12 +1506,12 @@
       {
         "date": "2026-08-29",
         "count": 33,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-30",
         "count": 27,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-08-31",
@@ -1561,7 +1561,7 @@
       {
         "date": "2026-09-09",
         "count": 49,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-09-10",
@@ -1631,12 +1631,12 @@
       {
         "date": "2026-09-23",
         "count": 89,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-09-24",
         "count": 61,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-09-25",
@@ -1726,7 +1726,7 @@
       {
         "date": "2026-10-12",
         "count": 33,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-10-13",
@@ -1766,7 +1766,7 @@
       {
         "date": "2026-10-20",
         "count": 80,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2026-10-21",
@@ -1816,7 +1816,7 @@
       {
         "date": "2026-10-30",
         "count": 57,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-10-31",
@@ -1835,6 +1835,11 @@
       },
       {
         "date": "2026-11-03",
+        "count": 136,
+        "level": 4
+      },
+      {
+        "date": "2026-11-04",
         "count": 0,
         "level": 0
       }
@@ -1877,204 +1882,128 @@
   },
   "activityFeed": [
     {
-      "id": "25946205982",
+      "id": "26094088809",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-01T09:43:35Z",
+      "created_at": "2026-11-03T17:01:27Z",
       "payload": {
-        "ref": "fix-ci-matrix-and-tests",
+        "ref": "issue-770-db-workspace-links-rls",
         "ref_type": "branch",
-        "full_ref": "refs/heads/fix-ci-matrix-and-tests",
+        "full_ref": "refs/heads/issue-770-db-workspace-links-rls",
         "pusher_type": "user"
       }
     },
     {
-      "id": "25946038912",
+      "id": "26093901592",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-01T09:40:53Z",
+      "created_at": "2026-11-03T17:00:07Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 48555479444,
-        "ref": "refs/heads/fix-ci-matrix-and-tests",
-        "head": "0e4692925a95c9d5800d72f13aa1d80a12252c52",
-        "before": "369c63f4bbd3d8ba8e09818aa98fbf43fee92fee"
+        "push_id": 48857345121,
+        "ref": "refs/heads/main",
+        "head": "a2fd606d83d0a205e796f841844a715e5d78a90f",
+        "before": "ed6f114baca3e059106d36eabe6ad62eb3af145c"
       }
     },
     {
-      "id": "25945433583",
+      "id": "26093348984",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-03T16:55:26Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 48856805481,
+        "ref": "refs/heads/main",
+        "head": "208c0e4870c4f568c11857d031749802c3b9b461",
+        "before": "d005e03cd574a587c29720f9b41aabacaeb6e759"
+      }
+    },
+    {
+      "id": "26092933747",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-03T17:05:13Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 48857962702,
+        "ref": "refs/heads/main",
+        "head": "0df793f07e727ad180563dc426cec7f8f83b4e11",
+        "before": "609844741cb663774589976caac362d55f50f78b"
+      }
+    },
+    {
+      "id": "26092668070",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-01T09:31:23Z",
+      "created_at": "2026-11-03T17:02:32Z",
       "payload": {
-        "ref": "fix-ci-matrix-and-tests",
+        "ref": "issue-774-domain-extractor",
         "ref_type": "branch",
-        "full_ref": "refs/heads/fix-ci-matrix-and-tests",
+        "full_ref": "refs/heads/issue-774-domain-extractor",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "25868136637",
+      "id": "26092549991",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-03T17:01:24Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 48857510733,
+        "ref": "refs/heads/main",
+        "head": "652f0c763b1281e1a58aa168335cefc73df682d6",
+        "before": "d3a66dc1ed7d73534e5eaae6fb1e333bb2493a08"
+      }
+    },
+    {
+      "id": "26092011106",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:18:40Z",
+      "created_at": "2026-11-03T16:57:08Z",
       "payload": {
-        "ref": "issue-123-architectural-spec",
+        "ref": "issue-757-crypto-decrypt",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-123-architectural-spec",
+        "full_ref": "refs/heads/issue-757-crypto-decrypt",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "25868008282",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:17:18Z",
-      "payload": {
-        "ref": "issue-122-ci-matrix",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-122-ci-matrix",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25867358272",
+      "id": "26077569735",
       "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:10:24Z",
+      "created_at": "2026-11-02T04:49:35Z",
       "payload": {
         "repository_id": 1339909532,
-        "push_id": 48338339456,
+        "push_id": 48643125937,
         "ref": "refs/heads/main",
-        "head": "104949c16d5c3e6a5caa17e68a3726e66e152ff2",
-        "before": "239910289cbc4ef9a24d7d62d5b8430050c402c4"
+        "head": "d005e03cd574a587c29720f9b41aabacaeb6e759",
+        "before": "7e886a4561fabe417336690e6398e3aa7b8fac7c"
       }
     },
     {
-      "id": "25866710594",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:28:37Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48339927180,
-        "ref": "refs/heads/main",
-        "head": "a92881d980dbc41a0b160b98aefc6711e82a11a3",
-        "before": "eb9c6f5e1aa8ce14084118279e7be6ebec1d5208"
-      }
-    },
-    {
-      "id": "25865573827",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:17:35Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48338970985,
-        "ref": "refs/heads/main",
-        "head": "90e47fb2c278856ccb3167c779c727c6136c6c2c",
-        "before": "c55ac7f52ad0a5c3743581cdaab6127efe73a866"
-      }
-    },
-    {
-      "id": "25864407068",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:06:38Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48337992248,
-        "ref": "refs/heads/main",
-        "head": "aeee1128a982725ea09a0c3921efa9b1e9458902",
-        "before": "dc801b0bb3bac1ef70a75242b360914101fb90e6"
-      }
-    },
-    {
-      "id": "25864239978",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:04:53Z",
-      "payload": {
-        "ref": "issue-116-shell-tests",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-116-shell-tests",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25864075316",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T08:03:16Z",
-      "payload": {
-        "ref": "issue-115-windows-process-manager",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-115-windows-process-manager",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25863516574",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T07:57:41Z",
-      "payload": {
-        "ref": "issue-112-phase7-test-suite",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-112-phase7-test-suite",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "25863499172",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T07:57:30Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48337182555,
-        "ref": "refs/heads/main",
-        "head": "55b39505eb9b6a5321f0b0c20897afa5a087be18",
-        "before": "1940fbec195ed510ccddbb1dc1ae03fabd877cc8"
-      }
-    },
-    {
-      "id": "25859659222",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-10-30T07:15:09Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48333645803,
-        "ref": "refs/heads/main",
-        "head": "3cc6433d03b898704dfce3b7857a7e11ccd6c34c",
-        "before": "2ede310e30b01acae6ec1bda45416b33fdf5ab12"
-      }
-    },
-    {
-      "id": "18821213560",
+      "id": "19024347563",
       "type": "IssuesEvent",
-      "repo": "LifeSimLabs/financial-literacy-simulator",
-      "created_at": "2026-11-01T17:47:06Z",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-03T17:27:56Z",
       "payload": {
-        "action": "closed",
+        "action": "opened",
         "issue": {
-          "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89",
-          "repository_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator",
-          "labels_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/labels{/name}",
-          "comments_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/comments",
-          "events_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/events",
-          "html_url": "https://github.com/LifeSimLabs/financial-literacy-simulator/issues/89",
-          "id": 4951616623,
-          "node_id": "I_kwDOTZo3188AAAABJyOsbw",
-          "number": 89,
-          "title": "Financial Literacy Issues Tracking",
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/879",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/879/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/879/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/879/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/879",
+          "id": 6187797797,
+          "node_id": "I_kwDOT91lnM8AAAABcNJNJQ",
+          "number": 879,
+          "title": "[Architecture] Discovery Query Diversification & Repository Concentration Monopoly",
           "user": {
             "login": "Rahul-pamula",
             "id": 153642358,
@@ -2097,37 +2026,66 @@
             "site_admin": false
           },
           "labels": [],
-          "state": "closed",
+          "state": "open",
           "locked": false,
-          "assignees": [
-            {
-              "login": "Rahul-pamula",
-              "id": 153642358,
-              "node_id": "U_kgDOCShldg",
-              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rahul-pamula",
-              "html_url": "https://github.com/Rahul-pamula",
-              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
+          "assignees": [],
           "milestone": null,
           "comments": 0,
-          "created_at": "2026-07-22T17:46:45Z",
-          "updated_at": "2026-11-01T17:47:05Z",
-          "closed_at": "2026-11-01T17:47:05Z",
-          "assignee": {
+          "created_at": "2026-11-03T17:27:54Z",
+          "updated_at": "2026-11-03T17:27:54Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## 1. Problem Description: Why Discovery Shows Few Repos and Low Match Scores (36% - 42%)\n\n### Observation\nIn user testing of Discovery:\n1. **Single Repository Domination:** 4 out of 6 displayed issues belong to a single repository (`dolev31/lasagna`).\n2. **Low Relevance Scores:** Match scores hover between **36% and 42%**, rarely exceeding 50%.\n3. **Limited Repository Diversity:** Users see issues from only 1 or 2 distinct organizations rather than a broad cross-section of open-source projects.\n\n---\n\n## 2. Root Cause Breakdown\n\n### A. Why One Repository Dominates\nGitHub's Search API evaluates queries globally and orders them by `sort:updated-desc`.\nIf a maintainer at `dolev31/lasagna` triages 10 issues simultaneously or a bot touches multiple tickets, all 10 tickets get identical, recent `updated_at` timestamps.\nBecause Scout's discovery query:\n```\nis:open is:issue label:\"help wanted\" language:Python sort:updated-desc\n```\nfetches the first 50 results in a single bulk request without repository deduplication, that single active repository floods 80% of the returned list!\n\n### B. Why Match Scores are Capped at 36% - 42%\nIn `apps/web/src/utils/relevanceScorer.ts`, the 100-point deterministic formula is structured as follows:\n- **Language Match:** 35 points (Matches user's primary language `Python` or `TypeScript`).\n- **Tech / Framework Match:** 25 points (Matches user's specific frameworks like `FastAPI`, `React`, `Django`).\n- **Recency:** 15 points (~5 to 8 points for issues older than 7 days).\n- **Competition:** 15 points (0 points if already commented or high stars).\n- **Difficulty:** 10 points.\n\n**The Math:**\n- If an issue is written in `Python`, it gets `+35 pts`.\n- But if the repository's GitHub topics do NOT explicitly include the user's specific favorite frameworks (e.g. `FastAPI`, `Pandas`), **Tech Score = 0 / 25**.\n- Recency contributes `~5 pts`.\n- Total Score: **35 + 0 + 5 = 40% (36% - 42%)**!\nWithout analyzing the issue body or expanding topic synonyms, the scoring engine plateaus at ~40%.\n\n---\n\n## 3. Architectural Solution\n\n```mermaid\nflowchart TD\n    A[User Profile: Skills, Frameworks, Languages] --> B[Multi-Query Generator]\n    B --> C1[Query 1: Lang=Python + Framework Topics]\n    B --> C2[Query 2: Lang=TypeScript + Good First Issue]\n    B --> C3[Query 3: Curated High-Signal Repos]\n    \n    C1 --> D[GitHub Search Multi-Fetch]\n    C2 --> D\n    C3 --> D\n    \n    D --> E[Repository Diversity Limiter: Max 2 Issues Per Repo]\n    E --> F[Body Text NLP / Topic Synonym Expansion]\n    F --> G[Elevated Relevance Scores: 70% - 95%]\n    G --> H[Diverse, High-Signal Discovery Feed]\n```\n\n### 1. Repository Diversity Capping (Max 2 Per Repo)\nIn `useIssueDiscovery.ts`, enforce a repository diversification pass:\n```typescript\nconst repoCounts = new Map<string, number>();\nconst diverseIssues = scoredIssues.filter(issue => {\n  const count = repoCounts.get(issue.repo) || 0;\n  if (count >= 2) return false; // Cap at 2 issues per repo in Top 20\n  repoCounts.set(issue.repo, count + 1);\n  return true;\n});\n```\n\n### 2. Multi-Query Skill Interleaving\nInstead of one monolithic search query, execute 2 parallel queries:\n- Query A: Primary language with `good first issue` or `help wanted`.\n- Query B: User's top framework keyword (e.g. `fastapi`, `nextjs`, `tailwind`).\n- Interleave and deduplicate results to ensure broad representation across different projects.\n\n### 3. Issue Body Keyword Scanning\nEnhance `relevanceScorer.ts` to scan the issue title and first 500 characters of the issue body for user framework keywords, awarding partial credit (up to 15/25 pts) even when GitHub repository topics are missing.\n\n---\n\n## 4. Acceptance Criteria\n- [ ] No single repository occupies more than 2 slots in the top 10 Discovery results.\n- [ ] Framework matching scans issue titles and body snippets in addition to repository topics.\n- [ ] Discovery surfaces diverse issues matching user preferences with high-signal scores (>70%).",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/879/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/879/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        }
+      }
+    },
+    {
+      "id": "19024345640",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-03T17:27:54Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/878",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/878/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/878/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/878/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/878",
+          "id": 6187797450,
+          "node_id": "I_kwDOT91lnM8AAAABcNJLyg",
+          "number": 878,
+          "title": "[Bug / UX] Discovery cards display confusing 'UNEVALUATED' badge despite showing Mathematical Match Score",
+          "user": {
             "login": "Rahul-pamula",
             "id": 153642358,
             "node_id": "U_kgDOCShldg",
@@ -2148,6 +2106,502 @@
             "user_view_type": "public",
             "site_admin": false
           },
+          "labels": [],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-11-03T17:27:53Z",
+          "updated_at": "2026-11-03T17:27:53Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## 1. Problem & Root Cause\n\n### The Bug / UX Confusion\nIn Mission Control under the **Discovery** tab:\n1. Every card prominently displays a match score (e.g. `42% Match` or `36% Match`).\n2. Directly beside it, a status tag reads: `UNEVALUATED` in gray text.\n\n### Root Cause Analysis in `apps/web/src/components/IssueCard.tsx`\n```tsx\n// apps/web/src/components/IssueCard.tsx:43-52\nlet scoreLabel = 'UNEVALUATED';\nlet scoreColor = 'text-gray-400 bg-gray-500/10 border-gray-500/20';\n\nif (issue.difficultyScore !== undefined && issue.difficultyScore !== null) {\n  if (issue.difficultyScore <= 3) {\n    scoreLabel = 'BEGINNER FRIENDLY';\n    ...\n  }\n}\n```\n- The card relies on `issue.difficultyScore` (which is only populated when an issue passes through full AI evaluation).\n- Because Discovery intentionally avoids running expensive AI calls on 50 raw search results to conserve LLM quotas, `issue.difficultyScore` is `null`.\n- Consequently, the UI marks every single issue as `UNEVALUATED`.\n- **User Impact:** Users interpret `UNEVALUATED` as meaning the system failed to evaluate their skills, leading them to believe that the `42% Match` is either broken, arbitrary, or uncomputed.\n\n---\n\n## 2. Proposed UI/UX Solution\n\n```\n+-----------------------------------------------------------------------+\n|  [⚡ 42% Match (Skills & Language)]       [✨ AI Evaluate Difficulty] |\n|                                                                       |\n|  Import/export json-schemas and OpenAPI schemas                       |\n|  unionai-oss/pandera                                                  |\n|  [enhancement] [help wanted] [python]                                 |\n|                                                                       |\n|  [ View Issue ↗ ]    [ 🚀 Claim This Issue ]              [ 🔖 Save ] |\n+-----------------------------------------------------------------------+\n```\n\n1. **Decouple Heuristic Match from AI Evaluation:**\n   - Instead of displaying a confusing `UNEVALUATED` badge, label the match source clearly:\n     - `Heuristic Match: 42%` (with an info tooltip explaining: *\"Scored via deterministic language & framework overlap\"*).\n2. **On-Demand AI Evaluation Action:**\n   - Add a lightweight button on each card: `[✨ AI Quick Check]`.\n   - Clicking this runs a single on-demand LLM evaluation for that specific card, updating the badge to:\n     - `🟢 AI Verified: High Fit (Beginner Friendly)`\n     - `🟡 AI Verified: Moderate Complexity`\n3. **Transparent Evaluation Status:**\n   - Display a persistent hint: *\"Skills matched deterministically. Click 'Claim' or 'AI Quick Check' to generate deep architecture analysis.\"*\n\n---\n\n## 3. Acceptance Criteria\n- [ ] Remove the misleading `UNEVALUATED` badge when a heuristic relevance score is present.\n- [ ] Clearly label the deterministic score as `Heuristic Match: XX%`.\n- [ ] Add an on-demand `[✨ AI Evaluate]` trigger to evaluate individual cards without burning batch quota.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/878/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/878/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        }
+      }
+    },
+    {
+      "id": "19024342160",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-03T17:27:52Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/877",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/877/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/877/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/877/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/877",
+          "id": 6187797054,
+          "node_id": "I_kwDOT91lnM8AAAABcNJKPg",
+          "number": 877,
+          "title": "[Architecture] AI Evaluation Rate-Limiting Strategy: Multi-Tier Quotas (RPM/RPD) and Lazy vs Speculative Evaluation",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-11-03T17:27:51Z",
+          "updated_at": "2026-11-03T17:27:51Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## 1. Architectural Problem: AI Rate Limits vs Full Issue Discovery\n\n### The Challenge\nWhen a user opens Discovery, the system fetches up to **50 candidate issues**.\nIf Open Source Scout executed full AI evaluations (evaluating codebase fit, implementation complexity, PR risk, and customized setup steps) for all 50 issues on discovery:\n- **Rate Limit Exhaustion:** Free / Tier-1 API tiers (Gemini 1.5, OpenAI, Groq) enforce strict quotas:\n  - Gemini Free: **15 RPM (Requests Per Minute)** and **1,500 RPD (Requests Per Day)**.\n  - Discovering 50 issues in one click would require 50 LLM calls, instantly triggering `429 Too Many Requests` after 15 items!\n- **Token Inefficiency & Financial Waste:** Evaluating 50 issues consumes ~100k - 250k input tokens, yet a developer will only ever inspect or claim 1 to 3 issues in a single session.\n\n---\n\n## 2. Multi-Tier Evaluation Architecture\n\nTo deliver deep AI intelligence without exceeding RPM/RPD limits or burning unnecessary tokens, Scout must follow a **3-Tier Progressive Funnel**:\n\n```mermaid\nflowchart TD\n    subgraph Tier 1: Deterministic Engine [0 Tokens / Zero AI Cost / <5ms]\n        A[50 Raw Issues from GitHub] --> B[Relevance Scorer 100-pt Formula]\n        B --> C[Rank Top 10 by Skills & Preferences]\n    end\n\n    subgraph Tier 2: Speculative Micro-Eval [Optional / Batched / Max 3 RPM]\n        C --> D{Score >= 75%?}\n        D -->|Top 3 Candidates| E[Micro-Eval: 1 LLM Prompt for 3 issues]\n        E --> F[Cache in Supabase / LocalStorage 24h TTL]\n    end\n\n    subgraph Tier 3: Deep AI Agentic Evaluation [On-Demand Only]\n        C -->|User clicks Claim or Deep Dive| G[Token Bucket Limiter: Max 5 RPM]\n        G --> H[Full Scout AI Architecture & Implementation Plan]\n        H --> I[Store Evaluation in Database]\n    end\n```\n\n### Architectural Components:\n\n### 1. Tier 1: Deterministic Heuristic Scorer (Active Today, Zero AI Quota)\n- Runs completely in-browser / edge in under 5ms.\n- 100-point breakdown:\n  - Language match: **35 pts**\n  - Framework / Skill match: **25 pts**\n  - Recency: **15 pts**\n  - Competition (comments / stars): **15 pts**\n  - Difficulty tags: **10 pts**\n- **No LLM calls required.**\n\n### 2. Tier 2: Batched Speculative Micro-Evaluation\n- Instead of 50 individual calls, pass the top 3 issues in a **single batched prompt**:\n  ```json\n  {\n    \"issues\": [\n      { \"id\": 1, \"title\": \"...\", \"body_snippet\": \"...\" },\n      { \"id\": 2, \"title\": \"...\", \"body_snippet\": \"...\" },\n      { \"id\": 3, \"title\": \"...\", \"body_snippet\": \"...\" }\n    ]\n  }\n  ```\n- Requests 1 concise JSON response containing fit rating, difficulty enum, and key caveats.\n- Consumes **1 single request** (preserving RPM limits).\n\n### 3. Tier 3: Token Bucket Rate Limiter for On-Demand Deep Evaluation\n- Implemented as an in-memory & persisted token bucket limiter:\n  ```typescript\n  // packages/scout-core/src/rateLimiter.ts\n  export class AIRateLimiter {\n    private tokens: number = 10; // max burst\n    private lastRefill: number = Date.now();\n    private readonly refillRatePerMin: number = 10; // 10 RPM max\n    private dailyUsage: number = 0;\n    private readonly maxDailyQuota: number = 500; // 500 RPD\n    \n    async acquire(): Promise<boolean> { ... }\n  }\n  ```\n- When quota is near exhaustion, queue requests with visual progress: *\"AI rate limit safety active: 2 requests queued, processing in 12s...\"*.\n\n---\n\n## 3. Deliverables & Next Steps\n- [ ] Create `AIRateLimiter` utility to protect Gemini/OpenAI endpoints against RPM and RPD spikes.\n- [ ] Implement response caching in Supabase (`ai_evaluations` table) keyed by `issue_url` with 48h TTL.\n- [ ] Implement single-request Batched Micro-Eval for top 3 discovered issues.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/877/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/877/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        }
+      }
+    },
+    {
+      "id": "19024340870",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-03T17:27:51Z",
+      "payload": {
+        "action": "opened",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/876",
+          "id": 6187796680,
+          "node_id": "I_kwDOT91lnM8AAAABcNJIyA",
+          "number": 876,
+          "title": "[Bug] Discovery surfaces already-claimed issues due to 'sort:updated-desc' and missing comment filters (<5% Maintainer Assignment Chance)",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2026-11-03T17:27:50Z",
+          "updated_at": "2026-11-03T17:27:50Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## 1. Problem Description & Root Cause Analysis\n\n### The Flaw\nIn the Discovery dashboard, users are frequently presented with issues that have already been claimed by other contributors. \nFor example, in `cashubtc/nutshell#620` (labeled `help wanted`), contributor `bavarianway` commented 8 hours prior stating:\n> *\"Hi! I'd like to pick this up, starting with LND-REST: Pydantic models for the status, invoice and payment responses...\"*\n\nWhen a user discovers this issue and comments *\"Hi! I'd love to work on this issue...\"*, the probability of maintainer assignment drops to **< 5%** because open-source maintainers almost universally assign issues on a **first-claimed, first-served** basis.\n\n### Root Cause in Codebase\n1. **GitHub API Query Inversion (`queryBuilder.ts`):**\n   ```typescript\n   // apps/web/src/utils/queryBuilder.ts\n   // Current query structure:\n   `is:open is:issue label:\"${label}\" language:${lang} sort:updated-desc`\n   ```\n   By sorting with `sort:updated-desc`, GitHub actively prioritizes issues with **recent activity**. When another developer comments *\"I want to work on this\"*, GitHub updates the issue's `updated_at` timestamp, **catapulting claimed/contested issues to the top of Scout's discovery results!**\n\n2. **Absence of Push-Down Comment Constraints:**\n   - The GitHub search API supports qualifiers such as `comments:0` (uncontested) or `comments:<=1`.\n   - The query currently specifies no comment ceiling, nor does it push down `no:assignee` explicitly into the query string.\n\n3. **Missing Intent Classification on Issue Timeline:**\n   - There is no heuristic or regex scanner on recent issue comments to detect claim keywords (e.g., `\"pick this up\"`, `\"take this\"`, `\"working on this\"`, `\"assign to me\"`, `\"PR incoming\"`).\n\n---\n\n## 2. Architectural Solution & Proposed Implementation\n\n```mermaid\nflowchart TD\n    A[Discovery Query Engine] --> B{Contestation Filter Mode}\n    B -->|Strict: Uncontested| C[Query: comments:0 no:assignee]\n    B -->|Balanced: Low-Competition| D[Query: comments:<=2 no:assignee]\n    C --> E[GitHub Search API]\n    D --> E\n    E --> F[Comment Heuristic Scanner]\n    F --> G{Claim Intent Detected?}\n    G -->|Yes: Someone claimed in comments| H[Drop / Filter Out from Discovery]\n    G -->|No: Discussion only| I[Calculate Contestation Risk Score]\n    I --> J[Present in Discovery with High Success Rate]\n```\n\n### Step-by-Step Action Plan:\n1. **Push-Down GitHub Qualifiers (`queryBuilder.ts`):**\n   - Add `no:assignee` directly to the search query.\n   - Introduce a configurable comment filter option in Discovery settings:\n     - **Fresh Only (Default):** `comments:0` (guarantees 100% uncontested issues).\n     - **Low Competition:** `comments:<=2` (filters out heated threads).\n2. **Comment Intent Classifier (`apps/web/src/utils/claimDetector.ts`):**\n   - For issues returned with `comments > 0`, inspect comment bodies using a regex intent filter:\n     ```typescript\n     const CLAIM_REGEX = /\\b(i('d| would)? like to (work on|pick up|take)|assign (this to me|me)|working on a (pr|fix)|can i work on this)\\b/i;\n     ```\n   - If a non-maintainer comment matches `CLAIM_REGEX`, mark the issue as `contested: true` and exclude it from the top Discovery stream.\n3. **UI Contestation Indicator:**\n   - Add a badge on `IssueCard.tsx`: `🟢 Fresh (0 comments)` or `🟡 1 comment (Discussion)`.\n\n---\n\n## 3. Acceptance Criteria\n- [ ] `queryBuilder.ts` adds `no:assignee` and configurable `comments:0` or `comments:<=1` push-down qualifiers.\n- [ ] Issues with verbal claims in comments are automatically dropped or flagged as contested.\n- [ ] Users no longer waste effort requesting assignment on issues where another contributor already claimed it first.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        }
+      }
+    },
+    {
+      "id": "19022803422",
+      "type": "IssueCommentEvent",
+      "repo": "cashubtc/nutshell",
+      "created_at": "2026-11-03T17:11:55Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/cashubtc/nutshell/issues/620",
+          "repository_url": "https://api.github.com/repos/cashubtc/nutshell",
+          "labels_url": "https://api.github.com/repos/cashubtc/nutshell/issues/620/labels{/name}",
+          "comments_url": "https://api.github.com/repos/cashubtc/nutshell/issues/620/comments",
+          "events_url": "https://api.github.com/repos/cashubtc/nutshell/issues/620/events",
+          "html_url": "https://github.com/cashubtc/nutshell/issues/620",
+          "id": 2533146079,
+          "node_id": "I_kwDOH-Xolc6W_L3f",
+          "number": 620,
+          "title": "Mint: Use `Pydantic` validated `BaseModel` for Lightning API responses",
+          "user": {
+            "login": "callebtc",
+            "id": 93376500,
+            "node_id": "U_kgDOBZDP9A",
+            "avatar_url": "https://avatars.githubusercontent.com/u/93376500?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/callebtc",
+            "html_url": "https://github.com/callebtc",
+            "followers_url": "https://api.github.com/users/callebtc/followers",
+            "following_url": "https://api.github.com/users/callebtc/following{/other_user}",
+            "gists_url": "https://api.github.com/users/callebtc/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/callebtc/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/callebtc/subscriptions",
+            "organizations_url": "https://api.github.com/users/callebtc/orgs",
+            "repos_url": "https://api.github.com/users/callebtc/repos",
+            "events_url": "https://api.github.com/users/callebtc/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/callebtc/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 4520128938,
+              "node_id": "LA_kwDOH-Xolc8AAAABDWuxqg",
+              "url": "https://api.github.com/repos/cashubtc/nutshell/labels/help%20wanted",
+              "name": "help wanted",
+              "color": "008672",
+              "default": true,
+              "description": "Extra attention is needed",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 5443348128,
+              "node_id": "LA_kwDOH-Xolc8AAAABRHLmoA",
+              "url": "https://api.github.com/repos/cashubtc/nutshell/labels/mint",
+              "name": "mint",
+              "color": "E2E513",
+              "default": false,
+              "description": "About the Nutshell mint",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 5450630894,
+              "node_id": "LA_kwDOH-Xolc8AAAABROIG7g",
+              "url": "https://api.github.com/repos/cashubtc/nutshell/labels/code%20health",
+              "name": "code health",
+              "color": "bfdadc",
+              "default": false,
+              "description": "Code health",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": {
+            "url": "https://api.github.com/repos/cashubtc/nutshell/milestones/7",
+            "html_url": "https://github.com/cashubtc/nutshell/milestone/7",
+            "labels_url": "https://api.github.com/repos/cashubtc/nutshell/milestones/7/labels",
+            "id": 17894529,
+            "node_id": "MI_kwDOH-Xolc4BEQyB",
+            "number": 7,
+            "title": "0.22.0",
+            "description": "",
+            "creator": {
+              "login": "ye0man",
+              "id": 145858188,
+              "node_id": "U_kgDOCLGejA",
+              "avatar_url": "https://avatars.githubusercontent.com/u/145858188?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ye0man",
+              "html_url": "https://github.com/ye0man",
+              "followers_url": "https://api.github.com/users/ye0man/followers",
+              "following_url": "https://api.github.com/users/ye0man/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ye0man/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ye0man/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ye0man/subscriptions",
+              "organizations_url": "https://api.github.com/users/ye0man/orgs",
+              "repos_url": "https://api.github.com/users/ye0man/repos",
+              "events_url": "https://api.github.com/users/ye0man/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ye0man/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            },
+            "open_issues": 5,
+            "closed_issues": 3,
+            "state": "open",
+            "created_at": "2026-09-16T14:23:41Z",
+            "updated_at": "2026-10-22T06:06:57Z",
+            "due_on": "2026-10-20T00:00:00Z",
+            "closed_at": null
+          },
+          "comments": 3,
+          "created_at": "2024-09-18T09:04:44Z",
+          "updated_at": "2026-11-03T17:11:55Z",
+          "closed_at": null,
+          "assignee": null,
+          "issue_field_values": [],
+          "type": {
+            "id": 17819606,
+            "node_id": "IT_kwDOBs9DwM4BD-fW",
+            "name": "Feature",
+            "description": "A request, idea, or new functionality",
+            "color": "blue",
+            "created_at": "2024-02-14T08:34:03Z",
+            "updated_at": "2024-10-08T20:27:44Z",
+            "is_enabled": true
+          },
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "Currently, this is our pattern throughout the lightning backends:\r\n\r\n```python\r\n        try:\r\n            r = await self.client.get(url=f\"{self.endpoint}/api/v1/wallet\", timeout=15)\r\n            r.raise_for_status()\r\n        except Exception as exc:\r\n            return StatusResponse(\r\n                error_message=f\"Failed to connect to {self.endpoint} due to: {exc}\",\r\n                balance=0,\r\n            )\r\n\r\n        try:\r\n            data: dict = r.json()\r\n        except Exception:\r\n            return StatusResponse(\r\n                error_message=(\r\n                    f\"Received invalid response from {self.endpoint}: {r.text}\"\r\n                ),\r\n                balance=0,\r\n            )\r\n```\r\n\r\nWe should make use of pydantic and predefine all expected response models from the Lightning backends so we can automatically validate the response. This would get rid of a lot of boilerplate and error checking in the code and make things a lot more robust and less prone to human errors.",
+          "reactions": {
+            "url": "https://api.github.com/repos/cashubtc/nutshell/issues/620/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/cashubtc/nutshell/issues/620/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/cashubtc/nutshell/issues/comments/6610553494",
+          "html_url": "https://github.com/cashubtc/nutshell/issues/620#issuecomment-6610553494",
+          "issue_url": "https://api.github.com/repos/cashubtc/nutshell/issues/620",
+          "id": 6610553494,
+          "node_id": "IC_kwDOH-Xolc8AAAABigUKlg",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-11-03T17:11:55Z",
+          "updated_at": "2026-11-03T17:11:55Z",
+          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I'm interested in contributing here. Could I be assigned this one? I'll get started right away! 🚀",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/cashubtc/nutshell/issues/comments/6610553494/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "19022786806",
+      "type": "IssueCommentEvent",
+      "repo": "SomeNoneAI/find-my-session",
+      "created_at": "2026-11-03T17:11:45Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/SomeNoneAI/find-my-session/issues/3",
+          "repository_url": "https://api.github.com/repos/SomeNoneAI/find-my-session",
+          "labels_url": "https://api.github.com/repos/SomeNoneAI/find-my-session/issues/3/labels{/name}",
+          "comments_url": "https://api.github.com/repos/SomeNoneAI/find-my-session/issues/3/comments",
+          "events_url": "https://api.github.com/repos/SomeNoneAI/find-my-session/issues/3/events",
+          "html_url": "https://github.com/SomeNoneAI/find-my-session/issues/3",
+          "id": 6178629427,
+          "node_id": "I_kwDOVg_bfc8AAAABcEZnMw",
+          "number": 3,
+          "title": "Research GitHub Copilot CLI session persistence",
+          "user": {
+            "login": "CalvinChen",
+            "id": 1669392,
+            "node_id": "MDQ6VXNlcjE2NjkzOTI=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1669392?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CalvinChen",
+            "html_url": "https://github.com/CalvinChen",
+            "followers_url": "https://api.github.com/users/CalvinChen/followers",
+            "following_url": "https://api.github.com/users/CalvinChen/following{/other_user}",
+            "gists_url": "https://api.github.com/users/CalvinChen/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/CalvinChen/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/CalvinChen/subscriptions",
+            "organizations_url": "https://api.github.com/users/CalvinChen/orgs",
+            "repos_url": "https://api.github.com/users/CalvinChen/repos",
+            "events_url": "https://api.github.com/users/CalvinChen/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/CalvinChen/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 12938363447,
+              "node_id": "LA_kwDOVg_bfc8AAAADAy_CNw",
+              "url": "https://api.github.com/repos/SomeNoneAI/find-my-session/labels/help%20wanted",
+              "name": "help wanted",
+              "color": "008672",
+              "default": true,
+              "description": "Extra attention is needed",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12939435906,
+              "node_id": "LA_kwDOVg_bfc8AAAADA0Afgg",
+              "url": "https://api.github.com/repos/SomeNoneAI/find-my-session/labels/harness",
+              "name": "harness",
+              "color": "1f6feb",
+              "default": false,
+              "description": "Add or verify a harness adapter",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12939436483,
+              "node_id": "LA_kwDOVg_bfc8AAAADA0Ahww",
+              "url": "https://api.github.com/repos/SomeNoneAI/find-my-session/labels/research",
+              "name": "research",
+              "color": "5319e7",
+              "default": false,
+              "description": "Research a store or format before implementation",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 2,
+          "created_at": "2026-11-03T08:03:29Z",
+          "updated_at": "2026-11-03T18:01:24Z",
+          "closed_at": "2026-11-03T18:01:24Z",
+          "assignee": null,
           "issue_field_values": [],
           "type": null,
           "active_lock_reason": null,
@@ -2162,9 +2616,9 @@
             "blocking": 0,
             "total_blocking": 0
           },
-          "body": "# Financial Literacy Issues\n\nThis document tracks various issues and challenges related to financial literacy, categorized by domain. These issues help inform the scenarios and lessons in the simulator.\n\n## 1. Financial Literacy\n- No financial education in schools\n- Poor budgeting\n- No expense tracking\n- No emergency fund\n- No savings habit\n- Poor money management\n- Living paycheck to paycheck\n- Lack of financial planning\n- No financial goals\n- Poor wealth-building mindset\n\n## 2. Banking\n- Choosing the wrong bank account\n- Hidden bank charges\n- Low banking awareness\n- ATM fraud\n- Debit card fraud\n- Credit card fraud\n- UPI fraud\n- QR code scams\n- Online banking fraud\n- Weak banking security\n- Poor password practices\n- KYC fraud\n- Fake customer care scams\n- Fake loan apps\n- Identity theft\n\n## 3. Salary & Employment\n- Mismanaging first salary\n- Lifestyle inflation\n- No salary budgeting\n- Ignoring employee benefits\n- Not understanding CTC\n- Poor salary negotiation\n- No career financial planning\n- No side income\n- Job loss without savings\n- Income instability\n\n## 4. Budgeting\n- Overspending\n- Impulse purchases\n- Emotional spending\n- Subscription overload\n- Poor monthly budgeting\n- No yearly planning\n- No family budget\n- No expense categorization\n- Poor cash flow\n- Lack of financial discipline\n\n## 5. Saving\n- No savings account\n- Saving too little\n- Keeping cash idle\n- No emergency savings\n- No long-term savings\n- No retirement savings\n- No education savings\n- Poor savings habits\n- No sinking funds\n- No wealth accumulation\n\n## 6. Credit & Debt\n- Credit card debt\n- Personal loan debt\n- Education loan issues\n- Vehicle loan burden\n- Home loan confusion\n- Debt trap\n- Loan defaults\n- Poor EMI planning\n- Excessive borrowing\n- Poor credit score\n\n## 7. Insurance\n- No health insurance\n- No life insurance\n- Wrong insurance products\n- Overinsurance\n- Underinsurance\n- Fake insurance policies\n- Ignoring claim processes\n- Insurance mis-selling\n- No nominee\n- Ignoring family protection\n\n## 8. Taxes\n- Income tax confusion\n- Old vs New tax regime confusion\n- Missing deductions\n- Late ITR filing\n- GST misunderstanding\n- Tax penalties\n- Tax planning ignorance\n- Investment tax confusion\n- Capital gains confusion\n- TDS misunderstanding\n\n## 9. Investing\n- No investing\n- Fear of investing\n- Investing too late\n- Wrong asset allocation\n- Lack of diversification\n- Emotional investing\n- Panic selling\n- FOMO investing\n- Blind investing\n- Unrealistic expectations\n\n## 10. Stock Market\n- Investing without knowledge\n- Intraday trading addiction\n- F&O gambling\n- Margin misuse\n- Leverage misuse\n- Revenge trading\n- Overtrading\n- IPO hype\n- Penny stock traps\n- Meme stocks\n- Buying high\n- Selling low\n- No stop loss\n- Ignoring risk management\n- Blindly following stock tips\n- Telegram trading scams\n- WhatsApp stock scams\n- Fake stock advisors\n- Finfluencer misinformation\n- Pump-and-dump schemes\n\n## 11. Mutual Funds\n- SIP misconceptions\n- Stopping SIPs during crashes\n- Wrong mutual fund selection\n- Chasing past returns\n- Ignoring expense ratios\n- No goal-based investing\n- Timing the market\n- Lack of patience\n- Portfolio overlap\n- Ignoring index funds\n\n## 12. Cryptocurrency\n- Crypto FOMO\n- Meme coins\n- Rug pulls\n- Fake exchanges\n- Fake crypto apps\n- Wallet scams\n- NFT scams\n- Pump groups\n- Unrealistic expectations\n- High-risk speculation\n\n## 13. Fraud & Scams\n- Ponzi schemes\n- MLM scams\n- Fake investment schemes\n- Guaranteed return scams\n- Fake financial advisors\n- Fake charity scams\n- Fake crowdfunding\n- Lottery scams\n- Romance scams\n- Job scams\n\n## 14. Consumer Finance\n- Buy Now Pay Later addiction\n- Online shopping addiction\n- EMI addiction\n- Brand obsession\n- Status spending\n- Festival overspending\n- Wedding overspending\n- Gadget obsession\n- Luxury lifestyle inflation\n- Peer pressure spending\n\n## 15. Students\n- No financial education\n- Pocket money mismanagement\n- Gaming addiction\n- Fantasy sports addiction\n- Gambling\n- Betting apps\n- Crypto hype\n- No budgeting\n- Education loan ignorance\n- Financial dependency\n\n## 16. Family Finance\n- No family financial planning\n- Poor inheritance planning\n- No will\n- No nominee\n- Family debt\n- Medical emergencies\n- Child education planning\n- Elder care planning\n- Marriage planning\n- Poor communication about money\n\n## 17. Business & Entrepreneurship\n- Poor business budgeting\n- Cash flow issues\n- Poor pricing\n- Lack of accounting\n- Tax non-compliance\n- Startup funding misconceptions\n- Poor inventory management\n- Business debt\n- Fraud in business\n- Business closure due to poor planning\n\n## 18. Behavioral Finance\n- Instant gratification\n- Loss aversion\n- Confirmation bias\n- Anchoring bias\n- Herd mentality\n- Overconfidence\n- Financial procrastination\n- Emotional decision-making\n- Lack of delayed gratification\n- Poor financial habits\n\n## 19. Economic Awareness\n- Inflation ignorance\n- Interest rate ignorance\n- Recession unpreparedness\n- Currency depreciation ignorance\n- Lack of economic awareness\n",
+          "body": "GitHub Copilot CLI is a candidate harness in `ROADMAP.md`. Research whether its local session history can back a read-only adapter.\n\n- Locate the store on macOS and Linux and record the path and file format.\n- Determine whether human prompts, cwd, timestamps, todos, compaction summaries, and archive state are recoverable.\n- Check whether parsing needs anything beyond the Python standard library.\n- If viable, implement it following `.agents/skills/add-harness/SKILL.md` with a synthetic fixture; otherwise record the findings in `docs/compatibility.md` under planned harnesses.\n\nDo not commit real session data.",
           "reactions": {
-            "url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/reactions",
+            "url": "https://api.github.com/repos/SomeNoneAI/find-my-session/issues/3/reactions",
             "total_count": 0,
             "+1": 0,
             "-1": 0,
@@ -2175,17 +2629,96 @@
             "rocket": 0,
             "eyes": 0
           },
-          "timeline_url": "https://api.github.com/repos/LifeSimLabs/financial-literacy-simulator/issues/89/timeline",
+          "timeline_url": "https://api.github.com/repos/SomeNoneAI/find-my-session/issues/3/timeline",
           "performed_via_github_app": null,
           "state_reason": "completed",
           "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/SomeNoneAI/find-my-session/issues/comments/6610550039",
+          "html_url": "https://github.com/SomeNoneAI/find-my-session/issues/3#issuecomment-6610550039",
+          "issue_url": "https://api.github.com/repos/SomeNoneAI/find-my-session/issues/3",
+          "id": 6610550039,
+          "node_id": "IC_kwDOVg_bfc8AAAABigT9Fw",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-11-03T17:11:45Z",
+          "updated_at": "2026-11-03T17:11:45Z",
+          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I'm interested in contributing here. Could I be assigned this one? I'll get started right away! 🚀",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/SomeNoneAI/find-my-session/issues/comments/6610550039/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "19021937893",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-03T17:03:03Z",
+      "payload": {
+        "action": "merged",
+        "number": 875,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/875",
+          "id": 5141318040,
+          "number": 875,
+          "head": {
+            "ref": "issue-775-google-s2-favicon",
+            "sha": "faf5c8f0810c90dbd52020ce6bc1689fc54bcaaf",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "5dc591bcdde02f205edc89de04d350d745e25e35",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
         }
       }
     }
   ],
   "recentStats": {
-    "commits": 2132,
-    "prs": 454,
-    "issues": 605
+    "commits": 2155,
+    "prs": 477,
+    "issues": 706
   }
 }
