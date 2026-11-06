@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T05:00:43.434Z",
+  "updatedAt": "2026-11-06T05:00:24.750Z",
   "contributions": {
-    "totalLastYear": 3271,
+    "totalLastYear": 3299,
     "days": [
       {
         "date": "2025-11-02",
@@ -1845,8 +1845,13 @@
       },
       {
         "date": "2026-11-05",
-        "count": 0,
-        "level": 0
+        "count": 18,
+        "level": 1
+      },
+      {
+        "date": "2026-11-06",
+        "count": 10,
+        "level": 1
       }
     ]
   },
@@ -1883,206 +1888,718 @@
     "followers": 65,
     "following": 21,
     "created_at": "2023-12-12T15:29:11Z",
-    "updated_at": "2026-11-04T16:57:52Z"
+    "updated_at": "2026-11-05T20:36:54Z"
   },
   "activityFeed": [
     {
-      "id": "26180710112",
-      "type": "DeleteEvent",
+      "id": "19301013410",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T08:45:42Z",
+      "created_at": "2026-11-06T04:40:55Z",
       "payload": {
-        "ref": "update-readme-preview-image",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/update-readme-preview-image",
-        "pusher_type": "user"
+        "action": "merged",
+        "number": 982,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/982",
+          "id": 5182991977,
+          "number": 982,
+          "head": {
+            "ref": "fix/issue-claim-only-uncontested",
+            "sha": "a3b57be536b70e94c9a7ffec0e27133d9c4145df",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "70a7329d436f4b88d997ea94aa7b6187eeed2725",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     },
     {
-      "id": "26177273067",
+      "id": "19300943568",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:39:37Z",
+      "payload": {
+        "action": "opened",
+        "number": 982,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/982",
+          "id": 5182991977,
+          "number": 982,
+          "head": {
+            "ref": "fix/issue-claim-only-uncontested",
+            "sha": "a3b57be536b70e94c9a7ffec0e27133d9c4145df",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "70a7329d436f4b88d997ea94aa7b6187eeed2725",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "19300608566",
+      "type": "IssueCommentEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:33:19Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/876",
+          "id": 6187796680,
+          "node_id": "I_kwDOT91lnM8AAAABcNJIyA",
+          "number": 876,
+          "title": "[Bug] Discovery surfaces already-claimed issues due to 'sort:updated-desc' and missing comment filters (<5% Maintainer Assignment Chance)",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-11-03T17:27:50Z",
+          "updated_at": "2026-11-06T04:33:19Z",
+          "closed_at": "2026-11-06T04:22:03Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## 1. Problem Description & Root Cause Analysis\n\n### The Flaw\nIn the Discovery dashboard, users are frequently presented with issues that have already been claimed by other contributors. \nFor example, in `cashubtc/nutshell#620` (labeled `help wanted`), contributor `bavarianway` commented 8 hours prior stating:\n> *\"Hi! I'd like to pick this up, starting with LND-REST: Pydantic models for the status, invoice and payment responses...\"*\n\nWhen a user discovers this issue and comments *\"Hi! I'd love to work on this issue...\"*, the probability of maintainer assignment drops to **< 5%** because open-source maintainers almost universally assign issues on a **first-claimed, first-served** basis.\n\n### Root Cause in Codebase\n1. **GitHub API Query Inversion (`queryBuilder.ts`):**\n   ```typescript\n   // apps/web/src/utils/queryBuilder.ts\n   // Current query structure:\n   `is:open is:issue label:\"${label}\" language:${lang} sort:updated-desc`\n   ```\n   By sorting with `sort:updated-desc`, GitHub actively prioritizes issues with **recent activity**. When another developer comments *\"I want to work on this\"*, GitHub updates the issue's `updated_at` timestamp, **catapulting claimed/contested issues to the top of Scout's discovery results!**\n\n2. **Absence of Push-Down Comment Constraints:**\n   - The GitHub search API supports qualifiers such as `comments:0` (uncontested) or `comments:<=1`.\n   - The query currently specifies no comment ceiling, nor does it push down `no:assignee` explicitly into the query string.\n\n3. **Missing Intent Classification on Issue Timeline:**\n   - There is no heuristic or regex scanner on recent issue comments to detect claim keywords (e.g., `\"pick this up\"`, `\"take this\"`, `\"working on this\"`, `\"assign to me\"`, `\"PR incoming\"`).\n\n---\n\n## 2. Architectural Solution & Proposed Implementation\n\n```mermaid\nflowchart TD\n    A[Discovery Query Engine] --> B{Contestation Filter Mode}\n    B -->|Strict: Uncontested| C[Query: comments:0 no:assignee]\n    B -->|Balanced: Low-Competition| D[Query: comments:<=2 no:assignee]\n    C --> E[GitHub Search API]\n    D --> E\n    E --> F[Comment Heuristic Scanner]\n    F --> G{Claim Intent Detected?}\n    G -->|Yes: Someone claimed in comments| H[Drop / Filter Out from Discovery]\n    G -->|No: Discussion only| I[Calculate Contestation Risk Score]\n    I --> J[Present in Discovery with High Success Rate]\n```\n\n### Step-by-Step Action Plan:\n1. **Push-Down GitHub Qualifiers (`queryBuilder.ts`):**\n   - Add `no:assignee` directly to the search query.\n   - Introduce a configurable comment filter option in Discovery settings:\n     - **Fresh Only (Default):** `comments:0` (guarantees 100% uncontested issues).\n     - **Low Competition:** `comments:<=2` (filters out heated threads).\n2. **Comment Intent Classifier (`apps/web/src/utils/claimDetector.ts`):**\n   - For issues returned with `comments > 0`, inspect comment bodies using a regex intent filter:\n     ```typescript\n     const CLAIM_REGEX = /\\b(i('d| would)? like to (work on|pick up|take)|assign (this to me|me)|working on a (pr|fix)|can i work on this)\\b/i;\n     ```\n   - If a non-maintainer comment matches `CLAIM_REGEX`, mark the issue as `contested: true` and exclude it from the top Discovery stream.\n3. **UI Contestation Indicator:**\n   - Add a badge on `IssueCard.tsx`: `🟢 Fresh (0 comments)` or `🟡 1 comment (Discussion)`.\n\n---\n\n## 3. Acceptance Criteria\n- [ ] `queryBuilder.ts` adds `no:assignee` and configurable `comments:0` or `comments:<=1` push-down qualifiers.\n- [ ] Issues with verbal claims in comments are automatically dropped or flagged as contested.\n- [ ] Users no longer waste effort requesting assignment on issues where another contributor already claimed it first.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/6676968263",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/876#issuecomment-6676968263",
+          "issue_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876",
+          "id": 6676968263,
+          "node_id": "IC_kwDOT91lnM8AAAABjfpzRw",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-11-06T04:33:19Z",
+          "updated_at": "2026-11-06T04:33:19Z",
+          "body": "### Fix Resolution Summary for Issue #876\n\nAll acceptance criteria and architectural solutions for this major issue have been implemented, tested, and merged into `main` across 4 PRs:\n\n1. **PR #978 (`fix(web): add push-down uncontested query qualifiers for issue discovery`)**:\n   - Added `no:assignee` directly into `buildGitHubSearchQuery` and `buildRelaxedGitHubSearchQuery` by default to prevent assigned issues from polluting the discovery feed.\n   - Introduced `contestationMode` push-down parameter:\n     - `fresh` (Default): pushes down `comments:0` to guarantee 100% uncontested candidate issues.\n     - `low-competition`: pushes down `comments:<=2` to allow low-competition issues.\n     - `all`: omits comment constraint.\n   - Broadened fallback search automatically relaxes comments ceiling to `comments:<=2` while preserving `no:assignee`.\n\n2. **PR #979 (`feat(web): add claim intent classifier and contestation scanner`)**:\n   - Created `apps/web/src/utils/claimDetector.ts` featuring `CLAIM_INTENT_REGEX` to catch verbal claim intent (e.g. \"I'd like to pick this up\", \"assign to me\", \"can I work on this\", \"working on a PR\", \"PR incoming\").\n   - Implemented `evaluateCommentContestation` returning structured `ContestationAssessment` (`uncontested`, `low-competition`, `contested`).\n   - Extended `apps/web/src/types.ts` with `ContestationAssessment` and `ContestationLevel`.\n\n3. **PR #980 (`feat(web): integrate contestation evaluation into issue discovery pipeline`)**:\n   - Integrated `evaluateCommentContestation` into candidate evaluation in `useIssueDiscovery.ts`.\n   - Filtered out claimed/contested issues from the candidate pool before presenting them in Discovery.\n   - Established deterministic ranking prioritizing uncontested candidates before secondary relevance/recency sort.\n\n4. **PR #981 (`feat(web): add visual contestation badges to IssueCard component`)**:\n   - Added visual indicator badges on `IssueCard`:\n     - 🟢 Fresh (0 comments)\n     - 🟡 1 comment / 2 comments (Discussion)\n     - 🔴 Contested / Claimed\n   - Added popover/hover tooltip title with full contestation reasoning.\n\nAll CI/CD checks have passed and all 4 PRs are merged into `main`.",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/6676968263/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "19300589550",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:33:00Z",
+      "payload": {
+        "action": "merged",
+        "number": 981,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/981",
+          "id": 5182927913,
+          "number": 981,
+          "head": {
+            "ref": "feat/issue-876-ui-contestation-badge",
+            "sha": "fd7998ef679b5e7a37dbecd5c61cf57fba289a6c",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "e4603c42f61970148638de715fbe42b7bedc07d5",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "19300518033",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:31:41Z",
+      "payload": {
+        "action": "opened",
+        "number": 981,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/981",
+          "id": 5182927913,
+          "number": 981,
+          "head": {
+            "ref": "feat/issue-876-ui-contestation-badge",
+            "sha": "fd7998ef679b5e7a37dbecd5c61cf57fba289a6c",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "e4603c42f61970148638de715fbe42b7bedc07d5",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "19300444031",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:30:14Z",
+      "payload": {
+        "action": "merged",
+        "number": 980,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/980",
+          "id": 5182906545,
+          "number": 980,
+          "head": {
+            "ref": "feat/issue-876-discovery-contestation-pipeline",
+            "sha": "e196fc58e0a6b517ba64df4874607fa8e01858df",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "7d3cc747db0c9ef949a22efe0ce294f121b84af8",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "19300367845",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:28:57Z",
+      "payload": {
+        "action": "opened",
+        "number": 980,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/980",
+          "id": 5182906545,
+          "number": 980,
+          "head": {
+            "ref": "feat/issue-876-discovery-contestation-pipeline",
+            "sha": "e196fc58e0a6b517ba64df4874607fa8e01858df",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "7d3cc747db0c9ef949a22efe0ce294f121b84af8",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "19300293708",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:27:35Z",
+      "payload": {
+        "action": "merged",
+        "number": 979,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/979",
+          "id": 5182885527,
+          "number": 979,
+          "head": {
+            "ref": "feat/issue-876-claim-detector-heuristics",
+            "sha": "a8990fdd458d9555a2d7227ea22a11b2dd24929f",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "dc2e397a73523dceba3407fdb6a7a399e6036716",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "19300216858",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:26:15Z",
+      "payload": {
+        "action": "opened",
+        "number": 979,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/979",
+          "id": 5182885527,
+          "number": 979,
+          "head": {
+            "ref": "feat/issue-876-claim-detector-heuristics",
+            "sha": "a8990fdd458d9555a2d7227ea22a11b2dd24929f",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "dc2e397a73523dceba3407fdb6a7a399e6036716",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "19299973701",
+      "type": "IssuesEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:22:05Z",
+      "payload": {
+        "action": "closed",
+        "issue": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876",
+          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/labels{/name}",
+          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/comments",
+          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/events",
+          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/876",
+          "id": 6187796680,
+          "node_id": "I_kwDOT91lnM8AAAABcNJIyA",
+          "number": 876,
+          "title": "[Bug] Discovery surfaces already-claimed issues due to 'sort:updated-desc' and missing comment filters (<5% Maintainer Assignment Chance)",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-11-03T17:27:50Z",
+          "updated_at": "2026-11-06T04:33:19Z",
+          "closed_at": "2026-11-06T04:22:03Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## 1. Problem Description & Root Cause Analysis\n\n### The Flaw\nIn the Discovery dashboard, users are frequently presented with issues that have already been claimed by other contributors. \nFor example, in `cashubtc/nutshell#620` (labeled `help wanted`), contributor `bavarianway` commented 8 hours prior stating:\n> *\"Hi! I'd like to pick this up, starting with LND-REST: Pydantic models for the status, invoice and payment responses...\"*\n\nWhen a user discovers this issue and comments *\"Hi! I'd love to work on this issue...\"*, the probability of maintainer assignment drops to **< 5%** because open-source maintainers almost universally assign issues on a **first-claimed, first-served** basis.\n\n### Root Cause in Codebase\n1. **GitHub API Query Inversion (`queryBuilder.ts`):**\n   ```typescript\n   // apps/web/src/utils/queryBuilder.ts\n   // Current query structure:\n   `is:open is:issue label:\"${label}\" language:${lang} sort:updated-desc`\n   ```\n   By sorting with `sort:updated-desc`, GitHub actively prioritizes issues with **recent activity**. When another developer comments *\"I want to work on this\"*, GitHub updates the issue's `updated_at` timestamp, **catapulting claimed/contested issues to the top of Scout's discovery results!**\n\n2. **Absence of Push-Down Comment Constraints:**\n   - The GitHub search API supports qualifiers such as `comments:0` (uncontested) or `comments:<=1`.\n   - The query currently specifies no comment ceiling, nor does it push down `no:assignee` explicitly into the query string.\n\n3. **Missing Intent Classification on Issue Timeline:**\n   - There is no heuristic or regex scanner on recent issue comments to detect claim keywords (e.g., `\"pick this up\"`, `\"take this\"`, `\"working on this\"`, `\"assign to me\"`, `\"PR incoming\"`).\n\n---\n\n## 2. Architectural Solution & Proposed Implementation\n\n```mermaid\nflowchart TD\n    A[Discovery Query Engine] --> B{Contestation Filter Mode}\n    B -->|Strict: Uncontested| C[Query: comments:0 no:assignee]\n    B -->|Balanced: Low-Competition| D[Query: comments:<=2 no:assignee]\n    C --> E[GitHub Search API]\n    D --> E\n    E --> F[Comment Heuristic Scanner]\n    F --> G{Claim Intent Detected?}\n    G -->|Yes: Someone claimed in comments| H[Drop / Filter Out from Discovery]\n    G -->|No: Discussion only| I[Calculate Contestation Risk Score]\n    I --> J[Present in Discovery with High Success Rate]\n```\n\n### Step-by-Step Action Plan:\n1. **Push-Down GitHub Qualifiers (`queryBuilder.ts`):**\n   - Add `no:assignee` directly to the search query.\n   - Introduce a configurable comment filter option in Discovery settings:\n     - **Fresh Only (Default):** `comments:0` (guarantees 100% uncontested issues).\n     - **Low Competition:** `comments:<=2` (filters out heated threads).\n2. **Comment Intent Classifier (`apps/web/src/utils/claimDetector.ts`):**\n   - For issues returned with `comments > 0`, inspect comment bodies using a regex intent filter:\n     ```typescript\n     const CLAIM_REGEX = /\\b(i('d| would)? like to (work on|pick up|take)|assign (this to me|me)|working on a (pr|fix)|can i work on this)\\b/i;\n     ```\n   - If a non-maintainer comment matches `CLAIM_REGEX`, mark the issue as `contested: true` and exclude it from the top Discovery stream.\n3. **UI Contestation Indicator:**\n   - Add a badge on `IssueCard.tsx`: `🟢 Fresh (0 comments)` or `🟡 1 comment (Discussion)`.\n\n---\n\n## 3. Acceptance Criteria\n- [ ] `queryBuilder.ts` adds `no:assignee` and configurable `comments:0` or `comments:<=1` push-down qualifiers.\n- [ ] Issues with verbal claims in comments are automatically dropped or flagged as contested.\n- [ ] Users no longer waste effort requesting assignment on issues where another contributor already claimed it first.",
+          "reactions": {
+            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "completed",
+          "pinned_comment": null
+        }
+      }
+    },
+    {
+      "id": "19299972176",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:22:01Z",
+      "payload": {
+        "action": "merged",
+        "number": 978,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/978",
+          "id": 5182840704,
+          "number": 978,
+          "head": {
+            "ref": "fix/issue-876-uncontested-query-filters",
+            "sha": "09ea73380b4d73bd3b9ac784304e60eecb9df06a",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "49ce7abbec26bde05d342871d765b7b28721952d",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "19299895560",
+      "type": "PullRequestEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T04:20:41Z",
+      "payload": {
+        "action": "opened",
+        "number": 978,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/978",
+          "id": 5182840704,
+          "number": 978,
+          "head": {
+            "ref": "fix/issue-876-uncontested-query-filters",
+            "sha": "09ea73380b4d73bd3b9ac784304e60eecb9df06a",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "49ce7abbec26bde05d342871d765b7b28721952d",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "19299160885",
+      "type": "IssueCommentEvent",
+      "repo": "bystrovmaxim/aoa",
+      "created_at": "2026-11-06T04:07:47Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150",
+          "repository_url": "https://api.github.com/repos/bystrovmaxim/aoa",
+          "labels_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/labels{/name}",
+          "comments_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/comments",
+          "events_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/events",
+          "html_url": "https://github.com/bystrovmaxim/aoa/issues/150",
+          "id": 4924006907,
+          "node_id": "I_kwDOQrGqVc8AAAABJX5h-w",
+          "number": 150,
+          "title": "tests/examples: xfail(strict=True) doesn't verify the failure reason, only the return code",
+          "user": {
+            "login": "bystrovmaxim",
+            "id": 247456419,
+            "node_id": "U_kgDODr_iow",
+            "avatar_url": "https://avatars.githubusercontent.com/u/247456419?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bystrovmaxim",
+            "html_url": "https://github.com/bystrovmaxim",
+            "followers_url": "https://api.github.com/users/bystrovmaxim/followers",
+            "following_url": "https://api.github.com/users/bystrovmaxim/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bystrovmaxim/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bystrovmaxim/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bystrovmaxim/subscriptions",
+            "organizations_url": "https://api.github.com/users/bystrovmaxim/orgs",
+            "repos_url": "https://api.github.com/users/bystrovmaxim/repos",
+            "events_url": "https://api.github.com/users/bystrovmaxim/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bystrovmaxim/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 9852158730,
+              "node_id": "LA_kwDOQrGqVc8AAAACSzwDCg",
+              "url": "https://api.github.com/repos/bystrovmaxim/aoa/labels/bug",
+              "name": "bug",
+              "color": "d73a4a",
+              "default": true,
+              "description": "Something isn't working",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "closed",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 3,
+          "created_at": "2026-07-19T19:03:28Z",
+          "updated_at": "2026-11-06T04:07:47Z",
+          "closed_at": "2026-11-05T21:37:17Z",
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "\\`tests/examples/test_examples_run.py\\` marks four LangGraph example scripts as expected-to-fail while issue #83 is in progress:\n\n\\`\\`\\`python\n_XFAIL_REASONS: dict[str, str] = {\n    \"extensions/02_langgraph.py\": \"aoa.langgraph no longer exports LangGraphAdapter (issue #83 rework, in progress)\",\n    \"step_14_langgraph/01_external_connection.py\": (...),\n    \"step_14_langgraph/01_langgraph.py\": \"aoa.langgraph no longer exports LangGraphAdapter (issue #83 rework, in progress)\",\n    \"step_14_langgraph/05_testing.py\": \"RouteKeyError: route key 'UNSET' not found (issue #83 rework, in progress)\",\n}\n...\nmarks = [pytest.mark.xfail(reason=reason, strict=True)] if reason else []\n...\nassert result.returncode == 0, (...)\n\\`\\`\\`\n\n\\`reason=\\` is only a human-readable label shown in pytest's report — it isn't checked against anything. The assertion only looks at \\`result.returncode\\`. \\`strict=True\\` catches one direction of drift (the script starts passing, forcing the entry's removal) but not the other: if one of these four scripts starts failing for a *different, unrelated* reason, the test still reports \"xfailed\" and \\`task check\\` stays green. A real regression introduced by unrelated work could hide behind these entries indefinitely.\n\n**Suggested fix:** check for one stable, low-fragility marker per script (a class/attribute name, not full traceback text, which drifts across Python/dependency versions) in the subprocess's stderr, e.g.:\n\n- \\`extensions/02_langgraph.py\\` / \\`step_14_langgraph/01_langgraph.py\\` → \\`\"LangGraphAdapter\"\\`\n- \\`step_14_langgraph/01_external_connection.py\\` → \\`\"LangGraphController\"\\`\n- \\`step_14_langgraph/05_testing.py\\` → \\`\"UNSET\"\\`\n\nAll four markers are present in the actual current stderr output (verified by running each script directly). Full-text matching is deliberately not recommended — it would trade this bug for a new one (brittleness to incidental formatting changes).\n\nNot part of #130 or #83 — orthogonal test-infrastructure gap, found while auditing an unrelated change.",
+          "reactions": {
+            "url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/timeline",
+          "performed_via_github_app": null,
+          "state_reason": "not_planned",
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/comments/6676606284",
+          "html_url": "https://github.com/bystrovmaxim/aoa/issues/150#issuecomment-6676606284",
+          "issue_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150",
+          "id": 6676606284,
+          "node_id": "IC_kwDOQrGqVc8AAAABjfTtTA",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-11-06T04:07:47Z",
+          "updated_at": "2026-11-06T04:07:47Z",
+          "body": "@bystrovmaxim  no worries....!\n\n",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/comments/6676606284/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "26277754246",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T08:45:16Z",
+      "created_at": "2026-11-05T16:48:33Z",
       "payload": {
-        "ref": "update-readme-preview-image",
+        "ref": "issue-852-thrashing-guard-throttle",
         "ref_type": "branch",
-        "full_ref": "refs/heads/update-readme-preview-image",
+        "full_ref": "refs/heads/issue-852-thrashing-guard-throttle",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "26171851813",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T07:20:53Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48935138063,
-        "ref": "refs/heads/main",
-        "head": "e14d3e4a1b543df9728020ab364c53f28b43e987",
-        "before": "8352f5c5b20d031f17e2a999d00c8744a65e77bb"
-      }
-    },
-    {
-      "id": "26169446493",
+      "id": "26275934161",
       "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T06:56:09Z",
+      "created_at": "2026-11-05T16:33:04Z",
       "payload": {
-        "ref": "issue-849-docs-favicon-engine",
+        "ref": "issue-852-module-resolution-inspector",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-849-docs-favicon-engine",
+        "full_ref": "refs/heads/issue-852-module-resolution-inspector",
         "master_branch": "main",
         "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26169416341",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T06:55:50Z",
-      "payload": {
-        "ref": "issue-848-docs-daily-standup",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-848-docs-daily-standup",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26169327827",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T06:54:58Z",
-      "payload": {
-        "ref": "issue-846-docs-workspaces-overview",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-846-docs-workspaces-overview",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26169324650",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T06:54:56Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48932839679,
-        "ref": "refs/heads/main",
-        "head": "13739d6b1171098d38f18b0e47f3139fef2d879b",
-        "before": "aec814d8cb192c50c4ac552ae5c26030a8ee6805"
-      }
-    },
-    {
-      "id": "26169240204",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T06:54:07Z",
-      "payload": {
-        "ref": "issue-844-readme-workspaces-architecture",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-844-readme-workspaces-architecture",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26169188857",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T06:53:37Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48932729336,
-        "ref": "refs/heads/main",
-        "head": "5b9ed979b60cb5b79b93e39e3d4161454bf5c8fe",
-        "before": "a390f01779773c7cf489485e2f1a5a7e02d8c5e4"
-      }
-    },
-    {
-      "id": "26168628529",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T06:47:22Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48932206035,
-        "ref": "refs/heads/main",
-        "head": "7fc46fa642b78799b87532d0fd9146844ab1eaf3",
-        "before": "db0f5f474f18664680f27cf9de777972a8d18594"
-      }
-    },
-    {
-      "id": "26168619633",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T06:47:16Z",
-      "payload": {
-        "ref": "issue-832-daily-standup-summary",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-832-daily-standup-summary",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26168604741",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T07:18:25Z",
-      "payload": {
-        "ref": "ui-workspaces-theme-visual-cohesion",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/ui-workspaces-theme-visual-cohesion",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26168575422",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T07:18:07Z",
-      "payload": {
-        "ref": "ui-workspaces-theme-visual-cohesion",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/ui-workspaces-theme-visual-cohesion",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26168325388",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T07:15:28Z",
-      "payload": {
-        "ref": "ui-landing-background-and-hero-image",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/ui-landing-background-and-hero-image",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26168070415",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-04T07:12:53Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 48934425110,
-        "ref": "refs/heads/main",
-        "head": "735c811e5afd36d3bcb32d2d11edbe14efc310e7",
-        "before": "24a5438c2f0342605a0d6e633e906d99c9647166"
       }
     }
   ],
   "recentStats": {
-    "commits": 2245,
-    "prs": 565,
+    "commits": 2261,
+    "prs": 580,
     "issues": 706
   }
 }
