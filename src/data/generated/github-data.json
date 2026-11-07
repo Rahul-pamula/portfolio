@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T05:00:24.750Z",
+  "updatedAt": "2026-11-07T04:34:14.377Z",
   "contributions": {
-    "totalLastYear": 3299,
+    "totalLastYear": 3312,
     "days": [
       {
         "date": "2025-11-02",
@@ -1850,8 +1850,13 @@
       },
       {
         "date": "2026-11-06",
-        "count": 10,
+        "count": 23,
         "level": 1
+      },
+      {
+        "date": "2026-11-07",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -1885,611 +1890,305 @@
     "twitter_username": null,
     "public_repos": 76,
     "public_gists": 0,
-    "followers": 65,
+    "followers": 66,
     "following": 21,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-11-05T20:36:54Z"
   },
   "activityFeed": [
     {
-      "id": "19301013410",
-      "type": "PullRequestEvent",
+      "id": "26395986285",
+      "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:40:55Z",
+      "created_at": "2026-11-06T16:49:21Z",
       "payload": {
-        "action": "merged",
-        "number": 982,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/982",
-          "id": 5182991977,
-          "number": 982,
-          "head": {
-            "ref": "fix/issue-claim-only-uncontested",
-            "sha": "a3b57be536b70e94c9a7ffec0e27133d9c4145df",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "70a7329d436f4b88d997ea94aa7b6187eeed2725",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
+        "ref": "fix/tracking-execution-state-enum-mapping",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/tracking-execution-state-enum-mapping",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "19300943568",
-      "type": "PullRequestEvent",
+      "id": "26391699852",
+      "type": "CreateEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:39:37Z",
+      "created_at": "2026-11-06T15:18:47Z",
       "payload": {
-        "action": "opened",
-        "number": 982,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/982",
-          "id": 5182991977,
-          "number": 982,
-          "head": {
-            "ref": "fix/issue-claim-only-uncontested",
-            "sha": "a3b57be536b70e94c9a7ffec0e27133d9c4145df",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "70a7329d436f4b88d997ea94aa7b6187eeed2725",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
+        "ref": "fix/tracking-combine-tasks-and-tracked-issues",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/tracking-combine-tasks-and-tracked-issues",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
       }
     },
     {
-      "id": "19300608566",
+      "id": "26385632878",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-05T16:59:42Z",
+      "payload": {
+        "ref": "issue-852-docs-and-changelog",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-852-docs-and-changelog",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "26383831916",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T14:51:48Z",
+      "payload": {
+        "ref": "fix/supabase-tasks-claimed-via",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/supabase-tasks-claimed-via",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "26382116533",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T16:49:17Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 49271993949,
+        "ref": "refs/heads/main",
+        "head": "26efd9fc4ccde8093647fb3b6036da05a5c975de",
+        "before": "b54d0227fef55adf718a71025619716c902d1e7c"
+      }
+    },
+    {
+      "id": "26379826648",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-05T16:12:26Z",
+      "payload": {
+        "ref": "issue-852-build-typecheck-detection",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-852-build-typecheck-detection",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "26379786228",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T15:20:33Z",
+      "payload": {
+        "ref": "fix/tracking-combine-tasks-and-tracked-issues",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/tracking-combine-tasks-and-tracked-issues",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "26376571538",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T16:41:54Z",
+      "payload": {
+        "ref": "docs/v2-architecture-and-skills-framework",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/docs/v2-architecture-and-skills-framework",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "26373627779",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T15:34:21Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 49263698302,
+        "ref": "refs/heads/main",
+        "head": "fff1d31b9070966ed2f714009a277c5537ceb08d",
+        "before": "ccc8cf478bfb1f798f30d8d05d35ed555d126f9a"
+      }
+    },
+    {
+      "id": "26370940818",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T15:11:31Z",
+      "payload": {
+        "ref": "fix/web-omit-claimed-via-for-tasks",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/web-omit-claimed-via-for-tasks",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "26366601011",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-06T15:10:04Z",
+      "payload": {
+        "ref": "fix/web-omit-claimed-via-for-tasks",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/fix/web-omit-claimed-via-for-tasks",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "26366581035",
+      "type": "PushEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-05T16:07:02Z",
+      "payload": {
+        "repository_id": 1339909532,
+        "push_id": 49131823347,
+        "ref": "refs/heads/main",
+        "head": "0b042f6ea59260bd6d889f587897cf6f82dbd6dc",
+        "before": "cc80bf04e9983a9c47935fc1dea3d3a9bc1e28f3"
+      }
+    },
+    {
+      "id": "19355899079",
       "type": "IssueCommentEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:33:19Z",
+      "repo": "the-abraar/FretGPS",
+      "created_at": "2026-11-06T16:58:28Z",
       "payload": {
         "action": "created",
         "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/876",
-          "id": 6187796680,
-          "node_id": "I_kwDOT91lnM8AAAABcNJIyA",
-          "number": 876,
-          "title": "[Bug] Discovery surfaces already-claimed issues due to 'sort:updated-desc' and missing comment filters (<5% Maintainer Assignment Chance)",
+          "url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7",
+          "repository_url": "https://api.github.com/repos/the-abraar/FretGPS",
+          "labels_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/labels{/name}",
+          "comments_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/comments",
+          "events_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/events",
+          "html_url": "https://github.com/the-abraar/FretGPS/issues/7",
+          "id": 6245834296,
+          "node_id": "I_kwDOVVNlz88AAAABdEfeOA",
+          "number": 7,
+          "title": "Camera hand tracking as a position hint (Phase 0b)",
           "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "login": "the-abraar",
+            "id": 242695230,
+            "node_id": "U_kgDODnc8Pg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/242695230?v=4",
             "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-11-03T17:27:50Z",
-          "updated_at": "2026-11-06T04:33:19Z",
-          "closed_at": "2026-11-06T04:22:03Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 1. Problem Description & Root Cause Analysis\n\n### The Flaw\nIn the Discovery dashboard, users are frequently presented with issues that have already been claimed by other contributors. \nFor example, in `cashubtc/nutshell#620` (labeled `help wanted`), contributor `bavarianway` commented 8 hours prior stating:\n> *\"Hi! I'd like to pick this up, starting with LND-REST: Pydantic models for the status, invoice and payment responses...\"*\n\nWhen a user discovers this issue and comments *\"Hi! I'd love to work on this issue...\"*, the probability of maintainer assignment drops to **< 5%** because open-source maintainers almost universally assign issues on a **first-claimed, first-served** basis.\n\n### Root Cause in Codebase\n1. **GitHub API Query Inversion (`queryBuilder.ts`):**\n   ```typescript\n   // apps/web/src/utils/queryBuilder.ts\n   // Current query structure:\n   `is:open is:issue label:\"${label}\" language:${lang} sort:updated-desc`\n   ```\n   By sorting with `sort:updated-desc`, GitHub actively prioritizes issues with **recent activity**. When another developer comments *\"I want to work on this\"*, GitHub updates the issue's `updated_at` timestamp, **catapulting claimed/contested issues to the top of Scout's discovery results!**\n\n2. **Absence of Push-Down Comment Constraints:**\n   - The GitHub search API supports qualifiers such as `comments:0` (uncontested) or `comments:<=1`.\n   - The query currently specifies no comment ceiling, nor does it push down `no:assignee` explicitly into the query string.\n\n3. **Missing Intent Classification on Issue Timeline:**\n   - There is no heuristic or regex scanner on recent issue comments to detect claim keywords (e.g., `\"pick this up\"`, `\"take this\"`, `\"working on this\"`, `\"assign to me\"`, `\"PR incoming\"`).\n\n---\n\n## 2. Architectural Solution & Proposed Implementation\n\n```mermaid\nflowchart TD\n    A[Discovery Query Engine] --> B{Contestation Filter Mode}\n    B -->|Strict: Uncontested| C[Query: comments:0 no:assignee]\n    B -->|Balanced: Low-Competition| D[Query: comments:<=2 no:assignee]\n    C --> E[GitHub Search API]\n    D --> E\n    E --> F[Comment Heuristic Scanner]\n    F --> G{Claim Intent Detected?}\n    G -->|Yes: Someone claimed in comments| H[Drop / Filter Out from Discovery]\n    G -->|No: Discussion only| I[Calculate Contestation Risk Score]\n    I --> J[Present in Discovery with High Success Rate]\n```\n\n### Step-by-Step Action Plan:\n1. **Push-Down GitHub Qualifiers (`queryBuilder.ts`):**\n   - Add `no:assignee` directly to the search query.\n   - Introduce a configurable comment filter option in Discovery settings:\n     - **Fresh Only (Default):** `comments:0` (guarantees 100% uncontested issues).\n     - **Low Competition:** `comments:<=2` (filters out heated threads).\n2. **Comment Intent Classifier (`apps/web/src/utils/claimDetector.ts`):**\n   - For issues returned with `comments > 0`, inspect comment bodies using a regex intent filter:\n     ```typescript\n     const CLAIM_REGEX = /\\b(i('d| would)? like to (work on|pick up|take)|assign (this to me|me)|working on a (pr|fix)|can i work on this)\\b/i;\n     ```\n   - If a non-maintainer comment matches `CLAIM_REGEX`, mark the issue as `contested: true` and exclude it from the top Discovery stream.\n3. **UI Contestation Indicator:**\n   - Add a badge on `IssueCard.tsx`: `🟢 Fresh (0 comments)` or `🟡 1 comment (Discussion)`.\n\n---\n\n## 3. Acceptance Criteria\n- [ ] `queryBuilder.ts` adds `no:assignee` and configurable `comments:0` or `comments:<=1` push-down qualifiers.\n- [ ] Issues with verbal claims in comments are automatically dropped or flagged as contested.\n- [ ] Users no longer waste effort requesting assignment on issues where another contributor already claimed it first.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/6676968263",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/876#issuecomment-6676968263",
-          "issue_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876",
-          "id": 6676968263,
-          "node_id": "IC_kwDOT91lnM8AAAABjfpzRw",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-11-06T04:33:19Z",
-          "updated_at": "2026-11-06T04:33:19Z",
-          "body": "### Fix Resolution Summary for Issue #876\n\nAll acceptance criteria and architectural solutions for this major issue have been implemented, tested, and merged into `main` across 4 PRs:\n\n1. **PR #978 (`fix(web): add push-down uncontested query qualifiers for issue discovery`)**:\n   - Added `no:assignee` directly into `buildGitHubSearchQuery` and `buildRelaxedGitHubSearchQuery` by default to prevent assigned issues from polluting the discovery feed.\n   - Introduced `contestationMode` push-down parameter:\n     - `fresh` (Default): pushes down `comments:0` to guarantee 100% uncontested candidate issues.\n     - `low-competition`: pushes down `comments:<=2` to allow low-competition issues.\n     - `all`: omits comment constraint.\n   - Broadened fallback search automatically relaxes comments ceiling to `comments:<=2` while preserving `no:assignee`.\n\n2. **PR #979 (`feat(web): add claim intent classifier and contestation scanner`)**:\n   - Created `apps/web/src/utils/claimDetector.ts` featuring `CLAIM_INTENT_REGEX` to catch verbal claim intent (e.g. \"I'd like to pick this up\", \"assign to me\", \"can I work on this\", \"working on a PR\", \"PR incoming\").\n   - Implemented `evaluateCommentContestation` returning structured `ContestationAssessment` (`uncontested`, `low-competition`, `contested`).\n   - Extended `apps/web/src/types.ts` with `ContestationAssessment` and `ContestationLevel`.\n\n3. **PR #980 (`feat(web): integrate contestation evaluation into issue discovery pipeline`)**:\n   - Integrated `evaluateCommentContestation` into candidate evaluation in `useIssueDiscovery.ts`.\n   - Filtered out claimed/contested issues from the candidate pool before presenting them in Discovery.\n   - Established deterministic ranking prioritizing uncontested candidates before secondary relevance/recency sort.\n\n4. **PR #981 (`feat(web): add visual contestation badges to IssueCard component`)**:\n   - Added visual indicator badges on `IssueCard`:\n     - 🟢 Fresh (0 comments)\n     - 🟡 1 comment / 2 comments (Discussion)\n     - 🔴 Contested / Claimed\n   - Added popover/hover tooltip title with full contestation reasoning.\n\nAll CI/CD checks have passed and all 4 PRs are merged into `main`.",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/comments/6676968263/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "19300589550",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:33:00Z",
-      "payload": {
-        "action": "merged",
-        "number": 981,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/981",
-          "id": 5182927913,
-          "number": 981,
-          "head": {
-            "ref": "feat/issue-876-ui-contestation-badge",
-            "sha": "fd7998ef679b5e7a37dbecd5c61cf57fba289a6c",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "e4603c42f61970148638de715fbe42b7bedc07d5",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19300518033",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:31:41Z",
-      "payload": {
-        "action": "opened",
-        "number": 981,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/981",
-          "id": 5182927913,
-          "number": 981,
-          "head": {
-            "ref": "feat/issue-876-ui-contestation-badge",
-            "sha": "fd7998ef679b5e7a37dbecd5c61cf57fba289a6c",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "e4603c42f61970148638de715fbe42b7bedc07d5",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19300444031",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:30:14Z",
-      "payload": {
-        "action": "merged",
-        "number": 980,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/980",
-          "id": 5182906545,
-          "number": 980,
-          "head": {
-            "ref": "feat/issue-876-discovery-contestation-pipeline",
-            "sha": "e196fc58e0a6b517ba64df4874607fa8e01858df",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "7d3cc747db0c9ef949a22efe0ce294f121b84af8",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19300367845",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:28:57Z",
-      "payload": {
-        "action": "opened",
-        "number": 980,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/980",
-          "id": 5182906545,
-          "number": 980,
-          "head": {
-            "ref": "feat/issue-876-discovery-contestation-pipeline",
-            "sha": "e196fc58e0a6b517ba64df4874607fa8e01858df",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "7d3cc747db0c9ef949a22efe0ce294f121b84af8",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19300293708",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:27:35Z",
-      "payload": {
-        "action": "merged",
-        "number": 979,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/979",
-          "id": 5182885527,
-          "number": 979,
-          "head": {
-            "ref": "feat/issue-876-claim-detector-heuristics",
-            "sha": "a8990fdd458d9555a2d7227ea22a11b2dd24929f",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "dc2e397a73523dceba3407fdb6a7a399e6036716",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19300216858",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:26:15Z",
-      "payload": {
-        "action": "opened",
-        "number": 979,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/979",
-          "id": 5182885527,
-          "number": 979,
-          "head": {
-            "ref": "feat/issue-876-claim-detector-heuristics",
-            "sha": "a8990fdd458d9555a2d7227ea22a11b2dd24929f",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "dc2e397a73523dceba3407fdb6a7a399e6036716",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19299973701",
-      "type": "IssuesEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:22:05Z",
-      "payload": {
-        "action": "closed",
-        "issue": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876",
-          "repository_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/labels{/name}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/comments",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/events",
-          "html_url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/876",
-          "id": 6187796680,
-          "node_id": "I_kwDOT91lnM8AAAABcNJIyA",
-          "number": 876,
-          "title": "[Bug] Discovery surfaces already-claimed issues due to 'sort:updated-desc' and missing comment filters (<5% Maintainer Assignment Chance)",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [],
-          "state": "closed",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 1,
-          "created_at": "2026-11-03T17:27:50Z",
-          "updated_at": "2026-11-06T04:33:19Z",
-          "closed_at": "2026-11-06T04:22:03Z",
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## 1. Problem Description & Root Cause Analysis\n\n### The Flaw\nIn the Discovery dashboard, users are frequently presented with issues that have already been claimed by other contributors. \nFor example, in `cashubtc/nutshell#620` (labeled `help wanted`), contributor `bavarianway` commented 8 hours prior stating:\n> *\"Hi! I'd like to pick this up, starting with LND-REST: Pydantic models for the status, invoice and payment responses...\"*\n\nWhen a user discovers this issue and comments *\"Hi! I'd love to work on this issue...\"*, the probability of maintainer assignment drops to **< 5%** because open-source maintainers almost universally assign issues on a **first-claimed, first-served** basis.\n\n### Root Cause in Codebase\n1. **GitHub API Query Inversion (`queryBuilder.ts`):**\n   ```typescript\n   // apps/web/src/utils/queryBuilder.ts\n   // Current query structure:\n   `is:open is:issue label:\"${label}\" language:${lang} sort:updated-desc`\n   ```\n   By sorting with `sort:updated-desc`, GitHub actively prioritizes issues with **recent activity**. When another developer comments *\"I want to work on this\"*, GitHub updates the issue's `updated_at` timestamp, **catapulting claimed/contested issues to the top of Scout's discovery results!**\n\n2. **Absence of Push-Down Comment Constraints:**\n   - The GitHub search API supports qualifiers such as `comments:0` (uncontested) or `comments:<=1`.\n   - The query currently specifies no comment ceiling, nor does it push down `no:assignee` explicitly into the query string.\n\n3. **Missing Intent Classification on Issue Timeline:**\n   - There is no heuristic or regex scanner on recent issue comments to detect claim keywords (e.g., `\"pick this up\"`, `\"take this\"`, `\"working on this\"`, `\"assign to me\"`, `\"PR incoming\"`).\n\n---\n\n## 2. Architectural Solution & Proposed Implementation\n\n```mermaid\nflowchart TD\n    A[Discovery Query Engine] --> B{Contestation Filter Mode}\n    B -->|Strict: Uncontested| C[Query: comments:0 no:assignee]\n    B -->|Balanced: Low-Competition| D[Query: comments:<=2 no:assignee]\n    C --> E[GitHub Search API]\n    D --> E\n    E --> F[Comment Heuristic Scanner]\n    F --> G{Claim Intent Detected?}\n    G -->|Yes: Someone claimed in comments| H[Drop / Filter Out from Discovery]\n    G -->|No: Discussion only| I[Calculate Contestation Risk Score]\n    I --> J[Present in Discovery with High Success Rate]\n```\n\n### Step-by-Step Action Plan:\n1. **Push-Down GitHub Qualifiers (`queryBuilder.ts`):**\n   - Add `no:assignee` directly to the search query.\n   - Introduce a configurable comment filter option in Discovery settings:\n     - **Fresh Only (Default):** `comments:0` (guarantees 100% uncontested issues).\n     - **Low Competition:** `comments:<=2` (filters out heated threads).\n2. **Comment Intent Classifier (`apps/web/src/utils/claimDetector.ts`):**\n   - For issues returned with `comments > 0`, inspect comment bodies using a regex intent filter:\n     ```typescript\n     const CLAIM_REGEX = /\\b(i('d| would)? like to (work on|pick up|take)|assign (this to me|me)|working on a (pr|fix)|can i work on this)\\b/i;\n     ```\n   - If a non-maintainer comment matches `CLAIM_REGEX`, mark the issue as `contested: true` and exclude it from the top Discovery stream.\n3. **UI Contestation Indicator:**\n   - Add a badge on `IssueCard.tsx`: `🟢 Fresh (0 comments)` or `🟡 1 comment (Discussion)`.\n\n---\n\n## 3. Acceptance Criteria\n- [ ] `queryBuilder.ts` adds `no:assignee` and configurable `comments:0` or `comments:<=1` push-down qualifiers.\n- [ ] Issues with verbal claims in comments are automatically dropped or flagged as contested.\n- [ ] Users no longer waste effort requesting assignment on issues where another contributor already claimed it first.",
-          "reactions": {
-            "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/issues/876/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        }
-      }
-    },
-    {
-      "id": "19299972176",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:22:01Z",
-      "payload": {
-        "action": "merged",
-        "number": 978,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/978",
-          "id": 5182840704,
-          "number": 978,
-          "head": {
-            "ref": "fix/issue-876-uncontested-query-filters",
-            "sha": "09ea73380b4d73bd3b9ac784304e60eecb9df06a",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "49ce7abbec26bde05d342871d765b7b28721952d",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19299895560",
-      "type": "PullRequestEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:20:41Z",
-      "payload": {
-        "action": "opened",
-        "number": 978,
-        "pull_request": {
-          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/978",
-          "id": 5182840704,
-          "number": 978,
-          "head": {
-            "ref": "fix/issue-876-uncontested-query-filters",
-            "sha": "09ea73380b4d73bd3b9ac784304e60eecb9df06a",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "49ce7abbec26bde05d342871d765b7b28721952d",
-            "repo": {
-              "id": 1339909532,
-              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
-              "name": "Open_Source_Scout"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19299160885",
-      "type": "IssueCommentEvent",
-      "repo": "bystrovmaxim/aoa",
-      "created_at": "2026-11-06T04:07:47Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150",
-          "repository_url": "https://api.github.com/repos/bystrovmaxim/aoa",
-          "labels_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/labels{/name}",
-          "comments_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/comments",
-          "events_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/events",
-          "html_url": "https://github.com/bystrovmaxim/aoa/issues/150",
-          "id": 4924006907,
-          "node_id": "I_kwDOQrGqVc8AAAABJX5h-w",
-          "number": 150,
-          "title": "tests/examples: xfail(strict=True) doesn't verify the failure reason, only the return code",
-          "user": {
-            "login": "bystrovmaxim",
-            "id": 247456419,
-            "node_id": "U_kgDODr_iow",
-            "avatar_url": "https://avatars.githubusercontent.com/u/247456419?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/bystrovmaxim",
-            "html_url": "https://github.com/bystrovmaxim",
-            "followers_url": "https://api.github.com/users/bystrovmaxim/followers",
-            "following_url": "https://api.github.com/users/bystrovmaxim/following{/other_user}",
-            "gists_url": "https://api.github.com/users/bystrovmaxim/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/bystrovmaxim/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/bystrovmaxim/subscriptions",
-            "organizations_url": "https://api.github.com/users/bystrovmaxim/orgs",
-            "repos_url": "https://api.github.com/users/bystrovmaxim/repos",
-            "events_url": "https://api.github.com/users/bystrovmaxim/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/bystrovmaxim/received_events",
+            "url": "https://api.github.com/users/the-abraar",
+            "html_url": "https://github.com/the-abraar",
+            "followers_url": "https://api.github.com/users/the-abraar/followers",
+            "following_url": "https://api.github.com/users/the-abraar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/the-abraar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/the-abraar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/the-abraar/subscriptions",
+            "organizations_url": "https://api.github.com/users/the-abraar/orgs",
+            "repos_url": "https://api.github.com/users/the-abraar/repos",
+            "events_url": "https://api.github.com/users/the-abraar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/the-abraar/received_events",
             "type": "User",
             "user_view_type": "public",
             "site_admin": false
           },
           "labels": [
             {
-              "id": 9852158730,
-              "node_id": "LA_kwDOQrGqVc8AAAACSzwDCg",
-              "url": "https://api.github.com/repos/bystrovmaxim/aoa/labels/bug",
-              "name": "bug",
-              "color": "d73a4a",
+              "id": 12812609907,
+              "node_id": "LA_kwDOVVNlz88AAAAC-7Dpcw",
+              "url": "https://api.github.com/repos/the-abraar/FretGPS/labels/help%20wanted",
+              "name": "help wanted",
+              "color": "008672",
               "default": true,
-              "description": "Something isn't working",
+              "description": "Extra attention is needed",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12984310190,
+              "node_id": "LA_kwDOVVNlz88AAAADBezZrg",
+              "url": "https://api.github.com/repos/the-abraar/FretGPS/labels/difficulty:%20hard",
+              "name": "difficulty: hard",
+              "color": "d93f0b",
+              "default": false,
+              "description": "Open-ended or needs domain knowledge",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12984311530,
+              "node_id": "LA_kwDOVVNlz88AAAADBeze6g",
+              "url": "https://api.github.com/repos/the-abraar/FretGPS/labels/python",
+              "name": "python",
+              "color": "3572A5",
+              "default": false,
+              "description": "Python code",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12984311773,
+              "node_id": "LA_kwDOVVNlz88AAAADBezf3Q",
+              "url": "https://api.github.com/repos/the-abraar/FretGPS/labels/computer%20vision",
+              "name": "computer vision",
+              "color": "1d76db",
+              "default": false,
+              "description": "Camera / hand tracking",
               "archived_at": null,
               "archived_by": null
             }
           ],
-          "state": "closed",
+          "state": "open",
           "locked": false,
-          "assignees": [],
+          "assignees": [
+            {
+              "login": "Rahul-pamula",
+              "id": 153642358,
+              "node_id": "U_kgDOCShldg",
+              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Rahul-pamula",
+              "html_url": "https://github.com/Rahul-pamula",
+              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+              "type": "User",
+              "user_view_type": "public",
+              "site_admin": false
+            }
+          ],
           "milestone": null,
-          "comments": 3,
-          "created_at": "2026-07-19T19:03:28Z",
-          "updated_at": "2026-11-06T04:07:47Z",
-          "closed_at": "2026-11-05T21:37:17Z",
-          "assignee": null,
+          "comments": 2,
+          "created_at": "2026-11-06T15:48:42Z",
+          "updated_at": "2026-11-06T17:38:57Z",
+          "closed_at": null,
+          "assignee": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
           "active_lock_reason": null,
           "sub_issues_summary": {
             "total": 0,
@@ -2502,9 +2201,9 @@
             "blocking": 0,
             "total_blocking": 0
           },
-          "body": "\\`tests/examples/test_examples_run.py\\` marks four LangGraph example scripts as expected-to-fail while issue #83 is in progress:\n\n\\`\\`\\`python\n_XFAIL_REASONS: dict[str, str] = {\n    \"extensions/02_langgraph.py\": \"aoa.langgraph no longer exports LangGraphAdapter (issue #83 rework, in progress)\",\n    \"step_14_langgraph/01_external_connection.py\": (...),\n    \"step_14_langgraph/01_langgraph.py\": \"aoa.langgraph no longer exports LangGraphAdapter (issue #83 rework, in progress)\",\n    \"step_14_langgraph/05_testing.py\": \"RouteKeyError: route key 'UNSET' not found (issue #83 rework, in progress)\",\n}\n...\nmarks = [pytest.mark.xfail(reason=reason, strict=True)] if reason else []\n...\nassert result.returncode == 0, (...)\n\\`\\`\\`\n\n\\`reason=\\` is only a human-readable label shown in pytest's report — it isn't checked against anything. The assertion only looks at \\`result.returncode\\`. \\`strict=True\\` catches one direction of drift (the script starts passing, forcing the entry's removal) but not the other: if one of these four scripts starts failing for a *different, unrelated* reason, the test still reports \"xfailed\" and \\`task check\\` stays green. A real regression introduced by unrelated work could hide behind these entries indefinitely.\n\n**Suggested fix:** check for one stable, low-fragility marker per script (a class/attribute name, not full traceback text, which drifts across Python/dependency versions) in the subprocess's stderr, e.g.:\n\n- \\`extensions/02_langgraph.py\\` / \\`step_14_langgraph/01_langgraph.py\\` → \\`\"LangGraphAdapter\"\\`\n- \\`step_14_langgraph/01_external_connection.py\\` → \\`\"LangGraphController\"\\`\n- \\`step_14_langgraph/05_testing.py\\` → \\`\"UNSET\"\\`\n\nAll four markers are present in the actual current stderr output (verified by running each script directly). Full-text matching is deliberately not recommended — it would trade this bug for a new one (brittleness to incidental formatting changes).\n\nNot part of #130 or #83 — orthogonal test-infrastructure gap, found while auditing an unrelated change.",
+          "body": "## Context\nPhase 0b (docs/PLAN.md section 5) tests real position hints instead of ideal ones. The phone camera is the free option: if a hand-tracking model can say roughly which fret the fretting hand is at, the measured gain (43% to up to 89% right string) needs no hardware at all. Frets 5–12 are 2–3 cm apart, so the estimate only needs to be within about 1–2 frets.\n\n## What to do\n- Add `experiments/camera-hint/`: a script that takes a video of someone playing (phone on a stand, neck in view) and writes a hint CSV of `t,fret` rows, for example every 0.25 s.\n- Suggested approach: MediaPipe Hands (or similar) for the fretting-hand landmarks, plus a simple neck calibration (the user clicks the nut and the 12th fret on the first frame; fret positions follow from the 2^(-n/12) spacing rule).\n- Report how far the estimate is from the truth on a few clips you recorded yourself, with the frets you actually played.\n- The hint CSV should match the format of the `--hints` issue (#3) so the two plug together. If that issue is not merged yet, use `t,fret` with a header.\n\n## Acceptance criteria\n- [ ] `python camera_hint.py video.mp4 --out hints.csv` runs on a phone video\n- [ ] A README in the folder: setup, calibration steps, the dependencies, and the accuracy you measured (median fret error)\n- [ ] Dependencies live in that folder's own `requirements.txt`, not the phone-audio one\n- [ ] No recordings committed (keep them out of git or link to them)\n\n## Pointers\n- `docs/PLAN.md` section 5 (Phase 0b exit criterion: right string ≥ 85%)\n- `docs/phone-audio-experiment.md` (\"Feedback\", point 3)\n- `experiments/phone-audio/fretmap.py` (`assign()` reads `note[\"around\"]`)\n\n## Difficulty\nHard. Computer vision; needs a guitar and a phone or webcam.\n",
           "reactions": {
-            "url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/reactions",
+            "url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/reactions",
             "total_count": 0,
             "+1": 0,
             "-1": 0,
@@ -2515,17 +2214,17 @@
             "rocket": 0,
             "eyes": 0
           },
-          "timeline_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150/timeline",
+          "timeline_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/timeline",
           "performed_via_github_app": null,
-          "state_reason": "not_planned",
+          "state_reason": null,
           "pinned_comment": null
         },
         "comment": {
-          "url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/comments/6676606284",
-          "html_url": "https://github.com/bystrovmaxim/aoa/issues/150#issuecomment-6676606284",
-          "issue_url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/150",
-          "id": 6676606284,
-          "node_id": "IC_kwDOQrGqVc8AAAABjfTtTA",
+          "url": "https://api.github.com/repos/the-abraar/FretGPS/issues/comments/6690480815",
+          "html_url": "https://github.com/the-abraar/FretGPS/issues/7#issuecomment-6690480815",
+          "issue_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7",
+          "id": 6690480815,
+          "node_id": "IC_kwDOVVNlz88AAAABjsiirw",
           "user": {
             "login": "Rahul-pamula",
             "id": 153642358,
@@ -2547,12 +2246,195 @@
             "user_view_type": "public",
             "site_admin": false
           },
-          "created_at": "2026-11-06T04:07:47Z",
-          "updated_at": "2026-11-06T04:07:47Z",
-          "body": "@bystrovmaxim  no worries....!\n\n",
+          "created_at": "2026-11-06T16:58:28Z",
+          "updated_at": "2026-11-06T16:58:28Z",
+          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I'm interested in contributing here. Could I be assigned this one? I'll get started right away! 🚀",
           "pin": null,
           "reactions": {
-            "url": "https://api.github.com/repos/bystrovmaxim/aoa/issues/comments/6676606284/reactions",
+            "url": "https://api.github.com/repos/the-abraar/FretGPS/issues/comments/6690480815/reactions",
+            "total_count": 1,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 1,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
+    {
+      "id": "19355817098",
+      "type": "IssueCommentEvent",
+      "repo": "the-abraar/ReserveMyTokens",
+      "created_at": "2026-11-06T16:57:36Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/issues/9",
+          "repository_url": "https://api.github.com/repos/the-abraar/ReserveMyTokens",
+          "labels_url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/issues/9/labels{/name}",
+          "comments_url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/issues/9/comments",
+          "events_url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/issues/9/events",
+          "html_url": "https://github.com/the-abraar/ReserveMyTokens/issues/9",
+          "id": 6245872544,
+          "node_id": "I_kwDOVBzb7M8AAAABdEhzoA",
+          "number": 9,
+          "title": "Lease long-poll holds a threadpool thread per waiting worker",
+          "user": {
+            "login": "the-abraar",
+            "id": 242695230,
+            "node_id": "U_kgDODnc8Pg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/242695230?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/the-abraar",
+            "html_url": "https://github.com/the-abraar",
+            "followers_url": "https://api.github.com/users/the-abraar/followers",
+            "following_url": "https://api.github.com/users/the-abraar/following{/other_user}",
+            "gists_url": "https://api.github.com/users/the-abraar/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/the-abraar/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/the-abraar/subscriptions",
+            "organizations_url": "https://api.github.com/users/the-abraar/orgs",
+            "repos_url": "https://api.github.com/users/the-abraar/repos",
+            "events_url": "https://api.github.com/users/the-abraar/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/the-abraar/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 12606086554,
+              "node_id": "LA_kwDOVBzb7M8AAAAC72Gdmg",
+              "url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/labels/enhancement",
+              "name": "enhancement",
+              "color": "a2eeef",
+              "default": true,
+              "description": "New feature or request",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12606086565,
+              "node_id": "LA_kwDOVBzb7M8AAAAC72GdpQ",
+              "url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/labels/help%20wanted",
+              "name": "help wanted",
+              "color": "008672",
+              "default": true,
+              "description": "Outside contributions welcome",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12984314276,
+              "node_id": "LA_kwDOVBzb7M8AAAADBezppA",
+              "url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/labels/difficulty:%20hard",
+              "name": "difficulty: hard",
+              "color": "d93f0b",
+              "default": false,
+              "description": "Design work or cross-cutting changes",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12984316852,
+              "node_id": "LA_kwDOVBzb7M8AAAADBezztA",
+              "url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/labels/area:%20backend",
+              "name": "area: backend",
+              "color": "1d76db",
+              "default": false,
+              "description": "FastAPI coordinator and ledger (backend/)",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 12984317313,
+              "node_id": "LA_kwDOVBzb7M8AAAADBez1gQ",
+              "url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/labels/python",
+              "name": "python",
+              "color": "3572A5",
+              "default": false,
+              "description": "Python code",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 1,
+          "created_at": "2026-11-06T15:50:53Z",
+          "updated_at": "2026-11-06T16:57:36Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## Context\nWorkers long-poll `POST /workers/{id}/lease?wait=` (up to 25 s). The handler in `backend/app/routers/workers.py` is a sync `def` that loops `time.sleep(LONG_POLL_STEP)` and re-queries until a job appears or the deadline passes. FastAPI runs sync handlers in a shared threadpool (about 40 threads by default), so every waiting worker holds a thread for up to 25 s. The code comment says this stops scaling past about 30 workers per process; after that, every other sync endpoint (job submit, balance, dashboard calls) queues behind idle long-polls.\n\n## What to do\nMake waiting long-polls stop holding threadpool threads. Two possible approaches; propose yours in the issue before a large PR:\n- Make `lease` `async def`, run each short DB attempt (`_try_lease`) in the threadpool and `await asyncio.sleep(...)` between attempts, with a fresh session or a clean transaction for each attempt.\n- Or wake waiters with Postgres `LISTEN/NOTIFY` when a job is queued, keeping polling on SQLite.\n\nBehaviour must not change: same lease semantics, `204` on timeout, SKIP LOCKED leasing on Postgres, and the per-route rate limit.\n\n## Acceptance criteria\n- [ ] A test opens more concurrent long-polls than the threadpool size (for example 60 with `wait` set) and shows that an unrelated request (for example `GET /jobs`) still answers quickly while they wait.\n- [ ] The existing suites pass on SQLite, and on Postgres with `TEST_DATABASE_URL` if you can run Docker (see `AGENTS.md`), including the lease race and SKIP LOCKED tests.\n- [ ] The shortcut comment on `lease` is removed or updated.\n- [ ] `scripts/check.sh` passes, including the reverse-order runs.\n\n## Pointers\n- `backend/app/routers/workers.py` (`lease`, `_try_lease`, `LONG_POLL_STEP`)\n- `backend/app/database.py` (session setup), `backend/app/ratelimit.py`\n- `backend/tests/test_concurrency.py`, `backend/tests/test_e2e.py`\n- `worker/src/reserve_my_tokens_worker/polling_client.py` (client side of `?wait=`)\n\n## Difficulty\nHard. Concurrency, SQLAlchemy sessions and FastAPI's threadpool.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/issues/9/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/issues/9/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/issues/comments/6690462820",
+          "html_url": "https://github.com/the-abraar/ReserveMyTokens/issues/9#issuecomment-6690462820",
+          "issue_url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/issues/9",
+          "id": 6690462820,
+          "node_id": "IC_kwDOVBzb7M8AAAABjshcZA",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-11-06T16:57:36Z",
+          "updated_at": "2026-11-06T16:57:36Z",
+          "body": "Hi! I'd love to work on this issue. I'm @Rahul-pamula and I have experience with the relevant tech stack. Could I be assigned this one? I'll have a fix ready soon! 🙌",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/the-abraar/ReserveMyTokens/issues/comments/6690462820/reactions",
             "total_count": 0,
             "+1": 0,
             "-1": 0,
@@ -2569,37 +2451,42 @@
       }
     },
     {
-      "id": "26277754246",
-      "type": "CreateEvent",
+      "id": "19355028634",
+      "type": "PullRequestEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-05T16:48:33Z",
+      "created_at": "2026-11-06T16:49:15Z",
       "payload": {
-        "ref": "issue-852-thrashing-guard-throttle",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-852-thrashing-guard-throttle",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26275934161",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-05T16:33:04Z",
-      "payload": {
-        "ref": "issue-852-module-resolution-inspector",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-852-module-resolution-inspector",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
+        "action": "merged",
+        "number": 988,
+        "pull_request": {
+          "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout/pulls/988",
+          "id": 5191375772,
+          "number": 988,
+          "head": {
+            "ref": "fix/tracking-execution-state-enum-mapping",
+            "sha": "c9e3183968a0c97a898ee741a33a2644a66bf628",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          },
+          "base": {
+            "ref": "main",
+            "sha": "b54d0227fef55adf718a71025619716c902d1e7c",
+            "repo": {
+              "id": 1339909532,
+              "url": "https://api.github.com/repos/Rahul-pamula/Open_Source_Scout",
+              "name": "Open_Source_Scout"
+            }
+          }
+        }
       }
     }
   ],
   "recentStats": {
-    "commits": 2261,
-    "prs": 580,
+    "commits": 2268,
+    "prs": 586,
     "issues": 706
   }
 }
