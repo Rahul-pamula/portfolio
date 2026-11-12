@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-11T04:38:33.374Z",
+  "updatedAt": "2026-11-12T05:41:25.858Z",
   "contributions": {
-    "totalLastYear": 3319,
+    "totalLastYear": 3320,
     "days": [
       {
         "date": "2025-11-09",
@@ -1840,6 +1840,11 @@
       },
       {
         "date": "2026-11-11",
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-11-12",
         "count": 0,
         "level": 0
       }
@@ -1878,9 +1883,170 @@
     "followers": 66,
     "following": 21,
     "created_at": "2023-12-12T15:29:11Z",
-    "updated_at": "2026-11-05T20:36:54Z"
+    "updated_at": "2026-11-12T05:11:09Z"
   },
   "activityFeed": [
+    {
+      "id": "19857705416",
+      "type": "IssueCommentEvent",
+      "repo": "kemalyy/edumints-scorm-mcp",
+      "created_at": "2026-11-12T04:23:38Z",
+      "payload": {
+        "action": "created",
+        "issue": {
+          "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140",
+          "repository_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp",
+          "labels_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/labels{/name}",
+          "comments_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/comments",
+          "events_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/events",
+          "html_url": "https://github.com/kemalyy/edumints-scorm-mcp/issues/140",
+          "id": 5285468254,
+          "node_id": "I_kwDOSx80oM8AAAABOwnYXg",
+          "number": 140,
+          "title": "matching / sorting: per-item images (image pairing & sequencing)",
+          "user": {
+            "login": "kemalyy",
+            "id": 33814530,
+            "node_id": "MDQ6VXNlcjMzODE0NTMw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33814530?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kemalyy",
+            "html_url": "https://github.com/kemalyy",
+            "followers_url": "https://api.github.com/users/kemalyy/followers",
+            "following_url": "https://api.github.com/users/kemalyy/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kemalyy/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kemalyy/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kemalyy/subscriptions",
+            "organizations_url": "https://api.github.com/users/kemalyy/orgs",
+            "repos_url": "https://api.github.com/users/kemalyy/repos",
+            "events_url": "https://api.github.com/users/kemalyy/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kemalyy/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "labels": [
+            {
+              "id": 11150707855,
+              "node_id": "LA_kwDOSx80oM8AAAACmKJMjw",
+              "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/labels/enhancement",
+              "name": "enhancement",
+              "color": "a2eeef",
+              "default": true,
+              "description": "New feature or request",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11150707869,
+              "node_id": "LA_kwDOSx80oM8AAAACmKJMnQ",
+              "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/labels/good%20first%20issue",
+              "name": "good first issue",
+              "color": "7057ff",
+              "default": true,
+              "description": "Good for newcomers",
+              "archived_at": null,
+              "archived_by": null
+            },
+            {
+              "id": 11995520157,
+              "node_id": "LA_kwDOSx80oM8AAAACyv0cnQ",
+              "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/labels/roadmap-2026-08",
+              "name": "roadmap-2026-08",
+              "color": "0E8A16",
+              "default": false,
+              "description": "2026-08 ürün yol haritası (etkileşim/ölçme/SCORM/a11y/görsel)",
+              "archived_at": null,
+              "archived_by": null
+            }
+          ],
+          "state": "open",
+          "locked": false,
+          "assignees": [],
+          "milestone": null,
+          "comments": 3,
+          "created_at": "2026-08-29T08:18:01Z",
+          "updated_at": "2026-11-12T04:23:38Z",
+          "closed_at": null,
+          "assignee": null,
+          "active_lock_reason": null,
+          "sub_issues_summary": {
+            "total": 0,
+            "completed": 0,
+            "percent_completed": 0
+          },
+          "issue_dependencies_summary": {
+            "blocked_by": 0,
+            "total_blocked_by": 0,
+            "blocking": 0,
+            "total_blocking": 0
+          },
+          "body": "## What's missing\n\n`matching` and `sorting` currently work on **text only** — `MatchPair` and `SortItem` carry no asset field. There is no way to build an image-pairing or image-sequencing task (match the logo to the company, put the process photos in order), which is a standard interaction in every commercial authoring tool.\n\n`image_compare` exists but is a non-scored content screen, so it does not cover this.\n\n## What to do\n\nDo **not** add a new screen type. The repo deliberately prefers parameters over type inflation, and this fits the existing \"per-item images\" pattern already shipped for `accordion`, `tabs`, `flashcards` and `timeline`:\n\n```python\nclass MatchPair(BaseModel):\n    image_asset_id: str | None = None   # optional illustration for the item\n    image_alt: str | None = None\n\nclass SortItem(BaseModel):\n    image_asset_id: str | None = None\n    image_alt: str | None = None\n```\n\n## Where to look\n\n- `core/project.py` — `MatchPair`, `SortItem`; follow how the per-item image field was added to `AccordionItem`\n- `components/renderer.py` — the `matching` and `sorting` renderers\n- `core/antislop.py` — the `missing_alt_text` walker needs to cover the two new fields\n- `docs/SCREEN_TYPES.md` — the `matching` and `sorting` sections\n\n## Acceptance\n\n- [ ] Courses that do not use the new fields produce **byte-identical** output\n- [ ] An item with `image_asset_id` but no `image_alt` raises the existing `missing_alt_text` lint warning\n- [ ] The image is packaged into the zip (no runtime network request)\n- [ ] Layout stays responsive and the item remains keyboard-selectable\n- [ ] `docs/SCREEN_TYPES.md` updated with the new fields and an example\n\n**Good first issue:** two optional model fields, an established pattern to copy from four other screen types, existing tests to extend.\n",
+          "reactions": {
+            "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null,
+          "pinned_comment": null
+        },
+        "comment": {
+          "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/comments/6814468438",
+          "html_url": "https://github.com/kemalyy/edumints-scorm-mcp/issues/140#issuecomment-6814468438",
+          "issue_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140",
+          "id": 6814468438,
+          "node_id": "IC_kwDOSx80oM8AAAABliyJVg",
+          "user": {
+            "login": "Rahul-pamula",
+            "id": 153642358,
+            "node_id": "U_kgDOCShldg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Rahul-pamula",
+            "html_url": "https://github.com/Rahul-pamula",
+            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
+            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
+            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
+            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
+            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "created_at": "2026-11-12T04:23:38Z",
+          "updated_at": "2026-11-12T04:23:38Z",
+          "body": "Assign me",
+          "pin": null,
+          "reactions": {
+            "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/comments/6814468438/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          },
+          "performed_via_github_app": null,
+          "minimized": null
+        }
+      }
+    },
     {
       "id": "19546324307",
       "type": "PullRequestEvent",
@@ -2410,22 +2576,10 @@
         "head": "79a5d88623897a0e4c43cea8c92f65583e1d3bcf",
         "before": "90592d93f5ec46a795414e019438f121a20f6d3a"
       }
-    },
-    {
-      "id": "26402343455",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T14:53:23Z",
-      "payload": {
-        "ref": "fix/supabase-tasks-claimed-via",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix/supabase-tasks-claimed-via",
-        "pusher_type": "user"
-      }
     }
   ],
   "recentStats": {
-    "commits": 2273,
+    "commits": 2274,
     "prs": 587,
     "issues": 706
   }
