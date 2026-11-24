@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-23T05:41:09.165Z",
+  "updatedAt": "2026-11-24T08:18:53.777Z",
   "contributions": {
-    "totalLastYear": 3332,
+    "totalLastYear": 3345,
     "days": [
       {
         "date": "2025-11-23",
@@ -1830,6 +1830,11 @@
       },
       {
         "date": "2026-11-23",
+        "count": 13,
+        "level": 1
+      },
+      {
+        "date": "2026-11-24",
         "count": 0,
         "level": 0
       }
@@ -1865,812 +1870,196 @@
     "twitter_username": null,
     "public_repos": 78,
     "public_gists": 0,
-    "followers": 67,
+    "followers": 66,
     "following": 22,
     "created_at": "2023-12-12T15:29:11Z",
     "updated_at": "2026-11-22T14:45:30Z"
   },
   "activityFeed": [
     {
-      "id": "20166198177",
-      "type": "ForkEvent",
-      "repo": "kemalyy/edumints-scorm-mcp",
-      "created_at": "2026-11-15T07:56:51Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1458572968,
-          "node_id": "R_kgDOVvAOqA",
-          "name": "edumints-scorm-mcp",
-          "full_name": "Rahul-pamula/edumints-scorm-mcp",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/edumints-scorm-mcp",
-          "description": "Open-source MCP server that assembles interactive, SCORM-compliant e-learning courses. Self-hostable. By edumints.com.",
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/edumints-scorm-mcp/deployments",
-          "created_at": "2026-11-15T07:56:51Z",
-          "updated_at": "2026-11-15T07:56:51Z",
-          "pushed_at": "2026-10-14T11:31:24Z",
-          "git_url": "git://github.com/Rahul-pamula/edumints-scorm-mcp.git",
-          "ssh_url": "git@github.com:Rahul-pamula/edumints-scorm-mcp.git",
-          "clone_url": "https://github.com/Rahul-pamula/edumints-scorm-mcp.git",
-          "svn_url": "https://github.com/Rahul-pamula/edumints-scorm-mcp",
-          "homepage": "https://mcp.edumints.com",
-          "size": 19669,
-          "stargazers_count": 0,
-          "watchers_count": 0,
-          "language": null,
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": true,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-          },
-          "allow_forking": true,
-          "is_template": false,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 0,
-          "default_branch": "main"
-        }
-      }
-    },
-    {
-      "id": "19857705416",
-      "type": "IssueCommentEvent",
-      "repo": "kemalyy/edumints-scorm-mcp",
-      "created_at": "2026-11-12T04:23:38Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140",
-          "repository_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp",
-          "labels_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/labels{/name}",
-          "comments_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/comments",
-          "events_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/events",
-          "html_url": "https://github.com/kemalyy/edumints-scorm-mcp/issues/140",
-          "id": 5285468254,
-          "node_id": "I_kwDOSx80oM8AAAABOwnYXg",
-          "number": 140,
-          "title": "matching / sorting: per-item images (image pairing & sequencing)",
-          "user": {
-            "login": "kemalyy",
-            "id": 33814530,
-            "node_id": "MDQ6VXNlcjMzODE0NTMw",
-            "avatar_url": "https://avatars.githubusercontent.com/u/33814530?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/kemalyy",
-            "html_url": "https://github.com/kemalyy",
-            "followers_url": "https://api.github.com/users/kemalyy/followers",
-            "following_url": "https://api.github.com/users/kemalyy/following{/other_user}",
-            "gists_url": "https://api.github.com/users/kemalyy/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/kemalyy/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/kemalyy/subscriptions",
-            "organizations_url": "https://api.github.com/users/kemalyy/orgs",
-            "repos_url": "https://api.github.com/users/kemalyy/repos",
-            "events_url": "https://api.github.com/users/kemalyy/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/kemalyy/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 11150707855,
-              "node_id": "LA_kwDOSx80oM8AAAACmKJMjw",
-              "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/labels/enhancement",
-              "name": "enhancement",
-              "color": "a2eeef",
-              "default": true,
-              "description": "New feature or request",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11150707869,
-              "node_id": "LA_kwDOSx80oM8AAAACmKJMnQ",
-              "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/labels/good%20first%20issue",
-              "name": "good first issue",
-              "color": "7057ff",
-              "default": true,
-              "description": "Good for newcomers",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 11995520157,
-              "node_id": "LA_kwDOSx80oM8AAAACyv0cnQ",
-              "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/labels/roadmap-2026-08",
-              "name": "roadmap-2026-08",
-              "color": "0E8A16",
-              "default": false,
-              "description": "2026-08 ürün yol haritası (etkileşim/ölçme/SCORM/a11y/görsel)",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "open",
-          "locked": false,
-          "assignees": [],
-          "milestone": null,
-          "comments": 3,
-          "created_at": "2026-08-29T08:18:01Z",
-          "updated_at": "2026-11-12T04:23:38Z",
-          "closed_at": null,
-          "assignee": null,
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## What's missing\n\n`matching` and `sorting` currently work on **text only** — `MatchPair` and `SortItem` carry no asset field. There is no way to build an image-pairing or image-sequencing task (match the logo to the company, put the process photos in order), which is a standard interaction in every commercial authoring tool.\n\n`image_compare` exists but is a non-scored content screen, so it does not cover this.\n\n## What to do\n\nDo **not** add a new screen type. The repo deliberately prefers parameters over type inflation, and this fits the existing \"per-item images\" pattern already shipped for `accordion`, `tabs`, `flashcards` and `timeline`:\n\n```python\nclass MatchPair(BaseModel):\n    image_asset_id: str | None = None   # optional illustration for the item\n    image_alt: str | None = None\n\nclass SortItem(BaseModel):\n    image_asset_id: str | None = None\n    image_alt: str | None = None\n```\n\n## Where to look\n\n- `core/project.py` — `MatchPair`, `SortItem`; follow how the per-item image field was added to `AccordionItem`\n- `components/renderer.py` — the `matching` and `sorting` renderers\n- `core/antislop.py` — the `missing_alt_text` walker needs to cover the two new fields\n- `docs/SCREEN_TYPES.md` — the `matching` and `sorting` sections\n\n## Acceptance\n\n- [ ] Courses that do not use the new fields produce **byte-identical** output\n- [ ] An item with `image_asset_id` but no `image_alt` raises the existing `missing_alt_text` lint warning\n- [ ] The image is packaged into the zip (no runtime network request)\n- [ ] Layout stays responsive and the item remains keyboard-selectable\n- [ ] `docs/SCREEN_TYPES.md` updated with the new fields and an example\n\n**Good first issue:** two optional model fields, an established pattern to copy from four other screen types, existing tests to extend.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140/timeline",
-          "performed_via_github_app": null,
-          "state_reason": null,
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/comments/6814468438",
-          "html_url": "https://github.com/kemalyy/edumints-scorm-mcp/issues/140#issuecomment-6814468438",
-          "issue_url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/140",
-          "id": 6814468438,
-          "node_id": "IC_kwDOSx80oM8AAAABliyJVg",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-11-12T04:23:38Z",
-          "updated_at": "2026-11-12T04:23:38Z",
-          "body": "Assign me",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/kemalyy/edumints-scorm-mcp/issues/comments/6814468438/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "19546324307",
-      "type": "PullRequestEvent",
-      "repo": "the-abraar/FretGPS",
-      "created_at": "2026-11-09T11:17:40Z",
-      "payload": {
-        "action": "merged",
-        "number": 8,
-        "pull_request": {
-          "url": "https://api.github.com/repos/the-abraar/FretGPS/pulls/8",
-          "id": 5201387444,
-          "number": 8,
-          "head": {
-            "ref": "camera-hint",
-            "sha": "e9f51b1202affeee50404cbd5132af7572e87a53",
-            "repo": {
-              "id": 1449174967,
-              "url": "https://api.github.com/repos/Rahul-pamula/FretGPS",
-              "name": "FretGPS"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "87752b40e66bab7fe2399ed110f152d0144c751a",
-            "repo": {
-              "id": 1431528911,
-              "url": "https://api.github.com/repos/the-abraar/FretGPS",
-              "name": "FretGPS"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "26607001973",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/FretGPS",
-      "created_at": "2026-11-07T11:57:52Z",
-      "payload": {
-        "ref": "camera-hint",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/camera-hint",
-        "master_branch": "main",
-        "description": "Live fret map for guitar: which string, fret, bend and mute, on your phone",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26523264757",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T16:43:16Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 49271342002,
-        "ref": "refs/heads/main",
-        "head": "b54d0227fef55adf718a71025619716c902d1e7c",
-        "before": "fff1d31b9070966ed2f714009a277c5537ceb08d"
-      }
-    },
-    {
-      "id": "26505161079",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T15:20:29Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 49262126254,
-        "ref": "refs/heads/main",
-        "head": "ccc8cf478bfb1f798f30d8d05d35ed555d126f9a",
-        "before": "79a5d88623897a0e4c43cea8c92f65583e1d3bcf"
-      }
-    },
-    {
-      "id": "26450952227",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:31:31Z",
-      "payload": {
-        "ref": "feat/issue-876-ui-contestation-badge",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-876-ui-contestation-badge",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26450851141",
+      "id": "28076981451",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:30:20Z",
+      "created_at": "2026-11-23T15:02:16Z",
       "payload": {
-        "ref": "feat/issue-876-discovery-contestation-pipeline",
+        "ref": "feat/issue-288-repo-intelligence",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-876-discovery-contestation-pipeline",
+        "full_ref": "refs/heads/feat/issue-288-repo-intelligence",
         "pusher_type": "user"
       }
     },
     {
-      "id": "26450719747",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:28:49Z",
-      "payload": {
-        "ref": "feat/issue-876-discovery-contestation-pipeline",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-876-discovery-contestation-pipeline",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "19424750863",
-      "type": "IssueCommentEvent",
-      "repo": "the-abraar/FretGPS",
-      "created_at": "2026-11-07T14:11:38Z",
-      "payload": {
-        "action": "created",
-        "issue": {
-          "url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7",
-          "repository_url": "https://api.github.com/repos/the-abraar/FretGPS",
-          "labels_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/labels{/name}",
-          "comments_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/comments",
-          "events_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/events",
-          "html_url": "https://github.com/the-abraar/FretGPS/issues/7",
-          "id": 6245834296,
-          "node_id": "I_kwDOVVNlz88AAAABdEfeOA",
-          "number": 7,
-          "title": "Camera hand tracking as a position hint (Phase 0b)",
-          "user": {
-            "login": "the-abraar",
-            "id": 242695230,
-            "node_id": "U_kgDODnc8Pg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/242695230?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/the-abraar",
-            "html_url": "https://github.com/the-abraar",
-            "followers_url": "https://api.github.com/users/the-abraar/followers",
-            "following_url": "https://api.github.com/users/the-abraar/following{/other_user}",
-            "gists_url": "https://api.github.com/users/the-abraar/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/the-abraar/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/the-abraar/subscriptions",
-            "organizations_url": "https://api.github.com/users/the-abraar/orgs",
-            "repos_url": "https://api.github.com/users/the-abraar/repos",
-            "events_url": "https://api.github.com/users/the-abraar/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/the-abraar/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "labels": [
-            {
-              "id": 12812609907,
-              "node_id": "LA_kwDOVVNlz88AAAAC-7Dpcw",
-              "url": "https://api.github.com/repos/the-abraar/FretGPS/labels/help%20wanted",
-              "name": "help wanted",
-              "color": "008672",
-              "default": true,
-              "description": "Extra attention is needed",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 12984310190,
-              "node_id": "LA_kwDOVVNlz88AAAADBezZrg",
-              "url": "https://api.github.com/repos/the-abraar/FretGPS/labels/difficulty:%20hard",
-              "name": "difficulty: hard",
-              "color": "d93f0b",
-              "default": false,
-              "description": "Open-ended or needs domain knowledge",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 12984311530,
-              "node_id": "LA_kwDOVVNlz88AAAADBeze6g",
-              "url": "https://api.github.com/repos/the-abraar/FretGPS/labels/python",
-              "name": "python",
-              "color": "3572A5",
-              "default": false,
-              "description": "Python code",
-              "archived_at": null,
-              "archived_by": null
-            },
-            {
-              "id": 12984311773,
-              "node_id": "LA_kwDOVVNlz88AAAADBezf3Q",
-              "url": "https://api.github.com/repos/the-abraar/FretGPS/labels/computer%20vision",
-              "name": "computer vision",
-              "color": "1d76db",
-              "default": false,
-              "description": "Camera / hand tracking",
-              "archived_at": null,
-              "archived_by": null
-            }
-          ],
-          "state": "closed",
-          "locked": false,
-          "assignees": [
-            {
-              "login": "Rahul-pamula",
-              "id": 153642358,
-              "node_id": "U_kgDOCShldg",
-              "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-              "gravatar_id": "",
-              "url": "https://api.github.com/users/Rahul-pamula",
-              "html_url": "https://github.com/Rahul-pamula",
-              "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-              "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-              "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-              "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-              "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-              "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-              "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-              "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-              "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-              "type": "User",
-              "user_view_type": "public",
-              "site_admin": false
-            }
-          ],
-          "milestone": null,
-          "comments": 4,
-          "created_at": "2026-11-06T15:48:42Z",
-          "updated_at": "2026-11-09T11:17:42Z",
-          "closed_at": "2026-11-09T11:17:42Z",
-          "assignee": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "active_lock_reason": null,
-          "sub_issues_summary": {
-            "total": 0,
-            "completed": 0,
-            "percent_completed": 0
-          },
-          "issue_dependencies_summary": {
-            "blocked_by": 0,
-            "total_blocked_by": 0,
-            "blocking": 0,
-            "total_blocking": 0
-          },
-          "body": "## Context\nPhase 0b (docs/PLAN.md section 5) tests real position hints instead of ideal ones. The phone camera is the free option: if a hand-tracking model can say roughly which fret the fretting hand is at, the measured gain (43% to up to 89% right string) needs no hardware at all. Frets 5–12 are 2–3 cm apart, so the estimate only needs to be within about 1–2 frets.\n\n## What to do\n- Add `experiments/camera-hint/`: a script that takes a video of someone playing (phone on a stand, neck in view) and writes a hint CSV of `t,fret` rows, for example every 0.25 s.\n- Suggested approach: MediaPipe Hands (or similar) for the fretting-hand landmarks, plus a simple neck calibration (the user clicks the nut and the 12th fret on the first frame; fret positions follow from the 2^(-n/12) spacing rule).\n- Report how far the estimate is from the truth on a few clips you recorded yourself, with the frets you actually played.\n- The hint CSV should match the format of the `--hints` issue (#3) so the two plug together. If that issue is not merged yet, use `t,fret` with a header.\n\n## Acceptance criteria\n- [ ] `python camera_hint.py video.mp4 --out hints.csv` runs on a phone video\n- [ ] A README in the folder: setup, calibration steps, the dependencies, and the accuracy you measured (median fret error)\n- [ ] Dependencies live in that folder's own `requirements.txt`, not the phone-audio one\n- [ ] No recordings committed (keep them out of git or link to them)\n\n## Pointers\n- `docs/PLAN.md` section 5 (Phase 0b exit criterion: right string ≥ 85%)\n- `docs/phone-audio-experiment.md` (\"Feedback\", point 3)\n- `experiments/phone-audio/fretmap.py` (`assign()` reads `note[\"around\"]`)\n\n## Difficulty\nHard. Computer vision; needs a guitar and a phone or webcam.\n",
-          "reactions": {
-            "url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "timeline_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7/timeline",
-          "performed_via_github_app": null,
-          "state_reason": "completed",
-          "pinned_comment": null
-        },
-        "comment": {
-          "url": "https://api.github.com/repos/the-abraar/FretGPS/issues/comments/6708004370",
-          "html_url": "https://github.com/the-abraar/FretGPS/issues/7#issuecomment-6708004370",
-          "issue_url": "https://api.github.com/repos/the-abraar/FretGPS/issues/7",
-          "id": 6708004370,
-          "node_id": "IC_kwDOVVNlz88AAAABj9QGEg",
-          "user": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "created_at": "2026-11-07T14:11:38Z",
-          "updated_at": "2026-11-07T14:11:38Z",
-          "body": "Hi @the-abraar,\n\nI've finished implementing the camera-hint experiment for Phase 0b and submitted PR #8 \n\n### Highlights:\n- **Geometry Math**: Accurately inverts the equal-temperament rule ($n = -12 \\log_2(1 - r/2)$) from a 2-point calibration (Nut and 12th Fret).\n- **Landmark Tracking**: Uses MediaPipe Hands tracking Landmark 5 (Index MCP), which stays stable along the neck axis during vertical picking and corresponds directly to `min(fretted)` in `fretmap.py`.\n- **Issue #3 Compatibility**: Writes standard `t,fret` CSV rows at 0.25 s intervals.\n- **Measured Accuracy**: Tested on test takes across open position, chromatic scale, 5th position riff, and 12th position lead lines. The measured median absolute fret error was **0.25 – 0.65 frets** with **>98% within $\\le 2$ frets**—well within our 1–2 fret Phase 0b tolerance.\n- **Clean Repo**: Zero video recordings or binary models committed; dependencies are isolated in `experiments/camera-hint/requirements.txt`.\n- **Self-tests**: Both `test_camera_hint.py` and `test_fretmap.py` pass (`ok`).\n\nLooking forward to your review and feedback! 🎸",
-          "pin": null,
-          "reactions": {
-            "url": "https://api.github.com/repos/the-abraar/FretGPS/issues/comments/6708004370/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          },
-          "performed_via_github_app": null,
-          "minimized": null
-        }
-      }
-    },
-    {
-      "id": "26440096322",
-      "type": "PushEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T04:33:02Z",
-      "payload": {
-        "repository_id": 1339909532,
-        "push_id": 49201481058,
-        "ref": "refs/heads/main",
-        "head": "70a7329d436f4b88d997ea94aa7b6187eeed2725",
-        "before": "e4603c42f61970148638de715fbe42b7bedc07d5"
-      }
-    },
-    {
-      "id": "19419389957",
-      "type": "PullRequestEvent",
-      "repo": "the-abraar/FretGPS",
-      "created_at": "2026-11-07T11:58:48Z",
-      "payload": {
-        "action": "opened",
-        "number": 8,
-        "pull_request": {
-          "url": "https://api.github.com/repos/the-abraar/FretGPS/pulls/8",
-          "id": 5201387444,
-          "number": 8,
-          "head": {
-            "ref": "camera-hint",
-            "sha": "e9f51b1202affeee50404cbd5132af7572e87a53",
-            "repo": {
-              "id": 1449174967,
-              "url": "https://api.github.com/repos/Rahul-pamula/FretGPS",
-              "name": "FretGPS"
-            }
-          },
-          "base": {
-            "ref": "main",
-            "sha": "87752b40e66bab7fe2399ed110f152d0144c751a",
-            "repo": {
-              "id": 1431528911,
-              "url": "https://api.github.com/repos/the-abraar/FretGPS",
-              "name": "FretGPS"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "19411883399",
-      "type": "ForkEvent",
-      "repo": "the-abraar/FretGPS",
-      "created_at": "2026-11-07T08:37:28Z",
-      "payload": {
-        "action": "forked",
-        "forkee": {
-          "id": 1449174967,
-          "node_id": "R_kgDOVmCntw",
-          "name": "FretGPS",
-          "full_name": "Rahul-pamula/FretGPS",
-          "private": false,
-          "owner": {
-            "login": "Rahul-pamula",
-            "id": 153642358,
-            "node_id": "U_kgDOCShldg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/153642358?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Rahul-pamula",
-            "html_url": "https://github.com/Rahul-pamula",
-            "followers_url": "https://api.github.com/users/Rahul-pamula/followers",
-            "following_url": "https://api.github.com/users/Rahul-pamula/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Rahul-pamula/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Rahul-pamula/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Rahul-pamula/subscriptions",
-            "organizations_url": "https://api.github.com/users/Rahul-pamula/orgs",
-            "repos_url": "https://api.github.com/users/Rahul-pamula/repos",
-            "events_url": "https://api.github.com/users/Rahul-pamula/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Rahul-pamula/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "html_url": "https://github.com/Rahul-pamula/FretGPS",
-          "description": "Live fret map for guitar: which string, fret, bend and mute, on your phone",
-          "fork": true,
-          "url": "https://api.github.com/repos/Rahul-pamula/FretGPS",
-          "forks_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/forks",
-          "keys_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/keys{/key_id}",
-          "collaborators_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/collaborators{/collaborator}",
-          "teams_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/teams",
-          "hooks_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/hooks",
-          "issue_events_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/issues/events{/number}",
-          "events_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/events",
-          "assignees_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/assignees{/user}",
-          "branches_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/branches{/branch}",
-          "tags_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/tags",
-          "blobs_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/git/blobs{/sha}",
-          "git_tags_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/git/tags{/sha}",
-          "git_refs_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/git/refs{/sha}",
-          "trees_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/git/trees{/sha}",
-          "statuses_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/statuses/{sha}",
-          "languages_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/languages",
-          "stargazers_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/stargazers",
-          "contributors_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/contributors",
-          "subscribers_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/subscribers",
-          "subscription_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/subscription",
-          "commits_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/commits{/sha}",
-          "git_commits_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/git/commits{/sha}",
-          "comments_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/comments{/number}",
-          "issue_comment_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/issues/comments{/number}",
-          "contents_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/contents/{+path}",
-          "compare_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/compare/{base}...{head}",
-          "merges_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/merges",
-          "archive_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/{archive_format}{/ref}",
-          "downloads_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/downloads",
-          "issues_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/issues{/number}",
-          "pulls_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/pulls{/number}",
-          "milestones_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/milestones{/number}",
-          "notifications_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/notifications{?since,all,participating}",
-          "labels_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/labels{/name}",
-          "releases_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/releases{/id}",
-          "deployments_url": "https://api.github.com/repos/Rahul-pamula/FretGPS/deployments",
-          "created_at": "2026-11-07T08:37:28Z",
-          "updated_at": "2026-11-07T08:37:28Z",
-          "pushed_at": "2026-11-07T11:57:51Z",
-          "git_url": "git://github.com/Rahul-pamula/FretGPS.git",
-          "ssh_url": "git@github.com:Rahul-pamula/FretGPS.git",
-          "clone_url": "https://github.com/Rahul-pamula/FretGPS.git",
-          "svn_url": "https://github.com/Rahul-pamula/FretGPS",
-          "homepage": null,
-          "size": 4298,
-          "stargazers_count": 0,
-          "watchers_count": 0,
-          "language": null,
-          "has_issues": false,
-          "has_projects": true,
-          "has_downloads": false,
-          "has_wiki": false,
-          "has_pages": false,
-          "has_discussions": false,
-          "forks_count": 0,
-          "mirror_url": null,
-          "archived": false,
-          "disabled": false,
-          "open_issues_count": 0,
-          "license": {
-            "key": "mit",
-            "name": "MIT License",
-            "spdx_id": "MIT",
-            "url": "https://api.github.com/licenses/mit",
-            "node_id": "MDc6TGljZW5zZTEz"
-          },
-          "allow_forking": true,
-          "is_template": false,
-          "web_commit_signoff_required": false,
-          "has_pull_requests": true,
-          "pull_request_creation_policy": "all",
-          "topics": [],
-          "visibility": "public",
-          "forks": 0,
-          "open_issues": 0,
-          "watchers": 0,
-          "default_branch": "main"
-        }
-      }
-    },
-    {
-      "id": "26408523877",
-      "type": "CreateEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T16:47:50Z",
-      "payload": {
-        "ref": "fix/tracking-execution-state-enum-mapping",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/fix/tracking-execution-state-enum-mapping",
-        "master_branch": "main",
-        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "26408033811",
+      "id": "28076952568",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-06T16:43:20Z",
+      "created_at": "2026-11-23T15:01:57Z",
       "payload": {
-        "ref": "docs/v2-architecture-and-skills-framework",
+        "ref": "feat/issue-266-harness",
         "ref_type": "branch",
-        "full_ref": "refs/heads/docs/v2-architecture-and-skills-framework",
+        "full_ref": "refs/heads/feat/issue-266-harness",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28076933684",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:01:44Z",
+      "payload": {
+        "ref": "feat/issue-261-mcp-decoupling",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/feat/issue-261-mcp-decoupling",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28076714522",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T14:59:46Z",
+      "payload": {
+        "ref": "issue-126-v2-changelog",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-126-v2-changelog",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28069174289",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:04:08Z",
+      "payload": {
+        "ref": "issue-74-compiled-langs-tests",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-74-compiled-langs-tests",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28069134312",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:03:52Z",
+      "payload": {
+        "ref": "issue-69-makefile-test-target",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-69-makefile-test-target",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28069120602",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:03:45Z",
+      "payload": {
+        "ref": "issue-67-go-test-runner",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-67-go-test-runner",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28069046242",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:03:11Z",
+      "payload": {
+        "ref": "issue-56-line-range-tests",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-56-line-range-tests",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28068967250",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:02:38Z",
+      "payload": {
+        "ref": "issue-45-list-worktrees",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-45-list-worktrees",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28068225957",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:03:42Z",
+      "payload": {
+        "ref": "issue-66-deno-node-test-runner",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-66-deno-node-test-runner",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28068220037",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:03:39Z",
+      "payload": {
+        "ref": "issue-65-package-manager-validation",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-65-package-manager-validation",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28068199460",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:03:30Z",
+      "payload": {
+        "ref": "issue-62-unicode-tests",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-62-unicode-tests",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28068134415",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:02:59Z",
+      "payload": {
+        "ref": "issue-52-edit-unified-diff",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-52-edit-unified-diff",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28068127203",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T15:02:56Z",
+      "payload": {
+        "ref": "issue-51-edit-line-range",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-51-edit-line-range",
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "28067584350",
+      "type": "DeleteEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T14:59:44Z",
+      "payload": {
+        "ref": "issue-127-bump-version",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/issue-127-bump-version",
         "pusher_type": "user"
       }
     }
   ],
   "recentStats": {
-    "commits": 2285,
-    "prs": 587,
-    "issues": 706
+    "commits": 2287,
+    "prs": 588,
+    "issues": 716
   }
 }
