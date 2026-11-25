@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-24T08:18:53.777Z",
+  "updatedAt": "2026-11-25T06:55:45.904Z",
   "contributions": {
-    "totalLastYear": 3345,
+    "totalLastYear": 3346,
     "days": [
       {
         "date": "2025-11-23",
@@ -1835,6 +1835,11 @@
       },
       {
         "date": "2026-11-24",
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-11-25",
         "count": 0,
         "level": 0
       }
@@ -1877,188 +1882,191 @@
   },
   "activityFeed": [
     {
-      "id": "28076981451",
+      "id": "28197939155",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:02:16Z",
+      "created_at": "2026-11-23T15:04:28Z",
       "payload": {
-        "ref": "feat/issue-288-repo-intelligence",
+        "ref": "issue-80-phase5-validation-suite",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-288-repo-intelligence",
+        "full_ref": "refs/heads/issue-80-phase5-validation-suite",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28076952568",
+      "id": "28197915745",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:01:57Z",
+      "created_at": "2026-11-23T15:04:18Z",
       "payload": {
-        "ref": "feat/issue-266-harness",
+        "ref": "issue-77-scout-json-override",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-266-harness",
+        "full_ref": "refs/heads/issue-77-scout-json-override",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28076933684",
+      "id": "28197767490",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:01:44Z",
+      "created_at": "2026-11-23T15:03:21Z",
       "payload": {
-        "ref": "feat/issue-261-mcp-decoupling",
+        "ref": "issue-59-atomic-file-write",
         "ref_type": "branch",
-        "full_ref": "refs/heads/feat/issue-261-mcp-decoupling",
+        "full_ref": "refs/heads/issue-59-atomic-file-write",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28076714522",
+      "id": "28192841291",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T14:59:46Z",
+      "created_at": "2026-11-23T15:04:05Z",
       "payload": {
-        "ref": "issue-126-v2-changelog",
+        "ref": "issue-73-node-ecosystem-tests",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-126-v2-changelog",
+        "full_ref": "refs/heads/issue-73-node-ecosystem-tests",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28069174289",
+      "id": "28192737816",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:04:08Z",
+      "created_at": "2026-11-23T15:03:23Z",
       "payload": {
-        "ref": "issue-74-compiled-langs-tests",
+        "ref": "issue-60-atomic-write-rollback-tests",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-74-compiled-langs-tests",
+        "full_ref": "refs/heads/issue-60-atomic-write-rollback-tests",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28069134312",
+      "id": "28192648532",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:03:52Z",
+      "created_at": "2026-11-23T15:02:47Z",
       "payload": {
-        "ref": "issue-69-makefile-test-target",
+        "ref": "issue-48-phase3-stress-test",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-69-makefile-test-target",
+        "full_ref": "refs/heads/issue-48-phase3-stress-test",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28069120602",
+      "id": "28192587822",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:03:45Z",
+      "created_at": "2026-11-23T15:02:19Z",
       "payload": {
-        "ref": "issue-67-go-test-runner",
+        "ref": "issue-119-cli-tests",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-67-go-test-runner",
+        "full_ref": "refs/heads/issue-119-cli-tests",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28069046242",
+      "id": "28192545652",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:03:11Z",
+      "created_at": "2026-11-23T15:02:00Z",
       "payload": {
-        "ref": "issue-56-line-range-tests",
+        "ref": "feat/issue-267-guardrails",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-56-line-range-tests",
+        "full_ref": "refs/heads/feat/issue-267-guardrails",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28068967250",
-      "type": "DeleteEvent",
+      "id": "28187376230",
+      "type": "PushEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:02:38Z",
+      "created_at": "2026-11-23T14:21:35Z",
       "payload": {
-        "ref": "issue-45-list-worktrees",
+        "repository_id": 1339909532,
+        "push_id": 51516716499,
+        "ref": "refs/heads/main",
+        "head": "17da2d171cdb39db4b17d8373881c8d21e2f561e",
+        "before": "26efd9fc4ccde8093647fb3b6036da05a5c975de"
+      }
+    },
+    {
+      "id": "28187156494",
+      "type": "CreateEvent",
+      "repo": "Rahul-pamula/Open_Source_Scout",
+      "created_at": "2026-11-23T14:19:56Z",
+      "payload": {
+        "ref": "docs/add-coding-standards",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-45-list-worktrees",
+        "full_ref": "refs/heads/docs/add-coding-standards",
+        "master_branch": "main",
+        "description": "An AI-powered GitHub agent for discovering, evaluating, claiming, and tracking open-source contribution opportunities with persistent local memory.",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28068225957",
+      "id": "28144178121",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:03:42Z",
+      "created_at": "2026-11-23T15:04:21Z",
       "payload": {
-        "ref": "issue-66-deno-node-test-runner",
+        "ref": "issue-78-scout-json-override-tests",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-66-deno-node-test-runner",
+        "full_ref": "refs/heads/issue-78-scout-json-override-tests",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28068220037",
+      "id": "28144097982",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:03:39Z",
+      "created_at": "2026-11-23T15:03:36Z",
       "payload": {
-        "ref": "issue-65-package-manager-validation",
+        "ref": "issue-64-phase4-editor-suite",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-65-package-manager-validation",
+        "full_ref": "refs/heads/issue-64-phase4-editor-suite",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28068199460",
+      "id": "28144091916",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:03:30Z",
+      "created_at": "2026-11-23T15:03:33Z",
       "payload": {
-        "ref": "issue-62-unicode-tests",
+        "ref": "issue-63-editor-docs",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-62-unicode-tests",
+        "full_ref": "refs/heads/issue-63-editor-docs",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28068134415",
+      "id": "28144039551",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:02:59Z",
+      "created_at": "2026-11-23T15:03:02Z",
       "payload": {
-        "ref": "issue-52-edit-unified-diff",
+        "ref": "issue-53-edit-eol-normalization",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-52-edit-unified-diff",
+        "full_ref": "refs/heads/issue-53-edit-eol-normalization",
         "pusher_type": "user"
       }
     },
     {
-      "id": "28068127203",
+      "id": "28144023617",
       "type": "DeleteEvent",
       "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T15:02:56Z",
+      "created_at": "2026-11-23T15:02:53Z",
       "payload": {
-        "ref": "issue-51-edit-line-range",
+        "ref": "issue-50-edit-replace-all",
         "ref_type": "branch",
-        "full_ref": "refs/heads/issue-51-edit-line-range",
-        "pusher_type": "user"
-      }
-    },
-    {
-      "id": "28067584350",
-      "type": "DeleteEvent",
-      "repo": "Rahul-pamula/Open_Source_Scout",
-      "created_at": "2026-11-23T14:59:44Z",
-      "payload": {
-        "ref": "issue-127-bump-version",
-        "ref_type": "branch",
-        "full_ref": "refs/heads/issue-127-bump-version",
+        "full_ref": "refs/heads/issue-50-edit-replace-all",
         "pusher_type": "user"
       }
     }
   ],
   "recentStats": {
-    "commits": 2287,
+    "commits": 2288,
     "prs": 588,
     "issues": 716
   }
